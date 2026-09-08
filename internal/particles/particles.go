@@ -83,3 +83,25 @@ func (e *Engine) EmitTrail(x, y int) {
 		e.parts = append(e.parts, &Particle{
 			X:        float64(x) + (e.rng.Float64()-0.5)*1.2,
 			Y:        float64(y) + (e.rng.Float64()-0.5)*0.8,
+			VX:       (e.rng.Float64() - 0.5) * 1.4,
+			VY:       -0.4 - e.rng.Float64()*0.8,
+			Life:     0.5 + e.rng.Float64()*0.5,
+			MaxLife:  1.0,
+			Glyph:    trailGlyphs[e.rng.Intn(len(trailGlyphs))],
+			Burst:    true,
+			BornAt:   time.Now(),
+			HuePhase: e.rng.Float64(),
+		})
+	}
+}
+
+// ClickBurst detonates 12-16 sparkling stars radially from click coords.
+func (e *Engine) ClickBurst(x, y int) {
+	if os.Getenv("VANTRILEX_NO_FX") != "" {
+		return
+	}
+	n := 12 + e.rng.Intn(5)
+	for i := 0; i < n; i++ {
+		ang := e.rng.Float64() * 2 * math.Pi
+		speed := 4 + e.rng.Float64()*14
+		life := 0.5 + e.rng.Float64()*0.6
