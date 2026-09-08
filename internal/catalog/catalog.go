@@ -133,3 +133,29 @@ func ZenModels() []Model {
 
 // FilterModels applies runner compat + category tab + fuzzy keyword.
 func FilterModels(runner RunnerID, cat Category, query string) []Model {
+	q := strings.ToLower(strings.TrimSpace(query))
+	var out []Model
+	for _, m := range Models() {
+		if !m.SupportsRunner(runner) {
+			continue
+		}
+		if cat != CatAll && m.Category != cat {
+			continue
+		}
+		if q != "" {
+			hay := strings.ToLower(m.ID + " " + m.Short + " " + m.Blurb + " " + string(m.Category))
+			match := true
+			for _, tok := range strings.Fields(q) {
+				if !strings.Contains(hay, tok) {
+					match = false
+					break
+				}
+			}
+			if !match {
+				continue
+			}
+		}
+		out = append(out, m)
+	}
+	return out
+}
