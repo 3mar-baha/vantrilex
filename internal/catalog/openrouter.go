@@ -72,3 +72,28 @@ func entryToModel(e openRouterEntry) Model {
 		short = short[:42]
 	}
 	m := Model{
+		ID:         e.ID,
+		Short:      short,
+		Category:   CatAll,
+		InputPerM:  formatPrice(e.Pricing.Prompt),
+		OutputPerM: formatPrice(e.Pricing.Completion),
+		Context:    formatContext(e.ContextLength),
+		Latency:    "MED",
+		Blurb:      truncate(e.Description, 90),
+	}
+	m.Reasoning = hasReasoningSignal(e.ID + " " + e.Description)
+	return m
+}
+
+func truncate(s string, n int) string {
+	s = strings.TrimSpace(s)
+	if len(s) <= n {
+		return s
+	}
+	return s[:n-1] + "…"
+}
+
+// ParseOpenRouter payload helper (testable, no network).
+func ParseOpenRouter(data []byte) ([]Model, error) {
+	var r openRouterResp
+	if err := json.Unmarshal(data, &r); err != nil {
