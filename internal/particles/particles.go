@@ -233,3 +233,25 @@ func (e *Engine) Tick(dt float64) {
 						VY:       -0.25 - e.rng.Float64()*0.5,
 						Life:     3 + e.rng.Float64()*4,
 						MaxLife:  7,
+						Glyph:    glyphs[e.rng.Intn(len(glyphs))],
+						Burst:    false,
+						BornAt:   time.Now(),
+						HuePhase: e.rng.Float64(),
+					})
+				}
+			}
+		}
+	}
+	// Integrate.
+	kept := e.parts[:0]
+	for _, p := range e.parts {
+		if p.Burst {
+			// Velocity decay + slight gravity curl.
+			decay := math.Pow(0.135, dt) // frame-rate independent damping
+			p.VX *= decay
+			p.VY = p.VY*decay + 2.2*dt
+			p.X += p.VX * dt
+			p.Y += p.VY * dt
+			p.Life -= dt * 0.85
+		} else {
+			p.X += p.VX * dt
