@@ -97,3 +97,28 @@ func truncate(s string, n int) string {
 func ParseOpenRouter(data []byte) ([]Model, error) {
 	var r openRouterResp
 	if err := json.Unmarshal(data, &r); err != nil {
+		return nil, err
+	}
+	out := make([]Model, 0, len(r.Data))
+	for _, e := range r.Data {
+		if strings.TrimSpace(e.ID) == "" {
+			continue
+		}
+		out = append(out, entryToModel(e))
+	}
+	return out, nil
+}
+
+// FetchOpenRouterModels returns live models, cached per session.
+func FetchOpenRouterModels(ctx context.Context) []Model {
+	orCacheMu.Lock()
+	if time.Since(orCachedAt) < orCacheTTL && len(orCache) > 0 {
+		out := orCache
+		orCacheMu.Unlock()
+		return out
+	}
+	orCacheMu.Unlock()
+
+	req, err := http.NewRequestWithContext(ctx, "GET", openRouterModelsURL, nil)
+	if err != nil {
+		return nil
