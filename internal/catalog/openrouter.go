@@ -47,3 +47,28 @@ func formatPrice(p string) string {
 	if _, err := fmt.Sscanf(p, "%f", &f); err != nil {
 		return p
 	}
+	return fmt.Sprintf("$%.2f", f*1_000_000)
+}
+
+func formatContext(n int) string {
+	if n <= 0 {
+		return "n/a"
+	}
+	if n >= 1000 && n%1000 == 0 {
+		return fmt.Sprintf("%dk", n/1000)
+	}
+	return fmt.Sprintf("%d", n)
+}
+
+func entryToModel(e openRouterEntry) Model {
+	short := e.Name
+	if short == "" {
+		short = e.ID
+	}
+	if i := strings.Index(short, " ("); i > 0 {
+		short = short[:i]
+	}
+	if len(short) > 42 {
+		short = short[:42]
+	}
+	m := Model{
