@@ -39,3 +39,26 @@ type Engine struct {
 	Flash         float64 // 0..1 screen flash right after a burst
 	frame         uint64
 }
+
+// New creates an engine with a default field size.
+func New(w, h int) *Engine {
+	if w <= 0 {
+		w = 100
+	}
+	if h <= 0 {
+		h = 8
+	}
+	return &Engine{
+		Width:  w,
+		Height: h,
+		rng:    rand.New(rand.NewSource(time.Now().UnixNano())),
+	}
+}
+
+// SetSize resizes the field.
+func (e *Engine) SetSize(w, h int) {
+	if w > 4 {
+		e.Width = w
+	}
+	if h > 2 {
+		e.Height = h
