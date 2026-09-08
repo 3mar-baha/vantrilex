@@ -405,3 +405,24 @@ func (e *Engine) RenderField() string {
 
 // RenderStrip renders a single full-width ambient drift line.
 func (e *Engine) RenderStrip(w int) string {
+	if w <= 0 {
+		w = 80
+	}
+	line := make([]rune, w)
+	for i := range line {
+		line[i] = ' '
+	}
+	for _, p := range e.parts {
+		xi := int(math.Round(p.X)) % w
+		if xi < 0 {
+			xi += w
+		}
+		if e.rng.Float64() < 0.5 {
+			continue
+		}
+		line[xi] = p.Glyph
+	}
+	s := string(line)
+	// Faint cyan tint.
+	return lipgloss.NewStyle().Foreground(lipgloss.Color("#0E7490")).Render(s)
+}
