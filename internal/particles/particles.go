@@ -362,3 +362,25 @@ func (e *Engine) RenderField() string {
 		h = 6
 	}
 	// Grid of runes + styles.
+	type cell struct {
+		ch  rune
+		st  lipgloss.Style
+		set bool
+	}
+	grid := make([][]cell, h)
+	for y := range grid {
+		grid[y] = make([]cell, w)
+		for x := range grid[y] {
+			grid[y][x] = cell{ch: ' ', set: false}
+		}
+	}
+	for _, p := range e.parts {
+		xi := int(math.Round(p.X))
+		yi := int(math.Round(p.Y))
+		if xi < 0 || xi >= w || yi < 0 || yi >= h {
+			continue
+		}
+		// Burst particles overwrite ambient.
+		if grid[yi][xi].set && !p.Burst {
+			continue
+		}
