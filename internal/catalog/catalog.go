@@ -52,3 +52,30 @@ func RunnerByID(id RunnerID) (Runner, bool) {
 }
 
 // Category tabs for the model matrix.
+type Category string
+
+const (
+	CatFrontier Category = "Frontier Reasoning"
+	CatFast     Category = "Ultra-Fast Coding"
+	CatVision   Category = "Multimodal Vision"
+	CatFree     Category = "Free Tier"
+	CatAll      Category = "All Models"
+)
+
+// Categories in tab order.
+func Categories() []Category {
+	return []Category{CatAll, CatFrontier, CatFast, CatVision, CatFree}
+}
+
+// Model describes one selectable model.
+type Model struct {
+	ID         string   // provider-qualified id passed to runner
+	Short      string   // display name
+	Category   Category
+	Runners    []RunnerID // empty = all runners
+	Zen        bool       // part of OpenCode Zen catalog
+	InputPerM  string     // pricing input per 1M
+	OutputPerM string     // pricing output per 1M
+	Context    string
+	Latency    string // "LOW", "MED", "HIGH"
+	Reasoning  bool   // supports extended reasoning tokens
