@@ -384,3 +384,24 @@ func (e *Engine) RenderField() string {
 		if grid[yi][xi].set && !p.Burst {
 			continue
 		}
+		grid[yi][xi] = cell{ch: p.Glyph, st: colorFor(p), set: true}
+	}
+	var sb strings.Builder
+	for y := 0; y < h; y++ {
+		for x := 0; x < w; x++ {
+			c := grid[y][x]
+			if !c.set {
+				sb.WriteByte(' ')
+				continue
+			}
+			sb.WriteString(c.st.Render(string(c.ch)))
+		}
+		if y < h-1 {
+			sb.WriteByte('\n')
+		}
+	}
+	return sb.String()
+}
+
+// RenderStrip renders a single full-width ambient drift line.
+func (e *Engine) RenderStrip(w int) string {
