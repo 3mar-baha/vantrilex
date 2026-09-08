@@ -298,3 +298,24 @@ type Snapshot struct {
 	Age   float64 // 0 young -> 1 old
 	Burst bool
 	Phase float64
+}
+
+// Snap returns snapshots of all live particles with integer coordinates.
+func (e *Engine) Snap() []Snapshot {
+	out := make([]Snapshot, 0, len(e.parts))
+	for _, p := range e.parts {
+		age := 0.0
+		if p.MaxLife > 0 {
+			age = 1 - p.Life/p.MaxLife
+			if age < 0 {
+				age = 0
+			}
+			if age > 1 {
+				age = 1
+			}
+		}
+		out = append(out, Snapshot{
+			X:     int(math.Round(p.X)),
+			Y:     int(math.Round(p.Y)),
+			Glyph: p.Glyph,
+			Age:   age,
