@@ -19,3 +19,23 @@ var glyphs = []rune{'✦', '✧', '⋆', '*', '•', '·', '✺', '❋'}
 // Particle is a single stardust mote.
 type Particle struct {
 	X, Y     float64 // position in field coordinates
+	VX, VY   float64 // velocity
+	Life     float64 // remaining life 0..1
+	MaxLife  float64
+	Glyph    rune
+	Size     float64
+	Burst    bool // true for supernova burst particles
+	BornAt   time.Time
+	HuePhase float64
+}
+
+// Engine holds ambient + burst particles.
+type Engine struct {
+	Width, Height int
+	parts         []*Particle
+	bursts        int
+	rng           *rand.Rand
+	lastAmbient   time.Time
+	Flash         float64 // 0..1 screen flash right after a burst
+	frame         uint64
+}
