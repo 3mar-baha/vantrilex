@@ -148,3 +148,23 @@ func (e *Engine) PerimeterSupernova() {
 		if dist == 0 {
 			continue
 		}
+		speed := 6 + e.rng.Float64()*10
+		life := 0.8 + e.rng.Float64()*0.8
+		e.parts = append(e.parts, &Particle{
+			X:        float64(p[0]),
+			Y:        float64(p[1]),
+			VX:       dx / dist * speed,
+			VY:       dy / dist * speed * 0.55,
+			Life:     life,
+			MaxLife:  life,
+			Glyph:    glyphs[e.rng.Intn(len(glyphs))],
+			Burst:    true,
+			BornAt:   time.Now(),
+			HuePhase: e.rng.Float64(),
+		})
+	}
+	e.bursts++
+	if e.Flash < 0.9 {
+		e.Flash = 0.7
+	}
+}
