@@ -341,3 +341,24 @@ func colorFor(p *Particle) lipgloss.Style {
 		}
 		return lipgloss.NewStyle().Foreground(lipgloss.Color("#67E8F9"))
 	}
+	t := 1 - p.Life/p.MaxLife // 0 young -> 1 old
+	switch {
+	case t < 0.25:
+		return whiteStyle
+	case t < 0.6:
+		return cyanStyle
+	default:
+		return violetStyle
+	}
+}
+
+// RenderField renders the particle field as Width x Height text rows.
+func (e *Engine) RenderField() string {
+	w, h := e.Width, e.Height
+	if w <= 0 {
+		w = 80
+	}
+	if h <= 0 {
+		h = 6
+	}
+	// Grid of runes + styles.
