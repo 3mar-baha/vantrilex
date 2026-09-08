@@ -25,3 +25,30 @@ type Runner struct {
 var runners = []Runner{
 	{ID: RunnerClaude, Index: 1, Name: "Claude Code CLI", Tag: "ANTHROPIC", Desc: "Anthropic agent harness, streaming tools, sub-agents.", Bin: "claude"},
 	{ID: RunnerOpenCode, Index: 2, Name: "OpenCode Agent", Tag: "SST + ZEN", Desc: "SST autonomous agent with multi-provider routing and OpenCode Zen.", Bin: "opencode"},
+	{ID: RunnerCodex, Index: 3, Name: "OpenAI Codex CLI", Tag: "OPENAI", Desc: "Autonomous agent for GPT-5.6 / Codex execution.", Bin: "codex"},
+}
+
+// Runners returns all runners.
+func Runners() []Runner { return runners }
+
+// RunnerByIndex 1-based lookup.
+func RunnerByIndex(i int) (Runner, bool) {
+	for _, r := range runners {
+		if r.Index == i {
+			return r, true
+		}
+	}
+	return Runner{}, false
+}
+
+// RunnerByID lookup.
+func RunnerByID(id RunnerID) (Runner, bool) {
+	for _, r := range runners {
+		if r.ID == id {
+			return r, true
+		}
+	}
+	return Runner{}, false
+}
+
+// Category tabs for the model matrix.
