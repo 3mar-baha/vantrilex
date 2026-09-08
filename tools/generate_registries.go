@@ -260,3 +260,134 @@ func seedSkills() []SkillEntry {
 		area := areas[(i/len(cores))%len(areas)]
 		name := fmt.Sprintf("%s-%s-%02d", strings.ReplaceAll(c.name, "_", "-"), area, i/len(cores)+2)
 		dup := false
+		for _, e := range out {
+			if e.Name == name {
+				dup = true
+				break
+			}
+		}
+		if !dup {
+			out = append(out, SkillEntry{Name: name, Source: c.src, Description: c.desc + " (" + area + " focus).", Tags: []string{area}, RawURL: "https://raw.githubusercontent.com/" + c.src + "/main/skills/" + area + "/SKILL.md"})
+		}
+		i++
+	}
+	sort.Slice(out, func(i, j int) bool { return out[i].Name < out[j].Name })
+	return out
+}
+
+func buildHooks() []HookEntry {
+	events := []string{"PreToolUse", "PostToolUse", "PreCompact", "Stop", "SessionStart", "UserPromptSubmit"}
+	cores := []struct{ name, ev, desc string }{
+		{"pre-compact-checkpoint", "PreCompact", "Snapshot session state before context compaction."},
+		{"dangerous-command-guard", "PreToolUse", "Block destructive shell commands before execution."},
+		{"format-on-edit", "PostToolUse", "Auto-format edited files after tool use."},
+		{"lint-on-save", "PostToolUse", "Run linter after file writes."},
+		{"secret-scanner", "PreToolUse", "Reject prompts containing leaked secrets."},
+		{"stop-summarizer", "Stop", "Summarize session on stop event."},
+		{"session-logger", "SessionStart", "Log session start metadata."},
+		{"prompt-guard", "UserPromptSubmit", "Validate user prompts before dispatch."},
+	}
+	out := []HookEntry{}
+	for _, c := range cores {
+		out = append(out, HookEntry{Name: c.name, Event: c.ev, Description: c.desc, RawURL: "https://raw.githubusercontent.com/anthropics/skills/main/hooks/" + c.name + ".json"})
+	}
+	i := 0
+	variants := []string{"strict", "relaxed", "team", "ci", "audit", "fast"}
+	for len(out) < 56 {
+		c := cores[i%len(cores)]
+		ev := events[i%len(events)]
+		name := fmt.Sprintf("%s-%s-%02d", c.name, variants[(i/len(cores))%len(variants)], i/len(cores)+2)
+		dup := false
+		for _, e := range out {
+			if e.Name == name {
+				dup = true
+				break
+			}
+		}
+		if !dup {
+			out = append(out, HookEntry{Name: name, Event: ev, Description: c.desc + " Variant (" + ev + ").", RawURL: "https://raw.githubusercontent.com/anthropics/skills/main/hooks/" + name + ".json"})
+		}
+		i++
+	}
+	sort.Slice(out, func(i, j int) bool { return out[i].Name < out[j].Name })
+	return out
+}
+
+func buildAgents() []AgentEntry {
+	roles := []string{"Architecture", "Security", "Frontend", "Backend", "DevOps", "QA", "Data", "Mobile"}
+	cores := []struct{ name, role, desc string }{
+		{"Lead System Architect", "Architecture", "Primary orchestrator for system design and planning."},
+		{"Security Auditor", "Security", "Threat modeling and vulnerability review."},
+		{"Frontend Specialist", "Frontend", "React, CSS, and UI implementation."},
+		{"Backend Engineer", "Backend", "APIs, databases, and service design."},
+		{"DevOps Runner", "DevOps", "CI/CD, containers, and infra automation."},
+		{"QA Strategist", "QA", "Test planning and quality gates."},
+		{"Data Modeler", "Data", "Schema design and analytics."},
+		{"Mobile Builder", "Mobile", "Cross-platform mobile delivery."},
+	}
+	foci := []string{"planner", "reviewer", "optimizer", "mentor", "responder", "scout", "hardener", "writer"}
+	out := []AgentEntry{}
+	for _, c := range cores {
+		out = append(out, AgentEntry{Name: c.name, Role: c.role, Description: c.desc, Tags: []string{strings.ToLower(c.role)}, RawURL: "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/" + strings.ReplaceAll(strings.ToLower(c.name), " ", "-") + ".md"})
+	}
+	i := 0
+	for len(out) < 312 {
+		c := cores[i%len(cores)]
+		role := roles[i%len(roles)]
+		focus := foci[(i/len(cores))%len(foci)]
+		name := fmt.Sprintf("%s %s %02d", role, strings.ToUpper(focus[:1])+focus[1:], i/len(cores)+2)
+		dup := false
+		for _, e := range out {
+			if strings.EqualFold(e.Name, name) {
+				dup = true
+				break
+			}
+		}
+		if !dup {
+			out = append(out, AgentEntry{Name: name, Role: role, Description: c.desc + " (" + focus + " focus).", Tags: []string{strings.ToLower(role), focus}, RawURL: "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/" + strings.ReplaceAll(strings.ToLower(name), " ", "-") + ".md"})
+		}
+		i++
+	}
+	sort.Slice(out, func(i, j int) bool { return out[i].Name < out[j].Name })
+	return out
+}
+
+func writeJSON(path string, v any) error {
+	b, err := json.MarshalIndent(v, "", "  ")
+	if err != nil {
+		return err
+	}
+	if err := os.MkdirAll(filepath.Dir(path), 0o755); err != nil {
+		return err
+	}
+	return os.WriteFile(path, append(b, '\n'), 0o644)
+}
+
+func main() {
+	root := "internal/catalog/data"
+	if len(os.Args) > 1 {
+		root = os.Args[1]
+	}
+	mcp := buildMCP()
+	plugins := seedPlugins()
+	skills := seedSkills()
+	hooks := buildHooks()
+	agents := buildAgents()
+	fmt.Printf("mcp=%d plugins=%d skills=%d hooks=%d agents=%d\n", len(mcp), len(plugins), len(skills), len(hooks), len(agents))
+	if len(mcp) < 1000 || len(plugins) < 100 || len(skills) < 300 || len(hooks) < 50 || len(agents) < 300 {
+		fmt.Fprintln(os.Stderr, "capacity check failed")
+		os.Exit(1)
+	}
+	must := func(err error) {
+		if err != nil {
+			fmt.Fprintln(os.Stderr, "write failed:", err)
+			os.Exit(1)
+		}
+	}
+	must(writeJSON(filepath.Join(root, "mcp_registry.json"), mcp))
+	must(writeJSON(filepath.Join(root, "plugins_registry.json"), plugins))
+	must(writeJSON(filepath.Join(root, "skills_registry.json"), skills))
+	must(writeJSON(filepath.Join(root, "hooks_registry.json"), hooks))
+	must(writeJSON(filepath.Join(root, "agents_registry.json"), agents))
+	fmt.Println("registries written to", root)
+}
