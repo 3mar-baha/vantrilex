@@ -168,3 +168,26 @@ func (e *Engine) PerimeterSupernova() {
 		e.Flash = 0.7
 	}
 }
+
+// Supernova triggers a radial explosion of n stardust particles from center.
+func (e *Engine) Supernova(n int) {
+	if n < 80 {
+		n = 80
+	}
+	cx := float64(e.Width) / 2
+	cy := float64(e.Height) / 2
+	for i := 0; i < n; i++ {
+		ang := e.rng.Float64() * 2 * math.Pi
+		speed := 6 + e.rng.Float64()*26
+		life := 0.7 + e.rng.Float64()*0.9
+		e.parts = append(e.parts, &Particle{
+			X:        cx,
+			Y:        cy,
+			VX:       math.Cos(ang) * speed,
+			VY:       math.Sin(ang) * speed * 0.55,
+			Life:     life,
+			MaxLife:  life,
+			Glyph:    glyphs[e.rng.Intn(len(glyphs))],
+			Size:     0.5 + e.rng.Float64(),
+			Burst:    true,
+			BornAt:   time.Now(),
