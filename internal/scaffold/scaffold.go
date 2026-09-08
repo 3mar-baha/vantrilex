@@ -68,3 +68,72 @@ func slugify(s string) string {
 	out := strings.Trim(b.String(), "-")
 	for strings.Contains(out, "--") {
 		out = strings.ReplaceAll(out, "--", "-")
+	}
+	return out
+}
+
+// BridgeRelPath returns the workspace-relative bridge file for a toolkit.
+func BridgeRelPath(t Toolkit) string {
+	return ".claude/skills/toolkit-" + t.Slug + ".md"
+}
+
+// Item is one scaffold check/file.
+type Item struct {
+	Path    string // relative to workspace
+	Kind    string // "dir" | "file"
+	Present bool
+	Note    string
+}
+
+// Plan returns the expected workspace layout: base files plus one bridge
+// file per designated toolkit (all 8).
+func Plan() []Item {
+	plan := []Item{
+		{Path: ".claude/skills", Kind: "dir", Note: "Workflow skills live here"},
+		{Path: ".claude/agents", Kind: "dir", Note: "Sub-agent definitions"},
+		{Path: "opencode.json", Kind: "file", Note: "OpenCode instructions + providers"},
+		{Path: "CLAUDE.md", Kind: "file", Note: "Project instructions for Claude"},
+	}
+	for _, t := range Toolkits() {
+		plan = append(plan, Item{Path: BridgeRelPath(t), Kind: "file", Note: "Toolkit bridge: " + t.Name})
+	}
+	return plan
+}
+
+// Check verifies which items already exist in workspace.
+func Check(workspace string) []Item {
+	plan := Plan()
+	for i, it := range plan {
+		_, err := os.Stat(filepath.Join(workspace, filepath.FromSlash(it.Path)))
+		plan[i].Present = err == nil
+	}
+	return plan
+}
+
+// AllPresent reports whether scaffolding is complete.
+func AllPresent(workspace string) bool {
+	for _, it := range Check(workspace) {
+		if !it.Present {
+			return false
+		}
+	}
+	return true
+}
+
+const claudeMdTemplate = `# Project Instructions (Vantrilex)
+
+This workspace was provisioned by the Vantrilex launcher.
+
+## Runners
+- Claude Code CLI (` + "`claude`" + `): streaming tools, sub-agents.
+- OpenCode Agent (` + "`opencode`" + `): multi-provider routing + Zen.
+- OpenAI Codex CLI (` + "`codex`" + `): GPT-5.6 execution.
+
+## Skills
+Workflow skills live in ` + "`.claude/skills/`" + `, sub-agents in ` + "`.claude/agents/`" + `.
+Shared toolkit cache: ` + "`$HOME/.vantrilex/toolkit`" + `.
+Per-toolkit bridges: ` + "`.claude/skills/toolkit-*.md`" + ` (one for each of the 8 toolkits).
+
+## External skills
+- vercel-labs/skills@find-skills (cache: $HOME/.vantrilex/toolkit/vercel-skills)
+- Anthropic Official skill-creator (cache: $HOME/.vantrilex/toolkit/anthropic-skills)
