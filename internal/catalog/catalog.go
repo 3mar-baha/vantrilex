@@ -106,3 +106,30 @@ func Models() []Model {
 		{ID: "google/gemini-3-pro", Short: "Gemini 3 Pro", Category: CatVision, InputPerM: "$5.00", OutputPerM: "$15.00", Context: "1M", Latency: "MED", Reasoning: true, Blurb: "Long context + vision."},
 		{ID: "google/gemini-3-flash", Short: "Gemini 3 Flash", Category: CatFast, InputPerM: "$0.50", OutputPerM: "$1.50", Context: "1M", Latency: "LOW", Reasoning: false, Blurb: "Ultra-cheap multimodal."},
 		{ID: "x-ai/grok-4-1", Short: "Grok 4.1", Category: CatFrontier, Runners: []RunnerID{RunnerOpenCode}, InputPerM: "$6.00", OutputPerM: "$18.00", Context: "256k", Latency: "MED", Reasoning: true, Blurb: "Contrarian reasoner."},
+		// OpenCode Zen catalog (routed via opencode/zen).
+		{ID: "opencode/zen", Short: "Zen Auto-Router", Category: CatFrontier, Runners: []RunnerID{RunnerOpenCode}, Zen: true, InputPerM: "varies", OutputPerM: "varies", Context: "512k", Latency: "MED", Reasoning: true, Blurb: "Zen smart router, best-value frontier."},
+		{ID: "kimi-k2.6", Short: "Kimi K2.6 (Zen)", Category: CatFast, Runners: []RunnerID{RunnerOpenCode}, Zen: true, InputPerM: "$1.20", OutputPerM: "$3.60", Context: "256k", Latency: "LOW", Reasoning: true, Blurb: "Agentic coding specialist."},
+		{ID: "qwen3.6-plus", Short: "Qwen 3.6 Plus (Zen)", Category: CatFast, Runners: []RunnerID{RunnerOpenCode}, Zen: true, InputPerM: "$0.90", OutputPerM: "$2.70", Context: "256k", Latency: "LOW", Reasoning: true, Blurb: "Fast open coder."},
+		{ID: "minimax-m3", Short: "MiniMax M3 (Zen)", Category: CatVision, Runners: []RunnerID{RunnerOpenCode}, Zen: true, InputPerM: "$1.00", OutputPerM: "$3.00", Context: "200k", Latency: "LOW", Reasoning: true, Blurb: "Vision + tool use."},
+		{ID: "deepseek-v4-pro", Short: "DeepSeek V4 Pro (Zen)", Category: CatFrontier, Runners: []RunnerID{RunnerOpenCode}, Zen: true, InputPerM: "$2.00", OutputPerM: "$6.00", Context: "256k", Latency: "MED", Reasoning: true, Blurb: "Deep reasoning at low price."},
+		{ID: "glm-5.1", Short: "GLM-5.1 (Zen)", Category: CatFrontier, Runners: []RunnerID{RunnerOpenCode}, Zen: true, InputPerM: "$1.50", OutputPerM: "$4.50", Context: "200k", Latency: "MED", Reasoning: true, Blurb: "Bilingual reasoner."},
+		{ID: "deepseek/deepseek-v3-free", Short: "DeepSeek V3 (Free)", Category: CatFree, Runners: []RunnerID{RunnerOpenCode}, InputPerM: "$0.00", OutputPerM: "$0.00", Context: "128k", Latency: "MED", Reasoning: false, Blurb: "Zero-cost experimentation."},
+		{ID: "moonshot/kimi-k2-free", Short: "Kimi K2 (Free)", Category: CatFree, Runners: []RunnerID{RunnerOpenCode}, InputPerM: "$0.00", OutputPerM: "$0.00", Context: "128k", Latency: "MED", Reasoning: false, Blurb: "Free agentic runs."},
+		{ID: "meta/llama-4-maverick-vision", Short: "Llama 4 Maverick", Category: CatVision, Runners: []RunnerID{RunnerOpenCode}, InputPerM: "$0.40", OutputPerM: "$0.80", Context: "512k", Latency: "LOW", Reasoning: false, Blurb: "Open vision workhorse."},
+		{ID: "anthropic/claude-opus-4-6-vision", Short: "Opus 4.6 Vision", Category: CatVision, InputPerM: "$15.00", OutputPerM: "$75.00", Context: "200k", Latency: "HIGH", Reasoning: true, Blurb: "Screenshot + diagram analysis."},
+	}
+}
+
+// ZenModels returns only Zen catalog entries.
+func ZenModels() []Model {
+	var out []Model
+	for _, m := range Models() {
+		if m.Zen {
+			out = append(out, m)
+		}
+	}
+	return out
+}
+
+// FilterModels applies runner compat + category tab + fuzzy keyword.
+func FilterModels(runner RunnerID, cat Category, query string) []Model {
