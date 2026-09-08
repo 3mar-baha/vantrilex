@@ -1,0 +1,18 @@
+# build artifacts (rooted: never match source directories)
+/vantrilex.exe
+/vantrilex
+*.exe
+
+# go test artifacts
+*.test
+coverage.out
+coverage.html
+
+# editors and IDEs
+.idea/
+.vscode/
+*.swp
+
+# operating systems
+.DS_Store
+Thumbs.db
