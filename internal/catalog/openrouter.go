@@ -122,3 +122,28 @@ func FetchOpenRouterModels(ctx context.Context) []Model {
 	req, err := http.NewRequestWithContext(ctx, "GET", openRouterModelsURL, nil)
 	if err != nil {
 		return nil
+	}
+	resp, err := orHTTP.Do(req)
+	if err != nil {
+		return nil
+	}
+	defer resp.Body.Close()
+	if resp.StatusCode != 200 {
+		return nil
+	}
+	var r openRouterResp
+	if err := json.NewDecoder(resp.Body).Decode(&r); err != nil {
+		return nil
+	}
+	models := make([]Model, 0, len(r.Data))
+	for _, e := range r.Data {
+		if strings.TrimSpace(e.ID) == "" {
+			continue
+		}
+		models = append(models, entryToModel(e))
+	}
+	if len(models) == 0 {
+		return nil
+	}
+	orCacheMu.Lock()
+	orCache = models
