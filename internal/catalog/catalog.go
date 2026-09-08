@@ -159,3 +159,30 @@ func FilterModels(runner RunnerID, cat Category, query string) []Model {
 	}
 	return out
 }
+
+// Effort levels with reasoning requirements.
+type Effort struct {
+	ID             string
+	Label          string
+	RequiresReason bool
+	Desc           string
+}
+
+// Efforts in slider order low -> max.
+func Efforts() []Effort {
+	return []Effort{
+		{ID: "low", Label: "low", RequiresReason: false, Desc: "Quick answers, minimal tokens."},
+		{ID: "medium", Label: "medium", RequiresReason: false, Desc: "Balanced depth and speed."},
+		{ID: "high", Label: "high", RequiresReason: true, Desc: "Extended reasoning traces."},
+		{ID: "xhigh", Label: "xhigh", RequiresReason: true, Desc: "Deep multi-step planning."},
+		{ID: "max", Label: "max", RequiresReason: true, Desc: "Maximum thinking budget."},
+	}
+}
+
+// EffortCompatible reports whether effort is allowed for a model.
+func EffortCompatible(m Model, e Effort) bool {
+	if e.RequiresReason && !m.Reasoning {
+		return false
+	}
+	return true
+}
