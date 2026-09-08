@@ -126,3 +126,25 @@ func (e *Engine) ClickBurst(x, y int) {
 func (e *Engine) PerimeterSupernova() {
 	if os.Getenv("VANTRILEX_NO_FX") != "" {
 		return
+	}
+	w, h := e.Width, e.Height
+	if w < 8 {
+		w = 8
+	}
+	if h < 4 {
+		h = 4
+	}
+	perim := [][2]int{}
+	for x := 0; x < w; x += 2 {
+		perim = append(perim, [2]int{x, 0}, [2]int{x, h - 1})
+	}
+	for y := 0; y < h; y++ {
+		perim = append(perim, [2]int{0, y}, [2]int{w - 1, y})
+	}
+	cx, cy := float64(w)/2, float64(h)/2
+	for _, p := range perim {
+		dx, dy := cx-float64(p[0]), cy-float64(p[1])
+		dist := math.Hypot(dx, dy)
+		if dist == 0 {
+			continue
+		}
