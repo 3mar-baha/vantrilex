@@ -276,3 +276,25 @@ func (e *Engine) Tick(dt float64) {
 		for _, p := range e.parts {
 			if p.Burst {
 				dst = append(dst, p)
+			}
+		}
+		for _, p := range e.parts {
+			if !p.Burst && len(dst) < 420 {
+				dst = append(dst, p)
+			}
+			if len(dst) >= 420 {
+				break
+			}
+		}
+		e.parts = dst
+	}
+}
+
+// Snapshot is a render-ready copy of one live particle for external
+// compositors (e.g. the fullscreen cinematic intro renderer).
+type Snapshot struct {
+	X, Y  int
+	Glyph rune
+	Age   float64 // 0 young -> 1 old
+	Burst bool
+	Phase float64
