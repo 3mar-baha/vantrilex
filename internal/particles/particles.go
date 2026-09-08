@@ -62,3 +62,24 @@ func (e *Engine) SetSize(w, h int) {
 	}
 	if h > 2 {
 		e.Height = h
+	}
+}
+
+// Count returns live particle count.
+func (e *Engine) Count() int { return len(e.parts) }
+
+// Bursts returns total bursts triggered.
+func (e *Engine) Bursts() int { return e.bursts }
+
+var trailGlyphs = []rune{'·', '⋆', '∘'}
+var burstGlyphs = []rune{'✦', '✧', '⚡'}
+
+// EmitTrail leaves 1-2 decaying micro-particles behind the cursor path.
+func (e *Engine) EmitTrail(x, y int) {
+	if os.Getenv("VANTRILEX_NO_FX") != "" {
+		return
+	}
+	for i := 0; i < 2; i++ {
+		e.parts = append(e.parts, &Particle{
+			X:        float64(x) + (e.rng.Float64()-0.5)*1.2,
+			Y:        float64(y) + (e.rng.Float64()-0.5)*0.8,
