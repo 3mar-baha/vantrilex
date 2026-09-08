@@ -191,3 +191,24 @@ func (e *Engine) Supernova(n int) {
 			Size:     0.5 + e.rng.Float64(),
 			Burst:    true,
 			BornAt:   time.Now(),
+			HuePhase: e.rng.Float64(),
+		})
+	}
+	e.bursts++
+	if e.Flash < 0.9 {
+		e.Flash = 1.0
+	}
+}
+
+// Tick advances physics by dt seconds. Called at 60 FPS.
+func (e *Engine) Tick(dt float64) {
+	e.frame++
+	if dt <= 0 || dt > 0.1 {
+		dt = 1.0 / 60.0
+	}
+	// Decay flash.
+	if e.Flash > 0 {
+		e.Flash -= dt * 1.8
+		if e.Flash < 0 {
+			e.Flash = 0
+		}
