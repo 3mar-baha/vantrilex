@@ -79,3 +79,30 @@ type Model struct {
 	Context    string
 	Latency    string // "LOW", "MED", "HIGH"
 	Reasoning  bool   // supports extended reasoning tokens
+	Blurb      string
+}
+
+// SupportsRunner reports compat.
+func (m Model) SupportsRunner(r RunnerID) bool {
+	if len(m.Runners) == 0 {
+		return true
+	}
+	for _, x := range m.Runners {
+		if x == r {
+			return true
+		}
+	}
+	return false
+}
+
+// Models returns the full matrix.
+func Models() []Model {
+	return []Model{
+		{ID: "anthropic/claude-opus-4-6", Short: "Claude Opus 4.6", Category: CatFrontier, InputPerM: "$15.00", OutputPerM: "$75.00", Context: "200k", Latency: "HIGH", Reasoning: true, Blurb: "Deepest reasoning, agentic coding."},
+		{ID: "anthropic/claude-sonnet-4-5", Short: "Claude Sonnet 4.5", Category: CatFast, InputPerM: "$3.00", OutputPerM: "$15.00", Context: "1M", Latency: "LOW", Reasoning: true, Blurb: "Workhorse coder, fast + smart."},
+		{ID: "anthropic/claude-haiku-4-5", Short: "Claude Haiku 4.5", Category: CatFast, InputPerM: "$0.80", OutputPerM: "$4.00", Context: "200k", Latency: "LOW", Reasoning: false, Blurb: "Cheapest, sub-second latency."},
+		{ID: "openai/gpt-5.6", Short: "GPT-5.6", Category: CatFrontier, Runners: []RunnerID{RunnerCodex, RunnerOpenCode}, InputPerM: "$10.00", OutputPerM: "$30.00", Context: "400k", Latency: "MED", Reasoning: true, Blurb: "OpenAI flagship reasoner."},
+		{ID: "openai/gpt-5.6-codex", Short: "GPT-5.6 Codex", Category: CatFast, Runners: []RunnerID{RunnerCodex}, InputPerM: "$8.00", OutputPerM: "$24.00", Context: "400k", Latency: "LOW", Reasoning: true, Blurb: "Codex-tuned execution variant."},
+		{ID: "google/gemini-3-pro", Short: "Gemini 3 Pro", Category: CatVision, InputPerM: "$5.00", OutputPerM: "$15.00", Context: "1M", Latency: "MED", Reasoning: true, Blurb: "Long context + vision."},
+		{ID: "google/gemini-3-flash", Short: "Gemini 3 Flash", Category: CatFast, InputPerM: "$0.50", OutputPerM: "$1.50", Context: "1M", Latency: "LOW", Reasoning: false, Blurb: "Ultra-cheap multimodal."},
+		{ID: "x-ai/grok-4-1", Short: "Grok 4.1", Category: CatFrontier, Runners: []RunnerID{RunnerOpenCode}, InputPerM: "$6.00", OutputPerM: "$18.00", Context: "256k", Latency: "MED", Reasoning: true, Blurb: "Contrarian reasoner."},
