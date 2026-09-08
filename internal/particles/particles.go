@@ -255,3 +255,24 @@ func (e *Engine) Tick(dt float64) {
 			p.Life -= dt * 0.85
 		} else {
 			p.X += p.VX * dt
+			p.Y += p.VY * dt
+			if p.X > float64(e.Width)+1 {
+				p.X = -1
+			}
+			if p.Y < -1 {
+				p.Y = float64(e.Height) + 1
+			}
+			p.Life -= dt * 0.28
+		}
+		if p.Life > 0 {
+			kept = append(kept, p)
+		}
+	}
+	e.parts = kept
+	// Hard cap to avoid CPU bloat.
+	if len(e.parts) > 420 {
+		// Drop oldest ambient first.
+		dst := make([]*Particle, 0, 420)
+		for _, p := range e.parts {
+			if p.Burst {
+				dst = append(dst, p)
