@@ -212,3 +212,24 @@ func (e *Engine) Tick(dt float64) {
 		if e.Flash < 0 {
 			e.Flash = 0
 		}
+	}
+	// Ambient drift: keep a subtle population alive (cap ~46, cheap).
+	want := 26
+	if len(e.parts) < want+80 {
+		if time.Since(e.lastAmbient) > 120*time.Millisecond {
+			e.lastAmbient = time.Now()
+			alive := 0
+			for _, p := range e.parts {
+				if !p.Burst {
+					alive++
+				}
+			}
+			if alive < want {
+				for k := 0; k < 3; k++ {
+					e.parts = append(e.parts, &Particle{
+						X:        e.rng.Float64() * float64(e.Width),
+						Y:        e.rng.Float64() * float64(e.Height),
+						VX:       0.6 + e.rng.Float64()*1.8,
+						VY:       -0.25 - e.rng.Float64()*0.5,
+						Life:     3 + e.rng.Float64()*4,
+						MaxLife:  7,
