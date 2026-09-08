@@ -319,3 +319,25 @@ func (e *Engine) Snap() []Snapshot {
 			Y:     int(math.Round(p.Y)),
 			Glyph: p.Glyph,
 			Age:   age,
+			Burst: p.Burst,
+			Phase: p.HuePhase,
+		})
+	}
+	return out
+}
+
+var (
+	whiteStyle  = lipgloss.NewStyle().Foreground(lipgloss.Color("#FFFFFF"))
+	cyanStyle   = lipgloss.NewStyle().Foreground(lipgloss.Color("#00FFFF"))
+	violetStyle = lipgloss.NewStyle().Foreground(lipgloss.Color("#8B5CF6"))
+	dimStyle    = lipgloss.NewStyle().Foreground(lipgloss.Color("#38BDF8"))
+)
+
+// colorFor maps burst age to white -> neon cyan -> deep violet.
+func colorFor(p *Particle) lipgloss.Style {
+	if !p.Burst {
+		if p.HuePhase < 0.25 {
+			return dimStyle
+		}
+		return lipgloss.NewStyle().Foreground(lipgloss.Color("#67E8F9"))
+	}
