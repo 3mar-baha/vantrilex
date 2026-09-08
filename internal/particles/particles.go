@@ -105,3 +105,24 @@ func (e *Engine) ClickBurst(x, y int) {
 		ang := e.rng.Float64() * 2 * math.Pi
 		speed := 4 + e.rng.Float64()*14
 		life := 0.5 + e.rng.Float64()*0.6
+		e.parts = append(e.parts, &Particle{
+			X:        float64(x),
+			Y:        float64(y),
+			VX:       math.Cos(ang) * speed,
+			VY:       math.Sin(ang) * speed * 0.55,
+			Life:     life,
+			MaxLife:  life,
+			Glyph:    burstGlyphs[e.rng.Intn(len(burstGlyphs))],
+			Burst:    true,
+			BornAt:   time.Now(),
+			HuePhase: e.rng.Float64(),
+		})
+	}
+	e.bursts++
+}
+
+// PerimeterSupernova erupts stardust along the full terminal perimeter,
+// traveling inwards and fading into deep space. Call on stage transitions.
+func (e *Engine) PerimeterSupernova() {
+	if os.Getenv("VANTRILEX_NO_FX") != "" {
+		return
