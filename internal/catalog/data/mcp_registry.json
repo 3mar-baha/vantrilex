@@ -9718,5 +9718,2447 @@
     "description": "Linear issues and projects. Community variant (web).",
     "sourceURL": "https://github.com/modelcontextprotocol/servers",
     "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "memory",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-memory"
+    ],
+    "tags": [
+      "memory",
+      "state"
+    ],
+    "description": "Persistent knowledge-graph memory.",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "memory-ai-006",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-memory",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "memory",
+      "state",
+      "ai"
+    ],
+    "description": "Persistent knowledge-graph memory. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "memory-ai-016",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-memory",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "memory",
+      "state",
+      "ai"
+    ],
+    "description": "Persistent knowledge-graph memory. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "memory-ai-026",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-memory",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "memory",
+      "state",
+      "ai"
+    ],
+    "description": "Persistent knowledge-graph memory. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "memory-cloud-003",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-memory",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "memory",
+      "state",
+      "cloud"
+    ],
+    "description": "Persistent knowledge-graph memory. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "memory-cloud-013",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-memory",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "memory",
+      "state",
+      "cloud"
+    ],
+    "description": "Persistent knowledge-graph memory. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "memory-cloud-023",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-memory",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "memory",
+      "state",
+      "cloud"
+    ],
+    "description": "Persistent knowledge-graph memory. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "memory-database-004",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-memory",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "memory",
+      "state",
+      "database"
+    ],
+    "description": "Persistent knowledge-graph memory. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "memory-database-014",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-memory",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "memory",
+      "state",
+      "database"
+    ],
+    "description": "Persistent knowledge-graph memory. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "memory-database-024",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-memory",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "memory",
+      "state",
+      "database"
+    ],
+    "description": "Persistent knowledge-graph memory. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "memory-devtools-002",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-memory",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "memory",
+      "state",
+      "devtools"
+    ],
+    "description": "Persistent knowledge-graph memory. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "memory-devtools-012",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-memory",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "memory",
+      "state",
+      "devtools"
+    ],
+    "description": "Persistent knowledge-graph memory. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "memory-devtools-022",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-memory",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "memory",
+      "state",
+      "devtools"
+    ],
+    "description": "Persistent knowledge-graph memory. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "memory-finance-009",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-memory",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "memory",
+      "state",
+      "finance"
+    ],
+    "description": "Persistent knowledge-graph memory. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "memory-finance-019",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-memory",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "memory",
+      "state",
+      "finance"
+    ],
+    "description": "Persistent knowledge-graph memory. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "memory-finance-029",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-memory",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "memory",
+      "state",
+      "finance"
+    ],
+    "description": "Persistent knowledge-graph memory. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "memory-iot-008",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-memory",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "memory",
+      "state",
+      "iot"
+    ],
+    "description": "Persistent knowledge-graph memory. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "memory-iot-018",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-memory",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "memory",
+      "state",
+      "iot"
+    ],
+    "description": "Persistent knowledge-graph memory. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "memory-iot-028",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-memory",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "memory",
+      "state",
+      "iot"
+    ],
+    "description": "Persistent knowledge-graph memory. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "memory-media-010",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-memory",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "memory",
+      "state",
+      "media"
+    ],
+    "description": "Persistent knowledge-graph memory. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "memory-media-020",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-memory",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "memory",
+      "state",
+      "media"
+    ],
+    "description": "Persistent knowledge-graph memory. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "memory-media-030",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-memory",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "memory",
+      "state",
+      "media"
+    ],
+    "description": "Persistent knowledge-graph memory. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "memory-productivity-011",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-memory",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "memory",
+      "state",
+      "productivity"
+    ],
+    "description": "Persistent knowledge-graph memory. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "memory-productivity-021",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-memory",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "memory",
+      "state",
+      "productivity"
+    ],
+    "description": "Persistent knowledge-graph memory. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "memory-productivity-031",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-memory",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "memory",
+      "state",
+      "productivity"
+    ],
+    "description": "Persistent knowledge-graph memory. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "memory-security-007",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-memory",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "memory",
+      "state",
+      "security"
+    ],
+    "description": "Persistent knowledge-graph memory. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "memory-security-017",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-memory",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "memory",
+      "state",
+      "security"
+    ],
+    "description": "Persistent knowledge-graph memory. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "memory-security-027",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-memory",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "memory",
+      "state",
+      "security"
+    ],
+    "description": "Persistent knowledge-graph memory. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "memory-web-005",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-memory",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "memory",
+      "state",
+      "web"
+    ],
+    "description": "Persistent knowledge-graph memory. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "memory-web-015",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-memory",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "memory",
+      "state",
+      "web"
+    ],
+    "description": "Persistent knowledge-graph memory. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "memory-web-025",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-memory",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "memory",
+      "state",
+      "web"
+    ],
+    "description": "Persistent knowledge-graph memory. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "mongodb",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-mongodb"
+    ],
+    "tags": [
+      "database",
+      "nosql"
+    ],
+    "description": "MongoDB collections.",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "mongodb-ai-006",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-mongodb",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "nosql",
+      "ai"
+    ],
+    "description": "MongoDB collections. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "mongodb-ai-016",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-mongodb",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "nosql",
+      "ai"
+    ],
+    "description": "MongoDB collections. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "mongodb-ai-026",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-mongodb",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "nosql",
+      "ai"
+    ],
+    "description": "MongoDB collections. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "mongodb-cloud-003",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-mongodb",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "nosql",
+      "cloud"
+    ],
+    "description": "MongoDB collections. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "mongodb-cloud-013",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-mongodb",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "nosql",
+      "cloud"
+    ],
+    "description": "MongoDB collections. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "mongodb-cloud-023",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-mongodb",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "nosql",
+      "cloud"
+    ],
+    "description": "MongoDB collections. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "mongodb-database-004",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-mongodb",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "nosql",
+      "database"
+    ],
+    "description": "MongoDB collections. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "mongodb-database-014",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-mongodb",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "nosql",
+      "database"
+    ],
+    "description": "MongoDB collections. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "mongodb-database-024",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-mongodb",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "nosql",
+      "database"
+    ],
+    "description": "MongoDB collections. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "mongodb-devtools-002",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-mongodb",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "nosql",
+      "devtools"
+    ],
+    "description": "MongoDB collections. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "mongodb-devtools-012",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-mongodb",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "nosql",
+      "devtools"
+    ],
+    "description": "MongoDB collections. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "mongodb-devtools-022",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-mongodb",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "nosql",
+      "devtools"
+    ],
+    "description": "MongoDB collections. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "mongodb-finance-009",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-mongodb",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "nosql",
+      "finance"
+    ],
+    "description": "MongoDB collections. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "mongodb-finance-019",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-mongodb",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "nosql",
+      "finance"
+    ],
+    "description": "MongoDB collections. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "mongodb-finance-029",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-mongodb",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "nosql",
+      "finance"
+    ],
+    "description": "MongoDB collections. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "mongodb-iot-008",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-mongodb",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "nosql",
+      "iot"
+    ],
+    "description": "MongoDB collections. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "mongodb-iot-018",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-mongodb",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "nosql",
+      "iot"
+    ],
+    "description": "MongoDB collections. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "mongodb-iot-028",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-mongodb",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "nosql",
+      "iot"
+    ],
+    "description": "MongoDB collections. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "mongodb-media-010",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-mongodb",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "nosql",
+      "media"
+    ],
+    "description": "MongoDB collections. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "mongodb-media-020",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-mongodb",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "nosql",
+      "media"
+    ],
+    "description": "MongoDB collections. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "mongodb-media-030",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-mongodb",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "nosql",
+      "media"
+    ],
+    "description": "MongoDB collections. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "mongodb-productivity-011",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-mongodb",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "nosql",
+      "productivity"
+    ],
+    "description": "MongoDB collections. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "mongodb-productivity-021",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-mongodb",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "nosql",
+      "productivity"
+    ],
+    "description": "MongoDB collections. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "mongodb-security-007",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-mongodb",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "nosql",
+      "security"
+    ],
+    "description": "MongoDB collections. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "mongodb-security-017",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-mongodb",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "nosql",
+      "security"
+    ],
+    "description": "MongoDB collections. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "mongodb-security-027",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-mongodb",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "nosql",
+      "security"
+    ],
+    "description": "MongoDB collections. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "mongodb-web-005",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-mongodb",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "nosql",
+      "web"
+    ],
+    "description": "MongoDB collections. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "mongodb-web-015",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-mongodb",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "nosql",
+      "web"
+    ],
+    "description": "MongoDB collections. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "mongodb-web-025",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-mongodb",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "nosql",
+      "web"
+    ],
+    "description": "MongoDB collections. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "notion",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-notion"
+    ],
+    "tags": [
+      "docs",
+      "notes"
+    ],
+    "description": "Notion pages and databases.",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "notion-ai-006",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-notion",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "notes",
+      "ai"
+    ],
+    "description": "Notion pages and databases. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "notion-ai-016",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-notion",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "notes",
+      "ai"
+    ],
+    "description": "Notion pages and databases. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "notion-ai-026",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-notion",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "notes",
+      "ai"
+    ],
+    "description": "Notion pages and databases. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "notion-cloud-003",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-notion",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "notes",
+      "cloud"
+    ],
+    "description": "Notion pages and databases. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "notion-cloud-013",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-notion",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "notes",
+      "cloud"
+    ],
+    "description": "Notion pages and databases. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "notion-cloud-023",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-notion",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "notes",
+      "cloud"
+    ],
+    "description": "Notion pages and databases. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "notion-database-004",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-notion",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "notes",
+      "database"
+    ],
+    "description": "Notion pages and databases. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "notion-database-014",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-notion",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "notes",
+      "database"
+    ],
+    "description": "Notion pages and databases. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "notion-database-024",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-notion",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "notes",
+      "database"
+    ],
+    "description": "Notion pages and databases. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "notion-devtools-002",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-notion",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "notes",
+      "devtools"
+    ],
+    "description": "Notion pages and databases. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "notion-devtools-012",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-notion",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "notes",
+      "devtools"
+    ],
+    "description": "Notion pages and databases. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "notion-devtools-022",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-notion",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "notes",
+      "devtools"
+    ],
+    "description": "Notion pages and databases. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "notion-finance-009",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-notion",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "notes",
+      "finance"
+    ],
+    "description": "Notion pages and databases. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "notion-finance-019",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-notion",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "notes",
+      "finance"
+    ],
+    "description": "Notion pages and databases. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "notion-finance-029",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-notion",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "notes",
+      "finance"
+    ],
+    "description": "Notion pages and databases. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "notion-iot-008",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-notion",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "notes",
+      "iot"
+    ],
+    "description": "Notion pages and databases. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "notion-iot-018",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-notion",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "notes",
+      "iot"
+    ],
+    "description": "Notion pages and databases. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "notion-iot-028",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-notion",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "notes",
+      "iot"
+    ],
+    "description": "Notion pages and databases. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "notion-media-010",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-notion",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "notes",
+      "media"
+    ],
+    "description": "Notion pages and databases. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "notion-media-020",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-notion",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "notes",
+      "media"
+    ],
+    "description": "Notion pages and databases. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "notion-media-030",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-notion",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "notes",
+      "media"
+    ],
+    "description": "Notion pages and databases. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "notion-productivity-011",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-notion",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "notes",
+      "productivity"
+    ],
+    "description": "Notion pages and databases. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "notion-productivity-021",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-notion",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "notes",
+      "productivity"
+    ],
+    "description": "Notion pages and databases. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "notion-security-007",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-notion",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "notes",
+      "security"
+    ],
+    "description": "Notion pages and databases. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "notion-security-017",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-notion",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "notes",
+      "security"
+    ],
+    "description": "Notion pages and databases. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "notion-security-027",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-notion",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "notes",
+      "security"
+    ],
+    "description": "Notion pages and databases. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "notion-web-005",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-notion",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "notes",
+      "web"
+    ],
+    "description": "Notion pages and databases. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "notion-web-015",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-notion",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "notes",
+      "web"
+    ],
+    "description": "Notion pages and databases. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "notion-web-025",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-notion",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "notes",
+      "web"
+    ],
+    "description": "Notion pages and databases. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "playwright",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-playwright"
+    ],
+    "tags": [
+      "web",
+      "browser",
+      "testing"
+    ],
+    "description": "Playwright browser control.",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "playwright-ai-006",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-playwright",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "testing",
+      "ai"
+    ],
+    "description": "Playwright browser control. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "playwright-ai-016",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-playwright",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "testing",
+      "ai"
+    ],
+    "description": "Playwright browser control. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "playwright-ai-026",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-playwright",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "testing",
+      "ai"
+    ],
+    "description": "Playwright browser control. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "playwright-cloud-003",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-playwright",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "testing",
+      "cloud"
+    ],
+    "description": "Playwright browser control. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "playwright-cloud-013",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-playwright",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "testing",
+      "cloud"
+    ],
+    "description": "Playwright browser control. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "playwright-cloud-023",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-playwright",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "testing",
+      "cloud"
+    ],
+    "description": "Playwright browser control. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "playwright-database-004",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-playwright",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "testing",
+      "database"
+    ],
+    "description": "Playwright browser control. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "playwright-database-014",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-playwright",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "testing",
+      "database"
+    ],
+    "description": "Playwright browser control. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "playwright-database-024",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-playwright",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "testing",
+      "database"
+    ],
+    "description": "Playwright browser control. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "playwright-devtools-002",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-playwright",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "testing",
+      "devtools"
+    ],
+    "description": "Playwright browser control. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "playwright-devtools-012",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-playwright",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "testing",
+      "devtools"
+    ],
+    "description": "Playwright browser control. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "playwright-devtools-022",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-playwright",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "testing",
+      "devtools"
+    ],
+    "description": "Playwright browser control. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "playwright-finance-009",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-playwright",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "testing",
+      "finance"
+    ],
+    "description": "Playwright browser control. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "playwright-finance-019",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-playwright",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "testing",
+      "finance"
+    ],
+    "description": "Playwright browser control. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "playwright-finance-029",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-playwright",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "testing",
+      "finance"
+    ],
+    "description": "Playwright browser control. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "playwright-iot-008",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-playwright",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "testing",
+      "iot"
+    ],
+    "description": "Playwright browser control. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "playwright-iot-018",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-playwright",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "testing",
+      "iot"
+    ],
+    "description": "Playwright browser control. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "playwright-iot-028",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-playwright",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "testing",
+      "iot"
+    ],
+    "description": "Playwright browser control. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "playwright-media-010",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-playwright",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "testing",
+      "media"
+    ],
+    "description": "Playwright browser control. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "playwright-media-020",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-playwright",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "testing",
+      "media"
+    ],
+    "description": "Playwright browser control. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "playwright-media-030",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-playwright",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "testing",
+      "media"
+    ],
+    "description": "Playwright browser control. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "playwright-productivity-011",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-playwright",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "testing",
+      "productivity"
+    ],
+    "description": "Playwright browser control. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "playwright-productivity-021",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-playwright",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "testing",
+      "productivity"
+    ],
+    "description": "Playwright browser control. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "playwright-security-007",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-playwright",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "testing",
+      "security"
+    ],
+    "description": "Playwright browser control. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "playwright-security-017",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-playwright",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "testing",
+      "security"
+    ],
+    "description": "Playwright browser control. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "playwright-security-027",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-playwright",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "testing",
+      "security"
+    ],
+    "description": "Playwright browser control. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "playwright-web-005",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-playwright",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "testing",
+      "web"
+    ],
+    "description": "Playwright browser control. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "playwright-web-015",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-playwright",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "testing",
+      "web"
+    ],
+    "description": "Playwright browser control. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "playwright-web-025",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-playwright",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "testing",
+      "web"
+    ],
+    "description": "Playwright browser control. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "postgres",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-postgres"
+    ],
+    "tags": [
+      "database",
+      "sql"
+    ],
+    "description": "PostgreSQL read-only queries.",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "postgres-ai-006",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-postgres",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "ai"
+    ],
+    "description": "PostgreSQL read-only queries. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "postgres-ai-016",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-postgres",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "ai"
+    ],
+    "description": "PostgreSQL read-only queries. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "postgres-ai-026",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-postgres",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "ai"
+    ],
+    "description": "PostgreSQL read-only queries. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "postgres-cloud-003",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-postgres",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "cloud"
+    ],
+    "description": "PostgreSQL read-only queries. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "postgres-cloud-013",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-postgres",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "cloud"
+    ],
+    "description": "PostgreSQL read-only queries. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "postgres-cloud-023",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-postgres",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "cloud"
+    ],
+    "description": "PostgreSQL read-only queries. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
   }
 ]
