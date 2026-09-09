@@ -1,0 +1,781 @@
+[
+  {
+    "name": "Architecture Hardener 08",
+    "role": "Architecture",
+    "description": "Primary orchestrator for system design and planning. (hardener focus).",
+    "tags": [
+      "architecture",
+      "hardener"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/architecture-hardener-08.md"
+  },
+  {
+    "name": "Architecture Hardener 16",
+    "role": "Architecture",
+    "description": "Primary orchestrator for system design and planning. (hardener focus).",
+    "tags": [
+      "architecture",
+      "hardener"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/architecture-hardener-16.md"
+  },
+  {
+    "name": "Architecture Hardener 24",
+    "role": "Architecture",
+    "description": "Primary orchestrator for system design and planning. (hardener focus).",
+    "tags": [
+      "architecture",
+      "hardener"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/architecture-hardener-24.md"
+  },
+  {
+    "name": "Architecture Hardener 32",
+    "role": "Architecture",
+    "description": "Primary orchestrator for system design and planning. (hardener focus).",
+    "tags": [
+      "architecture",
+      "hardener"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/architecture-hardener-32.md"
+  },
+  {
+    "name": "Architecture Mentor 05",
+    "role": "Architecture",
+    "description": "Primary orchestrator for system design and planning. (mentor focus).",
+    "tags": [
+      "architecture",
+      "mentor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/architecture-mentor-05.md"
+  },
+  {
+    "name": "Architecture Mentor 13",
+    "role": "Architecture",
+    "description": "Primary orchestrator for system design and planning. (mentor focus).",
+    "tags": [
+      "architecture",
+      "mentor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/architecture-mentor-13.md"
+  },
+  {
+    "name": "Architecture Mentor 21",
+    "role": "Architecture",
+    "description": "Primary orchestrator for system design and planning. (mentor focus).",
+    "tags": [
+      "architecture",
+      "mentor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/architecture-mentor-21.md"
+  },
+  {
+    "name": "Architecture Mentor 29",
+    "role": "Architecture",
+    "description": "Primary orchestrator for system design and planning. (mentor focus).",
+    "tags": [
+      "architecture",
+      "mentor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/architecture-mentor-29.md"
+  },
+  {
+    "name": "Architecture Mentor 37",
+    "role": "Architecture",
+    "description": "Primary orchestrator for system design and planning. (mentor focus).",
+    "tags": [
+      "architecture",
+      "mentor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/architecture-mentor-37.md"
+  },
+  {
+    "name": "Architecture Optimizer 04",
+    "role": "Architecture",
+    "description": "Primary orchestrator for system design and planning. (optimizer focus).",
+    "tags": [
+      "architecture",
+      "optimizer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/architecture-optimizer-04.md"
+  },
+  {
+    "name": "Architecture Optimizer 12",
+    "role": "Architecture",
+    "description": "Primary orchestrator for system design and planning. (optimizer focus).",
+    "tags": [
+      "architecture",
+      "optimizer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/architecture-optimizer-12.md"
+  },
+  {
+    "name": "Architecture Optimizer 20",
+    "role": "Architecture",
+    "description": "Primary orchestrator for system design and planning. (optimizer focus).",
+    "tags": [
+      "architecture",
+      "optimizer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/architecture-optimizer-20.md"
+  },
+  {
+    "name": "Architecture Optimizer 28",
+    "role": "Architecture",
+    "description": "Primary orchestrator for system design and planning. (optimizer focus).",
+    "tags": [
+      "architecture",
+      "optimizer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/architecture-optimizer-28.md"
+  },
+  {
+    "name": "Architecture Optimizer 36",
+    "role": "Architecture",
+    "description": "Primary orchestrator for system design and planning. (optimizer focus).",
+    "tags": [
+      "architecture",
+      "optimizer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/architecture-optimizer-36.md"
+  },
+  {
+    "name": "Architecture Planner 02",
+    "role": "Architecture",
+    "description": "Primary orchestrator for system design and planning. (planner focus).",
+    "tags": [
+      "architecture",
+      "planner"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/architecture-planner-02.md"
+  },
+  {
+    "name": "Architecture Planner 10",
+    "role": "Architecture",
+    "description": "Primary orchestrator for system design and planning. (planner focus).",
+    "tags": [
+      "architecture",
+      "planner"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/architecture-planner-10.md"
+  },
+  {
+    "name": "Architecture Planner 18",
+    "role": "Architecture",
+    "description": "Primary orchestrator for system design and planning. (planner focus).",
+    "tags": [
+      "architecture",
+      "planner"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/architecture-planner-18.md"
+  },
+  {
+    "name": "Architecture Planner 26",
+    "role": "Architecture",
+    "description": "Primary orchestrator for system design and planning. (planner focus).",
+    "tags": [
+      "architecture",
+      "planner"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/architecture-planner-26.md"
+  },
+  {
+    "name": "Architecture Planner 34",
+    "role": "Architecture",
+    "description": "Primary orchestrator for system design and planning. (planner focus).",
+    "tags": [
+      "architecture",
+      "planner"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/architecture-planner-34.md"
+  },
+  {
+    "name": "Architecture Responder 06",
+    "role": "Architecture",
+    "description": "Primary orchestrator for system design and planning. (responder focus).",
+    "tags": [
+      "architecture",
+      "responder"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/architecture-responder-06.md"
+  },
+  {
+    "name": "Architecture Responder 14",
+    "role": "Architecture",
+    "description": "Primary orchestrator for system design and planning. (responder focus).",
+    "tags": [
+      "architecture",
+      "responder"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/architecture-responder-14.md"
+  },
+  {
+    "name": "Architecture Responder 22",
+    "role": "Architecture",
+    "description": "Primary orchestrator for system design and planning. (responder focus).",
+    "tags": [
+      "architecture",
+      "responder"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/architecture-responder-22.md"
+  },
+  {
+    "name": "Architecture Responder 30",
+    "role": "Architecture",
+    "description": "Primary orchestrator for system design and planning. (responder focus).",
+    "tags": [
+      "architecture",
+      "responder"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/architecture-responder-30.md"
+  },
+  {
+    "name": "Architecture Responder 38",
+    "role": "Architecture",
+    "description": "Primary orchestrator for system design and planning. (responder focus).",
+    "tags": [
+      "architecture",
+      "responder"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/architecture-responder-38.md"
+  },
+  {
+    "name": "Architecture Reviewer 03",
+    "role": "Architecture",
+    "description": "Primary orchestrator for system design and planning. (reviewer focus).",
+    "tags": [
+      "architecture",
+      "reviewer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/architecture-reviewer-03.md"
+  },
+  {
+    "name": "Architecture Reviewer 11",
+    "role": "Architecture",
+    "description": "Primary orchestrator for system design and planning. (reviewer focus).",
+    "tags": [
+      "architecture",
+      "reviewer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/architecture-reviewer-11.md"
+  },
+  {
+    "name": "Architecture Reviewer 19",
+    "role": "Architecture",
+    "description": "Primary orchestrator for system design and planning. (reviewer focus).",
+    "tags": [
+      "architecture",
+      "reviewer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/architecture-reviewer-19.md"
+  },
+  {
+    "name": "Architecture Reviewer 27",
+    "role": "Architecture",
+    "description": "Primary orchestrator for system design and planning. (reviewer focus).",
+    "tags": [
+      "architecture",
+      "reviewer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/architecture-reviewer-27.md"
+  },
+  {
+    "name": "Architecture Reviewer 35",
+    "role": "Architecture",
+    "description": "Primary orchestrator for system design and planning. (reviewer focus).",
+    "tags": [
+      "architecture",
+      "reviewer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/architecture-reviewer-35.md"
+  },
+  {
+    "name": "Architecture Scout 07",
+    "role": "Architecture",
+    "description": "Primary orchestrator for system design and planning. (scout focus).",
+    "tags": [
+      "architecture",
+      "scout"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/architecture-scout-07.md"
+  },
+  {
+    "name": "Architecture Scout 15",
+    "role": "Architecture",
+    "description": "Primary orchestrator for system design and planning. (scout focus).",
+    "tags": [
+      "architecture",
+      "scout"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/architecture-scout-15.md"
+  },
+  {
+    "name": "Architecture Scout 23",
+    "role": "Architecture",
+    "description": "Primary orchestrator for system design and planning. (scout focus).",
+    "tags": [
+      "architecture",
+      "scout"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/architecture-scout-23.md"
+  },
+  {
+    "name": "Architecture Scout 31",
+    "role": "Architecture",
+    "description": "Primary orchestrator for system design and planning. (scout focus).",
+    "tags": [
+      "architecture",
+      "scout"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/architecture-scout-31.md"
+  },
+  {
+    "name": "Architecture Scout 39",
+    "role": "Architecture",
+    "description": "Primary orchestrator for system design and planning. (scout focus).",
+    "tags": [
+      "architecture",
+      "scout"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/architecture-scout-39.md"
+  },
+  {
+    "name": "Architecture Writer 09",
+    "role": "Architecture",
+    "description": "Primary orchestrator for system design and planning. (writer focus).",
+    "tags": [
+      "architecture",
+      "writer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/architecture-writer-09.md"
+  },
+  {
+    "name": "Architecture Writer 17",
+    "role": "Architecture",
+    "description": "Primary orchestrator for system design and planning. (writer focus).",
+    "tags": [
+      "architecture",
+      "writer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/architecture-writer-17.md"
+  },
+  {
+    "name": "Architecture Writer 25",
+    "role": "Architecture",
+    "description": "Primary orchestrator for system design and planning. (writer focus).",
+    "tags": [
+      "architecture",
+      "writer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/architecture-writer-25.md"
+  },
+  {
+    "name": "Architecture Writer 33",
+    "role": "Architecture",
+    "description": "Primary orchestrator for system design and planning. (writer focus).",
+    "tags": [
+      "architecture",
+      "writer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/architecture-writer-33.md"
+  },
+  {
+    "name": "Backend Engineer",
+    "role": "Backend",
+    "description": "APIs, databases, and service design.",
+    "tags": [
+      "backend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/backend-engineer.md"
+  },
+  {
+    "name": "Backend Hardener 08",
+    "role": "Backend",
+    "description": "APIs, databases, and service design. (hardener focus).",
+    "tags": [
+      "backend",
+      "hardener"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/backend-hardener-08.md"
+  },
+  {
+    "name": "Backend Hardener 16",
+    "role": "Backend",
+    "description": "APIs, databases, and service design. (hardener focus).",
+    "tags": [
+      "backend",
+      "hardener"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/backend-hardener-16.md"
+  },
+  {
+    "name": "Backend Hardener 24",
+    "role": "Backend",
+    "description": "APIs, databases, and service design. (hardener focus).",
+    "tags": [
+      "backend",
+      "hardener"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/backend-hardener-24.md"
+  },
+  {
+    "name": "Backend Hardener 32",
+    "role": "Backend",
+    "description": "APIs, databases, and service design. (hardener focus).",
+    "tags": [
+      "backend",
+      "hardener"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/backend-hardener-32.md"
+  },
+  {
+    "name": "Backend Mentor 05",
+    "role": "Backend",
+    "description": "APIs, databases, and service design. (mentor focus).",
+    "tags": [
+      "backend",
+      "mentor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/backend-mentor-05.md"
+  },
+  {
+    "name": "Backend Mentor 13",
+    "role": "Backend",
+    "description": "APIs, databases, and service design. (mentor focus).",
+    "tags": [
+      "backend",
+      "mentor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/backend-mentor-13.md"
+  },
+  {
+    "name": "Backend Mentor 21",
+    "role": "Backend",
+    "description": "APIs, databases, and service design. (mentor focus).",
+    "tags": [
+      "backend",
+      "mentor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/backend-mentor-21.md"
+  },
+  {
+    "name": "Backend Mentor 29",
+    "role": "Backend",
+    "description": "APIs, databases, and service design. (mentor focus).",
+    "tags": [
+      "backend",
+      "mentor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/backend-mentor-29.md"
+  },
+  {
+    "name": "Backend Mentor 37",
+    "role": "Backend",
+    "description": "APIs, databases, and service design. (mentor focus).",
+    "tags": [
+      "backend",
+      "mentor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/backend-mentor-37.md"
+  },
+  {
+    "name": "Backend Optimizer 04",
+    "role": "Backend",
+    "description": "APIs, databases, and service design. (optimizer focus).",
+    "tags": [
+      "backend",
+      "optimizer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/backend-optimizer-04.md"
+  },
+  {
+    "name": "Backend Optimizer 12",
+    "role": "Backend",
+    "description": "APIs, databases, and service design. (optimizer focus).",
+    "tags": [
+      "backend",
+      "optimizer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/backend-optimizer-12.md"
+  },
+  {
+    "name": "Backend Optimizer 20",
+    "role": "Backend",
+    "description": "APIs, databases, and service design. (optimizer focus).",
+    "tags": [
+      "backend",
+      "optimizer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/backend-optimizer-20.md"
+  },
+  {
+    "name": "Backend Optimizer 28",
+    "role": "Backend",
+    "description": "APIs, databases, and service design. (optimizer focus).",
+    "tags": [
+      "backend",
+      "optimizer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/backend-optimizer-28.md"
+  },
+  {
+    "name": "Backend Optimizer 36",
+    "role": "Backend",
+    "description": "APIs, databases, and service design. (optimizer focus).",
+    "tags": [
+      "backend",
+      "optimizer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/backend-optimizer-36.md"
+  },
+  {
+    "name": "Backend Planner 02",
+    "role": "Backend",
+    "description": "APIs, databases, and service design. (planner focus).",
+    "tags": [
+      "backend",
+      "planner"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/backend-planner-02.md"
+  },
+  {
+    "name": "Backend Planner 10",
+    "role": "Backend",
+    "description": "APIs, databases, and service design. (planner focus).",
+    "tags": [
+      "backend",
+      "planner"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/backend-planner-10.md"
+  },
+  {
+    "name": "Backend Planner 18",
+    "role": "Backend",
+    "description": "APIs, databases, and service design. (planner focus).",
+    "tags": [
+      "backend",
+      "planner"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/backend-planner-18.md"
+  },
+  {
+    "name": "Backend Planner 26",
+    "role": "Backend",
+    "description": "APIs, databases, and service design. (planner focus).",
+    "tags": [
+      "backend",
+      "planner"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/backend-planner-26.md"
+  },
+  {
+    "name": "Backend Planner 34",
+    "role": "Backend",
+    "description": "APIs, databases, and service design. (planner focus).",
+    "tags": [
+      "backend",
+      "planner"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/backend-planner-34.md"
+  },
+  {
+    "name": "Backend Responder 06",
+    "role": "Backend",
+    "description": "APIs, databases, and service design. (responder focus).",
+    "tags": [
+      "backend",
+      "responder"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/backend-responder-06.md"
+  },
+  {
+    "name": "Backend Responder 14",
+    "role": "Backend",
+    "description": "APIs, databases, and service design. (responder focus).",
+    "tags": [
+      "backend",
+      "responder"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/backend-responder-14.md"
+  },
+  {
+    "name": "Backend Responder 22",
+    "role": "Backend",
+    "description": "APIs, databases, and service design. (responder focus).",
+    "tags": [
+      "backend",
+      "responder"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/backend-responder-22.md"
+  },
+  {
+    "name": "Backend Responder 30",
+    "role": "Backend",
+    "description": "APIs, databases, and service design. (responder focus).",
+    "tags": [
+      "backend",
+      "responder"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/backend-responder-30.md"
+  },
+  {
+    "name": "Backend Responder 38",
+    "role": "Backend",
+    "description": "APIs, databases, and service design. (responder focus).",
+    "tags": [
+      "backend",
+      "responder"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/backend-responder-38.md"
+  },
+  {
+    "name": "Backend Reviewer 03",
+    "role": "Backend",
+    "description": "APIs, databases, and service design. (reviewer focus).",
+    "tags": [
+      "backend",
+      "reviewer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/backend-reviewer-03.md"
+  },
+  {
+    "name": "Backend Reviewer 11",
+    "role": "Backend",
+    "description": "APIs, databases, and service design. (reviewer focus).",
+    "tags": [
+      "backend",
+      "reviewer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/backend-reviewer-11.md"
+  },
+  {
+    "name": "Backend Reviewer 19",
+    "role": "Backend",
+    "description": "APIs, databases, and service design. (reviewer focus).",
+    "tags": [
+      "backend",
+      "reviewer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/backend-reviewer-19.md"
+  },
+  {
+    "name": "Backend Reviewer 27",
+    "role": "Backend",
+    "description": "APIs, databases, and service design. (reviewer focus).",
+    "tags": [
+      "backend",
+      "reviewer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/backend-reviewer-27.md"
+  },
+  {
+    "name": "Backend Reviewer 35",
+    "role": "Backend",
+    "description": "APIs, databases, and service design. (reviewer focus).",
+    "tags": [
+      "backend",
+      "reviewer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/backend-reviewer-35.md"
+  },
+  {
+    "name": "Backend Scout 07",
+    "role": "Backend",
+    "description": "APIs, databases, and service design. (scout focus).",
+    "tags": [
+      "backend",
+      "scout"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/backend-scout-07.md"
+  },
+  {
+    "name": "Backend Scout 15",
+    "role": "Backend",
+    "description": "APIs, databases, and service design. (scout focus).",
+    "tags": [
+      "backend",
+      "scout"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/backend-scout-15.md"
+  },
+  {
+    "name": "Backend Scout 23",
+    "role": "Backend",
+    "description": "APIs, databases, and service design. (scout focus).",
+    "tags": [
+      "backend",
+      "scout"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/backend-scout-23.md"
+  },
+  {
+    "name": "Backend Scout 31",
+    "role": "Backend",
+    "description": "APIs, databases, and service design. (scout focus).",
+    "tags": [
+      "backend",
+      "scout"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/backend-scout-31.md"
+  },
+  {
+    "name": "Backend Scout 39",
+    "role": "Backend",
+    "description": "APIs, databases, and service design. (scout focus).",
+    "tags": [
+      "backend",
+      "scout"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/backend-scout-39.md"
+  },
+  {
+    "name": "Backend Writer 09",
+    "role": "Backend",
+    "description": "APIs, databases, and service design. (writer focus).",
+    "tags": [
+      "backend",
+      "writer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/backend-writer-09.md"
+  },
+  {
+    "name": "Backend Writer 17",
+    "role": "Backend",
+    "description": "APIs, databases, and service design. (writer focus).",
+    "tags": [
+      "backend",
+      "writer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/backend-writer-17.md"
+  },
+  {
+    "name": "Backend Writer 25",
+    "role": "Backend",
+    "description": "APIs, databases, and service design. (writer focus).",
+    "tags": [
+      "backend",
+      "writer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/backend-writer-25.md"
+  },
+  {
+    "name": "Backend Writer 33",
+    "role": "Backend",
+    "description": "APIs, databases, and service design. (writer focus).",
+    "tags": [
+      "backend",
+      "writer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/backend-writer-33.md"
+  },
+  {
+    "name": "Data Hardener 08",
+    "role": "Data",
+    "description": "Schema design and analytics. (hardener focus).",
+    "tags": [
+      "data",
+      "hardener"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/data-hardener-08.md"
+  }
+]
