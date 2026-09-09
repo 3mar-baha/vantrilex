@@ -50,3 +50,29 @@ type pluginEntry struct {
 	Name        string `json:"name"`
 	Marketplace string `json:"marketplace"`
 	Description string `json:"description"`
+	InstallRef  string `json:"installRef"`
+	RawURL      string `json:"rawURL"`
+}
+
+type skillEntry struct {
+	Name        string   `json:"name"`
+	Source      string   `json:"source"`
+	Description string   `json:"description"`
+	Tags        []string `json:"tags"`
+	RawURL      string   `json:"rawURL"`
+}
+
+type hookEntry struct {
+	Name        string `json:"name"`
+	Event       string `json:"event"`
+	Description string `json:"description"`
+	RawURL      string `json:"rawURL"`
+}
+
+type agentEntry struct {
+	Name        string   `json:"name"`
+	Role        string   `json:"role"`
+	Description string   `json:"description"`
+	Tags        []string `json:"tags"`
+	RawURL      string   `json:"rawURL"`
+}
