@@ -128,3 +128,29 @@ func loadAll() {
 				Install:  e.InstallRef,
 				Selected: defaultSelected[e.Name],
 			})
+		}
+		for _, e := range se {
+			skills = append(skills, RegistryItem{
+				Name: e.Name, Kind: "skill", Desc: e.Description, Tags: e.Tags,
+				Source: e.Source, RawURL: e.RawURL, Install: e.Source + "@" + e.Name,
+				Selected: defaultSelected[e.Name],
+			})
+		}
+		for _, e := range he {
+			hooks = append(hooks, RegistryItem{
+				Name: e.Name, Kind: "hook", Desc: e.Description,
+				Tags:     []string{e.Event},
+				Source:   e.Event,
+				RawURL:   e.RawURL,
+				Install:  e.Event + ":" + e.Name,
+				Selected: defaultSelected[e.Name],
+			})
+		}
+		for _, e := range ae {
+			agents = append(agents, RegistryItem{
+				Name: e.Name, Kind: "agent", Desc: e.Description, Tags: e.Tags,
+				Source: e.Role, RawURL: e.RawURL, Install: e.Role + "/" + e.Name,
+				Selected: defaultSelected[e.Name],
+			})
+		}
+	})
