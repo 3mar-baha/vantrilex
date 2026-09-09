@@ -202,3 +202,71 @@ func ToolkitDir() (string, error) {
 	home, err := os.UserHomeDir()
 	if err != nil {
 		return "", err
+	}
+	return filepath.Join(home, ".vantrilex", "toolkit"), nil
+}
+
+// ToolkitStatus reports which repos are already cloned.
+// A repo counts as present when its expected dir exists with content, OR when
+// any subdirectory of the toolkit root has a matching git origin remote
+// (tolerates caches created under alternate directory names).
+func ToolkitStatus() (root string, present map[string]bool, err error) {
+	root, err = ToolkitDir()
+	if err != nil {
+		return "", nil, err
+	}
+	present = map[string]bool{}
+	remotes := map[string]string{} // normalized remote url -> dirname
+	if entries, err := os.ReadDir(root); err == nil {
+		for _, e := range entries {
+			if !e.IsDir() {
+				continue
+			}
+			if u := gitRemoteURL(filepath.Join(root, e.Name())); u != "" {
+				remotes[normalizeGitURL(u)] = e.Name()
+			}
+		}
+	}
+	for _, r := range ToolkitRepos {
+		p := filepath.Join(root, r.Dir)
+		ok := dirExists(filepath.Join(p, ".git")) || dirExists(p) && hasFiles(p)
+		if !ok {
+			if _, found := remotes[normalizeGitURL(r.URL)]; found {
+				ok = true
+			}
+		}
+		present[r.Dir] = ok
+	}
+	return root, present, nil
+}
+
+// ToolkitDirName returns the on-disk directory holding a repo URL, or "".
+func ToolkitDirName(url string) string {
+	root, err := ToolkitDir()
+	if err != nil {
+		return ""
+	}
+	for _, r := range ToolkitRepos {
+		if normalizeGitURL(r.URL) == normalizeGitURL(url) {
+			p := filepath.Join(root, r.Dir)
+			if dirExists(filepath.Join(p, ".git")) {
+				return r.Dir
+			}
+		}
+	}
+	if entries, err := os.ReadDir(root); err == nil {
+		for _, e := range entries {
+			if !e.IsDir() {
+				continue
+			}
+			if normalizeGitURL(gitRemoteURL(filepath.Join(root, e.Name()))) == normalizeGitURL(url) {
+				return e.Name()
+			}
+		}
+	}
+	return ""
+}
+
+func gitRemoteURL(dir string) string {
+	if !dirExists(filepath.Join(dir, ".git")) {
+		return ""
