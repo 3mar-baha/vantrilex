@@ -12160,5 +12160,2421 @@
     "description": "PostgreSQL read-only queries. Community variant (cloud).",
     "sourceURL": "https://github.com/modelcontextprotocol/servers",
     "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "postgres-database-004",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-postgres",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "database"
+    ],
+    "description": "PostgreSQL read-only queries. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "postgres-database-014",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-postgres",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "database"
+    ],
+    "description": "PostgreSQL read-only queries. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "postgres-database-024",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-postgres",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "database"
+    ],
+    "description": "PostgreSQL read-only queries. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "postgres-devtools-002",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-postgres",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "devtools"
+    ],
+    "description": "PostgreSQL read-only queries. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "postgres-devtools-012",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-postgres",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "devtools"
+    ],
+    "description": "PostgreSQL read-only queries. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "postgres-devtools-022",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-postgres",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "devtools"
+    ],
+    "description": "PostgreSQL read-only queries. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "postgres-finance-009",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-postgres",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "finance"
+    ],
+    "description": "PostgreSQL read-only queries. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "postgres-finance-019",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-postgres",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "finance"
+    ],
+    "description": "PostgreSQL read-only queries. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "postgres-finance-029",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-postgres",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "finance"
+    ],
+    "description": "PostgreSQL read-only queries. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "postgres-iot-008",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-postgres",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "iot"
+    ],
+    "description": "PostgreSQL read-only queries. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "postgres-iot-018",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-postgres",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "iot"
+    ],
+    "description": "PostgreSQL read-only queries. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "postgres-iot-028",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-postgres",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "iot"
+    ],
+    "description": "PostgreSQL read-only queries. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "postgres-media-010",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-postgres",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "media"
+    ],
+    "description": "PostgreSQL read-only queries. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "postgres-media-020",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-postgres",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "media"
+    ],
+    "description": "PostgreSQL read-only queries. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "postgres-media-030",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-postgres",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "media"
+    ],
+    "description": "PostgreSQL read-only queries. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "postgres-productivity-011",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-postgres",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "productivity"
+    ],
+    "description": "PostgreSQL read-only queries. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "postgres-productivity-021",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-postgres",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "productivity"
+    ],
+    "description": "PostgreSQL read-only queries. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "postgres-security-007",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-postgres",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "security"
+    ],
+    "description": "PostgreSQL read-only queries. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "postgres-security-017",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-postgres",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "security"
+    ],
+    "description": "PostgreSQL read-only queries. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "postgres-security-027",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-postgres",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "security"
+    ],
+    "description": "PostgreSQL read-only queries. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "postgres-web-005",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-postgres",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "web"
+    ],
+    "description": "PostgreSQL read-only queries. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "postgres-web-015",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-postgres",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "web"
+    ],
+    "description": "PostgreSQL read-only queries. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "postgres-web-025",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-postgres",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "web"
+    ],
+    "description": "PostgreSQL read-only queries. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "puppeteer",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-puppeteer"
+    ],
+    "tags": [
+      "web",
+      "browser"
+    ],
+    "description": "Headless browser automation.",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "puppeteer-ai-006",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-puppeteer",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "ai"
+    ],
+    "description": "Headless browser automation. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "puppeteer-ai-016",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-puppeteer",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "ai"
+    ],
+    "description": "Headless browser automation. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "puppeteer-ai-026",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-puppeteer",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "ai"
+    ],
+    "description": "Headless browser automation. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "puppeteer-cloud-003",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-puppeteer",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "cloud"
+    ],
+    "description": "Headless browser automation. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "puppeteer-cloud-013",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-puppeteer",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "cloud"
+    ],
+    "description": "Headless browser automation. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "puppeteer-cloud-023",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-puppeteer",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "cloud"
+    ],
+    "description": "Headless browser automation. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "puppeteer-database-004",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-puppeteer",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "database"
+    ],
+    "description": "Headless browser automation. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "puppeteer-database-014",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-puppeteer",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "database"
+    ],
+    "description": "Headless browser automation. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "puppeteer-database-024",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-puppeteer",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "database"
+    ],
+    "description": "Headless browser automation. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "puppeteer-devtools-002",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-puppeteer",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "devtools"
+    ],
+    "description": "Headless browser automation. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "puppeteer-devtools-012",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-puppeteer",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "devtools"
+    ],
+    "description": "Headless browser automation. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "puppeteer-devtools-022",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-puppeteer",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "devtools"
+    ],
+    "description": "Headless browser automation. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "puppeteer-finance-009",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-puppeteer",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "finance"
+    ],
+    "description": "Headless browser automation. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "puppeteer-finance-019",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-puppeteer",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "finance"
+    ],
+    "description": "Headless browser automation. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "puppeteer-finance-029",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-puppeteer",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "finance"
+    ],
+    "description": "Headless browser automation. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "puppeteer-iot-008",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-puppeteer",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "iot"
+    ],
+    "description": "Headless browser automation. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "puppeteer-iot-018",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-puppeteer",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "iot"
+    ],
+    "description": "Headless browser automation. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "puppeteer-iot-028",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-puppeteer",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "iot"
+    ],
+    "description": "Headless browser automation. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "puppeteer-media-010",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-puppeteer",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "media"
+    ],
+    "description": "Headless browser automation. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "puppeteer-media-020",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-puppeteer",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "media"
+    ],
+    "description": "Headless browser automation. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "puppeteer-media-030",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-puppeteer",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "media"
+    ],
+    "description": "Headless browser automation. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "puppeteer-productivity-011",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-puppeteer",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "productivity"
+    ],
+    "description": "Headless browser automation. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "puppeteer-productivity-021",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-puppeteer",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "productivity"
+    ],
+    "description": "Headless browser automation. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "puppeteer-security-007",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-puppeteer",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "security"
+    ],
+    "description": "Headless browser automation. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "puppeteer-security-017",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-puppeteer",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "security"
+    ],
+    "description": "Headless browser automation. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "puppeteer-security-027",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-puppeteer",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "security"
+    ],
+    "description": "Headless browser automation. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "puppeteer-web-005",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-puppeteer",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "web"
+    ],
+    "description": "Headless browser automation. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "puppeteer-web-015",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-puppeteer",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "web"
+    ],
+    "description": "Headless browser automation. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "puppeteer-web-025",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-puppeteer",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "browser",
+      "web"
+    ],
+    "description": "Headless browser automation. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "redis",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-redis"
+    ],
+    "tags": [
+      "database",
+      "cache"
+    ],
+    "description": "Redis key-value access.",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "redis-ai-006",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-redis",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "cache",
+      "ai"
+    ],
+    "description": "Redis key-value access. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "redis-ai-016",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-redis",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "cache",
+      "ai"
+    ],
+    "description": "Redis key-value access. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "redis-ai-026",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-redis",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "cache",
+      "ai"
+    ],
+    "description": "Redis key-value access. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "redis-cloud-003",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-redis",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "cache",
+      "cloud"
+    ],
+    "description": "Redis key-value access. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "redis-cloud-013",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-redis",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "cache",
+      "cloud"
+    ],
+    "description": "Redis key-value access. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "redis-cloud-023",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-redis",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "cache",
+      "cloud"
+    ],
+    "description": "Redis key-value access. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "redis-database-004",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-redis",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "cache",
+      "database"
+    ],
+    "description": "Redis key-value access. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "redis-database-014",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-redis",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "cache",
+      "database"
+    ],
+    "description": "Redis key-value access. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "redis-database-024",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-redis",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "cache",
+      "database"
+    ],
+    "description": "Redis key-value access. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "redis-devtools-002",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-redis",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "cache",
+      "devtools"
+    ],
+    "description": "Redis key-value access. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "redis-devtools-012",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-redis",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "cache",
+      "devtools"
+    ],
+    "description": "Redis key-value access. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "redis-devtools-022",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-redis",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "cache",
+      "devtools"
+    ],
+    "description": "Redis key-value access. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "redis-finance-009",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-redis",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "cache",
+      "finance"
+    ],
+    "description": "Redis key-value access. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "redis-finance-019",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-redis",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "cache",
+      "finance"
+    ],
+    "description": "Redis key-value access. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "redis-finance-029",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-redis",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "cache",
+      "finance"
+    ],
+    "description": "Redis key-value access. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "redis-iot-008",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-redis",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "cache",
+      "iot"
+    ],
+    "description": "Redis key-value access. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "redis-iot-018",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-redis",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "cache",
+      "iot"
+    ],
+    "description": "Redis key-value access. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "redis-iot-028",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-redis",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "cache",
+      "iot"
+    ],
+    "description": "Redis key-value access. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "redis-media-010",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-redis",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "cache",
+      "media"
+    ],
+    "description": "Redis key-value access. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "redis-media-020",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-redis",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "cache",
+      "media"
+    ],
+    "description": "Redis key-value access. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "redis-media-030",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-redis",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "cache",
+      "media"
+    ],
+    "description": "Redis key-value access. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "redis-productivity-011",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-redis",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "cache",
+      "productivity"
+    ],
+    "description": "Redis key-value access. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "redis-productivity-021",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-redis",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "cache",
+      "productivity"
+    ],
+    "description": "Redis key-value access. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "redis-security-007",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-redis",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "cache",
+      "security"
+    ],
+    "description": "Redis key-value access. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "redis-security-017",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-redis",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "cache",
+      "security"
+    ],
+    "description": "Redis key-value access. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "redis-security-027",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-redis",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "cache",
+      "security"
+    ],
+    "description": "Redis key-value access. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "redis-web-005",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-redis",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "cache",
+      "web"
+    ],
+    "description": "Redis key-value access. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "redis-web-015",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-redis",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "cache",
+      "web"
+    ],
+    "description": "Redis key-value access. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "redis-web-025",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-redis",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "cache",
+      "web"
+    ],
+    "description": "Redis key-value access. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sendgrid",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sendgrid"
+    ],
+    "tags": [
+      "comms",
+      "email"
+    ],
+    "description": "Transactional email.",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sendgrid-ai-006",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sendgrid",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "email",
+      "ai"
+    ],
+    "description": "Transactional email. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sendgrid-ai-016",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sendgrid",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "email",
+      "ai"
+    ],
+    "description": "Transactional email. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sendgrid-ai-026",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sendgrid",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "email",
+      "ai"
+    ],
+    "description": "Transactional email. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sendgrid-cloud-003",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sendgrid",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "email",
+      "cloud"
+    ],
+    "description": "Transactional email. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sendgrid-cloud-013",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sendgrid",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "email",
+      "cloud"
+    ],
+    "description": "Transactional email. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sendgrid-cloud-023",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sendgrid",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "email",
+      "cloud"
+    ],
+    "description": "Transactional email. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sendgrid-database-004",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sendgrid",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "email",
+      "database"
+    ],
+    "description": "Transactional email. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sendgrid-database-014",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sendgrid",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "email",
+      "database"
+    ],
+    "description": "Transactional email. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sendgrid-database-024",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sendgrid",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "email",
+      "database"
+    ],
+    "description": "Transactional email. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sendgrid-devtools-002",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sendgrid",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "email",
+      "devtools"
+    ],
+    "description": "Transactional email. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sendgrid-devtools-012",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sendgrid",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "email",
+      "devtools"
+    ],
+    "description": "Transactional email. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sendgrid-devtools-022",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sendgrid",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "email",
+      "devtools"
+    ],
+    "description": "Transactional email. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sendgrid-finance-009",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sendgrid",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "email",
+      "finance"
+    ],
+    "description": "Transactional email. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sendgrid-finance-019",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sendgrid",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "email",
+      "finance"
+    ],
+    "description": "Transactional email. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sendgrid-finance-029",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sendgrid",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "email",
+      "finance"
+    ],
+    "description": "Transactional email. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sendgrid-iot-008",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sendgrid",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "email",
+      "iot"
+    ],
+    "description": "Transactional email. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sendgrid-iot-018",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sendgrid",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "email",
+      "iot"
+    ],
+    "description": "Transactional email. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sendgrid-iot-028",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sendgrid",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "email",
+      "iot"
+    ],
+    "description": "Transactional email. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sendgrid-media-010",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sendgrid",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "email",
+      "media"
+    ],
+    "description": "Transactional email. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sendgrid-media-020",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sendgrid",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "email",
+      "media"
+    ],
+    "description": "Transactional email. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sendgrid-media-030",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sendgrid",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "email",
+      "media"
+    ],
+    "description": "Transactional email. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sendgrid-productivity-011",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sendgrid",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "email",
+      "productivity"
+    ],
+    "description": "Transactional email. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sendgrid-productivity-021",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sendgrid",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "email",
+      "productivity"
+    ],
+    "description": "Transactional email. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sendgrid-security-007",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sendgrid",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "email",
+      "security"
+    ],
+    "description": "Transactional email. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sendgrid-security-017",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sendgrid",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "email",
+      "security"
+    ],
+    "description": "Transactional email. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sendgrid-security-027",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sendgrid",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "email",
+      "security"
+    ],
+    "description": "Transactional email. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sendgrid-web-005",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sendgrid",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "email",
+      "web"
+    ],
+    "description": "Transactional email. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sendgrid-web-015",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sendgrid",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "email",
+      "web"
+    ],
+    "description": "Transactional email. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sendgrid-web-025",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sendgrid",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "email",
+      "web"
+    ],
+    "description": "Transactional email. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sentry",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sentry"
+    ],
+    "tags": [
+      "observability",
+      "errors"
+    ],
+    "description": "Sentry error tracking.",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sentry-ai-006",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sentry",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "observability",
+      "errors",
+      "ai"
+    ],
+    "description": "Sentry error tracking. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sentry-ai-016",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sentry",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "observability",
+      "errors",
+      "ai"
+    ],
+    "description": "Sentry error tracking. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sentry-ai-026",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sentry",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "observability",
+      "errors",
+      "ai"
+    ],
+    "description": "Sentry error tracking. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sentry-cloud-003",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sentry",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "observability",
+      "errors",
+      "cloud"
+    ],
+    "description": "Sentry error tracking. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sentry-cloud-013",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sentry",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "observability",
+      "errors",
+      "cloud"
+    ],
+    "description": "Sentry error tracking. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sentry-cloud-023",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sentry",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "observability",
+      "errors",
+      "cloud"
+    ],
+    "description": "Sentry error tracking. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sentry-database-004",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sentry",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "observability",
+      "errors",
+      "database"
+    ],
+    "description": "Sentry error tracking. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sentry-database-014",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sentry",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "observability",
+      "errors",
+      "database"
+    ],
+    "description": "Sentry error tracking. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sentry-database-024",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sentry",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "observability",
+      "errors",
+      "database"
+    ],
+    "description": "Sentry error tracking. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sentry-devtools-002",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sentry",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "observability",
+      "errors",
+      "devtools"
+    ],
+    "description": "Sentry error tracking. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sentry-devtools-012",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sentry",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "observability",
+      "errors",
+      "devtools"
+    ],
+    "description": "Sentry error tracking. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sentry-devtools-022",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sentry",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "observability",
+      "errors",
+      "devtools"
+    ],
+    "description": "Sentry error tracking. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sentry-finance-009",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sentry",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "observability",
+      "errors",
+      "finance"
+    ],
+    "description": "Sentry error tracking. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sentry-finance-019",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sentry",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "observability",
+      "errors",
+      "finance"
+    ],
+    "description": "Sentry error tracking. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
   }
 ]
