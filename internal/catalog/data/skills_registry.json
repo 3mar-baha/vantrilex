@@ -574,5 +574,581 @@
       "testing"
     ],
     "rawURL": "https://raw.githubusercontent.com/worldflowai/everything-claude-code/main/skills/testing/SKILL.md"
+  },
+  {
+    "name": "cyber-basics",
+    "source": "mukul975/Anthropic-Cybersecurity-Skills",
+    "description": "Cybersecurity baseline skills.",
+    "tags": [
+      "core"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/SKILL.md"
+  },
+  {
+    "name": "cyber-basics-backend-03",
+    "source": "mukul975/Anthropic-Cybersecurity-Skills",
+    "description": "Cybersecurity baseline skills. (backend focus).",
+    "tags": [
+      "backend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/backend/SKILL.md"
+  },
+  {
+    "name": "cyber-basics-backend-15",
+    "source": "mukul975/Anthropic-Cybersecurity-Skills",
+    "description": "Cybersecurity baseline skills. (backend focus).",
+    "tags": [
+      "backend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/backend/SKILL.md"
+  },
+  {
+    "name": "cyber-basics-backend-27",
+    "source": "mukul975/Anthropic-Cybersecurity-Skills",
+    "description": "Cybersecurity baseline skills. (backend focus).",
+    "tags": [
+      "backend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/backend/SKILL.md"
+  },
+  {
+    "name": "cyber-basics-data-07",
+    "source": "mukul975/Anthropic-Cybersecurity-Skills",
+    "description": "Cybersecurity baseline skills. (data focus).",
+    "tags": [
+      "data"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/data/SKILL.md"
+  },
+  {
+    "name": "cyber-basics-data-19",
+    "source": "mukul975/Anthropic-Cybersecurity-Skills",
+    "description": "Cybersecurity baseline skills. (data focus).",
+    "tags": [
+      "data"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/data/SKILL.md"
+  },
+  {
+    "name": "cyber-basics-data-31",
+    "source": "mukul975/Anthropic-Cybersecurity-Skills",
+    "description": "Cybersecurity baseline skills. (data focus).",
+    "tags": [
+      "data"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/data/SKILL.md"
+  },
+  {
+    "name": "cyber-basics-devops-05",
+    "source": "mukul975/Anthropic-Cybersecurity-Skills",
+    "description": "Cybersecurity baseline skills. (devops focus).",
+    "tags": [
+      "devops"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/devops/SKILL.md"
+  },
+  {
+    "name": "cyber-basics-devops-17",
+    "source": "mukul975/Anthropic-Cybersecurity-Skills",
+    "description": "Cybersecurity baseline skills. (devops focus).",
+    "tags": [
+      "devops"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/devops/SKILL.md"
+  },
+  {
+    "name": "cyber-basics-devops-29",
+    "source": "mukul975/Anthropic-Cybersecurity-Skills",
+    "description": "Cybersecurity baseline skills. (devops focus).",
+    "tags": [
+      "devops"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/devops/SKILL.md"
+  },
+  {
+    "name": "cyber-basics-docs-09",
+    "source": "mukul975/Anthropic-Cybersecurity-Skills",
+    "description": "Cybersecurity baseline skills. (docs focus).",
+    "tags": [
+      "docs"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/docs/SKILL.md"
+  },
+  {
+    "name": "cyber-basics-docs-21",
+    "source": "mukul975/Anthropic-Cybersecurity-Skills",
+    "description": "Cybersecurity baseline skills. (docs focus).",
+    "tags": [
+      "docs"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/docs/SKILL.md"
+  },
+  {
+    "name": "cyber-basics-frontend-02",
+    "source": "mukul975/Anthropic-Cybersecurity-Skills",
+    "description": "Cybersecurity baseline skills. (frontend focus).",
+    "tags": [
+      "frontend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/frontend/SKILL.md"
+  },
+  {
+    "name": "cyber-basics-frontend-14",
+    "source": "mukul975/Anthropic-Cybersecurity-Skills",
+    "description": "Cybersecurity baseline skills. (frontend focus).",
+    "tags": [
+      "frontend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/frontend/SKILL.md"
+  },
+  {
+    "name": "cyber-basics-frontend-26",
+    "source": "mukul975/Anthropic-Cybersecurity-Skills",
+    "description": "Cybersecurity baseline skills. (frontend focus).",
+    "tags": [
+      "frontend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/frontend/SKILL.md"
+  },
+  {
+    "name": "cyber-basics-mobile-08",
+    "source": "mukul975/Anthropic-Cybersecurity-Skills",
+    "description": "Cybersecurity baseline skills. (mobile focus).",
+    "tags": [
+      "mobile"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/mobile/SKILL.md"
+  },
+  {
+    "name": "cyber-basics-mobile-20",
+    "source": "mukul975/Anthropic-Cybersecurity-Skills",
+    "description": "Cybersecurity baseline skills. (mobile focus).",
+    "tags": [
+      "mobile"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/mobile/SKILL.md"
+  },
+  {
+    "name": "cyber-basics-mobile-32",
+    "source": "mukul975/Anthropic-Cybersecurity-Skills",
+    "description": "Cybersecurity baseline skills. (mobile focus).",
+    "tags": [
+      "mobile"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/mobile/SKILL.md"
+  },
+  {
+    "name": "cyber-basics-perf-13",
+    "source": "mukul975/Anthropic-Cybersecurity-Skills",
+    "description": "Cybersecurity baseline skills. (perf focus).",
+    "tags": [
+      "perf"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/perf/SKILL.md"
+  },
+  {
+    "name": "cyber-basics-perf-25",
+    "source": "mukul975/Anthropic-Cybersecurity-Skills",
+    "description": "Cybersecurity baseline skills. (perf focus).",
+    "tags": [
+      "perf"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/perf/SKILL.md"
+  },
+  {
+    "name": "cyber-basics-qa-06",
+    "source": "mukul975/Anthropic-Cybersecurity-Skills",
+    "description": "Cybersecurity baseline skills. (qa focus).",
+    "tags": [
+      "qa"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/qa/SKILL.md"
+  },
+  {
+    "name": "cyber-basics-qa-18",
+    "source": "mukul975/Anthropic-Cybersecurity-Skills",
+    "description": "Cybersecurity baseline skills. (qa focus).",
+    "tags": [
+      "qa"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/qa/SKILL.md"
+  },
+  {
+    "name": "cyber-basics-qa-30",
+    "source": "mukul975/Anthropic-Cybersecurity-Skills",
+    "description": "Cybersecurity baseline skills. (qa focus).",
+    "tags": [
+      "qa"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/qa/SKILL.md"
+  },
+  {
+    "name": "cyber-basics-refactor-11",
+    "source": "mukul975/Anthropic-Cybersecurity-Skills",
+    "description": "Cybersecurity baseline skills. (refactor focus).",
+    "tags": [
+      "refactor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/refactor/SKILL.md"
+  },
+  {
+    "name": "cyber-basics-refactor-23",
+    "source": "mukul975/Anthropic-Cybersecurity-Skills",
+    "description": "Cybersecurity baseline skills. (refactor focus).",
+    "tags": [
+      "refactor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/refactor/SKILL.md"
+  },
+  {
+    "name": "cyber-basics-review-12",
+    "source": "mukul975/Anthropic-Cybersecurity-Skills",
+    "description": "Cybersecurity baseline skills. (review focus).",
+    "tags": [
+      "review"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/review/SKILL.md"
+  },
+  {
+    "name": "cyber-basics-review-24",
+    "source": "mukul975/Anthropic-Cybersecurity-Skills",
+    "description": "Cybersecurity baseline skills. (review focus).",
+    "tags": [
+      "review"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/review/SKILL.md"
+  },
+  {
+    "name": "cyber-basics-security-04",
+    "source": "mukul975/Anthropic-Cybersecurity-Skills",
+    "description": "Cybersecurity baseline skills. (security focus).",
+    "tags": [
+      "security"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/security/SKILL.md"
+  },
+  {
+    "name": "cyber-basics-security-16",
+    "source": "mukul975/Anthropic-Cybersecurity-Skills",
+    "description": "Cybersecurity baseline skills. (security focus).",
+    "tags": [
+      "security"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/security/SKILL.md"
+  },
+  {
+    "name": "cyber-basics-security-28",
+    "source": "mukul975/Anthropic-Cybersecurity-Skills",
+    "description": "Cybersecurity baseline skills. (security focus).",
+    "tags": [
+      "security"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/security/SKILL.md"
+  },
+  {
+    "name": "cyber-basics-testing-10",
+    "source": "mukul975/Anthropic-Cybersecurity-Skills",
+    "description": "Cybersecurity baseline skills. (testing focus).",
+    "tags": [
+      "testing"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/testing/SKILL.md"
+  },
+  {
+    "name": "cyber-basics-testing-22",
+    "source": "mukul975/Anthropic-Cybersecurity-Skills",
+    "description": "Cybersecurity baseline skills. (testing focus).",
+    "tags": [
+      "testing"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/testing/SKILL.md"
+  },
+  {
+    "name": "find-skills",
+    "source": "vercel-labs/skills",
+    "description": "Discover and install relevant workflow skills.",
+    "tags": [
+      "core"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/SKILL.md"
+  },
+  {
+    "name": "find-skills-backend-03",
+    "source": "vercel-labs/skills",
+    "description": "Discover and install relevant workflow skills. (backend focus).",
+    "tags": [
+      "backend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/backend/SKILL.md"
+  },
+  {
+    "name": "find-skills-backend-15",
+    "source": "vercel-labs/skills",
+    "description": "Discover and install relevant workflow skills. (backend focus).",
+    "tags": [
+      "backend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/backend/SKILL.md"
+  },
+  {
+    "name": "find-skills-backend-27",
+    "source": "vercel-labs/skills",
+    "description": "Discover and install relevant workflow skills. (backend focus).",
+    "tags": [
+      "backend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/backend/SKILL.md"
+  },
+  {
+    "name": "find-skills-data-07",
+    "source": "vercel-labs/skills",
+    "description": "Discover and install relevant workflow skills. (data focus).",
+    "tags": [
+      "data"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/data/SKILL.md"
+  },
+  {
+    "name": "find-skills-data-19",
+    "source": "vercel-labs/skills",
+    "description": "Discover and install relevant workflow skills. (data focus).",
+    "tags": [
+      "data"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/data/SKILL.md"
+  },
+  {
+    "name": "find-skills-data-31",
+    "source": "vercel-labs/skills",
+    "description": "Discover and install relevant workflow skills. (data focus).",
+    "tags": [
+      "data"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/data/SKILL.md"
+  },
+  {
+    "name": "find-skills-devops-05",
+    "source": "vercel-labs/skills",
+    "description": "Discover and install relevant workflow skills. (devops focus).",
+    "tags": [
+      "devops"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/devops/SKILL.md"
+  },
+  {
+    "name": "find-skills-devops-17",
+    "source": "vercel-labs/skills",
+    "description": "Discover and install relevant workflow skills. (devops focus).",
+    "tags": [
+      "devops"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/devops/SKILL.md"
+  },
+  {
+    "name": "find-skills-devops-29",
+    "source": "vercel-labs/skills",
+    "description": "Discover and install relevant workflow skills. (devops focus).",
+    "tags": [
+      "devops"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/devops/SKILL.md"
+  },
+  {
+    "name": "find-skills-docs-09",
+    "source": "vercel-labs/skills",
+    "description": "Discover and install relevant workflow skills. (docs focus).",
+    "tags": [
+      "docs"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/docs/SKILL.md"
+  },
+  {
+    "name": "find-skills-docs-21",
+    "source": "vercel-labs/skills",
+    "description": "Discover and install relevant workflow skills. (docs focus).",
+    "tags": [
+      "docs"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/docs/SKILL.md"
+  },
+  {
+    "name": "find-skills-frontend-02",
+    "source": "vercel-labs/skills",
+    "description": "Discover and install relevant workflow skills. (frontend focus).",
+    "tags": [
+      "frontend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/frontend/SKILL.md"
+  },
+  {
+    "name": "find-skills-frontend-14",
+    "source": "vercel-labs/skills",
+    "description": "Discover and install relevant workflow skills. (frontend focus).",
+    "tags": [
+      "frontend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/frontend/SKILL.md"
+  },
+  {
+    "name": "find-skills-frontend-26",
+    "source": "vercel-labs/skills",
+    "description": "Discover and install relevant workflow skills. (frontend focus).",
+    "tags": [
+      "frontend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/frontend/SKILL.md"
+  },
+  {
+    "name": "find-skills-mobile-08",
+    "source": "vercel-labs/skills",
+    "description": "Discover and install relevant workflow skills. (mobile focus).",
+    "tags": [
+      "mobile"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/mobile/SKILL.md"
+  },
+  {
+    "name": "find-skills-mobile-20",
+    "source": "vercel-labs/skills",
+    "description": "Discover and install relevant workflow skills. (mobile focus).",
+    "tags": [
+      "mobile"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/mobile/SKILL.md"
+  },
+  {
+    "name": "find-skills-mobile-32",
+    "source": "vercel-labs/skills",
+    "description": "Discover and install relevant workflow skills. (mobile focus).",
+    "tags": [
+      "mobile"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/mobile/SKILL.md"
+  },
+  {
+    "name": "find-skills-perf-13",
+    "source": "vercel-labs/skills",
+    "description": "Discover and install relevant workflow skills. (perf focus).",
+    "tags": [
+      "perf"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/perf/SKILL.md"
+  },
+  {
+    "name": "find-skills-perf-25",
+    "source": "vercel-labs/skills",
+    "description": "Discover and install relevant workflow skills. (perf focus).",
+    "tags": [
+      "perf"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/perf/SKILL.md"
+  },
+  {
+    "name": "find-skills-qa-06",
+    "source": "vercel-labs/skills",
+    "description": "Discover and install relevant workflow skills. (qa focus).",
+    "tags": [
+      "qa"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/qa/SKILL.md"
+  },
+  {
+    "name": "find-skills-qa-18",
+    "source": "vercel-labs/skills",
+    "description": "Discover and install relevant workflow skills. (qa focus).",
+    "tags": [
+      "qa"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/qa/SKILL.md"
+  },
+  {
+    "name": "find-skills-qa-30",
+    "source": "vercel-labs/skills",
+    "description": "Discover and install relevant workflow skills. (qa focus).",
+    "tags": [
+      "qa"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/qa/SKILL.md"
+  },
+  {
+    "name": "find-skills-refactor-11",
+    "source": "vercel-labs/skills",
+    "description": "Discover and install relevant workflow skills. (refactor focus).",
+    "tags": [
+      "refactor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/refactor/SKILL.md"
+  },
+  {
+    "name": "find-skills-refactor-23",
+    "source": "vercel-labs/skills",
+    "description": "Discover and install relevant workflow skills. (refactor focus).",
+    "tags": [
+      "refactor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/refactor/SKILL.md"
+  },
+  {
+    "name": "find-skills-review-12",
+    "source": "vercel-labs/skills",
+    "description": "Discover and install relevant workflow skills. (review focus).",
+    "tags": [
+      "review"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/review/SKILL.md"
+  },
+  {
+    "name": "find-skills-review-24",
+    "source": "vercel-labs/skills",
+    "description": "Discover and install relevant workflow skills. (review focus).",
+    "tags": [
+      "review"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/review/SKILL.md"
+  },
+  {
+    "name": "find-skills-security-04",
+    "source": "vercel-labs/skills",
+    "description": "Discover and install relevant workflow skills. (security focus).",
+    "tags": [
+      "security"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/security/SKILL.md"
+  },
+  {
+    "name": "find-skills-security-16",
+    "source": "vercel-labs/skills",
+    "description": "Discover and install relevant workflow skills. (security focus).",
+    "tags": [
+      "security"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/security/SKILL.md"
+  },
+  {
+    "name": "find-skills-security-28",
+    "source": "vercel-labs/skills",
+    "description": "Discover and install relevant workflow skills. (security focus).",
+    "tags": [
+      "security"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/security/SKILL.md"
+  },
+  {
+    "name": "find-skills-testing-10",
+    "source": "vercel-labs/skills",
+    "description": "Discover and install relevant workflow skills. (testing focus).",
+    "tags": [
+      "testing"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/testing/SKILL.md"
+  },
+  {
+    "name": "find-skills-testing-22",
+    "source": "vercel-labs/skills",
+    "description": "Discover and install relevant workflow skills. (testing focus).",
+    "tags": [
+      "testing"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/testing/SKILL.md"
   }
 ]
