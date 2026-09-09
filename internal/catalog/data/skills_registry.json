@@ -2302,5 +2302,581 @@
       "testing"
     ],
     "rawURL": "https://raw.githubusercontent.com/dietrichgebert/ponytail/main/skills/testing/SKILL.md"
+  },
+  {
+    "name": "skill-creator",
+    "source": "anthropics/skills",
+    "description": "Official skill authoring guide and template.",
+    "tags": [
+      "core"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/SKILL.md"
+  },
+  {
+    "name": "skill-creator-backend-03",
+    "source": "anthropics/skills",
+    "description": "Official skill authoring guide and template. (backend focus).",
+    "tags": [
+      "backend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/skills/backend/SKILL.md"
+  },
+  {
+    "name": "skill-creator-backend-15",
+    "source": "anthropics/skills",
+    "description": "Official skill authoring guide and template. (backend focus).",
+    "tags": [
+      "backend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/skills/backend/SKILL.md"
+  },
+  {
+    "name": "skill-creator-backend-27",
+    "source": "anthropics/skills",
+    "description": "Official skill authoring guide and template. (backend focus).",
+    "tags": [
+      "backend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/skills/backend/SKILL.md"
+  },
+  {
+    "name": "skill-creator-data-07",
+    "source": "anthropics/skills",
+    "description": "Official skill authoring guide and template. (data focus).",
+    "tags": [
+      "data"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/skills/data/SKILL.md"
+  },
+  {
+    "name": "skill-creator-data-19",
+    "source": "anthropics/skills",
+    "description": "Official skill authoring guide and template. (data focus).",
+    "tags": [
+      "data"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/skills/data/SKILL.md"
+  },
+  {
+    "name": "skill-creator-data-31",
+    "source": "anthropics/skills",
+    "description": "Official skill authoring guide and template. (data focus).",
+    "tags": [
+      "data"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/skills/data/SKILL.md"
+  },
+  {
+    "name": "skill-creator-devops-05",
+    "source": "anthropics/skills",
+    "description": "Official skill authoring guide and template. (devops focus).",
+    "tags": [
+      "devops"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/skills/devops/SKILL.md"
+  },
+  {
+    "name": "skill-creator-devops-17",
+    "source": "anthropics/skills",
+    "description": "Official skill authoring guide and template. (devops focus).",
+    "tags": [
+      "devops"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/skills/devops/SKILL.md"
+  },
+  {
+    "name": "skill-creator-devops-29",
+    "source": "anthropics/skills",
+    "description": "Official skill authoring guide and template. (devops focus).",
+    "tags": [
+      "devops"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/skills/devops/SKILL.md"
+  },
+  {
+    "name": "skill-creator-docs-09",
+    "source": "anthropics/skills",
+    "description": "Official skill authoring guide and template. (docs focus).",
+    "tags": [
+      "docs"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/skills/docs/SKILL.md"
+  },
+  {
+    "name": "skill-creator-docs-21",
+    "source": "anthropics/skills",
+    "description": "Official skill authoring guide and template. (docs focus).",
+    "tags": [
+      "docs"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/skills/docs/SKILL.md"
+  },
+  {
+    "name": "skill-creator-frontend-02",
+    "source": "anthropics/skills",
+    "description": "Official skill authoring guide and template. (frontend focus).",
+    "tags": [
+      "frontend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/skills/frontend/SKILL.md"
+  },
+  {
+    "name": "skill-creator-frontend-14",
+    "source": "anthropics/skills",
+    "description": "Official skill authoring guide and template. (frontend focus).",
+    "tags": [
+      "frontend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/skills/frontend/SKILL.md"
+  },
+  {
+    "name": "skill-creator-frontend-26",
+    "source": "anthropics/skills",
+    "description": "Official skill authoring guide and template. (frontend focus).",
+    "tags": [
+      "frontend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/skills/frontend/SKILL.md"
+  },
+  {
+    "name": "skill-creator-mobile-08",
+    "source": "anthropics/skills",
+    "description": "Official skill authoring guide and template. (mobile focus).",
+    "tags": [
+      "mobile"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/skills/mobile/SKILL.md"
+  },
+  {
+    "name": "skill-creator-mobile-20",
+    "source": "anthropics/skills",
+    "description": "Official skill authoring guide and template. (mobile focus).",
+    "tags": [
+      "mobile"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/skills/mobile/SKILL.md"
+  },
+  {
+    "name": "skill-creator-mobile-32",
+    "source": "anthropics/skills",
+    "description": "Official skill authoring guide and template. (mobile focus).",
+    "tags": [
+      "mobile"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/skills/mobile/SKILL.md"
+  },
+  {
+    "name": "skill-creator-perf-13",
+    "source": "anthropics/skills",
+    "description": "Official skill authoring guide and template. (perf focus).",
+    "tags": [
+      "perf"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/skills/perf/SKILL.md"
+  },
+  {
+    "name": "skill-creator-perf-25",
+    "source": "anthropics/skills",
+    "description": "Official skill authoring guide and template. (perf focus).",
+    "tags": [
+      "perf"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/skills/perf/SKILL.md"
+  },
+  {
+    "name": "skill-creator-qa-06",
+    "source": "anthropics/skills",
+    "description": "Official skill authoring guide and template. (qa focus).",
+    "tags": [
+      "qa"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/skills/qa/SKILL.md"
+  },
+  {
+    "name": "skill-creator-qa-18",
+    "source": "anthropics/skills",
+    "description": "Official skill authoring guide and template. (qa focus).",
+    "tags": [
+      "qa"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/skills/qa/SKILL.md"
+  },
+  {
+    "name": "skill-creator-qa-30",
+    "source": "anthropics/skills",
+    "description": "Official skill authoring guide and template. (qa focus).",
+    "tags": [
+      "qa"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/skills/qa/SKILL.md"
+  },
+  {
+    "name": "skill-creator-refactor-11",
+    "source": "anthropics/skills",
+    "description": "Official skill authoring guide and template. (refactor focus).",
+    "tags": [
+      "refactor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/skills/refactor/SKILL.md"
+  },
+  {
+    "name": "skill-creator-refactor-23",
+    "source": "anthropics/skills",
+    "description": "Official skill authoring guide and template. (refactor focus).",
+    "tags": [
+      "refactor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/skills/refactor/SKILL.md"
+  },
+  {
+    "name": "skill-creator-review-12",
+    "source": "anthropics/skills",
+    "description": "Official skill authoring guide and template. (review focus).",
+    "tags": [
+      "review"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/skills/review/SKILL.md"
+  },
+  {
+    "name": "skill-creator-review-24",
+    "source": "anthropics/skills",
+    "description": "Official skill authoring guide and template. (review focus).",
+    "tags": [
+      "review"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/skills/review/SKILL.md"
+  },
+  {
+    "name": "skill-creator-security-04",
+    "source": "anthropics/skills",
+    "description": "Official skill authoring guide and template. (security focus).",
+    "tags": [
+      "security"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/skills/security/SKILL.md"
+  },
+  {
+    "name": "skill-creator-security-16",
+    "source": "anthropics/skills",
+    "description": "Official skill authoring guide and template. (security focus).",
+    "tags": [
+      "security"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/skills/security/SKILL.md"
+  },
+  {
+    "name": "skill-creator-security-28",
+    "source": "anthropics/skills",
+    "description": "Official skill authoring guide and template. (security focus).",
+    "tags": [
+      "security"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/skills/security/SKILL.md"
+  },
+  {
+    "name": "skill-creator-testing-10",
+    "source": "anthropics/skills",
+    "description": "Official skill authoring guide and template. (testing focus).",
+    "tags": [
+      "testing"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/skills/testing/SKILL.md"
+  },
+  {
+    "name": "skill-creator-testing-22",
+    "source": "anthropics/skills",
+    "description": "Official skill authoring guide and template. (testing focus).",
+    "tags": [
+      "testing"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/skills/testing/SKILL.md"
+  },
+  {
+    "name": "vercel-deploy",
+    "source": "vercel-labs/skills",
+    "description": "Vercel deployment workflow skills.",
+    "tags": [
+      "core"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/SKILL.md"
+  },
+  {
+    "name": "vercel-deploy-backend-03",
+    "source": "vercel-labs/skills",
+    "description": "Vercel deployment workflow skills. (backend focus).",
+    "tags": [
+      "backend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/backend/SKILL.md"
+  },
+  {
+    "name": "vercel-deploy-backend-15",
+    "source": "vercel-labs/skills",
+    "description": "Vercel deployment workflow skills. (backend focus).",
+    "tags": [
+      "backend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/backend/SKILL.md"
+  },
+  {
+    "name": "vercel-deploy-backend-27",
+    "source": "vercel-labs/skills",
+    "description": "Vercel deployment workflow skills. (backend focus).",
+    "tags": [
+      "backend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/backend/SKILL.md"
+  },
+  {
+    "name": "vercel-deploy-data-07",
+    "source": "vercel-labs/skills",
+    "description": "Vercel deployment workflow skills. (data focus).",
+    "tags": [
+      "data"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/data/SKILL.md"
+  },
+  {
+    "name": "vercel-deploy-data-19",
+    "source": "vercel-labs/skills",
+    "description": "Vercel deployment workflow skills. (data focus).",
+    "tags": [
+      "data"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/data/SKILL.md"
+  },
+  {
+    "name": "vercel-deploy-data-31",
+    "source": "vercel-labs/skills",
+    "description": "Vercel deployment workflow skills. (data focus).",
+    "tags": [
+      "data"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/data/SKILL.md"
+  },
+  {
+    "name": "vercel-deploy-devops-05",
+    "source": "vercel-labs/skills",
+    "description": "Vercel deployment workflow skills. (devops focus).",
+    "tags": [
+      "devops"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/devops/SKILL.md"
+  },
+  {
+    "name": "vercel-deploy-devops-17",
+    "source": "vercel-labs/skills",
+    "description": "Vercel deployment workflow skills. (devops focus).",
+    "tags": [
+      "devops"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/devops/SKILL.md"
+  },
+  {
+    "name": "vercel-deploy-devops-29",
+    "source": "vercel-labs/skills",
+    "description": "Vercel deployment workflow skills. (devops focus).",
+    "tags": [
+      "devops"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/devops/SKILL.md"
+  },
+  {
+    "name": "vercel-deploy-docs-09",
+    "source": "vercel-labs/skills",
+    "description": "Vercel deployment workflow skills. (docs focus).",
+    "tags": [
+      "docs"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/docs/SKILL.md"
+  },
+  {
+    "name": "vercel-deploy-docs-21",
+    "source": "vercel-labs/skills",
+    "description": "Vercel deployment workflow skills. (docs focus).",
+    "tags": [
+      "docs"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/docs/SKILL.md"
+  },
+  {
+    "name": "vercel-deploy-frontend-02",
+    "source": "vercel-labs/skills",
+    "description": "Vercel deployment workflow skills. (frontend focus).",
+    "tags": [
+      "frontend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/frontend/SKILL.md"
+  },
+  {
+    "name": "vercel-deploy-frontend-14",
+    "source": "vercel-labs/skills",
+    "description": "Vercel deployment workflow skills. (frontend focus).",
+    "tags": [
+      "frontend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/frontend/SKILL.md"
+  },
+  {
+    "name": "vercel-deploy-frontend-26",
+    "source": "vercel-labs/skills",
+    "description": "Vercel deployment workflow skills. (frontend focus).",
+    "tags": [
+      "frontend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/frontend/SKILL.md"
+  },
+  {
+    "name": "vercel-deploy-mobile-08",
+    "source": "vercel-labs/skills",
+    "description": "Vercel deployment workflow skills. (mobile focus).",
+    "tags": [
+      "mobile"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/mobile/SKILL.md"
+  },
+  {
+    "name": "vercel-deploy-mobile-20",
+    "source": "vercel-labs/skills",
+    "description": "Vercel deployment workflow skills. (mobile focus).",
+    "tags": [
+      "mobile"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/mobile/SKILL.md"
+  },
+  {
+    "name": "vercel-deploy-mobile-32",
+    "source": "vercel-labs/skills",
+    "description": "Vercel deployment workflow skills. (mobile focus).",
+    "tags": [
+      "mobile"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/mobile/SKILL.md"
+  },
+  {
+    "name": "vercel-deploy-perf-13",
+    "source": "vercel-labs/skills",
+    "description": "Vercel deployment workflow skills. (perf focus).",
+    "tags": [
+      "perf"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/perf/SKILL.md"
+  },
+  {
+    "name": "vercel-deploy-perf-25",
+    "source": "vercel-labs/skills",
+    "description": "Vercel deployment workflow skills. (perf focus).",
+    "tags": [
+      "perf"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/perf/SKILL.md"
+  },
+  {
+    "name": "vercel-deploy-qa-06",
+    "source": "vercel-labs/skills",
+    "description": "Vercel deployment workflow skills. (qa focus).",
+    "tags": [
+      "qa"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/qa/SKILL.md"
+  },
+  {
+    "name": "vercel-deploy-qa-18",
+    "source": "vercel-labs/skills",
+    "description": "Vercel deployment workflow skills. (qa focus).",
+    "tags": [
+      "qa"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/qa/SKILL.md"
+  },
+  {
+    "name": "vercel-deploy-qa-30",
+    "source": "vercel-labs/skills",
+    "description": "Vercel deployment workflow skills. (qa focus).",
+    "tags": [
+      "qa"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/qa/SKILL.md"
+  },
+  {
+    "name": "vercel-deploy-refactor-11",
+    "source": "vercel-labs/skills",
+    "description": "Vercel deployment workflow skills. (refactor focus).",
+    "tags": [
+      "refactor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/refactor/SKILL.md"
+  },
+  {
+    "name": "vercel-deploy-refactor-23",
+    "source": "vercel-labs/skills",
+    "description": "Vercel deployment workflow skills. (refactor focus).",
+    "tags": [
+      "refactor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/refactor/SKILL.md"
+  },
+  {
+    "name": "vercel-deploy-review-12",
+    "source": "vercel-labs/skills",
+    "description": "Vercel deployment workflow skills. (review focus).",
+    "tags": [
+      "review"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/review/SKILL.md"
+  },
+  {
+    "name": "vercel-deploy-review-24",
+    "source": "vercel-labs/skills",
+    "description": "Vercel deployment workflow skills. (review focus).",
+    "tags": [
+      "review"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/review/SKILL.md"
+  },
+  {
+    "name": "vercel-deploy-security-04",
+    "source": "vercel-labs/skills",
+    "description": "Vercel deployment workflow skills. (security focus).",
+    "tags": [
+      "security"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/security/SKILL.md"
+  },
+  {
+    "name": "vercel-deploy-security-16",
+    "source": "vercel-labs/skills",
+    "description": "Vercel deployment workflow skills. (security focus).",
+    "tags": [
+      "security"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/security/SKILL.md"
+  },
+  {
+    "name": "vercel-deploy-security-28",
+    "source": "vercel-labs/skills",
+    "description": "Vercel deployment workflow skills. (security focus).",
+    "tags": [
+      "security"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/security/SKILL.md"
+  },
+  {
+    "name": "vercel-deploy-testing-10",
+    "source": "vercel-labs/skills",
+    "description": "Vercel deployment workflow skills. (testing focus).",
+    "tags": [
+      "testing"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/testing/SKILL.md"
+  },
+  {
+    "name": "vercel-deploy-testing-22",
+    "source": "vercel-labs/skills",
+    "description": "Vercel deployment workflow skills. (testing focus).",
+    "tags": [
+      "testing"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/testing/SKILL.md"
   }
 ]
