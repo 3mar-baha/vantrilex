@@ -54,3 +54,22 @@ func hasCodingSignal(hay string) bool {
 	for _, k := range []string{"coder", "codex", "coding", "sonnet", "haiku", "kimi", "qwen", "flash", "code"} {
 		if strings.Contains(hay, k) {
 			return true
+		}
+	}
+	return false
+}
+
+func priceValue(s string) (float64, bool) {
+	s = strings.TrimSpace(strings.TrimPrefix(s, "$"))
+	if s == "" || s == "varies" || s == "n/a" {
+		return 0, false
+	}
+	f, err := strconv.ParseFloat(s, 64)
+	if err != nil {
+		return 0, false
+	}
+	return f, true
+}
+
+func isFree(m Model) bool {
+	if in, ok := priceValue(m.InputPerM); ok && in == 0 {
