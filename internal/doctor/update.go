@@ -38,3 +38,42 @@ func UpdateRunner(u RunnerUpdate, log func(string)) error {
 
 // UpdateAllRunners upgrades every runner concurrently; returns per-key errors.
 func UpdateAllRunners(log func(string)) map[string]error {
+	targets := RunnerUpdates()
+	var mu sync.Mutex
+	errs := map[string]error{}
+	var wg sync.WaitGroup
+	for _, u := range targets {
+		wg.Add(1)
+		go func(u RunnerUpdate) {
+			defer wg.Done()
+			if err := UpdateRunner(u, log); err != nil {
+				mu.Lock()
+				errs[u.Key] = err
+				mu.Unlock()
+			}
+		}(u)
+	}
+	wg.Wait()
+	return errs
+}
+
+// RunnerUpdateStatus tracks background update pill state.
+type RunnerUpdateStatus struct {
+	Updating bool
+	Done     bool
+	Errors   map[string]error
+}
+
+// Pill renders the sleek status pill text.
+func (s RunnerUpdateStatus) Pill() string {
+	if s.Updating {
+		return "[UPDATING RUNNERS...]"
+	}
+	if s.Done {
+		if len(s.Errors) > 0 {
+			return "[RUNNERS PARTIAL]"
+		}
+		return "[RUNNERS UP-TO-DATE]"
+	}
+	return "[RUNNERS CHECK PENDING]"
+}
