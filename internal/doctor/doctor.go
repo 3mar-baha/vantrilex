@@ -270,3 +270,71 @@ func ToolkitDirName(url string) string {
 func gitRemoteURL(dir string) string {
 	if !dirExists(filepath.Join(dir, ".git")) {
 		return ""
+	}
+	cmd := exec.Command("git", "-C", dir, "remote", "get-url", "origin")
+	out, err := cmd.Output()
+	if err != nil {
+		return ""
+	}
+	return strings.TrimSpace(string(out))
+}
+
+func normalizeGitURL(u string) string {
+	u = strings.TrimSpace(strings.ToLower(u))
+	u = strings.TrimSuffix(u, ".git")
+	u = strings.TrimSuffix(u, "/")
+	return u
+}
+
+func dirExists(p string) bool {
+	fi, err := os.Stat(p)
+	return err == nil && fi.IsDir()
+}
+
+func hasFiles(p string) bool {
+	entries, err := os.ReadDir(p)
+	return err == nil && len(entries) > 0
+}
+
+// SyncToolkit shallow-clones missing repos in parallel.
+// Progress callbacks receive human-readable lines.
+func SyncToolkit(log func(string)) error {
+	root, present, err := ToolkitStatus()
+	if err != nil {
+		return err
+	}
+	if err := os.MkdirAll(root, 0o755); err != nil {
+		return err
+	}
+	var wg sync.WaitGroup
+	errCh := make(chan error, len(ToolkitRepos))
+	for _, r := range ToolkitRepos {
+		if present[r.Dir] {
+			log(fmt.Sprintf("toolkit: %s cached", r.Dir))
+			continue
+		}
+		wg.Add(1)
+		go func(url, dir string) {
+			defer wg.Done()
+			dest := filepath.Join(root, dir)
+			_ = os.RemoveAll(dest) // clean partial clones
+			log(fmt.Sprintf("toolkit: cloning %s ...", dir))
+			cmd := exec.Command("git", "clone", "--depth", "1", url, dest)
+			if out, err := cmd.CombinedOutput(); err != nil {
+				errCh <- fmt.Errorf("clone %s: %s", dir, oneLine(string(out)))
+				return
+			}
+			log(fmt.Sprintf("toolkit: %s ready", dir))
+		}(r.URL, r.Dir)
+	}
+	wg.Wait()
+	close(errCh)
+	var msgs []string
+	for e := range errCh {
+		msgs = append(msgs, e.Error())
+	}
+	if len(msgs) > 0 {
+		return fmt.Errorf("%s", strings.Join(msgs, "; "))
+	}
+	return nil
+}
