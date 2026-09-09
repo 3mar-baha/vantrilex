@@ -208,3 +208,73 @@ func Apply(workspace, runnerID, modelID, effort string) ([]string, error) {
 			return err
 		}
 		created = append(created, rel)
+		return nil
+	}
+	for _, d := range []string{".claude/skills", ".claude/agents"} {
+		p, err := mk(d)
+		if err != nil {
+			return created, err
+		}
+		_ = p
+	}
+	header := fmt.Sprintf("<!-- Vantrilex: runner=%s model=%s effort=%s -->\n", runnerID, modelID, effort)
+	if err := writeOnce("CLAUDE.md", header+claudeMdTemplate+toolkitsMarkdown()); err != nil {
+		return created, err
+	}
+	if err := writeOnce("opencode.json", opencodeJSONTemplate); err != nil {
+		return created, err
+	}
+	if err := writeOnce(".claude/skills/starter/SKILL.md", fmt.Sprintf(starterSkillTemplate, "starter")); err != nil {
+		return created, err
+	}
+	if err := writeOnce(".claude/agents/planner.md", fmt.Sprintf(starterAgentTemplate, "planner", "planner")); err != nil {
+		return created, err
+	}
+	// Per-toolkit bridge files: one .md per designated toolkit pointing at
+	// the shared $HOME/.vantrilex/toolkit cache (never overwrites).
+	toolkitRoot, _ := doctor.ToolkitDir()
+	for _, t := range Toolkits() {
+		if err := writeOnce(BridgeRelPath(t), bridgeContent(t, toolkitRoot, runnerID, modelID, effort)); err != nil {
+			return created, err
+		}
+	}
+	// Record external skill refs (legacy compat file).
+	ext := "External skills:\n- vercel-labs/skills@find-skills\n- Anthropic Official skill-creator (skill-creator)\n"
+	_ = writeOnce(".claude/skills/EXTERNAL.md", ext)
+	return created, nil
+}
+
+// bridgeContent renders one toolkit bridge file. cacheDirName resolves the
+// actual on-disk cache directory (tolerating alternate names); when the
+// toolkit is not yet cloned it falls back to the expected dir and flags
+// the bridge as pending a doctor sync.
+func bridgeContent(t Toolkit, toolkitRoot, runnerID, modelID, effort string) string {
+	dir := doctor.ToolkitDirName(t.Source)
+	status := "cached"
+	if dir == "" {
+		dir = t.Dir
+		status = "pending — run the Vantrilex doctor with [S] to sync the toolkit"
+	}
+	abs := filepath.Join(toolkitRoot, dir)
+	var b strings.Builder
+	fmt.Fprintf(&b, "# Toolkit: %s\n\n", t.Name)
+	fmt.Fprintf(&b, "Provisioned by the Vantrilex launcher (runner=%s model=%s effort=%s).\n\n", runnerID, modelID, effort)
+	fmt.Fprintf(&b, "- Source: %s\n", t.Source)
+	fmt.Fprintf(&b, "- Local cache: %s\n", abs)
+	fmt.Fprintf(&b, "- Status at scaffold time: %s\n", status)
+	fmt.Fprintf(&b, "- Skill focus: %s\n\n", t.SkillHint)
+	b.WriteString("## Usage\n\n")
+	fmt.Fprintf(&b, "Glob `%s` for `**/SKILL.md` and follow the matched skill instructions.\n", abs)
+	b.WriteString("Delete this file and re-run provisioning to refresh it.\n")
+	return b.String()
+}
+
+// WorkspaceExists checks path existence for the wizard prompt.
+func WorkspaceExists(p string) bool {
+	p = strings.TrimSpace(p)
+	if p == "" {
+		return false
+	}
+	fi, err := os.Stat(p)
+	return err == nil && fi.IsDir()
+}
