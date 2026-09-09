@@ -35,3 +35,22 @@ func hasReasoningSignal(hay string) bool {
 		if strings.Contains(hay, k) {
 			return true
 		}
+	}
+	return false
+}
+
+func hasVisionSignal(hay string) bool {
+	hay = strings.ToLower(hay)
+	for _, k := range []string{"vision", "multimodal", "image", "maverick", "gemini", "glm", "minimax", "llama-4", "opus-4-6-vision"} {
+		if strings.Contains(hay, k) {
+			return true
+		}
+	}
+	return false
+}
+
+func hasCodingSignal(hay string) bool {
+	hay = strings.ToLower(hay)
+	for _, k := range []string{"coder", "codex", "coding", "sonnet", "haiku", "kimi", "qwen", "flash", "code"} {
+		if strings.Contains(hay, k) {
+			return true
