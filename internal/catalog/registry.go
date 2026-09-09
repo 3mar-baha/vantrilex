@@ -180,3 +180,28 @@ func SearchRegistry(items []RegistryItem, query string) []RegistryItem {
 	toks := strings.Fields(q)
 	out := make([]RegistryItem, 0, len(items))
 	for _, it := range items {
+		hay := strings.ToLower(it.Name + " " + it.Desc + " " + strings.Join(it.Tags, " ") + " " + it.Source)
+		ok := true
+		for _, t := range toks {
+			if !strings.Contains(hay, t) {
+				ok = false
+				break
+			}
+		}
+		if ok {
+			out = append(out, it)
+		}
+	}
+	return out
+}
+
+// SelectedCount counts preselected items.
+func SelectedCount(items []RegistryItem) int {
+	n := 0
+	for _, it := range items {
+		if it.Selected {
+			n++
+		}
+	}
+	return n
+}
