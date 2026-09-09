@@ -1150,5 +1150,581 @@
       "testing"
     ],
     "rawURL": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/testing/SKILL.md"
+  },
+  {
+    "name": "guard-rails",
+    "source": "amElnagdy/guard-skills",
+    "description": "Safety guardrails and policy skills.",
+    "tags": [
+      "core"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/amElnagdy/guard-skills/main/SKILL.md"
+  },
+  {
+    "name": "guard-rails-backend-03",
+    "source": "amElnagdy/guard-skills",
+    "description": "Safety guardrails and policy skills. (backend focus).",
+    "tags": [
+      "backend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/amElnagdy/guard-skills/main/skills/backend/SKILL.md"
+  },
+  {
+    "name": "guard-rails-backend-15",
+    "source": "amElnagdy/guard-skills",
+    "description": "Safety guardrails and policy skills. (backend focus).",
+    "tags": [
+      "backend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/amElnagdy/guard-skills/main/skills/backend/SKILL.md"
+  },
+  {
+    "name": "guard-rails-backend-27",
+    "source": "amElnagdy/guard-skills",
+    "description": "Safety guardrails and policy skills. (backend focus).",
+    "tags": [
+      "backend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/amElnagdy/guard-skills/main/skills/backend/SKILL.md"
+  },
+  {
+    "name": "guard-rails-data-07",
+    "source": "amElnagdy/guard-skills",
+    "description": "Safety guardrails and policy skills. (data focus).",
+    "tags": [
+      "data"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/amElnagdy/guard-skills/main/skills/data/SKILL.md"
+  },
+  {
+    "name": "guard-rails-data-19",
+    "source": "amElnagdy/guard-skills",
+    "description": "Safety guardrails and policy skills. (data focus).",
+    "tags": [
+      "data"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/amElnagdy/guard-skills/main/skills/data/SKILL.md"
+  },
+  {
+    "name": "guard-rails-data-31",
+    "source": "amElnagdy/guard-skills",
+    "description": "Safety guardrails and policy skills. (data focus).",
+    "tags": [
+      "data"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/amElnagdy/guard-skills/main/skills/data/SKILL.md"
+  },
+  {
+    "name": "guard-rails-devops-05",
+    "source": "amElnagdy/guard-skills",
+    "description": "Safety guardrails and policy skills. (devops focus).",
+    "tags": [
+      "devops"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/amElnagdy/guard-skills/main/skills/devops/SKILL.md"
+  },
+  {
+    "name": "guard-rails-devops-17",
+    "source": "amElnagdy/guard-skills",
+    "description": "Safety guardrails and policy skills. (devops focus).",
+    "tags": [
+      "devops"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/amElnagdy/guard-skills/main/skills/devops/SKILL.md"
+  },
+  {
+    "name": "guard-rails-devops-29",
+    "source": "amElnagdy/guard-skills",
+    "description": "Safety guardrails and policy skills. (devops focus).",
+    "tags": [
+      "devops"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/amElnagdy/guard-skills/main/skills/devops/SKILL.md"
+  },
+  {
+    "name": "guard-rails-docs-09",
+    "source": "amElnagdy/guard-skills",
+    "description": "Safety guardrails and policy skills. (docs focus).",
+    "tags": [
+      "docs"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/amElnagdy/guard-skills/main/skills/docs/SKILL.md"
+  },
+  {
+    "name": "guard-rails-docs-21",
+    "source": "amElnagdy/guard-skills",
+    "description": "Safety guardrails and policy skills. (docs focus).",
+    "tags": [
+      "docs"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/amElnagdy/guard-skills/main/skills/docs/SKILL.md"
+  },
+  {
+    "name": "guard-rails-frontend-02",
+    "source": "amElnagdy/guard-skills",
+    "description": "Safety guardrails and policy skills. (frontend focus).",
+    "tags": [
+      "frontend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/amElnagdy/guard-skills/main/skills/frontend/SKILL.md"
+  },
+  {
+    "name": "guard-rails-frontend-14",
+    "source": "amElnagdy/guard-skills",
+    "description": "Safety guardrails and policy skills. (frontend focus).",
+    "tags": [
+      "frontend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/amElnagdy/guard-skills/main/skills/frontend/SKILL.md"
+  },
+  {
+    "name": "guard-rails-frontend-26",
+    "source": "amElnagdy/guard-skills",
+    "description": "Safety guardrails and policy skills. (frontend focus).",
+    "tags": [
+      "frontend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/amElnagdy/guard-skills/main/skills/frontend/SKILL.md"
+  },
+  {
+    "name": "guard-rails-mobile-08",
+    "source": "amElnagdy/guard-skills",
+    "description": "Safety guardrails and policy skills. (mobile focus).",
+    "tags": [
+      "mobile"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/amElnagdy/guard-skills/main/skills/mobile/SKILL.md"
+  },
+  {
+    "name": "guard-rails-mobile-20",
+    "source": "amElnagdy/guard-skills",
+    "description": "Safety guardrails and policy skills. (mobile focus).",
+    "tags": [
+      "mobile"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/amElnagdy/guard-skills/main/skills/mobile/SKILL.md"
+  },
+  {
+    "name": "guard-rails-mobile-32",
+    "source": "amElnagdy/guard-skills",
+    "description": "Safety guardrails and policy skills. (mobile focus).",
+    "tags": [
+      "mobile"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/amElnagdy/guard-skills/main/skills/mobile/SKILL.md"
+  },
+  {
+    "name": "guard-rails-perf-13",
+    "source": "amElnagdy/guard-skills",
+    "description": "Safety guardrails and policy skills. (perf focus).",
+    "tags": [
+      "perf"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/amElnagdy/guard-skills/main/skills/perf/SKILL.md"
+  },
+  {
+    "name": "guard-rails-perf-25",
+    "source": "amElnagdy/guard-skills",
+    "description": "Safety guardrails and policy skills. (perf focus).",
+    "tags": [
+      "perf"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/amElnagdy/guard-skills/main/skills/perf/SKILL.md"
+  },
+  {
+    "name": "guard-rails-qa-06",
+    "source": "amElnagdy/guard-skills",
+    "description": "Safety guardrails and policy skills. (qa focus).",
+    "tags": [
+      "qa"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/amElnagdy/guard-skills/main/skills/qa/SKILL.md"
+  },
+  {
+    "name": "guard-rails-qa-18",
+    "source": "amElnagdy/guard-skills",
+    "description": "Safety guardrails and policy skills. (qa focus).",
+    "tags": [
+      "qa"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/amElnagdy/guard-skills/main/skills/qa/SKILL.md"
+  },
+  {
+    "name": "guard-rails-qa-30",
+    "source": "amElnagdy/guard-skills",
+    "description": "Safety guardrails and policy skills. (qa focus).",
+    "tags": [
+      "qa"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/amElnagdy/guard-skills/main/skills/qa/SKILL.md"
+  },
+  {
+    "name": "guard-rails-refactor-11",
+    "source": "amElnagdy/guard-skills",
+    "description": "Safety guardrails and policy skills. (refactor focus).",
+    "tags": [
+      "refactor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/amElnagdy/guard-skills/main/skills/refactor/SKILL.md"
+  },
+  {
+    "name": "guard-rails-refactor-23",
+    "source": "amElnagdy/guard-skills",
+    "description": "Safety guardrails and policy skills. (refactor focus).",
+    "tags": [
+      "refactor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/amElnagdy/guard-skills/main/skills/refactor/SKILL.md"
+  },
+  {
+    "name": "guard-rails-review-12",
+    "source": "amElnagdy/guard-skills",
+    "description": "Safety guardrails and policy skills. (review focus).",
+    "tags": [
+      "review"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/amElnagdy/guard-skills/main/skills/review/SKILL.md"
+  },
+  {
+    "name": "guard-rails-review-24",
+    "source": "amElnagdy/guard-skills",
+    "description": "Safety guardrails and policy skills. (review focus).",
+    "tags": [
+      "review"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/amElnagdy/guard-skills/main/skills/review/SKILL.md"
+  },
+  {
+    "name": "guard-rails-security-04",
+    "source": "amElnagdy/guard-skills",
+    "description": "Safety guardrails and policy skills. (security focus).",
+    "tags": [
+      "security"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/amElnagdy/guard-skills/main/skills/security/SKILL.md"
+  },
+  {
+    "name": "guard-rails-security-16",
+    "source": "amElnagdy/guard-skills",
+    "description": "Safety guardrails and policy skills. (security focus).",
+    "tags": [
+      "security"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/amElnagdy/guard-skills/main/skills/security/SKILL.md"
+  },
+  {
+    "name": "guard-rails-security-28",
+    "source": "amElnagdy/guard-skills",
+    "description": "Safety guardrails and policy skills. (security focus).",
+    "tags": [
+      "security"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/amElnagdy/guard-skills/main/skills/security/SKILL.md"
+  },
+  {
+    "name": "guard-rails-testing-10",
+    "source": "amElnagdy/guard-skills",
+    "description": "Safety guardrails and policy skills. (testing focus).",
+    "tags": [
+      "testing"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/amElnagdy/guard-skills/main/skills/testing/SKILL.md"
+  },
+  {
+    "name": "guard-rails-testing-22",
+    "source": "amElnagdy/guard-skills",
+    "description": "Safety guardrails and policy skills. (testing focus).",
+    "tags": [
+      "testing"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/amElnagdy/guard-skills/main/skills/testing/SKILL.md"
+  },
+  {
+    "name": "hook-author",
+    "source": "claude-code-hooks-mastery",
+    "description": "Lifecycle hook authoring skills.",
+    "tags": [
+      "core"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/claude-code-hooks-mastery/main/SKILL.md"
+  },
+  {
+    "name": "hook-author-backend-03",
+    "source": "claude-code-hooks-mastery",
+    "description": "Lifecycle hook authoring skills. (backend focus).",
+    "tags": [
+      "backend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/claude-code-hooks-mastery/main/skills/backend/SKILL.md"
+  },
+  {
+    "name": "hook-author-backend-15",
+    "source": "claude-code-hooks-mastery",
+    "description": "Lifecycle hook authoring skills. (backend focus).",
+    "tags": [
+      "backend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/claude-code-hooks-mastery/main/skills/backend/SKILL.md"
+  },
+  {
+    "name": "hook-author-backend-27",
+    "source": "claude-code-hooks-mastery",
+    "description": "Lifecycle hook authoring skills. (backend focus).",
+    "tags": [
+      "backend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/claude-code-hooks-mastery/main/skills/backend/SKILL.md"
+  },
+  {
+    "name": "hook-author-data-07",
+    "source": "claude-code-hooks-mastery",
+    "description": "Lifecycle hook authoring skills. (data focus).",
+    "tags": [
+      "data"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/claude-code-hooks-mastery/main/skills/data/SKILL.md"
+  },
+  {
+    "name": "hook-author-data-19",
+    "source": "claude-code-hooks-mastery",
+    "description": "Lifecycle hook authoring skills. (data focus).",
+    "tags": [
+      "data"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/claude-code-hooks-mastery/main/skills/data/SKILL.md"
+  },
+  {
+    "name": "hook-author-data-31",
+    "source": "claude-code-hooks-mastery",
+    "description": "Lifecycle hook authoring skills. (data focus).",
+    "tags": [
+      "data"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/claude-code-hooks-mastery/main/skills/data/SKILL.md"
+  },
+  {
+    "name": "hook-author-devops-05",
+    "source": "claude-code-hooks-mastery",
+    "description": "Lifecycle hook authoring skills. (devops focus).",
+    "tags": [
+      "devops"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/claude-code-hooks-mastery/main/skills/devops/SKILL.md"
+  },
+  {
+    "name": "hook-author-devops-17",
+    "source": "claude-code-hooks-mastery",
+    "description": "Lifecycle hook authoring skills. (devops focus).",
+    "tags": [
+      "devops"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/claude-code-hooks-mastery/main/skills/devops/SKILL.md"
+  },
+  {
+    "name": "hook-author-devops-29",
+    "source": "claude-code-hooks-mastery",
+    "description": "Lifecycle hook authoring skills. (devops focus).",
+    "tags": [
+      "devops"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/claude-code-hooks-mastery/main/skills/devops/SKILL.md"
+  },
+  {
+    "name": "hook-author-docs-09",
+    "source": "claude-code-hooks-mastery",
+    "description": "Lifecycle hook authoring skills. (docs focus).",
+    "tags": [
+      "docs"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/claude-code-hooks-mastery/main/skills/docs/SKILL.md"
+  },
+  {
+    "name": "hook-author-docs-21",
+    "source": "claude-code-hooks-mastery",
+    "description": "Lifecycle hook authoring skills. (docs focus).",
+    "tags": [
+      "docs"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/claude-code-hooks-mastery/main/skills/docs/SKILL.md"
+  },
+  {
+    "name": "hook-author-frontend-02",
+    "source": "claude-code-hooks-mastery",
+    "description": "Lifecycle hook authoring skills. (frontend focus).",
+    "tags": [
+      "frontend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/claude-code-hooks-mastery/main/skills/frontend/SKILL.md"
+  },
+  {
+    "name": "hook-author-frontend-14",
+    "source": "claude-code-hooks-mastery",
+    "description": "Lifecycle hook authoring skills. (frontend focus).",
+    "tags": [
+      "frontend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/claude-code-hooks-mastery/main/skills/frontend/SKILL.md"
+  },
+  {
+    "name": "hook-author-frontend-26",
+    "source": "claude-code-hooks-mastery",
+    "description": "Lifecycle hook authoring skills. (frontend focus).",
+    "tags": [
+      "frontend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/claude-code-hooks-mastery/main/skills/frontend/SKILL.md"
+  },
+  {
+    "name": "hook-author-mobile-08",
+    "source": "claude-code-hooks-mastery",
+    "description": "Lifecycle hook authoring skills. (mobile focus).",
+    "tags": [
+      "mobile"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/claude-code-hooks-mastery/main/skills/mobile/SKILL.md"
+  },
+  {
+    "name": "hook-author-mobile-20",
+    "source": "claude-code-hooks-mastery",
+    "description": "Lifecycle hook authoring skills. (mobile focus).",
+    "tags": [
+      "mobile"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/claude-code-hooks-mastery/main/skills/mobile/SKILL.md"
+  },
+  {
+    "name": "hook-author-mobile-32",
+    "source": "claude-code-hooks-mastery",
+    "description": "Lifecycle hook authoring skills. (mobile focus).",
+    "tags": [
+      "mobile"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/claude-code-hooks-mastery/main/skills/mobile/SKILL.md"
+  },
+  {
+    "name": "hook-author-perf-13",
+    "source": "claude-code-hooks-mastery",
+    "description": "Lifecycle hook authoring skills. (perf focus).",
+    "tags": [
+      "perf"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/claude-code-hooks-mastery/main/skills/perf/SKILL.md"
+  },
+  {
+    "name": "hook-author-perf-25",
+    "source": "claude-code-hooks-mastery",
+    "description": "Lifecycle hook authoring skills. (perf focus).",
+    "tags": [
+      "perf"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/claude-code-hooks-mastery/main/skills/perf/SKILL.md"
+  },
+  {
+    "name": "hook-author-qa-06",
+    "source": "claude-code-hooks-mastery",
+    "description": "Lifecycle hook authoring skills. (qa focus).",
+    "tags": [
+      "qa"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/claude-code-hooks-mastery/main/skills/qa/SKILL.md"
+  },
+  {
+    "name": "hook-author-qa-18",
+    "source": "claude-code-hooks-mastery",
+    "description": "Lifecycle hook authoring skills. (qa focus).",
+    "tags": [
+      "qa"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/claude-code-hooks-mastery/main/skills/qa/SKILL.md"
+  },
+  {
+    "name": "hook-author-qa-30",
+    "source": "claude-code-hooks-mastery",
+    "description": "Lifecycle hook authoring skills. (qa focus).",
+    "tags": [
+      "qa"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/claude-code-hooks-mastery/main/skills/qa/SKILL.md"
+  },
+  {
+    "name": "hook-author-refactor-11",
+    "source": "claude-code-hooks-mastery",
+    "description": "Lifecycle hook authoring skills. (refactor focus).",
+    "tags": [
+      "refactor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/claude-code-hooks-mastery/main/skills/refactor/SKILL.md"
+  },
+  {
+    "name": "hook-author-refactor-23",
+    "source": "claude-code-hooks-mastery",
+    "description": "Lifecycle hook authoring skills. (refactor focus).",
+    "tags": [
+      "refactor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/claude-code-hooks-mastery/main/skills/refactor/SKILL.md"
+  },
+  {
+    "name": "hook-author-review-12",
+    "source": "claude-code-hooks-mastery",
+    "description": "Lifecycle hook authoring skills. (review focus).",
+    "tags": [
+      "review"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/claude-code-hooks-mastery/main/skills/review/SKILL.md"
+  },
+  {
+    "name": "hook-author-review-24",
+    "source": "claude-code-hooks-mastery",
+    "description": "Lifecycle hook authoring skills. (review focus).",
+    "tags": [
+      "review"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/claude-code-hooks-mastery/main/skills/review/SKILL.md"
+  },
+  {
+    "name": "hook-author-security-04",
+    "source": "claude-code-hooks-mastery",
+    "description": "Lifecycle hook authoring skills. (security focus).",
+    "tags": [
+      "security"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/claude-code-hooks-mastery/main/skills/security/SKILL.md"
+  },
+  {
+    "name": "hook-author-security-16",
+    "source": "claude-code-hooks-mastery",
+    "description": "Lifecycle hook authoring skills. (security focus).",
+    "tags": [
+      "security"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/claude-code-hooks-mastery/main/skills/security/SKILL.md"
+  },
+  {
+    "name": "hook-author-security-28",
+    "source": "claude-code-hooks-mastery",
+    "description": "Lifecycle hook authoring skills. (security focus).",
+    "tags": [
+      "security"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/claude-code-hooks-mastery/main/skills/security/SKILL.md"
+  },
+  {
+    "name": "hook-author-testing-10",
+    "source": "claude-code-hooks-mastery",
+    "description": "Lifecycle hook authoring skills. (testing focus).",
+    "tags": [
+      "testing"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/claude-code-hooks-mastery/main/skills/testing/SKILL.md"
+  },
+  {
+    "name": "hook-author-testing-22",
+    "source": "claude-code-hooks-mastery",
+    "description": "Lifecycle hook authoring skills. (testing focus).",
+    "tags": [
+      "testing"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/claude-code-hooks-mastery/main/skills/testing/SKILL.md"
   }
 ]
