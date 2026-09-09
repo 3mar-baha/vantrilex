@@ -134,3 +134,71 @@ func MissingRequired(all []Status) []Status {
 func MissingAny(all []Status) []Status {
 	var out []Status
 	for _, s := range all {
+		if !s.Found {
+			out = append(out, s)
+		}
+	}
+	return out
+}
+
+// InstallCommands returns the human-readable install plan for a dep.
+func InstallCommands(d Dep) []string {
+	var cmds []string
+	if runtime.GOOS == "windows" && d.WingetID != "" {
+		cmds = append(cmds, fmt.Sprintf("winget install -e --id %s", d.WingetID))
+	}
+	if d.Kind == "npm" && d.NpmPkg != "" {
+		cmds = append(cmds, fmt.Sprintf("npm install -g %s", d.NpmPkg))
+	}
+	if len(cmds) == 0 && runtime.GOOS != "windows" {
+		cmds = append(cmds, fmt.Sprintf("install %s via system package manager", d.Binary))
+	}
+	return cmds
+}
+
+// InstallOne attempts a non-destructive install of a missing dep.
+// It prefers winget on Windows, then npm for npm-kind deps.
+func InstallOne(d Dep, log func(string)) error {
+	if _, ok := LookPath(d.Binary, d.Fallbacks); ok {
+		return nil // already present (race-safe)
+	}
+	if runtime.GOOS == "windows" && d.WingetID != "" {
+		log(fmt.Sprintf("winget: installing %s ...", d.WingetID))
+		cmd := exec.Command("winget", "install", "-e", "--silent", "--accept-package-agreements", "--accept-source-agreements", "--id", d.WingetID)
+		out, err := cmd.CombinedOutput()
+		if err == nil {
+			return nil
+		}
+		log(fmt.Sprintf("winget failed: %s", oneLine(string(out))))
+	}
+	if d.Kind == "npm" && d.NpmPkg != "" {
+		log(fmt.Sprintf("npm: installing -g %s ...", d.NpmPkg))
+		cmd := exec.Command("npm", "install", "-g", d.NpmPkg)
+		out, err := cmd.CombinedOutput()
+		if err != nil {
+			return fmt.Errorf("npm install failed: %s", oneLine(string(out)))
+		}
+		return nil
+	}
+	if d.Key == "npx" {
+		return fmt.Errorf("npx ships with Node.js — install Node first")
+	}
+	return fmt.Errorf("no automatic installer for %s on %s", d.Binary, runtime.GOOS)
+}
+
+func oneLine(s string) string {
+	s = strings.TrimSpace(s)
+	if i := strings.Index(s, "\n"); i >= 0 {
+		s = s[:i]
+	}
+	if len(s) > 220 {
+		s = s[:220]
+	}
+	return s
+}
+
+// ToolkitDir returns $HOME/.vantrilex/toolkit.
+func ToolkitDir() (string, error) {
+	home, err := os.UserHomeDir()
+	if err != nil {
+		return "", err
