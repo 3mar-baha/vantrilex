@@ -1,0 +1,198 @@
+[
+  {
+    "name": "changelog-writer",
+    "marketplace": "community",
+    "description": "Changelog drafting from git history.",
+    "installRef": "community/changelog-writer",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "changelog-writer-ci-07",
+    "marketplace": "marketplace-essentials",
+    "description": "Changelog drafting from git history. Variant.",
+    "installRef": "marketplace-essentials/changelog-writer-ci-07",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "changelog-writer-core-09",
+    "marketplace": "marketplace-essentials",
+    "description": "Changelog drafting from git history. Variant.",
+    "installRef": "marketplace-essentials/changelog-writer-core-09",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "changelog-writer-dx-08",
+    "marketplace": "claude-plugins-community",
+    "description": "Changelog drafting from git history. Variant.",
+    "installRef": "claude-plugins-community/changelog-writer-dx-08",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "changelog-writer-edge-10",
+    "marketplace": "claude-plugins-community",
+    "description": "Changelog drafting from git history. Variant.",
+    "installRef": "claude-plugins-community/changelog-writer-edge-10",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "changelog-writer-extended-05",
+    "marketplace": "marketplace-essentials",
+    "description": "Changelog drafting from git history. Variant.",
+    "installRef": "marketplace-essentials/changelog-writer-extended-05",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "changelog-writer-kit-11",
+    "marketplace": "marketplace-essentials",
+    "description": "Changelog drafting from git history. Variant.",
+    "installRef": "marketplace-essentials/changelog-writer-kit-11",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "changelog-writer-lite-03",
+    "marketplace": "marketplace-essentials",
+    "description": "Changelog drafting from git history. Variant.",
+    "installRef": "marketplace-essentials/changelog-writer-lite-03",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "changelog-writer-plus-04",
+    "marketplace": "claude-plugins-community",
+    "description": "Changelog drafting from git history. Variant.",
+    "installRef": "claude-plugins-community/changelog-writer-plus-04",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "changelog-writer-pro-02",
+    "marketplace": "claude-plugins-community",
+    "description": "Changelog drafting from git history. Variant.",
+    "installRef": "claude-plugins-community/changelog-writer-pro-02",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "changelog-writer-team-06",
+    "marketplace": "claude-plugins-community",
+    "description": "Changelog drafting from git history. Variant.",
+    "installRef": "claude-plugins-community/changelog-writer-team-06",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "circuit-breaker-guard",
+    "marketplace": "community",
+    "description": "Runaway-loop protection guards for agent sessions.",
+    "installRef": "community/circuit-breaker-guard",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "circuit-breaker-guard-ci-07",
+    "marketplace": "marketplace-essentials",
+    "description": "Runaway-loop protection guards for agent sessions. Variant.",
+    "installRef": "marketplace-essentials/circuit-breaker-guard-ci-07",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "circuit-breaker-guard-core-09",
+    "marketplace": "marketplace-essentials",
+    "description": "Runaway-loop protection guards for agent sessions. Variant.",
+    "installRef": "marketplace-essentials/circuit-breaker-guard-core-09",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "circuit-breaker-guard-dx-08",
+    "marketplace": "claude-plugins-community",
+    "description": "Runaway-loop protection guards for agent sessions. Variant.",
+    "installRef": "claude-plugins-community/circuit-breaker-guard-dx-08",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "circuit-breaker-guard-edge-10",
+    "marketplace": "claude-plugins-community",
+    "description": "Runaway-loop protection guards for agent sessions. Variant.",
+    "installRef": "claude-plugins-community/circuit-breaker-guard-edge-10",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "circuit-breaker-guard-extended-05",
+    "marketplace": "marketplace-essentials",
+    "description": "Runaway-loop protection guards for agent sessions. Variant.",
+    "installRef": "marketplace-essentials/circuit-breaker-guard-extended-05",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "circuit-breaker-guard-kit-11",
+    "marketplace": "marketplace-essentials",
+    "description": "Runaway-loop protection guards for agent sessions. Variant.",
+    "installRef": "marketplace-essentials/circuit-breaker-guard-kit-11",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "circuit-breaker-guard-lite-03",
+    "marketplace": "marketplace-essentials",
+    "description": "Runaway-loop protection guards for agent sessions. Variant.",
+    "installRef": "marketplace-essentials/circuit-breaker-guard-lite-03",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "circuit-breaker-guard-plus-04",
+    "marketplace": "claude-plugins-community",
+    "description": "Runaway-loop protection guards for agent sessions. Variant.",
+    "installRef": "claude-plugins-community/circuit-breaker-guard-plus-04",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "circuit-breaker-guard-pro-02",
+    "marketplace": "claude-plugins-community",
+    "description": "Runaway-loop protection guards for agent sessions. Variant.",
+    "installRef": "claude-plugins-community/circuit-breaker-guard-pro-02",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "circuit-breaker-guard-pro-12",
+    "marketplace": "claude-plugins-community",
+    "description": "Runaway-loop protection guards for agent sessions. Variant.",
+    "installRef": "claude-plugins-community/circuit-breaker-guard-pro-12",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "circuit-breaker-guard-team-06",
+    "marketplace": "claude-plugins-community",
+    "description": "Runaway-loop protection guards for agent sessions. Variant.",
+    "installRef": "claude-plugins-community/circuit-breaker-guard-team-06",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "commit-commands",
+    "marketplace": "claude-plugins-official",
+    "description": "Conventional commit helpers and git workflow commands.",
+    "installRef": "claude-plugins-official/commit-commands",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "commit-commands-ci-07",
+    "marketplace": "community",
+    "description": "Conventional commit helpers and git workflow commands. Variant.",
+    "installRef": "community/commit-commands-ci-07",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "commit-commands-core-09",
+    "marketplace": "community",
+    "description": "Conventional commit helpers and git workflow commands. Variant.",
+    "installRef": "community/commit-commands-core-09",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "commit-commands-dx-08",
+    "marketplace": "claude-plugins-official",
+    "description": "Conventional commit helpers and git workflow commands. Variant.",
+    "installRef": "claude-plugins-official/commit-commands-dx-08",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "commit-commands-edge-10",
+    "marketplace": "claude-plugins-official",
+    "description": "Conventional commit helpers and git workflow commands. Variant.",
+    "installRef": "claude-plugins-official/commit-commands-edge-10",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  }
+]
