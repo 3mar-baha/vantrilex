@@ -2470,5 +2470,2421 @@
     "description": "Docker container management. Community variant (database).",
     "sourceURL": "https://github.com/modelcontextprotocol/servers",
     "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "docker-database-014",
+    "command": "docker",
+    "args": [
+      "run",
+      "mcp/docker",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "containers",
+      "database"
+    ],
+    "description": "Docker container management. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "docker-database-024",
+    "command": "docker",
+    "args": [
+      "run",
+      "mcp/docker",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "containers",
+      "database"
+    ],
+    "description": "Docker container management. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "docker-devtools-002",
+    "command": "docker",
+    "args": [
+      "run",
+      "mcp/docker",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "containers",
+      "devtools"
+    ],
+    "description": "Docker container management. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "docker-devtools-012",
+    "command": "docker",
+    "args": [
+      "run",
+      "mcp/docker",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "containers",
+      "devtools"
+    ],
+    "description": "Docker container management. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "docker-devtools-022",
+    "command": "docker",
+    "args": [
+      "run",
+      "mcp/docker",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "containers",
+      "devtools"
+    ],
+    "description": "Docker container management. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "docker-finance-009",
+    "command": "docker",
+    "args": [
+      "run",
+      "mcp/docker",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "containers",
+      "finance"
+    ],
+    "description": "Docker container management. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "docker-finance-019",
+    "command": "docker",
+    "args": [
+      "run",
+      "mcp/docker",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "containers",
+      "finance"
+    ],
+    "description": "Docker container management. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "docker-finance-029",
+    "command": "docker",
+    "args": [
+      "run",
+      "mcp/docker",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "containers",
+      "finance"
+    ],
+    "description": "Docker container management. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "docker-iot-008",
+    "command": "docker",
+    "args": [
+      "run",
+      "mcp/docker",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "containers",
+      "iot"
+    ],
+    "description": "Docker container management. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "docker-iot-018",
+    "command": "docker",
+    "args": [
+      "run",
+      "mcp/docker",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "containers",
+      "iot"
+    ],
+    "description": "Docker container management. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "docker-iot-028",
+    "command": "docker",
+    "args": [
+      "run",
+      "mcp/docker",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "containers",
+      "iot"
+    ],
+    "description": "Docker container management. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "docker-media-010",
+    "command": "docker",
+    "args": [
+      "run",
+      "mcp/docker",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "containers",
+      "media"
+    ],
+    "description": "Docker container management. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "docker-media-020",
+    "command": "docker",
+    "args": [
+      "run",
+      "mcp/docker",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "containers",
+      "media"
+    ],
+    "description": "Docker container management. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "docker-media-030",
+    "command": "docker",
+    "args": [
+      "run",
+      "mcp/docker",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "containers",
+      "media"
+    ],
+    "description": "Docker container management. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "docker-productivity-011",
+    "command": "docker",
+    "args": [
+      "run",
+      "mcp/docker",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "containers",
+      "productivity"
+    ],
+    "description": "Docker container management. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "docker-productivity-021",
+    "command": "docker",
+    "args": [
+      "run",
+      "mcp/docker",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "containers",
+      "productivity"
+    ],
+    "description": "Docker container management. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "docker-security-007",
+    "command": "docker",
+    "args": [
+      "run",
+      "mcp/docker",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "containers",
+      "security"
+    ],
+    "description": "Docker container management. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "docker-security-017",
+    "command": "docker",
+    "args": [
+      "run",
+      "mcp/docker",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "containers",
+      "security"
+    ],
+    "description": "Docker container management. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "docker-security-027",
+    "command": "docker",
+    "args": [
+      "run",
+      "mcp/docker",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "containers",
+      "security"
+    ],
+    "description": "Docker container management. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "docker-web-005",
+    "command": "docker",
+    "args": [
+      "run",
+      "mcp/docker",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "containers",
+      "web"
+    ],
+    "description": "Docker container management. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "docker-web-015",
+    "command": "docker",
+    "args": [
+      "run",
+      "mcp/docker",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "containers",
+      "web"
+    ],
+    "description": "Docker container management. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "docker-web-025",
+    "command": "docker",
+    "args": [
+      "run",
+      "mcp/docker",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "containers",
+      "web"
+    ],
+    "description": "Docker container management. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "elasticsearch",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-elasticsearch"
+    ],
+    "tags": [
+      "search",
+      "database"
+    ],
+    "description": "Elasticsearch search.",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "elasticsearch-ai-006",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-elasticsearch",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "search",
+      "database",
+      "ai"
+    ],
+    "description": "Elasticsearch search. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "elasticsearch-ai-016",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-elasticsearch",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "search",
+      "database",
+      "ai"
+    ],
+    "description": "Elasticsearch search. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "elasticsearch-ai-026",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-elasticsearch",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "search",
+      "database",
+      "ai"
+    ],
+    "description": "Elasticsearch search. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "elasticsearch-cloud-003",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-elasticsearch",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "search",
+      "database",
+      "cloud"
+    ],
+    "description": "Elasticsearch search. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "elasticsearch-cloud-013",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-elasticsearch",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "search",
+      "database",
+      "cloud"
+    ],
+    "description": "Elasticsearch search. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "elasticsearch-cloud-023",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-elasticsearch",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "search",
+      "database",
+      "cloud"
+    ],
+    "description": "Elasticsearch search. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "elasticsearch-database-004",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-elasticsearch",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "search",
+      "database",
+      "database"
+    ],
+    "description": "Elasticsearch search. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "elasticsearch-database-014",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-elasticsearch",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "search",
+      "database",
+      "database"
+    ],
+    "description": "Elasticsearch search. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "elasticsearch-database-024",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-elasticsearch",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "search",
+      "database",
+      "database"
+    ],
+    "description": "Elasticsearch search. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "elasticsearch-devtools-002",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-elasticsearch",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "search",
+      "database",
+      "devtools"
+    ],
+    "description": "Elasticsearch search. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "elasticsearch-devtools-012",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-elasticsearch",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "search",
+      "database",
+      "devtools"
+    ],
+    "description": "Elasticsearch search. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "elasticsearch-devtools-022",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-elasticsearch",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "search",
+      "database",
+      "devtools"
+    ],
+    "description": "Elasticsearch search. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "elasticsearch-finance-009",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-elasticsearch",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "search",
+      "database",
+      "finance"
+    ],
+    "description": "Elasticsearch search. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "elasticsearch-finance-019",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-elasticsearch",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "search",
+      "database",
+      "finance"
+    ],
+    "description": "Elasticsearch search. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "elasticsearch-finance-029",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-elasticsearch",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "search",
+      "database",
+      "finance"
+    ],
+    "description": "Elasticsearch search. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "elasticsearch-iot-008",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-elasticsearch",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "search",
+      "database",
+      "iot"
+    ],
+    "description": "Elasticsearch search. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "elasticsearch-iot-018",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-elasticsearch",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "search",
+      "database",
+      "iot"
+    ],
+    "description": "Elasticsearch search. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "elasticsearch-iot-028",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-elasticsearch",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "search",
+      "database",
+      "iot"
+    ],
+    "description": "Elasticsearch search. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "elasticsearch-media-010",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-elasticsearch",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "search",
+      "database",
+      "media"
+    ],
+    "description": "Elasticsearch search. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "elasticsearch-media-020",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-elasticsearch",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "search",
+      "database",
+      "media"
+    ],
+    "description": "Elasticsearch search. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "elasticsearch-media-030",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-elasticsearch",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "search",
+      "database",
+      "media"
+    ],
+    "description": "Elasticsearch search. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "elasticsearch-productivity-011",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-elasticsearch",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "search",
+      "database",
+      "productivity"
+    ],
+    "description": "Elasticsearch search. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "elasticsearch-productivity-021",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-elasticsearch",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "search",
+      "database",
+      "productivity"
+    ],
+    "description": "Elasticsearch search. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "elasticsearch-security-007",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-elasticsearch",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "search",
+      "database",
+      "security"
+    ],
+    "description": "Elasticsearch search. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "elasticsearch-security-017",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-elasticsearch",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "search",
+      "database",
+      "security"
+    ],
+    "description": "Elasticsearch search. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "elasticsearch-security-027",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-elasticsearch",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "search",
+      "database",
+      "security"
+    ],
+    "description": "Elasticsearch search. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "elasticsearch-web-005",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-elasticsearch",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "search",
+      "database",
+      "web"
+    ],
+    "description": "Elasticsearch search. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "elasticsearch-web-015",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-elasticsearch",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "search",
+      "database",
+      "web"
+    ],
+    "description": "Elasticsearch search. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "elasticsearch-web-025",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-elasticsearch",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "search",
+      "database",
+      "web"
+    ],
+    "description": "Elasticsearch search. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "everart",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-everart"
+    ],
+    "tags": [
+      "media",
+      "images"
+    ],
+    "description": "AI image generation.",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "everart-ai-006",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-everart",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "media",
+      "images",
+      "ai"
+    ],
+    "description": "AI image generation. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "everart-ai-016",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-everart",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "media",
+      "images",
+      "ai"
+    ],
+    "description": "AI image generation. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "everart-ai-026",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-everart",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "media",
+      "images",
+      "ai"
+    ],
+    "description": "AI image generation. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "everart-cloud-003",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-everart",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "media",
+      "images",
+      "cloud"
+    ],
+    "description": "AI image generation. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "everart-cloud-013",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-everart",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "media",
+      "images",
+      "cloud"
+    ],
+    "description": "AI image generation. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "everart-cloud-023",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-everart",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "media",
+      "images",
+      "cloud"
+    ],
+    "description": "AI image generation. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "everart-database-004",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-everart",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "media",
+      "images",
+      "database"
+    ],
+    "description": "AI image generation. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "everart-database-014",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-everart",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "media",
+      "images",
+      "database"
+    ],
+    "description": "AI image generation. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "everart-database-024",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-everart",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "media",
+      "images",
+      "database"
+    ],
+    "description": "AI image generation. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "everart-devtools-002",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-everart",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "media",
+      "images",
+      "devtools"
+    ],
+    "description": "AI image generation. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "everart-devtools-012",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-everart",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "media",
+      "images",
+      "devtools"
+    ],
+    "description": "AI image generation. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "everart-devtools-022",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-everart",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "media",
+      "images",
+      "devtools"
+    ],
+    "description": "AI image generation. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "everart-finance-009",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-everart",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "media",
+      "images",
+      "finance"
+    ],
+    "description": "AI image generation. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "everart-finance-019",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-everart",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "media",
+      "images",
+      "finance"
+    ],
+    "description": "AI image generation. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "everart-finance-029",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-everart",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "media",
+      "images",
+      "finance"
+    ],
+    "description": "AI image generation. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "everart-iot-008",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-everart",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "media",
+      "images",
+      "iot"
+    ],
+    "description": "AI image generation. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "everart-iot-018",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-everart",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "media",
+      "images",
+      "iot"
+    ],
+    "description": "AI image generation. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "everart-iot-028",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-everart",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "media",
+      "images",
+      "iot"
+    ],
+    "description": "AI image generation. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "everart-media-010",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-everart",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "media",
+      "images",
+      "media"
+    ],
+    "description": "AI image generation. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "everart-media-020",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-everart",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "media",
+      "images",
+      "media"
+    ],
+    "description": "AI image generation. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "everart-media-030",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-everart",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "media",
+      "images",
+      "media"
+    ],
+    "description": "AI image generation. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "everart-productivity-011",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-everart",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "media",
+      "images",
+      "productivity"
+    ],
+    "description": "AI image generation. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "everart-productivity-021",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-everart",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "media",
+      "images",
+      "productivity"
+    ],
+    "description": "AI image generation. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "everart-security-007",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-everart",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "media",
+      "images",
+      "security"
+    ],
+    "description": "AI image generation. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "everart-security-017",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-everart",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "media",
+      "images",
+      "security"
+    ],
+    "description": "AI image generation. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "everart-security-027",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-everart",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "media",
+      "images",
+      "security"
+    ],
+    "description": "AI image generation. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "everart-web-005",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-everart",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "media",
+      "images",
+      "web"
+    ],
+    "description": "AI image generation. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "everart-web-015",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-everart",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "media",
+      "images",
+      "web"
+    ],
+    "description": "AI image generation. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "everart-web-025",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-everart",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "media",
+      "images",
+      "web"
+    ],
+    "description": "AI image generation. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "fetch",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-fetch"
+    ],
+    "tags": [
+      "web",
+      "tools"
+    ],
+    "description": "HTTP fetch and content extraction.",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "fetch-ai-006",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-fetch",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "tools",
+      "ai"
+    ],
+    "description": "HTTP fetch and content extraction. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "fetch-ai-016",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-fetch",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "tools",
+      "ai"
+    ],
+    "description": "HTTP fetch and content extraction. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "fetch-ai-026",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-fetch",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "tools",
+      "ai"
+    ],
+    "description": "HTTP fetch and content extraction. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "fetch-cloud-003",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-fetch",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "tools",
+      "cloud"
+    ],
+    "description": "HTTP fetch and content extraction. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "fetch-cloud-013",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-fetch",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "tools",
+      "cloud"
+    ],
+    "description": "HTTP fetch and content extraction. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "fetch-cloud-023",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-fetch",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "tools",
+      "cloud"
+    ],
+    "description": "HTTP fetch and content extraction. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "fetch-database-004",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-fetch",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "tools",
+      "database"
+    ],
+    "description": "HTTP fetch and content extraction. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "fetch-database-014",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-fetch",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "tools",
+      "database"
+    ],
+    "description": "HTTP fetch and content extraction. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "fetch-database-024",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-fetch",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "tools",
+      "database"
+    ],
+    "description": "HTTP fetch and content extraction. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "fetch-devtools-002",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-fetch",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "tools",
+      "devtools"
+    ],
+    "description": "HTTP fetch and content extraction. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "fetch-devtools-012",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-fetch",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "tools",
+      "devtools"
+    ],
+    "description": "HTTP fetch and content extraction. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "fetch-devtools-022",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-fetch",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "tools",
+      "devtools"
+    ],
+    "description": "HTTP fetch and content extraction. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "fetch-finance-009",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-fetch",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "tools",
+      "finance"
+    ],
+    "description": "HTTP fetch and content extraction. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "fetch-finance-019",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-fetch",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "tools",
+      "finance"
+    ],
+    "description": "HTTP fetch and content extraction. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "fetch-finance-029",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-fetch",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "tools",
+      "finance"
+    ],
+    "description": "HTTP fetch and content extraction. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "fetch-iot-008",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-fetch",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "tools",
+      "iot"
+    ],
+    "description": "HTTP fetch and content extraction. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "fetch-iot-018",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-fetch",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "tools",
+      "iot"
+    ],
+    "description": "HTTP fetch and content extraction. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "fetch-iot-028",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-fetch",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "tools",
+      "iot"
+    ],
+    "description": "HTTP fetch and content extraction. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "fetch-media-010",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-fetch",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "tools",
+      "media"
+    ],
+    "description": "HTTP fetch and content extraction. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "fetch-media-020",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-fetch",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "tools",
+      "media"
+    ],
+    "description": "HTTP fetch and content extraction. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "fetch-media-030",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-fetch",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "tools",
+      "media"
+    ],
+    "description": "HTTP fetch and content extraction. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "fetch-productivity-011",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-fetch",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "tools",
+      "productivity"
+    ],
+    "description": "HTTP fetch and content extraction. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "fetch-productivity-021",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-fetch",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "tools",
+      "productivity"
+    ],
+    "description": "HTTP fetch and content extraction. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "fetch-productivity-031",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-fetch",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "tools",
+      "productivity"
+    ],
+    "description": "HTTP fetch and content extraction. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "fetch-security-007",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-fetch",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "tools",
+      "security"
+    ],
+    "description": "HTTP fetch and content extraction. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "fetch-security-017",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-fetch",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "tools",
+      "security"
+    ],
+    "description": "HTTP fetch and content extraction. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "fetch-security-027",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-fetch",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "tools",
+      "security"
+    ],
+    "description": "HTTP fetch and content extraction. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "fetch-web-005",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-fetch",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "tools",
+      "web"
+    ],
+    "description": "HTTP fetch and content extraction. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "fetch-web-015",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-fetch",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "tools",
+      "web"
+    ],
+    "description": "HTTP fetch and content extraction. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "fetch-web-025",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-fetch",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "tools",
+      "web"
+    ],
+    "description": "HTTP fetch and content extraction. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "figma",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-figma"
+    ],
+    "tags": [
+      "design",
+      "ui"
+    ],
+    "description": "Figma file inspection.",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "figma-ai-006",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-figma",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "design",
+      "ui",
+      "ai"
+    ],
+    "description": "Figma file inspection. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "figma-ai-016",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-figma",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "design",
+      "ui",
+      "ai"
+    ],
+    "description": "Figma file inspection. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "figma-ai-026",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-figma",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "design",
+      "ui",
+      "ai"
+    ],
+    "description": "Figma file inspection. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "figma-cloud-003",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-figma",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "design",
+      "ui",
+      "cloud"
+    ],
+    "description": "Figma file inspection. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "figma-cloud-013",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-figma",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "design",
+      "ui",
+      "cloud"
+    ],
+    "description": "Figma file inspection. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "figma-cloud-023",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-figma",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "design",
+      "ui",
+      "cloud"
+    ],
+    "description": "Figma file inspection. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "figma-database-004",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-figma",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "design",
+      "ui",
+      "database"
+    ],
+    "description": "Figma file inspection. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "figma-database-014",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-figma",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "design",
+      "ui",
+      "database"
+    ],
+    "description": "Figma file inspection. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "figma-database-024",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-figma",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "design",
+      "ui",
+      "database"
+    ],
+    "description": "Figma file inspection. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "figma-devtools-002",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-figma",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "design",
+      "ui",
+      "devtools"
+    ],
+    "description": "Figma file inspection. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "figma-devtools-012",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-figma",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "design",
+      "ui",
+      "devtools"
+    ],
+    "description": "Figma file inspection. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "figma-devtools-022",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-figma",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "design",
+      "ui",
+      "devtools"
+    ],
+    "description": "Figma file inspection. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "figma-finance-009",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-figma",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "design",
+      "ui",
+      "finance"
+    ],
+    "description": "Figma file inspection. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "figma-finance-019",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-figma",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "design",
+      "ui",
+      "finance"
+    ],
+    "description": "Figma file inspection. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
   }
 ]
