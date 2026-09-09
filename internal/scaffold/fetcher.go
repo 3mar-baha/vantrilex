@@ -60,3 +60,65 @@ func writeOnceFile(abs, content string, created *[]string, rel string) error {
 	if _, err := os.Stat(abs); err == nil {
 		return nil
 	}
+	if err := os.MkdirAll(filepath.Dir(abs), 0o755); err != nil {
+		return err
+	}
+	if err := os.WriteFile(abs, []byte(content), 0o644); err != nil {
+		return err
+	}
+	*created = append(*created, rel)
+	return nil
+}
+
+func sanitize(name string) string {
+	name = strings.ToLower(strings.TrimSpace(name))
+	var b strings.Builder
+	for _, r := range name {
+		switch {
+		case r >= 'a' && r <= 'z', r >= '0' && r <= '9', r == '-', r == '_':
+			b.WriteRune(r)
+		case r == ' ' || r == '/' || r == '.':
+			b.WriteRune('-')
+		}
+	}
+	out := strings.Trim(b.String(), "-")
+	for strings.Contains(out, "--") {
+		out = strings.ReplaceAll(out, "--", "-")
+	}
+	if out == "" {
+		out = "asset"
+	}
+	return out
+}
+
+// ApplySelections provisions only the checked items into the workspace.
+func ApplySelections(ctx context.Context, workspace string, agents, skills, plugins, hooks, mcps []catalog.RegistryItem, runnerID, modelID, effort string) ([]string, error) {
+	var created []string
+	base := []string{".claude/skills", ".claude/agents", ".claude/plugins", ".claude/hooks"}
+	for _, d := range base {
+		if err := os.MkdirAll(filepath.Join(workspace, filepath.FromSlash(d)), 0o755); err != nil {
+			return created, err
+		}
+	}
+	// Skills: try HTTPS raw, fall back to starter template.
+	for _, s := range skills {
+		rel := ".claude/skills/" + sanitize(s.Name) + "/SKILL.md"
+		abs := filepath.Join(workspace, filepath.FromSlash(rel))
+		if _, err := os.Stat(abs); err == nil {
+			continue
+		}
+		content := fmt.Sprintf(starterSkillTemplate, s.Name) + "\nSource: " + s.Source + "\n" + s.Desc + "\n"
+		if body, err := FetchBody(ctx, s.RawURL); err == nil {
+			content = "# " + s.Name + "\n\n" + string(body)
+		}
+		if err := writeOnceFile(abs, content, &created, rel); err != nil {
+			return created, err
+		}
+	}
+	// Agents.
+	for _, a := range agents {
+		rel := ".claude/agents/" + sanitize(a.Name) + ".md"
+		abs := filepath.Join(workspace, filepath.FromSlash(rel))
+		if _, err := os.Stat(abs); err == nil {
+			continue
+		}
