@@ -137,3 +137,74 @@ Per-toolkit bridges: ` + "`.claude/skills/toolkit-*.md`" + ` (one for each of th
 ## External skills
 - vercel-labs/skills@find-skills (cache: $HOME/.vantrilex/toolkit/vercel-skills)
 - Anthropic Official skill-creator (cache: $HOME/.vantrilex/toolkit/anthropic-skills)
+
+## Rules
+- Keep responses strictly in English.
+- Prefer small, reversible changes with tests.
+`
+
+// toolkitsMarkdown renders the 8-toolkit reference section for CLAUDE.md.
+func toolkitsMarkdown() string {
+	var b strings.Builder
+	b.WriteString("\n## Toolkits (8 provisioned)\n\n")
+	b.WriteString("Each toolkit is cached under `$HOME/.vantrilex/toolkit/` and bridged\n")
+	b.WriteString("into `.claude/skills/toolkit-<slug>.md`. Load a bridge, then glob the\n")
+	b.WriteString("cache for `**/SKILL.md` to activate skills.\n\n")
+	for _, t := range Toolkits() {
+		fmt.Fprintf(&b, "- %s — `%s` (cache `%s`): %s\n", t.Name, t.Source, t.Dir, t.SkillHint)
+	}
+	return b.String()
+}
+
+const opencodeJSONTemplate = `{
+  "$schema": "https://opencode.ai/config.json",
+  "instructions": ["CLAUDE.md", ".claude/skills/*.md", ".claude/skills/**/SKILL.md", ".claude/agents/*.md"],
+  "model": "opencode/zen"
+}
+`
+
+const starterSkillTemplate = `# %s
+
+Starter skill scaffolded by Vantrilex.
+
+## Workflow
+1. Read the task and relevant repo files first.
+2. Plan the smallest reversible change.
+3. Implement, then verify (build/tests).
+4. Summarize in English.
+
+External references:
+- vercel-labs/skills@find-skills
+- Anthropic Official skill-creator
+`
+
+const starterAgentTemplate = `---
+name: %s
+description: Starter sub-agent scaffolded by Vantrilex.
+---
+
+You are the %s sub-agent. Work in English, keep changes small and verified.
+`
+
+// Apply creates missing dirs/files (non-destructive: never overwrites).
+func Apply(workspace, runnerID, modelID, effort string) ([]string, error) {
+	var created []string
+	mk := func(rel string) (string, error) {
+		abs := filepath.Join(workspace, filepath.FromSlash(rel))
+		if err := os.MkdirAll(abs, 0o755); err != nil {
+			return "", err
+		}
+		return abs, nil
+	}
+	writeOnce := func(rel, content string) error {
+		abs := filepath.Join(workspace, filepath.FromSlash(rel))
+		if _, err := os.Stat(abs); err == nil {
+			return nil // keep existing
+		}
+		if err := os.MkdirAll(filepath.Dir(abs), 0o755); err != nil {
+			return err
+		}
+		if err := os.WriteFile(abs, []byte(content), 0o644); err != nil {
+			return err
+		}
+		created = append(created, rel)
