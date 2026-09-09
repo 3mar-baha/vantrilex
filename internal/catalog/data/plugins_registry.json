@@ -390,5 +390,201 @@
     "description": "API docs and README generation. Variant.",
     "installRef": "claude-plugins-official/doc-generator-pro-02",
     "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "doc-generator-team-06",
+    "marketplace": "claude-plugins-official",
+    "description": "API docs and README generation. Variant.",
+    "installRef": "claude-plugins-official/doc-generator-team-06",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "i18n-helper",
+    "marketplace": "community",
+    "description": "Internationalization string extraction.",
+    "installRef": "community/i18n-helper",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "i18n-helper-ci-07",
+    "marketplace": "claude-plugins-community",
+    "description": "Internationalization string extraction. Variant.",
+    "installRef": "claude-plugins-community/i18n-helper-ci-07",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "i18n-helper-core-09",
+    "marketplace": "claude-plugins-community",
+    "description": "Internationalization string extraction. Variant.",
+    "installRef": "claude-plugins-community/i18n-helper-core-09",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "i18n-helper-dx-08",
+    "marketplace": "marketplace-essentials",
+    "description": "Internationalization string extraction. Variant.",
+    "installRef": "marketplace-essentials/i18n-helper-dx-08",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "i18n-helper-edge-10",
+    "marketplace": "marketplace-essentials",
+    "description": "Internationalization string extraction. Variant.",
+    "installRef": "marketplace-essentials/i18n-helper-edge-10",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "i18n-helper-extended-05",
+    "marketplace": "claude-plugins-community",
+    "description": "Internationalization string extraction. Variant.",
+    "installRef": "claude-plugins-community/i18n-helper-extended-05",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "i18n-helper-kit-11",
+    "marketplace": "claude-plugins-community",
+    "description": "Internationalization string extraction. Variant.",
+    "installRef": "claude-plugins-community/i18n-helper-kit-11",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "i18n-helper-lite-03",
+    "marketplace": "claude-plugins-community",
+    "description": "Internationalization string extraction. Variant.",
+    "installRef": "claude-plugins-community/i18n-helper-lite-03",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "i18n-helper-plus-04",
+    "marketplace": "marketplace-essentials",
+    "description": "Internationalization string extraction. Variant.",
+    "installRef": "marketplace-essentials/i18n-helper-plus-04",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "i18n-helper-pro-02",
+    "marketplace": "marketplace-essentials",
+    "description": "Internationalization string extraction. Variant.",
+    "installRef": "marketplace-essentials/i18n-helper-pro-02",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "i18n-helper-team-06",
+    "marketplace": "marketplace-essentials",
+    "description": "Internationalization string extraction. Variant.",
+    "installRef": "marketplace-essentials/i18n-helper-team-06",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "migrate-helper",
+    "marketplace": "community",
+    "description": "DB migration scaffolding.",
+    "installRef": "community/migrate-helper",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "migrate-helper-ci-07",
+    "marketplace": "community",
+    "description": "DB migration scaffolding. Variant.",
+    "installRef": "community/migrate-helper-ci-07",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "migrate-helper-core-09",
+    "marketplace": "community",
+    "description": "DB migration scaffolding. Variant.",
+    "installRef": "community/migrate-helper-core-09",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "migrate-helper-dx-08",
+    "marketplace": "claude-plugins-official",
+    "description": "DB migration scaffolding. Variant.",
+    "installRef": "claude-plugins-official/migrate-helper-dx-08",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "migrate-helper-edge-10",
+    "marketplace": "claude-plugins-official",
+    "description": "DB migration scaffolding. Variant.",
+    "installRef": "claude-plugins-official/migrate-helper-edge-10",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "migrate-helper-extended-05",
+    "marketplace": "community",
+    "description": "DB migration scaffolding. Variant.",
+    "installRef": "community/migrate-helper-extended-05",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "migrate-helper-kit-11",
+    "marketplace": "community",
+    "description": "DB migration scaffolding. Variant.",
+    "installRef": "community/migrate-helper-kit-11",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "migrate-helper-lite-03",
+    "marketplace": "community",
+    "description": "DB migration scaffolding. Variant.",
+    "installRef": "community/migrate-helper-lite-03",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "migrate-helper-plus-04",
+    "marketplace": "claude-plugins-official",
+    "description": "DB migration scaffolding. Variant.",
+    "installRef": "claude-plugins-official/migrate-helper-plus-04",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "migrate-helper-pro-02",
+    "marketplace": "claude-plugins-official",
+    "description": "DB migration scaffolding. Variant.",
+    "installRef": "claude-plugins-official/migrate-helper-pro-02",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "migrate-helper-team-06",
+    "marketplace": "claude-plugins-official",
+    "description": "DB migration scaffolding. Variant.",
+    "installRef": "claude-plugins-official/migrate-helper-team-06",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "pr-review",
+    "marketplace": "claude-plugins-official",
+    "description": "Pull-request review checklist and automation.",
+    "installRef": "claude-plugins-official/pr-review",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "pr-review-ci-07",
+    "marketplace": "claude-plugins-community",
+    "description": "Pull-request review checklist and automation. Variant.",
+    "installRef": "claude-plugins-community/pr-review-ci-07",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "pr-review-core-09",
+    "marketplace": "claude-plugins-community",
+    "description": "Pull-request review checklist and automation. Variant.",
+    "installRef": "claude-plugins-community/pr-review-core-09",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "pr-review-dx-08",
+    "marketplace": "marketplace-essentials",
+    "description": "Pull-request review checklist and automation. Variant.",
+    "installRef": "marketplace-essentials/pr-review-dx-08",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "pr-review-edge-10",
+    "marketplace": "marketplace-essentials",
+    "description": "Pull-request review checklist and automation. Variant.",
+    "installRef": "marketplace-essentials/pr-review-edge-10",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
   }
 ]
