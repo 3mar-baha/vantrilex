@@ -14576,5 +14576,2421 @@
     "description": "Sentry error tracking. Community variant (finance).",
     "sourceURL": "https://github.com/modelcontextprotocol/servers",
     "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sentry-finance-029",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sentry",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "observability",
+      "errors",
+      "finance"
+    ],
+    "description": "Sentry error tracking. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sentry-iot-008",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sentry",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "observability",
+      "errors",
+      "iot"
+    ],
+    "description": "Sentry error tracking. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sentry-iot-018",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sentry",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "observability",
+      "errors",
+      "iot"
+    ],
+    "description": "Sentry error tracking. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sentry-iot-028",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sentry",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "observability",
+      "errors",
+      "iot"
+    ],
+    "description": "Sentry error tracking. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sentry-media-010",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sentry",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "observability",
+      "errors",
+      "media"
+    ],
+    "description": "Sentry error tracking. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sentry-media-020",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sentry",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "observability",
+      "errors",
+      "media"
+    ],
+    "description": "Sentry error tracking. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sentry-media-030",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sentry",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "observability",
+      "errors",
+      "media"
+    ],
+    "description": "Sentry error tracking. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sentry-productivity-011",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sentry",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "observability",
+      "errors",
+      "productivity"
+    ],
+    "description": "Sentry error tracking. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sentry-productivity-021",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sentry",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "observability",
+      "errors",
+      "productivity"
+    ],
+    "description": "Sentry error tracking. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sentry-security-007",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sentry",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "observability",
+      "errors",
+      "security"
+    ],
+    "description": "Sentry error tracking. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sentry-security-017",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sentry",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "observability",
+      "errors",
+      "security"
+    ],
+    "description": "Sentry error tracking. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sentry-security-027",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sentry",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "observability",
+      "errors",
+      "security"
+    ],
+    "description": "Sentry error tracking. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sentry-web-005",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sentry",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "observability",
+      "errors",
+      "web"
+    ],
+    "description": "Sentry error tracking. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sentry-web-015",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sentry",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "observability",
+      "errors",
+      "web"
+    ],
+    "description": "Sentry error tracking. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sentry-web-025",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sentry",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "observability",
+      "errors",
+      "web"
+    ],
+    "description": "Sentry error tracking. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sequential-thinking",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sequential-thinking"
+    ],
+    "tags": [
+      "reasoning",
+      "planning"
+    ],
+    "description": "Structured step-by-step reasoning server.",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sequential-thinking-ai-006",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sequential-thinking",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "reasoning",
+      "planning",
+      "ai"
+    ],
+    "description": "Structured step-by-step reasoning server. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sequential-thinking-ai-016",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sequential-thinking",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "reasoning",
+      "planning",
+      "ai"
+    ],
+    "description": "Structured step-by-step reasoning server. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sequential-thinking-ai-026",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sequential-thinking",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "reasoning",
+      "planning",
+      "ai"
+    ],
+    "description": "Structured step-by-step reasoning server. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sequential-thinking-cloud-003",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sequential-thinking",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "reasoning",
+      "planning",
+      "cloud"
+    ],
+    "description": "Structured step-by-step reasoning server. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sequential-thinking-cloud-013",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sequential-thinking",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "reasoning",
+      "planning",
+      "cloud"
+    ],
+    "description": "Structured step-by-step reasoning server. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sequential-thinking-cloud-023",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sequential-thinking",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "reasoning",
+      "planning",
+      "cloud"
+    ],
+    "description": "Structured step-by-step reasoning server. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sequential-thinking-database-004",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sequential-thinking",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "reasoning",
+      "planning",
+      "database"
+    ],
+    "description": "Structured step-by-step reasoning server. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sequential-thinking-database-014",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sequential-thinking",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "reasoning",
+      "planning",
+      "database"
+    ],
+    "description": "Structured step-by-step reasoning server. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sequential-thinking-database-024",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sequential-thinking",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "reasoning",
+      "planning",
+      "database"
+    ],
+    "description": "Structured step-by-step reasoning server. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sequential-thinking-devtools-002",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sequential-thinking",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "reasoning",
+      "planning",
+      "devtools"
+    ],
+    "description": "Structured step-by-step reasoning server. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sequential-thinking-devtools-012",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sequential-thinking",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "reasoning",
+      "planning",
+      "devtools"
+    ],
+    "description": "Structured step-by-step reasoning server. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sequential-thinking-devtools-022",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sequential-thinking",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "reasoning",
+      "planning",
+      "devtools"
+    ],
+    "description": "Structured step-by-step reasoning server. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sequential-thinking-finance-009",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sequential-thinking",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "reasoning",
+      "planning",
+      "finance"
+    ],
+    "description": "Structured step-by-step reasoning server. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sequential-thinking-finance-019",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sequential-thinking",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "reasoning",
+      "planning",
+      "finance"
+    ],
+    "description": "Structured step-by-step reasoning server. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sequential-thinking-finance-029",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sequential-thinking",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "reasoning",
+      "planning",
+      "finance"
+    ],
+    "description": "Structured step-by-step reasoning server. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sequential-thinking-iot-008",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sequential-thinking",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "reasoning",
+      "planning",
+      "iot"
+    ],
+    "description": "Structured step-by-step reasoning server. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sequential-thinking-iot-018",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sequential-thinking",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "reasoning",
+      "planning",
+      "iot"
+    ],
+    "description": "Structured step-by-step reasoning server. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sequential-thinking-iot-028",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sequential-thinking",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "reasoning",
+      "planning",
+      "iot"
+    ],
+    "description": "Structured step-by-step reasoning server. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sequential-thinking-media-010",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sequential-thinking",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "reasoning",
+      "planning",
+      "media"
+    ],
+    "description": "Structured step-by-step reasoning server. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sequential-thinking-media-020",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sequential-thinking",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "reasoning",
+      "planning",
+      "media"
+    ],
+    "description": "Structured step-by-step reasoning server. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sequential-thinking-media-030",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sequential-thinking",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "reasoning",
+      "planning",
+      "media"
+    ],
+    "description": "Structured step-by-step reasoning server. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sequential-thinking-productivity-011",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sequential-thinking",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "reasoning",
+      "planning",
+      "productivity"
+    ],
+    "description": "Structured step-by-step reasoning server. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sequential-thinking-productivity-021",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sequential-thinking",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "reasoning",
+      "planning",
+      "productivity"
+    ],
+    "description": "Structured step-by-step reasoning server. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sequential-thinking-productivity-031",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sequential-thinking",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "reasoning",
+      "planning",
+      "productivity"
+    ],
+    "description": "Structured step-by-step reasoning server. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sequential-thinking-security-007",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sequential-thinking",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "reasoning",
+      "planning",
+      "security"
+    ],
+    "description": "Structured step-by-step reasoning server. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sequential-thinking-security-017",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sequential-thinking",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "reasoning",
+      "planning",
+      "security"
+    ],
+    "description": "Structured step-by-step reasoning server. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sequential-thinking-security-027",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sequential-thinking",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "reasoning",
+      "planning",
+      "security"
+    ],
+    "description": "Structured step-by-step reasoning server. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sequential-thinking-web-005",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sequential-thinking",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "reasoning",
+      "planning",
+      "web"
+    ],
+    "description": "Structured step-by-step reasoning server. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sequential-thinking-web-015",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sequential-thinking",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "reasoning",
+      "planning",
+      "web"
+    ],
+    "description": "Structured step-by-step reasoning server. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sequential-thinking-web-025",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sequential-thinking",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "reasoning",
+      "planning",
+      "web"
+    ],
+    "description": "Structured step-by-step reasoning server. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "slack",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-slack"
+    ],
+    "tags": [
+      "chat",
+      "comms"
+    ],
+    "description": "Slack channels and messages.",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "slack-ai-006",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-slack",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "chat",
+      "comms",
+      "ai"
+    ],
+    "description": "Slack channels and messages. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "slack-ai-016",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-slack",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "chat",
+      "comms",
+      "ai"
+    ],
+    "description": "Slack channels and messages. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "slack-ai-026",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-slack",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "chat",
+      "comms",
+      "ai"
+    ],
+    "description": "Slack channels and messages. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "slack-cloud-003",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-slack",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "chat",
+      "comms",
+      "cloud"
+    ],
+    "description": "Slack channels and messages. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "slack-cloud-013",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-slack",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "chat",
+      "comms",
+      "cloud"
+    ],
+    "description": "Slack channels and messages. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "slack-cloud-023",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-slack",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "chat",
+      "comms",
+      "cloud"
+    ],
+    "description": "Slack channels and messages. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "slack-database-004",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-slack",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "chat",
+      "comms",
+      "database"
+    ],
+    "description": "Slack channels and messages. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "slack-database-014",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-slack",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "chat",
+      "comms",
+      "database"
+    ],
+    "description": "Slack channels and messages. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "slack-database-024",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-slack",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "chat",
+      "comms",
+      "database"
+    ],
+    "description": "Slack channels and messages. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "slack-devtools-002",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-slack",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "chat",
+      "comms",
+      "devtools"
+    ],
+    "description": "Slack channels and messages. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "slack-devtools-012",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-slack",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "chat",
+      "comms",
+      "devtools"
+    ],
+    "description": "Slack channels and messages. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "slack-devtools-022",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-slack",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "chat",
+      "comms",
+      "devtools"
+    ],
+    "description": "Slack channels and messages. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "slack-finance-009",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-slack",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "chat",
+      "comms",
+      "finance"
+    ],
+    "description": "Slack channels and messages. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "slack-finance-019",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-slack",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "chat",
+      "comms",
+      "finance"
+    ],
+    "description": "Slack channels and messages. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "slack-finance-029",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-slack",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "chat",
+      "comms",
+      "finance"
+    ],
+    "description": "Slack channels and messages. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "slack-iot-008",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-slack",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "chat",
+      "comms",
+      "iot"
+    ],
+    "description": "Slack channels and messages. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "slack-iot-018",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-slack",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "chat",
+      "comms",
+      "iot"
+    ],
+    "description": "Slack channels and messages. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "slack-iot-028",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-slack",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "chat",
+      "comms",
+      "iot"
+    ],
+    "description": "Slack channels and messages. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "slack-media-010",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-slack",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "chat",
+      "comms",
+      "media"
+    ],
+    "description": "Slack channels and messages. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "slack-media-020",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-slack",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "chat",
+      "comms",
+      "media"
+    ],
+    "description": "Slack channels and messages. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "slack-media-030",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-slack",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "chat",
+      "comms",
+      "media"
+    ],
+    "description": "Slack channels and messages. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "slack-productivity-011",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-slack",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "chat",
+      "comms",
+      "productivity"
+    ],
+    "description": "Slack channels and messages. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "slack-productivity-021",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-slack",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "chat",
+      "comms",
+      "productivity"
+    ],
+    "description": "Slack channels and messages. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "slack-security-007",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-slack",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "chat",
+      "comms",
+      "security"
+    ],
+    "description": "Slack channels and messages. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "slack-security-017",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-slack",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "chat",
+      "comms",
+      "security"
+    ],
+    "description": "Slack channels and messages. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "slack-security-027",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-slack",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "chat",
+      "comms",
+      "security"
+    ],
+    "description": "Slack channels and messages. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "slack-web-005",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-slack",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "chat",
+      "comms",
+      "web"
+    ],
+    "description": "Slack channels and messages. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "slack-web-015",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-slack",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "chat",
+      "comms",
+      "web"
+    ],
+    "description": "Slack channels and messages. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "slack-web-025",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-slack",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "chat",
+      "comms",
+      "web"
+    ],
+    "description": "Slack channels and messages. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "snowflake",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-snowflake"
+    ],
+    "tags": [
+      "database",
+      "sql"
+    ],
+    "description": "Snowflake warehouse queries.",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "snowflake-ai-006",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-snowflake",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "ai"
+    ],
+    "description": "Snowflake warehouse queries. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "snowflake-ai-016",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-snowflake",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "ai"
+    ],
+    "description": "Snowflake warehouse queries. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "snowflake-ai-026",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-snowflake",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "ai"
+    ],
+    "description": "Snowflake warehouse queries. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "snowflake-cloud-003",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-snowflake",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "cloud"
+    ],
+    "description": "Snowflake warehouse queries. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "snowflake-cloud-013",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-snowflake",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "cloud"
+    ],
+    "description": "Snowflake warehouse queries. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "snowflake-cloud-023",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-snowflake",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "cloud"
+    ],
+    "description": "Snowflake warehouse queries. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "snowflake-database-004",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-snowflake",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "database"
+    ],
+    "description": "Snowflake warehouse queries. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "snowflake-database-014",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-snowflake",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "database"
+    ],
+    "description": "Snowflake warehouse queries. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "snowflake-database-024",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-snowflake",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "database"
+    ],
+    "description": "Snowflake warehouse queries. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "snowflake-devtools-002",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-snowflake",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "devtools"
+    ],
+    "description": "Snowflake warehouse queries. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "snowflake-devtools-012",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-snowflake",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "devtools"
+    ],
+    "description": "Snowflake warehouse queries. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "snowflake-devtools-022",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-snowflake",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "devtools"
+    ],
+    "description": "Snowflake warehouse queries. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "snowflake-finance-009",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-snowflake",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "finance"
+    ],
+    "description": "Snowflake warehouse queries. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "snowflake-finance-019",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-snowflake",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "finance"
+    ],
+    "description": "Snowflake warehouse queries. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "snowflake-finance-029",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-snowflake",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "finance"
+    ],
+    "description": "Snowflake warehouse queries. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "snowflake-iot-008",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-snowflake",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "iot"
+    ],
+    "description": "Snowflake warehouse queries. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "snowflake-iot-018",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-snowflake",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "iot"
+    ],
+    "description": "Snowflake warehouse queries. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "snowflake-iot-028",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-snowflake",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "iot"
+    ],
+    "description": "Snowflake warehouse queries. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "snowflake-media-010",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-snowflake",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "media"
+    ],
+    "description": "Snowflake warehouse queries. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "snowflake-media-020",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-snowflake",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "media"
+    ],
+    "description": "Snowflake warehouse queries. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "snowflake-media-030",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-snowflake",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "media"
+    ],
+    "description": "Snowflake warehouse queries. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "snowflake-productivity-011",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-snowflake",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "productivity"
+    ],
+    "description": "Snowflake warehouse queries. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "snowflake-productivity-021",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-snowflake",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "productivity"
+    ],
+    "description": "Snowflake warehouse queries. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "snowflake-security-007",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-snowflake",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "security"
+    ],
+    "description": "Snowflake warehouse queries. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "snowflake-security-017",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-snowflake",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "security"
+    ],
+    "description": "Snowflake warehouse queries. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "snowflake-security-027",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-snowflake",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "security"
+    ],
+    "description": "Snowflake warehouse queries. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "snowflake-web-005",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-snowflake",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "web"
+    ],
+    "description": "Snowflake warehouse queries. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "snowflake-web-015",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-snowflake",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "web"
+    ],
+    "description": "Snowflake warehouse queries. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "snowflake-web-025",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-snowflake",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "web"
+    ],
+    "description": "Snowflake warehouse queries. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sqlite",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sqlite"
+    ],
+    "tags": [
+      "database",
+      "sql"
+    ],
+    "description": "SQLite local database access.",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sqlite-ai-006",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sqlite",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "ai"
+    ],
+    "description": "SQLite local database access. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sqlite-ai-016",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sqlite",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "ai"
+    ],
+    "description": "SQLite local database access. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sqlite-ai-026",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sqlite",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "ai"
+    ],
+    "description": "SQLite local database access. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sqlite-cloud-003",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sqlite",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "cloud"
+    ],
+    "description": "SQLite local database access. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sqlite-cloud-013",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sqlite",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "cloud"
+    ],
+    "description": "SQLite local database access. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sqlite-cloud-023",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sqlite",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "cloud"
+    ],
+    "description": "SQLite local database access. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sqlite-database-004",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sqlite",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "database"
+    ],
+    "description": "SQLite local database access. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sqlite-database-014",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sqlite",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "database"
+    ],
+    "description": "SQLite local database access. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sqlite-database-024",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sqlite",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "database"
+    ],
+    "description": "SQLite local database access. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sqlite-devtools-002",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sqlite",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "devtools"
+    ],
+    "description": "SQLite local database access. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sqlite-devtools-012",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sqlite",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "devtools"
+    ],
+    "description": "SQLite local database access. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sqlite-devtools-022",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sqlite",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "devtools"
+    ],
+    "description": "SQLite local database access. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sqlite-finance-009",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sqlite",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "finance"
+    ],
+    "description": "SQLite local database access. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sqlite-finance-019",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sqlite",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "finance"
+    ],
+    "description": "SQLite local database access. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sqlite-finance-029",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sqlite",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "finance"
+    ],
+    "description": "SQLite local database access. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sqlite-iot-008",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sqlite",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "iot"
+    ],
+    "description": "SQLite local database access. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sqlite-iot-018",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sqlite",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "iot"
+    ],
+    "description": "SQLite local database access. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sqlite-iot-028",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sqlite",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "iot"
+    ],
+    "description": "SQLite local database access. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sqlite-media-010",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sqlite",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "media"
+    ],
+    "description": "SQLite local database access. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sqlite-media-020",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sqlite",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "media"
+    ],
+    "description": "SQLite local database access. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sqlite-media-030",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sqlite",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "media"
+    ],
+    "description": "SQLite local database access. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
   }
 ]
