@@ -102,3 +102,29 @@ var defaultSelected = map[string]bool{
 func loadAll() {
 	loadOnce.Do(func() {
 		var me []mcpEntry
+		var pe []pluginEntry
+		var se []skillEntry
+		var he []hookEntry
+		var ae []agentEntry
+		_ = json.Unmarshal(mcpJSON, &me)
+		_ = json.Unmarshal(pluginsJSON, &pe)
+		_ = json.Unmarshal(skillsJSON, &se)
+		_ = json.Unmarshal(hooksJSON, &he)
+		_ = json.Unmarshal(agentsJSON, &ae)
+		for _, e := range me {
+			mcps = append(mcps, RegistryItem{
+				Name: e.Name, Kind: "mcp", Desc: e.Description, Tags: e.Tags,
+				Source: e.SourceURL, RawURL: e.RawURL,
+				Install:  e.Command + " " + strings.Join(e.Args, " "),
+				Selected: defaultSelected[e.Name],
+			})
+		}
+		for _, e := range pe {
+			plugins = append(plugins, RegistryItem{
+				Name: e.Name, Kind: "plugin", Desc: e.Description,
+				Tags:     []string{e.Marketplace},
+				Source:   e.Marketplace,
+				RawURL:   e.RawURL,
+				Install:  e.InstallRef,
+				Selected: defaultSelected[e.Name],
+			})
