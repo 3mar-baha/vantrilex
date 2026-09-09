@@ -73,3 +73,21 @@ func priceValue(s string) (float64, bool) {
 
 func isFree(m Model) bool {
 	if in, ok := priceValue(m.InputPerM); ok && in == 0 {
+		if out, ok := priceValue(m.OutputPerM); ok && out == 0 {
+			return true
+		}
+	}
+	return false
+}
+
+func isFast(m Model, hay string) bool {
+	if strings.ToUpper(m.Latency) == "LOW" {
+		return true
+	}
+	for _, k := range []string{"flash", "haiku", "fast", "instant", "turbo", "kimi", "qwen"} {
+		if strings.Contains(hay, k) {
+			return true
+		}
+	}
+	return false
+}
