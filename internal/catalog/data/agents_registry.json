@@ -1555,5 +1555,782 @@
       "hardener"
     ],
     "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/frontend-hardener-08.md"
+  },
+  {
+    "name": "Frontend Hardener 16",
+    "role": "Frontend",
+    "description": "React, CSS, and UI implementation. (hardener focus).",
+    "tags": [
+      "frontend",
+      "hardener"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/frontend-hardener-16.md"
+  },
+  {
+    "name": "Frontend Hardener 24",
+    "role": "Frontend",
+    "description": "React, CSS, and UI implementation. (hardener focus).",
+    "tags": [
+      "frontend",
+      "hardener"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/frontend-hardener-24.md"
+  },
+  {
+    "name": "Frontend Hardener 32",
+    "role": "Frontend",
+    "description": "React, CSS, and UI implementation. (hardener focus).",
+    "tags": [
+      "frontend",
+      "hardener"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/frontend-hardener-32.md"
+  },
+  {
+    "name": "Frontend Mentor 05",
+    "role": "Frontend",
+    "description": "React, CSS, and UI implementation. (mentor focus).",
+    "tags": [
+      "frontend",
+      "mentor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/frontend-mentor-05.md"
+  },
+  {
+    "name": "Frontend Mentor 13",
+    "role": "Frontend",
+    "description": "React, CSS, and UI implementation. (mentor focus).",
+    "tags": [
+      "frontend",
+      "mentor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/frontend-mentor-13.md"
+  },
+  {
+    "name": "Frontend Mentor 21",
+    "role": "Frontend",
+    "description": "React, CSS, and UI implementation. (mentor focus).",
+    "tags": [
+      "frontend",
+      "mentor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/frontend-mentor-21.md"
+  },
+  {
+    "name": "Frontend Mentor 29",
+    "role": "Frontend",
+    "description": "React, CSS, and UI implementation. (mentor focus).",
+    "tags": [
+      "frontend",
+      "mentor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/frontend-mentor-29.md"
+  },
+  {
+    "name": "Frontend Mentor 37",
+    "role": "Frontend",
+    "description": "React, CSS, and UI implementation. (mentor focus).",
+    "tags": [
+      "frontend",
+      "mentor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/frontend-mentor-37.md"
+  },
+  {
+    "name": "Frontend Optimizer 04",
+    "role": "Frontend",
+    "description": "React, CSS, and UI implementation. (optimizer focus).",
+    "tags": [
+      "frontend",
+      "optimizer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/frontend-optimizer-04.md"
+  },
+  {
+    "name": "Frontend Optimizer 12",
+    "role": "Frontend",
+    "description": "React, CSS, and UI implementation. (optimizer focus).",
+    "tags": [
+      "frontend",
+      "optimizer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/frontend-optimizer-12.md"
+  },
+  {
+    "name": "Frontend Optimizer 20",
+    "role": "Frontend",
+    "description": "React, CSS, and UI implementation. (optimizer focus).",
+    "tags": [
+      "frontend",
+      "optimizer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/frontend-optimizer-20.md"
+  },
+  {
+    "name": "Frontend Optimizer 28",
+    "role": "Frontend",
+    "description": "React, CSS, and UI implementation. (optimizer focus).",
+    "tags": [
+      "frontend",
+      "optimizer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/frontend-optimizer-28.md"
+  },
+  {
+    "name": "Frontend Optimizer 36",
+    "role": "Frontend",
+    "description": "React, CSS, and UI implementation. (optimizer focus).",
+    "tags": [
+      "frontend",
+      "optimizer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/frontend-optimizer-36.md"
+  },
+  {
+    "name": "Frontend Planner 02",
+    "role": "Frontend",
+    "description": "React, CSS, and UI implementation. (planner focus).",
+    "tags": [
+      "frontend",
+      "planner"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/frontend-planner-02.md"
+  },
+  {
+    "name": "Frontend Planner 10",
+    "role": "Frontend",
+    "description": "React, CSS, and UI implementation. (planner focus).",
+    "tags": [
+      "frontend",
+      "planner"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/frontend-planner-10.md"
+  },
+  {
+    "name": "Frontend Planner 18",
+    "role": "Frontend",
+    "description": "React, CSS, and UI implementation. (planner focus).",
+    "tags": [
+      "frontend",
+      "planner"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/frontend-planner-18.md"
+  },
+  {
+    "name": "Frontend Planner 26",
+    "role": "Frontend",
+    "description": "React, CSS, and UI implementation. (planner focus).",
+    "tags": [
+      "frontend",
+      "planner"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/frontend-planner-26.md"
+  },
+  {
+    "name": "Frontend Planner 34",
+    "role": "Frontend",
+    "description": "React, CSS, and UI implementation. (planner focus).",
+    "tags": [
+      "frontend",
+      "planner"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/frontend-planner-34.md"
+  },
+  {
+    "name": "Frontend Responder 06",
+    "role": "Frontend",
+    "description": "React, CSS, and UI implementation. (responder focus).",
+    "tags": [
+      "frontend",
+      "responder"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/frontend-responder-06.md"
+  },
+  {
+    "name": "Frontend Responder 14",
+    "role": "Frontend",
+    "description": "React, CSS, and UI implementation. (responder focus).",
+    "tags": [
+      "frontend",
+      "responder"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/frontend-responder-14.md"
+  },
+  {
+    "name": "Frontend Responder 22",
+    "role": "Frontend",
+    "description": "React, CSS, and UI implementation. (responder focus).",
+    "tags": [
+      "frontend",
+      "responder"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/frontend-responder-22.md"
+  },
+  {
+    "name": "Frontend Responder 30",
+    "role": "Frontend",
+    "description": "React, CSS, and UI implementation. (responder focus).",
+    "tags": [
+      "frontend",
+      "responder"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/frontend-responder-30.md"
+  },
+  {
+    "name": "Frontend Responder 38",
+    "role": "Frontend",
+    "description": "React, CSS, and UI implementation. (responder focus).",
+    "tags": [
+      "frontend",
+      "responder"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/frontend-responder-38.md"
+  },
+  {
+    "name": "Frontend Reviewer 03",
+    "role": "Frontend",
+    "description": "React, CSS, and UI implementation. (reviewer focus).",
+    "tags": [
+      "frontend",
+      "reviewer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/frontend-reviewer-03.md"
+  },
+  {
+    "name": "Frontend Reviewer 11",
+    "role": "Frontend",
+    "description": "React, CSS, and UI implementation. (reviewer focus).",
+    "tags": [
+      "frontend",
+      "reviewer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/frontend-reviewer-11.md"
+  },
+  {
+    "name": "Frontend Reviewer 19",
+    "role": "Frontend",
+    "description": "React, CSS, and UI implementation. (reviewer focus).",
+    "tags": [
+      "frontend",
+      "reviewer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/frontend-reviewer-19.md"
+  },
+  {
+    "name": "Frontend Reviewer 27",
+    "role": "Frontend",
+    "description": "React, CSS, and UI implementation. (reviewer focus).",
+    "tags": [
+      "frontend",
+      "reviewer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/frontend-reviewer-27.md"
+  },
+  {
+    "name": "Frontend Reviewer 35",
+    "role": "Frontend",
+    "description": "React, CSS, and UI implementation. (reviewer focus).",
+    "tags": [
+      "frontend",
+      "reviewer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/frontend-reviewer-35.md"
+  },
+  {
+    "name": "Frontend Scout 07",
+    "role": "Frontend",
+    "description": "React, CSS, and UI implementation. (scout focus).",
+    "tags": [
+      "frontend",
+      "scout"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/frontend-scout-07.md"
+  },
+  {
+    "name": "Frontend Scout 15",
+    "role": "Frontend",
+    "description": "React, CSS, and UI implementation. (scout focus).",
+    "tags": [
+      "frontend",
+      "scout"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/frontend-scout-15.md"
+  },
+  {
+    "name": "Frontend Scout 23",
+    "role": "Frontend",
+    "description": "React, CSS, and UI implementation. (scout focus).",
+    "tags": [
+      "frontend",
+      "scout"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/frontend-scout-23.md"
+  },
+  {
+    "name": "Frontend Scout 31",
+    "role": "Frontend",
+    "description": "React, CSS, and UI implementation. (scout focus).",
+    "tags": [
+      "frontend",
+      "scout"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/frontend-scout-31.md"
+  },
+  {
+    "name": "Frontend Scout 39",
+    "role": "Frontend",
+    "description": "React, CSS, and UI implementation. (scout focus).",
+    "tags": [
+      "frontend",
+      "scout"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/frontend-scout-39.md"
+  },
+  {
+    "name": "Frontend Specialist",
+    "role": "Frontend",
+    "description": "React, CSS, and UI implementation.",
+    "tags": [
+      "frontend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/frontend-specialist.md"
+  },
+  {
+    "name": "Frontend Writer 09",
+    "role": "Frontend",
+    "description": "React, CSS, and UI implementation. (writer focus).",
+    "tags": [
+      "frontend",
+      "writer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/frontend-writer-09.md"
+  },
+  {
+    "name": "Frontend Writer 17",
+    "role": "Frontend",
+    "description": "React, CSS, and UI implementation. (writer focus).",
+    "tags": [
+      "frontend",
+      "writer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/frontend-writer-17.md"
+  },
+  {
+    "name": "Frontend Writer 25",
+    "role": "Frontend",
+    "description": "React, CSS, and UI implementation. (writer focus).",
+    "tags": [
+      "frontend",
+      "writer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/frontend-writer-25.md"
+  },
+  {
+    "name": "Frontend Writer 33",
+    "role": "Frontend",
+    "description": "React, CSS, and UI implementation. (writer focus).",
+    "tags": [
+      "frontend",
+      "writer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/frontend-writer-33.md"
+  },
+  {
+    "name": "Lead System Architect",
+    "role": "Architecture",
+    "description": "Primary orchestrator for system design and planning.",
+    "tags": [
+      "architecture"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/lead-system-architect.md"
+  },
+  {
+    "name": "Mobile Builder",
+    "role": "Mobile",
+    "description": "Cross-platform mobile delivery.",
+    "tags": [
+      "mobile"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/mobile-builder.md"
+  },
+  {
+    "name": "Mobile Hardener 08",
+    "role": "Mobile",
+    "description": "Cross-platform mobile delivery. (hardener focus).",
+    "tags": [
+      "mobile",
+      "hardener"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/mobile-hardener-08.md"
+  },
+  {
+    "name": "Mobile Hardener 16",
+    "role": "Mobile",
+    "description": "Cross-platform mobile delivery. (hardener focus).",
+    "tags": [
+      "mobile",
+      "hardener"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/mobile-hardener-16.md"
+  },
+  {
+    "name": "Mobile Hardener 24",
+    "role": "Mobile",
+    "description": "Cross-platform mobile delivery. (hardener focus).",
+    "tags": [
+      "mobile",
+      "hardener"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/mobile-hardener-24.md"
+  },
+  {
+    "name": "Mobile Hardener 32",
+    "role": "Mobile",
+    "description": "Cross-platform mobile delivery. (hardener focus).",
+    "tags": [
+      "mobile",
+      "hardener"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/mobile-hardener-32.md"
+  },
+  {
+    "name": "Mobile Mentor 05",
+    "role": "Mobile",
+    "description": "Cross-platform mobile delivery. (mentor focus).",
+    "tags": [
+      "mobile",
+      "mentor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/mobile-mentor-05.md"
+  },
+  {
+    "name": "Mobile Mentor 13",
+    "role": "Mobile",
+    "description": "Cross-platform mobile delivery. (mentor focus).",
+    "tags": [
+      "mobile",
+      "mentor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/mobile-mentor-13.md"
+  },
+  {
+    "name": "Mobile Mentor 21",
+    "role": "Mobile",
+    "description": "Cross-platform mobile delivery. (mentor focus).",
+    "tags": [
+      "mobile",
+      "mentor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/mobile-mentor-21.md"
+  },
+  {
+    "name": "Mobile Mentor 29",
+    "role": "Mobile",
+    "description": "Cross-platform mobile delivery. (mentor focus).",
+    "tags": [
+      "mobile",
+      "mentor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/mobile-mentor-29.md"
+  },
+  {
+    "name": "Mobile Mentor 37",
+    "role": "Mobile",
+    "description": "Cross-platform mobile delivery. (mentor focus).",
+    "tags": [
+      "mobile",
+      "mentor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/mobile-mentor-37.md"
+  },
+  {
+    "name": "Mobile Optimizer 04",
+    "role": "Mobile",
+    "description": "Cross-platform mobile delivery. (optimizer focus).",
+    "tags": [
+      "mobile",
+      "optimizer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/mobile-optimizer-04.md"
+  },
+  {
+    "name": "Mobile Optimizer 12",
+    "role": "Mobile",
+    "description": "Cross-platform mobile delivery. (optimizer focus).",
+    "tags": [
+      "mobile",
+      "optimizer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/mobile-optimizer-12.md"
+  },
+  {
+    "name": "Mobile Optimizer 20",
+    "role": "Mobile",
+    "description": "Cross-platform mobile delivery. (optimizer focus).",
+    "tags": [
+      "mobile",
+      "optimizer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/mobile-optimizer-20.md"
+  },
+  {
+    "name": "Mobile Optimizer 28",
+    "role": "Mobile",
+    "description": "Cross-platform mobile delivery. (optimizer focus).",
+    "tags": [
+      "mobile",
+      "optimizer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/mobile-optimizer-28.md"
+  },
+  {
+    "name": "Mobile Optimizer 36",
+    "role": "Mobile",
+    "description": "Cross-platform mobile delivery. (optimizer focus).",
+    "tags": [
+      "mobile",
+      "optimizer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/mobile-optimizer-36.md"
+  },
+  {
+    "name": "Mobile Planner 02",
+    "role": "Mobile",
+    "description": "Cross-platform mobile delivery. (planner focus).",
+    "tags": [
+      "mobile",
+      "planner"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/mobile-planner-02.md"
+  },
+  {
+    "name": "Mobile Planner 10",
+    "role": "Mobile",
+    "description": "Cross-platform mobile delivery. (planner focus).",
+    "tags": [
+      "mobile",
+      "planner"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/mobile-planner-10.md"
+  },
+  {
+    "name": "Mobile Planner 18",
+    "role": "Mobile",
+    "description": "Cross-platform mobile delivery. (planner focus).",
+    "tags": [
+      "mobile",
+      "planner"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/mobile-planner-18.md"
+  },
+  {
+    "name": "Mobile Planner 26",
+    "role": "Mobile",
+    "description": "Cross-platform mobile delivery. (planner focus).",
+    "tags": [
+      "mobile",
+      "planner"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/mobile-planner-26.md"
+  },
+  {
+    "name": "Mobile Planner 34",
+    "role": "Mobile",
+    "description": "Cross-platform mobile delivery. (planner focus).",
+    "tags": [
+      "mobile",
+      "planner"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/mobile-planner-34.md"
+  },
+  {
+    "name": "Mobile Responder 06",
+    "role": "Mobile",
+    "description": "Cross-platform mobile delivery. (responder focus).",
+    "tags": [
+      "mobile",
+      "responder"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/mobile-responder-06.md"
+  },
+  {
+    "name": "Mobile Responder 14",
+    "role": "Mobile",
+    "description": "Cross-platform mobile delivery. (responder focus).",
+    "tags": [
+      "mobile",
+      "responder"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/mobile-responder-14.md"
+  },
+  {
+    "name": "Mobile Responder 22",
+    "role": "Mobile",
+    "description": "Cross-platform mobile delivery. (responder focus).",
+    "tags": [
+      "mobile",
+      "responder"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/mobile-responder-22.md"
+  },
+  {
+    "name": "Mobile Responder 30",
+    "role": "Mobile",
+    "description": "Cross-platform mobile delivery. (responder focus).",
+    "tags": [
+      "mobile",
+      "responder"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/mobile-responder-30.md"
+  },
+  {
+    "name": "Mobile Responder 38",
+    "role": "Mobile",
+    "description": "Cross-platform mobile delivery. (responder focus).",
+    "tags": [
+      "mobile",
+      "responder"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/mobile-responder-38.md"
+  },
+  {
+    "name": "Mobile Reviewer 03",
+    "role": "Mobile",
+    "description": "Cross-platform mobile delivery. (reviewer focus).",
+    "tags": [
+      "mobile",
+      "reviewer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/mobile-reviewer-03.md"
+  },
+  {
+    "name": "Mobile Reviewer 11",
+    "role": "Mobile",
+    "description": "Cross-platform mobile delivery. (reviewer focus).",
+    "tags": [
+      "mobile",
+      "reviewer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/mobile-reviewer-11.md"
+  },
+  {
+    "name": "Mobile Reviewer 19",
+    "role": "Mobile",
+    "description": "Cross-platform mobile delivery. (reviewer focus).",
+    "tags": [
+      "mobile",
+      "reviewer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/mobile-reviewer-19.md"
+  },
+  {
+    "name": "Mobile Reviewer 27",
+    "role": "Mobile",
+    "description": "Cross-platform mobile delivery. (reviewer focus).",
+    "tags": [
+      "mobile",
+      "reviewer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/mobile-reviewer-27.md"
+  },
+  {
+    "name": "Mobile Reviewer 35",
+    "role": "Mobile",
+    "description": "Cross-platform mobile delivery. (reviewer focus).",
+    "tags": [
+      "mobile",
+      "reviewer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/mobile-reviewer-35.md"
+  },
+  {
+    "name": "Mobile Scout 07",
+    "role": "Mobile",
+    "description": "Cross-platform mobile delivery. (scout focus).",
+    "tags": [
+      "mobile",
+      "scout"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/mobile-scout-07.md"
+  },
+  {
+    "name": "Mobile Scout 15",
+    "role": "Mobile",
+    "description": "Cross-platform mobile delivery. (scout focus).",
+    "tags": [
+      "mobile",
+      "scout"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/mobile-scout-15.md"
+  },
+  {
+    "name": "Mobile Scout 23",
+    "role": "Mobile",
+    "description": "Cross-platform mobile delivery. (scout focus).",
+    "tags": [
+      "mobile",
+      "scout"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/mobile-scout-23.md"
+  },
+  {
+    "name": "Mobile Scout 31",
+    "role": "Mobile",
+    "description": "Cross-platform mobile delivery. (scout focus).",
+    "tags": [
+      "mobile",
+      "scout"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/mobile-scout-31.md"
+  },
+  {
+    "name": "Mobile Scout 39",
+    "role": "Mobile",
+    "description": "Cross-platform mobile delivery. (scout focus).",
+    "tags": [
+      "mobile",
+      "scout"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/mobile-scout-39.md"
+  },
+  {
+    "name": "Mobile Writer 09",
+    "role": "Mobile",
+    "description": "Cross-platform mobile delivery. (writer focus).",
+    "tags": [
+      "mobile",
+      "writer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/mobile-writer-09.md"
+  },
+  {
+    "name": "Mobile Writer 17",
+    "role": "Mobile",
+    "description": "Cross-platform mobile delivery. (writer focus).",
+    "tags": [
+      "mobile",
+      "writer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/mobile-writer-17.md"
+  },
+  {
+    "name": "Mobile Writer 25",
+    "role": "Mobile",
+    "description": "Cross-platform mobile delivery. (writer focus).",
+    "tags": [
+      "mobile",
+      "writer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/mobile-writer-25.md"
+  },
+  {
+    "name": "Mobile Writer 33",
+    "role": "Mobile",
+    "description": "Cross-platform mobile delivery. (writer focus).",
+    "tags": [
+      "mobile",
+      "writer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/mobile-writer-33.md"
   }
 ]
