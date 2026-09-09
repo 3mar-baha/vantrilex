@@ -172,3 +172,27 @@ func MergeModels(static, live []Model) []Model {
 			}
 			if l.Context != "" && l.Context != "n/a" {
 				s.Context = l.Context
+			}
+			if l.Blurb != "" {
+				s.Blurb = l.Blurb
+			}
+			if l.Reasoning {
+				s.Reasoning = true
+			}
+			out[idx] = s
+			continue
+		}
+		out = append(out, l)
+	}
+	return out
+}
+
+// LiveModels returns merged static + cached-or-fresh live catalog.
+func LiveModels(ctx context.Context) []Model {
+	static := Models()
+	live := FetchOpenRouterModels(ctx)
+	if len(live) == 0 {
+		return static
+	}
+	return MergeModels(static, live)
+}
