@@ -122,3 +122,65 @@ func ApplySelections(ctx context.Context, workspace string, agents, skills, plug
 		if _, err := os.Stat(abs); err == nil {
 			continue
 		}
+		content := fmt.Sprintf(starterAgentTemplate, a.Name, a.Name) + "\nRole: " + a.Source + "\n" + a.Desc + "\n"
+		if body, err := FetchBody(ctx, a.RawURL); err == nil {
+			content = string(body)
+		}
+		if err := writeOnceFile(abs, content, &created, rel); err != nil {
+			return created, err
+		}
+	}
+	// Plugins: record install refs.
+	if len(plugins) > 0 {
+		rel := ".claude/plugins/manifest.json"
+		abs := filepath.Join(workspace, filepath.FromSlash(rel))
+		if _, err := os.Stat(abs); err != nil {
+			refs := []string{}
+			for _, p := range plugins {
+				refs = append(refs, p.Install)
+			}
+			b, _ := json.MarshalIndent(map[string]any{"plugins": refs}, "", "  ")
+			if err := writeOnceFile(abs, string(b)+"\n", &created, rel); err != nil {
+				return created, err
+			}
+		}
+	}
+	// Hooks: map events in settings.json.
+	if len(hooks) > 0 {
+		rel := ".claude/settings.json"
+		abs := filepath.Join(workspace, filepath.FromSlash(rel))
+		var cur map[string]any
+		if data, err := os.ReadFile(abs); err == nil {
+			_ = json.Unmarshal(data, &cur)
+		}
+		if cur == nil {
+			cur = map[string]any{}
+		}
+		hmap, _ := cur["hooks"].(map[string]any)
+		if hmap == nil {
+			hmap = map[string]any{}
+		}
+		changed := false
+		for _, h := range hooks {
+			ev := h.Source
+			if ev == "" {
+				ev = "PostToolUse"
+			}
+			key := ev + ":" + h.Name
+			if _, ok := hmap[key]; !ok {
+				hmap[key] = map[string]any{"command": h.Install, "event": ev}
+				changed = true
+			}
+			// Best-effort fetch of hook body into hooks dir.
+			hrel := ".claude/hooks/" + sanitize(h.Name) + ".json"
+			habs := filepath.Join(workspace, filepath.FromSlash(hrel))
+			if _, err := os.Stat(habs); err != nil {
+				hcontent := fmt.Sprintf("{\"name\": %q, \"event\": %q, \"note\": %q}", h.Name, ev, h.Desc)
+				if body, err := FetchBody(ctx, h.RawURL); err == nil {
+					hcontent = string(body)
+				}
+				_ = writeOnceFile(habs, hcontent, &created, hrel)
+			}
+		}
+		if changed {
+			cur["hooks"] = hmap
