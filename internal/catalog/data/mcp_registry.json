@@ -4886,5 +4886,2421 @@
     "description": "Figma file inspection. Community variant (finance).",
     "sourceURL": "https://github.com/modelcontextprotocol/servers",
     "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "figma-finance-029",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-figma",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "design",
+      "ui",
+      "finance"
+    ],
+    "description": "Figma file inspection. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "figma-iot-008",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-figma",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "design",
+      "ui",
+      "iot"
+    ],
+    "description": "Figma file inspection. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "figma-iot-018",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-figma",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "design",
+      "ui",
+      "iot"
+    ],
+    "description": "Figma file inspection. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "figma-iot-028",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-figma",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "design",
+      "ui",
+      "iot"
+    ],
+    "description": "Figma file inspection. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "figma-media-010",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-figma",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "design",
+      "ui",
+      "media"
+    ],
+    "description": "Figma file inspection. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "figma-media-020",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-figma",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "design",
+      "ui",
+      "media"
+    ],
+    "description": "Figma file inspection. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "figma-media-030",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-figma",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "design",
+      "ui",
+      "media"
+    ],
+    "description": "Figma file inspection. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "figma-productivity-011",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-figma",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "design",
+      "ui",
+      "productivity"
+    ],
+    "description": "Figma file inspection. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "figma-productivity-021",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-figma",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "design",
+      "ui",
+      "productivity"
+    ],
+    "description": "Figma file inspection. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "figma-security-007",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-figma",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "design",
+      "ui",
+      "security"
+    ],
+    "description": "Figma file inspection. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "figma-security-017",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-figma",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "design",
+      "ui",
+      "security"
+    ],
+    "description": "Figma file inspection. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "figma-security-027",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-figma",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "design",
+      "ui",
+      "security"
+    ],
+    "description": "Figma file inspection. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "figma-web-005",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-figma",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "design",
+      "ui",
+      "web"
+    ],
+    "description": "Figma file inspection. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "figma-web-015",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-figma",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "design",
+      "ui",
+      "web"
+    ],
+    "description": "Figma file inspection. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "figma-web-025",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-figma",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "design",
+      "ui",
+      "web"
+    ],
+    "description": "Figma file inspection. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "filesystem",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-filesystem"
+    ],
+    "tags": [
+      "files",
+      "tools"
+    ],
+    "description": "Secure scoped filesystem read/write.",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "filesystem-ai-006",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-filesystem",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "tools",
+      "ai"
+    ],
+    "description": "Secure scoped filesystem read/write. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "filesystem-ai-016",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-filesystem",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "tools",
+      "ai"
+    ],
+    "description": "Secure scoped filesystem read/write. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "filesystem-ai-026",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-filesystem",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "tools",
+      "ai"
+    ],
+    "description": "Secure scoped filesystem read/write. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "filesystem-cloud-003",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-filesystem",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "tools",
+      "cloud"
+    ],
+    "description": "Secure scoped filesystem read/write. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "filesystem-cloud-013",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-filesystem",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "tools",
+      "cloud"
+    ],
+    "description": "Secure scoped filesystem read/write. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "filesystem-cloud-023",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-filesystem",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "tools",
+      "cloud"
+    ],
+    "description": "Secure scoped filesystem read/write. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "filesystem-database-004",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-filesystem",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "tools",
+      "database"
+    ],
+    "description": "Secure scoped filesystem read/write. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "filesystem-database-014",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-filesystem",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "tools",
+      "database"
+    ],
+    "description": "Secure scoped filesystem read/write. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "filesystem-database-024",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-filesystem",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "tools",
+      "database"
+    ],
+    "description": "Secure scoped filesystem read/write. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "filesystem-devtools-002",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-filesystem",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "tools",
+      "devtools"
+    ],
+    "description": "Secure scoped filesystem read/write. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "filesystem-devtools-012",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-filesystem",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "tools",
+      "devtools"
+    ],
+    "description": "Secure scoped filesystem read/write. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "filesystem-devtools-022",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-filesystem",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "tools",
+      "devtools"
+    ],
+    "description": "Secure scoped filesystem read/write. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "filesystem-finance-009",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-filesystem",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "tools",
+      "finance"
+    ],
+    "description": "Secure scoped filesystem read/write. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "filesystem-finance-019",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-filesystem",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "tools",
+      "finance"
+    ],
+    "description": "Secure scoped filesystem read/write. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "filesystem-finance-029",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-filesystem",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "tools",
+      "finance"
+    ],
+    "description": "Secure scoped filesystem read/write. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "filesystem-iot-008",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-filesystem",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "tools",
+      "iot"
+    ],
+    "description": "Secure scoped filesystem read/write. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "filesystem-iot-018",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-filesystem",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "tools",
+      "iot"
+    ],
+    "description": "Secure scoped filesystem read/write. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "filesystem-iot-028",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-filesystem",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "tools",
+      "iot"
+    ],
+    "description": "Secure scoped filesystem read/write. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "filesystem-media-010",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-filesystem",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "tools",
+      "media"
+    ],
+    "description": "Secure scoped filesystem read/write. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "filesystem-media-020",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-filesystem",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "tools",
+      "media"
+    ],
+    "description": "Secure scoped filesystem read/write. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "filesystem-media-030",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-filesystem",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "tools",
+      "media"
+    ],
+    "description": "Secure scoped filesystem read/write. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "filesystem-productivity-011",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-filesystem",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "tools",
+      "productivity"
+    ],
+    "description": "Secure scoped filesystem read/write. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "filesystem-productivity-021",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-filesystem",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "tools",
+      "productivity"
+    ],
+    "description": "Secure scoped filesystem read/write. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "filesystem-productivity-031",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-filesystem",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "tools",
+      "productivity"
+    ],
+    "description": "Secure scoped filesystem read/write. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "filesystem-security-007",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-filesystem",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "tools",
+      "security"
+    ],
+    "description": "Secure scoped filesystem read/write. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "filesystem-security-017",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-filesystem",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "tools",
+      "security"
+    ],
+    "description": "Secure scoped filesystem read/write. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "filesystem-security-027",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-filesystem",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "tools",
+      "security"
+    ],
+    "description": "Secure scoped filesystem read/write. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "filesystem-web-005",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-filesystem",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "tools",
+      "web"
+    ],
+    "description": "Secure scoped filesystem read/write. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "filesystem-web-015",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-filesystem",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "tools",
+      "web"
+    ],
+    "description": "Secure scoped filesystem read/write. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "filesystem-web-025",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-filesystem",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "tools",
+      "web"
+    ],
+    "description": "Secure scoped filesystem read/write. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "github",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-github"
+    ],
+    "tags": [
+      "git",
+      "devops"
+    ],
+    "description": "GitHub repos, issues, PRs.",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "github-ai-006",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-github",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "ai"
+    ],
+    "description": "GitHub repos, issues, PRs. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "github-ai-016",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-github",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "ai"
+    ],
+    "description": "GitHub repos, issues, PRs. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "github-ai-026",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-github",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "ai"
+    ],
+    "description": "GitHub repos, issues, PRs. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "github-cloud-003",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-github",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "cloud"
+    ],
+    "description": "GitHub repos, issues, PRs. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "github-cloud-013",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-github",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "cloud"
+    ],
+    "description": "GitHub repos, issues, PRs. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "github-cloud-023",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-github",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "cloud"
+    ],
+    "description": "GitHub repos, issues, PRs. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "github-database-004",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-github",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "database"
+    ],
+    "description": "GitHub repos, issues, PRs. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "github-database-014",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-github",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "database"
+    ],
+    "description": "GitHub repos, issues, PRs. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "github-database-024",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-github",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "database"
+    ],
+    "description": "GitHub repos, issues, PRs. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "github-devtools-002",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-github",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "devtools"
+    ],
+    "description": "GitHub repos, issues, PRs. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "github-devtools-012",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-github",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "devtools"
+    ],
+    "description": "GitHub repos, issues, PRs. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "github-devtools-022",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-github",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "devtools"
+    ],
+    "description": "GitHub repos, issues, PRs. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "github-finance-009",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-github",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "finance"
+    ],
+    "description": "GitHub repos, issues, PRs. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "github-finance-019",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-github",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "finance"
+    ],
+    "description": "GitHub repos, issues, PRs. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "github-finance-029",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-github",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "finance"
+    ],
+    "description": "GitHub repos, issues, PRs. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "github-iot-008",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-github",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "iot"
+    ],
+    "description": "GitHub repos, issues, PRs. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "github-iot-018",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-github",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "iot"
+    ],
+    "description": "GitHub repos, issues, PRs. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "github-iot-028",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-github",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "iot"
+    ],
+    "description": "GitHub repos, issues, PRs. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "github-media-010",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-github",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "media"
+    ],
+    "description": "GitHub repos, issues, PRs. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "github-media-020",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-github",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "media"
+    ],
+    "description": "GitHub repos, issues, PRs. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "github-media-030",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-github",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "media"
+    ],
+    "description": "GitHub repos, issues, PRs. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "github-productivity-011",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-github",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "productivity"
+    ],
+    "description": "GitHub repos, issues, PRs. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "github-productivity-021",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-github",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "productivity"
+    ],
+    "description": "GitHub repos, issues, PRs. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "github-security-007",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-github",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "security"
+    ],
+    "description": "GitHub repos, issues, PRs. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "github-security-017",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-github",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "security"
+    ],
+    "description": "GitHub repos, issues, PRs. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "github-security-027",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-github",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "security"
+    ],
+    "description": "GitHub repos, issues, PRs. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "github-web-005",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-github",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "web"
+    ],
+    "description": "GitHub repos, issues, PRs. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "github-web-015",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-github",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "web"
+    ],
+    "description": "GitHub repos, issues, PRs. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "github-web-025",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-github",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "web"
+    ],
+    "description": "GitHub repos, issues, PRs. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "gitlab",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gitlab"
+    ],
+    "tags": [
+      "git",
+      "devops"
+    ],
+    "description": "GitLab projects and pipelines.",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "gitlab-ai-006",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gitlab",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "ai"
+    ],
+    "description": "GitLab projects and pipelines. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "gitlab-ai-016",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gitlab",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "ai"
+    ],
+    "description": "GitLab projects and pipelines. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "gitlab-ai-026",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gitlab",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "ai"
+    ],
+    "description": "GitLab projects and pipelines. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "gitlab-cloud-003",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gitlab",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "cloud"
+    ],
+    "description": "GitLab projects and pipelines. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "gitlab-cloud-013",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gitlab",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "cloud"
+    ],
+    "description": "GitLab projects and pipelines. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "gitlab-cloud-023",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gitlab",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "cloud"
+    ],
+    "description": "GitLab projects and pipelines. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "gitlab-database-004",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gitlab",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "database"
+    ],
+    "description": "GitLab projects and pipelines. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "gitlab-database-014",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gitlab",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "database"
+    ],
+    "description": "GitLab projects and pipelines. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "gitlab-database-024",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gitlab",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "database"
+    ],
+    "description": "GitLab projects and pipelines. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "gitlab-devtools-002",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gitlab",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "devtools"
+    ],
+    "description": "GitLab projects and pipelines. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "gitlab-devtools-012",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gitlab",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "devtools"
+    ],
+    "description": "GitLab projects and pipelines. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "gitlab-devtools-022",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gitlab",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "devtools"
+    ],
+    "description": "GitLab projects and pipelines. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "gitlab-finance-009",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gitlab",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "finance"
+    ],
+    "description": "GitLab projects and pipelines. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "gitlab-finance-019",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gitlab",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "finance"
+    ],
+    "description": "GitLab projects and pipelines. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "gitlab-finance-029",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gitlab",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "finance"
+    ],
+    "description": "GitLab projects and pipelines. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "gitlab-iot-008",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gitlab",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "iot"
+    ],
+    "description": "GitLab projects and pipelines. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "gitlab-iot-018",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gitlab",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "iot"
+    ],
+    "description": "GitLab projects and pipelines. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "gitlab-iot-028",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gitlab",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "iot"
+    ],
+    "description": "GitLab projects and pipelines. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "gitlab-media-010",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gitlab",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "media"
+    ],
+    "description": "GitLab projects and pipelines. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "gitlab-media-020",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gitlab",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "media"
+    ],
+    "description": "GitLab projects and pipelines. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "gitlab-media-030",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gitlab",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "media"
+    ],
+    "description": "GitLab projects and pipelines. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "gitlab-productivity-011",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gitlab",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "productivity"
+    ],
+    "description": "GitLab projects and pipelines. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "gitlab-productivity-021",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gitlab",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "productivity"
+    ],
+    "description": "GitLab projects and pipelines. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "gitlab-security-007",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gitlab",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "security"
+    ],
+    "description": "GitLab projects and pipelines. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "gitlab-security-017",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gitlab",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "security"
+    ],
+    "description": "GitLab projects and pipelines. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "gitlab-security-027",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gitlab",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "security"
+    ],
+    "description": "GitLab projects and pipelines. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "gitlab-web-005",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gitlab",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "web"
+    ],
+    "description": "GitLab projects and pipelines. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "gitlab-web-015",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gitlab",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "web"
+    ],
+    "description": "GitLab projects and pipelines. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "gitlab-web-025",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gitlab",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "git",
+      "devops",
+      "web"
+    ],
+    "description": "GitLab projects and pipelines. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-drive",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gdrive"
+    ],
+    "tags": [
+      "files",
+      "cloud"
+    ],
+    "description": "Google Drive file access.",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-drive-ai-006",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gdrive",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "cloud",
+      "ai"
+    ],
+    "description": "Google Drive file access. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-drive-ai-016",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gdrive",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "cloud",
+      "ai"
+    ],
+    "description": "Google Drive file access. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-drive-ai-026",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gdrive",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "cloud",
+      "ai"
+    ],
+    "description": "Google Drive file access. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-drive-cloud-003",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gdrive",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "cloud",
+      "cloud"
+    ],
+    "description": "Google Drive file access. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-drive-cloud-013",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gdrive",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "cloud",
+      "cloud"
+    ],
+    "description": "Google Drive file access. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-drive-cloud-023",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gdrive",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "cloud",
+      "cloud"
+    ],
+    "description": "Google Drive file access. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-drive-database-004",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gdrive",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "cloud",
+      "database"
+    ],
+    "description": "Google Drive file access. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-drive-database-014",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gdrive",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "cloud",
+      "database"
+    ],
+    "description": "Google Drive file access. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-drive-database-024",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gdrive",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "cloud",
+      "database"
+    ],
+    "description": "Google Drive file access. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-drive-devtools-002",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gdrive",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "cloud",
+      "devtools"
+    ],
+    "description": "Google Drive file access. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-drive-devtools-012",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gdrive",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "cloud",
+      "devtools"
+    ],
+    "description": "Google Drive file access. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-drive-devtools-022",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gdrive",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "cloud",
+      "devtools"
+    ],
+    "description": "Google Drive file access. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-drive-finance-009",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gdrive",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "cloud",
+      "finance"
+    ],
+    "description": "Google Drive file access. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-drive-finance-019",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gdrive",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "cloud",
+      "finance"
+    ],
+    "description": "Google Drive file access. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-drive-finance-029",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gdrive",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "cloud",
+      "finance"
+    ],
+    "description": "Google Drive file access. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-drive-iot-008",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gdrive",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "cloud",
+      "iot"
+    ],
+    "description": "Google Drive file access. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-drive-iot-018",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gdrive",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "cloud",
+      "iot"
+    ],
+    "description": "Google Drive file access. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-drive-iot-028",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gdrive",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "cloud",
+      "iot"
+    ],
+    "description": "Google Drive file access. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-drive-media-010",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gdrive",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "cloud",
+      "media"
+    ],
+    "description": "Google Drive file access. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-drive-media-020",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gdrive",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "cloud",
+      "media"
+    ],
+    "description": "Google Drive file access. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-drive-media-030",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gdrive",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "cloud",
+      "media"
+    ],
+    "description": "Google Drive file access. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
   }
 ]
