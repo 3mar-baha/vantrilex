@@ -586,5 +586,201 @@
     "description": "Pull-request review checklist and automation. Variant.",
     "installRef": "marketplace-essentials/pr-review-edge-10",
     "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "pr-review-extended-05",
+    "marketplace": "claude-plugins-community",
+    "description": "Pull-request review checklist and automation. Variant.",
+    "installRef": "claude-plugins-community/pr-review-extended-05",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "pr-review-kit-11",
+    "marketplace": "claude-plugins-community",
+    "description": "Pull-request review checklist and automation. Variant.",
+    "installRef": "claude-plugins-community/pr-review-kit-11",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "pr-review-lite-03",
+    "marketplace": "claude-plugins-community",
+    "description": "Pull-request review checklist and automation. Variant.",
+    "installRef": "claude-plugins-community/pr-review-lite-03",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "pr-review-plus-04",
+    "marketplace": "marketplace-essentials",
+    "description": "Pull-request review checklist and automation. Variant.",
+    "installRef": "marketplace-essentials/pr-review-plus-04",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "pr-review-pro-02",
+    "marketplace": "marketplace-essentials",
+    "description": "Pull-request review checklist and automation. Variant.",
+    "installRef": "marketplace-essentials/pr-review-pro-02",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "pr-review-team-06",
+    "marketplace": "marketplace-essentials",
+    "description": "Pull-request review checklist and automation. Variant.",
+    "installRef": "marketplace-essentials/pr-review-team-06",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "security-audit",
+    "marketplace": "community",
+    "description": "Static security checklist for web apps.",
+    "installRef": "community/security-audit",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "security-audit-ci-07",
+    "marketplace": "claude-plugins-official",
+    "description": "Static security checklist for web apps. Variant.",
+    "installRef": "claude-plugins-official/security-audit-ci-07",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "security-audit-core-09",
+    "marketplace": "claude-plugins-official",
+    "description": "Static security checklist for web apps. Variant.",
+    "installRef": "claude-plugins-official/security-audit-core-09",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "security-audit-dx-08",
+    "marketplace": "community",
+    "description": "Static security checklist for web apps. Variant.",
+    "installRef": "community/security-audit-dx-08",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "security-audit-edge-10",
+    "marketplace": "community",
+    "description": "Static security checklist for web apps. Variant.",
+    "installRef": "community/security-audit-edge-10",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "security-audit-extended-05",
+    "marketplace": "claude-plugins-official",
+    "description": "Static security checklist for web apps. Variant.",
+    "installRef": "claude-plugins-official/security-audit-extended-05",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "security-audit-kit-11",
+    "marketplace": "claude-plugins-official",
+    "description": "Static security checklist for web apps. Variant.",
+    "installRef": "claude-plugins-official/security-audit-kit-11",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "security-audit-lite-03",
+    "marketplace": "claude-plugins-official",
+    "description": "Static security checklist for web apps. Variant.",
+    "installRef": "claude-plugins-official/security-audit-lite-03",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "security-audit-plus-04",
+    "marketplace": "community",
+    "description": "Static security checklist for web apps. Variant.",
+    "installRef": "community/security-audit-plus-04",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "security-audit-pro-02",
+    "marketplace": "community",
+    "description": "Static security checklist for web apps. Variant.",
+    "installRef": "community/security-audit-pro-02",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "security-audit-team-06",
+    "marketplace": "community",
+    "description": "Static security checklist for web apps. Variant.",
+    "installRef": "community/security-audit-team-06",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "test-runner",
+    "marketplace": "claude-plugins-community",
+    "description": "One-shot test wiring for common stacks.",
+    "installRef": "claude-plugins-community/test-runner",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "test-runner-ci-07",
+    "marketplace": "marketplace-essentials",
+    "description": "One-shot test wiring for common stacks. Variant.",
+    "installRef": "marketplace-essentials/test-runner-ci-07",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "test-runner-core-09",
+    "marketplace": "marketplace-essentials",
+    "description": "One-shot test wiring for common stacks. Variant.",
+    "installRef": "marketplace-essentials/test-runner-core-09",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "test-runner-dx-08",
+    "marketplace": "claude-plugins-community",
+    "description": "One-shot test wiring for common stacks. Variant.",
+    "installRef": "claude-plugins-community/test-runner-dx-08",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "test-runner-edge-10",
+    "marketplace": "claude-plugins-community",
+    "description": "One-shot test wiring for common stacks. Variant.",
+    "installRef": "claude-plugins-community/test-runner-edge-10",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "test-runner-extended-05",
+    "marketplace": "marketplace-essentials",
+    "description": "One-shot test wiring for common stacks. Variant.",
+    "installRef": "marketplace-essentials/test-runner-extended-05",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "test-runner-kit-11",
+    "marketplace": "marketplace-essentials",
+    "description": "One-shot test wiring for common stacks. Variant.",
+    "installRef": "marketplace-essentials/test-runner-kit-11",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "test-runner-lite-03",
+    "marketplace": "marketplace-essentials",
+    "description": "One-shot test wiring for common stacks. Variant.",
+    "installRef": "marketplace-essentials/test-runner-lite-03",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "test-runner-plus-04",
+    "marketplace": "claude-plugins-community",
+    "description": "One-shot test wiring for common stacks. Variant.",
+    "installRef": "claude-plugins-community/test-runner-plus-04",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "test-runner-pro-02",
+    "marketplace": "claude-plugins-community",
+    "description": "One-shot test wiring for common stacks. Variant.",
+    "installRef": "claude-plugins-community/test-runner-pro-02",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "test-runner-team-06",
+    "marketplace": "claude-plugins-community",
+    "description": "One-shot test wiring for common stacks. Variant.",
+    "installRef": "claude-plugins-community/test-runner-team-06",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
   }
 ]
