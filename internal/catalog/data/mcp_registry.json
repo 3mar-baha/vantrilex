@@ -16992,5 +16992,2421 @@
     "description": "SQLite local database access. Community variant (media).",
     "sourceURL": "https://github.com/modelcontextprotocol/servers",
     "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sqlite-productivity-011",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sqlite",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "productivity"
+    ],
+    "description": "SQLite local database access. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sqlite-productivity-021",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sqlite",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "productivity"
+    ],
+    "description": "SQLite local database access. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sqlite-security-007",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sqlite",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "security"
+    ],
+    "description": "SQLite local database access. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sqlite-security-017",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sqlite",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "security"
+    ],
+    "description": "SQLite local database access. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sqlite-security-027",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sqlite",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "security"
+    ],
+    "description": "SQLite local database access. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sqlite-web-005",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sqlite",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "web"
+    ],
+    "description": "SQLite local database access. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sqlite-web-015",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sqlite",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "web"
+    ],
+    "description": "SQLite local database access. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "sqlite-web-025",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sqlite",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "web"
+    ],
+    "description": "SQLite local database access. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "stripe",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-stripe"
+    ],
+    "tags": [
+      "payments",
+      "finance"
+    ],
+    "description": "Stripe payments inspection.",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "stripe-ai-006",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-stripe",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "payments",
+      "finance",
+      "ai"
+    ],
+    "description": "Stripe payments inspection. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "stripe-ai-016",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-stripe",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "payments",
+      "finance",
+      "ai"
+    ],
+    "description": "Stripe payments inspection. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "stripe-ai-026",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-stripe",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "payments",
+      "finance",
+      "ai"
+    ],
+    "description": "Stripe payments inspection. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "stripe-cloud-003",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-stripe",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "payments",
+      "finance",
+      "cloud"
+    ],
+    "description": "Stripe payments inspection. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "stripe-cloud-013",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-stripe",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "payments",
+      "finance",
+      "cloud"
+    ],
+    "description": "Stripe payments inspection. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "stripe-cloud-023",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-stripe",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "payments",
+      "finance",
+      "cloud"
+    ],
+    "description": "Stripe payments inspection. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "stripe-database-004",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-stripe",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "payments",
+      "finance",
+      "database"
+    ],
+    "description": "Stripe payments inspection. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "stripe-database-014",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-stripe",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "payments",
+      "finance",
+      "database"
+    ],
+    "description": "Stripe payments inspection. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "stripe-database-024",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-stripe",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "payments",
+      "finance",
+      "database"
+    ],
+    "description": "Stripe payments inspection. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "stripe-devtools-002",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-stripe",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "payments",
+      "finance",
+      "devtools"
+    ],
+    "description": "Stripe payments inspection. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "stripe-devtools-012",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-stripe",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "payments",
+      "finance",
+      "devtools"
+    ],
+    "description": "Stripe payments inspection. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "stripe-devtools-022",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-stripe",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "payments",
+      "finance",
+      "devtools"
+    ],
+    "description": "Stripe payments inspection. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "stripe-finance-009",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-stripe",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "payments",
+      "finance",
+      "finance"
+    ],
+    "description": "Stripe payments inspection. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "stripe-finance-019",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-stripe",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "payments",
+      "finance",
+      "finance"
+    ],
+    "description": "Stripe payments inspection. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "stripe-finance-029",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-stripe",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "payments",
+      "finance",
+      "finance"
+    ],
+    "description": "Stripe payments inspection. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "stripe-iot-008",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-stripe",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "payments",
+      "finance",
+      "iot"
+    ],
+    "description": "Stripe payments inspection. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "stripe-iot-018",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-stripe",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "payments",
+      "finance",
+      "iot"
+    ],
+    "description": "Stripe payments inspection. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "stripe-iot-028",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-stripe",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "payments",
+      "finance",
+      "iot"
+    ],
+    "description": "Stripe payments inspection. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "stripe-media-010",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-stripe",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "payments",
+      "finance",
+      "media"
+    ],
+    "description": "Stripe payments inspection. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "stripe-media-020",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-stripe",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "payments",
+      "finance",
+      "media"
+    ],
+    "description": "Stripe payments inspection. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "stripe-media-030",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-stripe",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "payments",
+      "finance",
+      "media"
+    ],
+    "description": "Stripe payments inspection. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "stripe-productivity-011",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-stripe",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "payments",
+      "finance",
+      "productivity"
+    ],
+    "description": "Stripe payments inspection. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "stripe-productivity-021",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-stripe",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "payments",
+      "finance",
+      "productivity"
+    ],
+    "description": "Stripe payments inspection. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "stripe-security-007",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-stripe",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "payments",
+      "finance",
+      "security"
+    ],
+    "description": "Stripe payments inspection. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "stripe-security-017",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-stripe",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "payments",
+      "finance",
+      "security"
+    ],
+    "description": "Stripe payments inspection. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "stripe-security-027",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-stripe",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "payments",
+      "finance",
+      "security"
+    ],
+    "description": "Stripe payments inspection. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "stripe-web-005",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-stripe",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "payments",
+      "finance",
+      "web"
+    ],
+    "description": "Stripe payments inspection. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "stripe-web-015",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-stripe",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "payments",
+      "finance",
+      "web"
+    ],
+    "description": "Stripe payments inspection. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "stripe-web-025",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-stripe",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "payments",
+      "finance",
+      "web"
+    ],
+    "description": "Stripe payments inspection. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "time",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-time"
+    ],
+    "tags": [
+      "utils",
+      "time"
+    ],
+    "description": "Timezone conversion and clocks.",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "time-ai-006",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-time",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "utils",
+      "time",
+      "ai"
+    ],
+    "description": "Timezone conversion and clocks. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "time-ai-016",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-time",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "utils",
+      "time",
+      "ai"
+    ],
+    "description": "Timezone conversion and clocks. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "time-ai-026",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-time",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "utils",
+      "time",
+      "ai"
+    ],
+    "description": "Timezone conversion and clocks. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "time-cloud-003",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-time",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "utils",
+      "time",
+      "cloud"
+    ],
+    "description": "Timezone conversion and clocks. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "time-cloud-013",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-time",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "utils",
+      "time",
+      "cloud"
+    ],
+    "description": "Timezone conversion and clocks. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "time-cloud-023",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-time",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "utils",
+      "time",
+      "cloud"
+    ],
+    "description": "Timezone conversion and clocks. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "time-database-004",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-time",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "utils",
+      "time",
+      "database"
+    ],
+    "description": "Timezone conversion and clocks. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "time-database-014",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-time",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "utils",
+      "time",
+      "database"
+    ],
+    "description": "Timezone conversion and clocks. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "time-database-024",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-time",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "utils",
+      "time",
+      "database"
+    ],
+    "description": "Timezone conversion and clocks. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "time-devtools-002",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-time",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "utils",
+      "time",
+      "devtools"
+    ],
+    "description": "Timezone conversion and clocks. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "time-devtools-012",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-time",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "utils",
+      "time",
+      "devtools"
+    ],
+    "description": "Timezone conversion and clocks. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "time-devtools-022",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-time",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "utils",
+      "time",
+      "devtools"
+    ],
+    "description": "Timezone conversion and clocks. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "time-finance-009",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-time",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "utils",
+      "time",
+      "finance"
+    ],
+    "description": "Timezone conversion and clocks. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "time-finance-019",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-time",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "utils",
+      "time",
+      "finance"
+    ],
+    "description": "Timezone conversion and clocks. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "time-finance-029",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-time",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "utils",
+      "time",
+      "finance"
+    ],
+    "description": "Timezone conversion and clocks. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "time-iot-008",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-time",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "utils",
+      "time",
+      "iot"
+    ],
+    "description": "Timezone conversion and clocks. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "time-iot-018",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-time",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "utils",
+      "time",
+      "iot"
+    ],
+    "description": "Timezone conversion and clocks. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "time-iot-028",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-time",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "utils",
+      "time",
+      "iot"
+    ],
+    "description": "Timezone conversion and clocks. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "time-media-010",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-time",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "utils",
+      "time",
+      "media"
+    ],
+    "description": "Timezone conversion and clocks. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "time-media-020",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-time",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "utils",
+      "time",
+      "media"
+    ],
+    "description": "Timezone conversion and clocks. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "time-media-030",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-time",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "utils",
+      "time",
+      "media"
+    ],
+    "description": "Timezone conversion and clocks. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "time-productivity-011",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-time",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "utils",
+      "time",
+      "productivity"
+    ],
+    "description": "Timezone conversion and clocks. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "time-productivity-021",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-time",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "utils",
+      "time",
+      "productivity"
+    ],
+    "description": "Timezone conversion and clocks. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "time-security-007",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-time",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "utils",
+      "time",
+      "security"
+    ],
+    "description": "Timezone conversion and clocks. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "time-security-017",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-time",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "utils",
+      "time",
+      "security"
+    ],
+    "description": "Timezone conversion and clocks. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "time-security-027",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-time",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "utils",
+      "time",
+      "security"
+    ],
+    "description": "Timezone conversion and clocks. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "time-web-005",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-time",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "utils",
+      "time",
+      "web"
+    ],
+    "description": "Timezone conversion and clocks. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "time-web-015",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-time",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "utils",
+      "time",
+      "web"
+    ],
+    "description": "Timezone conversion and clocks. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "time-web-025",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-time",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "utils",
+      "time",
+      "web"
+    ],
+    "description": "Timezone conversion and clocks. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "twilio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-twilio"
+    ],
+    "tags": [
+      "comms",
+      "sms"
+    ],
+    "description": "SMS and voice via Twilio.",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "twilio-ai-006",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-twilio",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "sms",
+      "ai"
+    ],
+    "description": "SMS and voice via Twilio. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "twilio-ai-016",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-twilio",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "sms",
+      "ai"
+    ],
+    "description": "SMS and voice via Twilio. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "twilio-ai-026",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-twilio",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "sms",
+      "ai"
+    ],
+    "description": "SMS and voice via Twilio. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "twilio-cloud-003",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-twilio",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "sms",
+      "cloud"
+    ],
+    "description": "SMS and voice via Twilio. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "twilio-cloud-013",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-twilio",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "sms",
+      "cloud"
+    ],
+    "description": "SMS and voice via Twilio. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "twilio-cloud-023",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-twilio",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "sms",
+      "cloud"
+    ],
+    "description": "SMS and voice via Twilio. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "twilio-database-004",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-twilio",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "sms",
+      "database"
+    ],
+    "description": "SMS and voice via Twilio. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "twilio-database-014",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-twilio",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "sms",
+      "database"
+    ],
+    "description": "SMS and voice via Twilio. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "twilio-database-024",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-twilio",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "sms",
+      "database"
+    ],
+    "description": "SMS and voice via Twilio. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "twilio-devtools-002",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-twilio",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "sms",
+      "devtools"
+    ],
+    "description": "SMS and voice via Twilio. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "twilio-devtools-012",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-twilio",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "sms",
+      "devtools"
+    ],
+    "description": "SMS and voice via Twilio. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "twilio-devtools-022",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-twilio",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "sms",
+      "devtools"
+    ],
+    "description": "SMS and voice via Twilio. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "twilio-finance-009",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-twilio",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "sms",
+      "finance"
+    ],
+    "description": "SMS and voice via Twilio. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "twilio-finance-019",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-twilio",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "sms",
+      "finance"
+    ],
+    "description": "SMS and voice via Twilio. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "twilio-finance-029",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-twilio",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "sms",
+      "finance"
+    ],
+    "description": "SMS and voice via Twilio. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "twilio-iot-008",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-twilio",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "sms",
+      "iot"
+    ],
+    "description": "SMS and voice via Twilio. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "twilio-iot-018",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-twilio",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "sms",
+      "iot"
+    ],
+    "description": "SMS and voice via Twilio. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "twilio-iot-028",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-twilio",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "sms",
+      "iot"
+    ],
+    "description": "SMS and voice via Twilio. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "twilio-media-010",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-twilio",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "sms",
+      "media"
+    ],
+    "description": "SMS and voice via Twilio. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "twilio-media-020",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-twilio",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "sms",
+      "media"
+    ],
+    "description": "SMS and voice via Twilio. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "twilio-media-030",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-twilio",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "sms",
+      "media"
+    ],
+    "description": "SMS and voice via Twilio. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "twilio-productivity-011",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-twilio",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "sms",
+      "productivity"
+    ],
+    "description": "SMS and voice via Twilio. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "twilio-productivity-021",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-twilio",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "sms",
+      "productivity"
+    ],
+    "description": "SMS and voice via Twilio. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "twilio-security-007",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-twilio",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "sms",
+      "security"
+    ],
+    "description": "SMS and voice via Twilio. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "twilio-security-017",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-twilio",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "sms",
+      "security"
+    ],
+    "description": "SMS and voice via Twilio. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "twilio-security-027",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-twilio",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "sms",
+      "security"
+    ],
+    "description": "SMS and voice via Twilio. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "twilio-web-005",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-twilio",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "sms",
+      "web"
+    ],
+    "description": "SMS and voice via Twilio. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "twilio-web-015",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-twilio",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "sms",
+      "web"
+    ],
+    "description": "SMS and voice via Twilio. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "twilio-web-025",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-twilio",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "comms",
+      "sms",
+      "web"
+    ],
+    "description": "SMS and voice via Twilio. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "zapier",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-zapier"
+    ],
+    "tags": [
+      "automation",
+      "workflows"
+    ],
+    "description": "Zapier automation actions.",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "zapier-ai-006",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-zapier",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "automation",
+      "workflows",
+      "ai"
+    ],
+    "description": "Zapier automation actions. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "zapier-ai-016",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-zapier",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "automation",
+      "workflows",
+      "ai"
+    ],
+    "description": "Zapier automation actions. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "zapier-ai-026",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-zapier",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "automation",
+      "workflows",
+      "ai"
+    ],
+    "description": "Zapier automation actions. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "zapier-cloud-003",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-zapier",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "automation",
+      "workflows",
+      "cloud"
+    ],
+    "description": "Zapier automation actions. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "zapier-cloud-013",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-zapier",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "automation",
+      "workflows",
+      "cloud"
+    ],
+    "description": "Zapier automation actions. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "zapier-cloud-023",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-zapier",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "automation",
+      "workflows",
+      "cloud"
+    ],
+    "description": "Zapier automation actions. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "zapier-database-004",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-zapier",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "automation",
+      "workflows",
+      "database"
+    ],
+    "description": "Zapier automation actions. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "zapier-database-014",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-zapier",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "automation",
+      "workflows",
+      "database"
+    ],
+    "description": "Zapier automation actions. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "zapier-database-024",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-zapier",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "automation",
+      "workflows",
+      "database"
+    ],
+    "description": "Zapier automation actions. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "zapier-devtools-002",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-zapier",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "automation",
+      "workflows",
+      "devtools"
+    ],
+    "description": "Zapier automation actions. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "zapier-devtools-012",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-zapier",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "automation",
+      "workflows",
+      "devtools"
+    ],
+    "description": "Zapier automation actions. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "zapier-devtools-022",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-zapier",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "automation",
+      "workflows",
+      "devtools"
+    ],
+    "description": "Zapier automation actions. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "zapier-finance-009",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-zapier",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "automation",
+      "workflows",
+      "finance"
+    ],
+    "description": "Zapier automation actions. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "zapier-finance-019",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-zapier",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "automation",
+      "workflows",
+      "finance"
+    ],
+    "description": "Zapier automation actions. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "zapier-finance-029",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-zapier",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "automation",
+      "workflows",
+      "finance"
+    ],
+    "description": "Zapier automation actions. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "zapier-iot-008",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-zapier",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "automation",
+      "workflows",
+      "iot"
+    ],
+    "description": "Zapier automation actions. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "zapier-iot-018",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-zapier",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "automation",
+      "workflows",
+      "iot"
+    ],
+    "description": "Zapier automation actions. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "zapier-iot-028",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-zapier",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "automation",
+      "workflows",
+      "iot"
+    ],
+    "description": "Zapier automation actions. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "zapier-media-010",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-zapier",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "automation",
+      "workflows",
+      "media"
+    ],
+    "description": "Zapier automation actions. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "zapier-media-020",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-zapier",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "automation",
+      "workflows",
+      "media"
+    ],
+    "description": "Zapier automation actions. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "zapier-media-030",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-zapier",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "automation",
+      "workflows",
+      "media"
+    ],
+    "description": "Zapier automation actions. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "zapier-productivity-011",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-zapier",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "automation",
+      "workflows",
+      "productivity"
+    ],
+    "description": "Zapier automation actions. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "zapier-productivity-021",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-zapier",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "automation",
+      "workflows",
+      "productivity"
+    ],
+    "description": "Zapier automation actions. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "zapier-security-007",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-zapier",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "automation",
+      "workflows",
+      "security"
+    ],
+    "description": "Zapier automation actions. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "zapier-security-017",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-zapier",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "automation",
+      "workflows",
+      "security"
+    ],
+    "description": "Zapier automation actions. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "zapier-security-027",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-zapier",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "automation",
+      "workflows",
+      "security"
+    ],
+    "description": "Zapier automation actions. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "zapier-web-005",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-zapier",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "automation",
+      "workflows",
+      "web"
+    ],
+    "description": "Zapier automation actions. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "zapier-web-015",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-zapier",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "automation",
+      "workflows",
+      "web"
+    ],
+    "description": "Zapier automation actions. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "zapier-web-025",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-zapier",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "automation",
+      "workflows",
+      "web"
+    ],
+    "description": "Zapier automation actions. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
   }
 ]
