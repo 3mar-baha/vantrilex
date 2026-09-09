@@ -154,3 +154,29 @@ func loadAll() {
 			})
 		}
 	})
+}
+
+// MCPs returns all embedded MCP servers.
+func MCPs() []RegistryItem { loadAll(); return mcps }
+
+// Plugins returns all embedded plugins.
+func Plugins() []RegistryItem { loadAll(); return plugins }
+
+// SkillsRegistry returns all embedded skills.
+func SkillsRegistry() []RegistryItem { loadAll(); return skills }
+
+// Hooks returns all embedded hooks.
+func Hooks() []RegistryItem { loadAll(); return hooks }
+
+// Agents returns all embedded agents.
+func Agents() []RegistryItem { loadAll(); return agents }
+
+// SearchRegistry filters items by token-AND fuzzy query over name+desc+tags.
+func SearchRegistry(items []RegistryItem, query string) []RegistryItem {
+	q := strings.ToLower(strings.TrimSpace(query))
+	if q == "" {
+		return items
+	}
+	toks := strings.Fields(q)
+	out := make([]RegistryItem, 0, len(items))
+	for _, it := range items {
