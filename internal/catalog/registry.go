@@ -23,3 +23,30 @@ var hooksJSON []byte
 
 //go:embed data/agents_registry.json
 var agentsJSON []byte
+
+// RegistryItem is the unified selectable asset shape.
+type RegistryItem struct {
+	Name     string   `json:"name"`
+	Kind     string   `json:"kind,omitempty"`
+	Desc     string   `json:"description"`
+	Tags     []string `json:"tags"`
+	Source   string   `json:"source"`
+	RawURL   string   `json:"rawURL"`
+	Install  string   `json:"install"`
+	Selected bool     `json:"-"`
+}
+
+type mcpEntry struct {
+	Name        string   `json:"name"`
+	Command     string   `json:"command"`
+	Args        []string `json:"args"`
+	Tags        []string `json:"tags"`
+	Description string   `json:"description"`
+	SourceURL   string   `json:"sourceURL"`
+	RawURL      string   `json:"rawURL"`
+}
+
+type pluginEntry struct {
+	Name        string `json:"name"`
+	Marketplace string `json:"marketplace"`
+	Description string `json:"description"`
