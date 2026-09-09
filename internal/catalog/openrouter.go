@@ -147,3 +147,28 @@ func FetchOpenRouterModels(ctx context.Context) []Model {
 	}
 	orCacheMu.Lock()
 	orCache = models
+	orCachedAt = time.Now()
+	orCacheMu.Unlock()
+	return models
+}
+
+// MergeModels overlays live entries onto the verified static matrix.
+// Live pricing/context wins; static runner compat, Zen flag, and effort
+// gating are preserved. Unknown live IDs are appended.
+func MergeModels(static, live []Model) []Model {
+	byID := map[string]int{}
+	out := append([]Model(nil), static...)
+	for i, m := range out {
+		byID[strings.ToLower(m.ID)] = i
+	}
+	for _, l := range live {
+		if idx, ok := byID[strings.ToLower(l.ID)]; ok {
+			s := out[idx]
+			if l.InputPerM != "" && l.InputPerM != "varies" {
+				s.InputPerM = l.InputPerM
+			}
+			if l.OutputPerM != "" && l.OutputPerM != "varies" {
+				s.OutputPerM = l.OutputPerM
+			}
+			if l.Context != "" && l.Context != "n/a" {
+				s.Context = l.Context
