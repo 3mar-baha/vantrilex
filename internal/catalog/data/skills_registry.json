@@ -1,0 +1,578 @@
+[
+  {
+    "name": "agency-planner",
+    "source": "msitarzewski/agency-agents",
+    "description": "Agency planning sub-agent skills.",
+    "tags": [
+      "core"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/SKILL.md"
+  },
+  {
+    "name": "agency-planner-backend-03",
+    "source": "msitarzewski/agency-agents",
+    "description": "Agency planning sub-agent skills. (backend focus).",
+    "tags": [
+      "backend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/skills/backend/SKILL.md"
+  },
+  {
+    "name": "agency-planner-backend-15",
+    "source": "msitarzewski/agency-agents",
+    "description": "Agency planning sub-agent skills. (backend focus).",
+    "tags": [
+      "backend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/skills/backend/SKILL.md"
+  },
+  {
+    "name": "agency-planner-backend-27",
+    "source": "msitarzewski/agency-agents",
+    "description": "Agency planning sub-agent skills. (backend focus).",
+    "tags": [
+      "backend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/skills/backend/SKILL.md"
+  },
+  {
+    "name": "agency-planner-data-07",
+    "source": "msitarzewski/agency-agents",
+    "description": "Agency planning sub-agent skills. (data focus).",
+    "tags": [
+      "data"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/skills/data/SKILL.md"
+  },
+  {
+    "name": "agency-planner-data-19",
+    "source": "msitarzewski/agency-agents",
+    "description": "Agency planning sub-agent skills. (data focus).",
+    "tags": [
+      "data"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/skills/data/SKILL.md"
+  },
+  {
+    "name": "agency-planner-data-31",
+    "source": "msitarzewski/agency-agents",
+    "description": "Agency planning sub-agent skills. (data focus).",
+    "tags": [
+      "data"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/skills/data/SKILL.md"
+  },
+  {
+    "name": "agency-planner-devops-05",
+    "source": "msitarzewski/agency-agents",
+    "description": "Agency planning sub-agent skills. (devops focus).",
+    "tags": [
+      "devops"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/skills/devops/SKILL.md"
+  },
+  {
+    "name": "agency-planner-devops-17",
+    "source": "msitarzewski/agency-agents",
+    "description": "Agency planning sub-agent skills. (devops focus).",
+    "tags": [
+      "devops"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/skills/devops/SKILL.md"
+  },
+  {
+    "name": "agency-planner-devops-29",
+    "source": "msitarzewski/agency-agents",
+    "description": "Agency planning sub-agent skills. (devops focus).",
+    "tags": [
+      "devops"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/skills/devops/SKILL.md"
+  },
+  {
+    "name": "agency-planner-docs-09",
+    "source": "msitarzewski/agency-agents",
+    "description": "Agency planning sub-agent skills. (docs focus).",
+    "tags": [
+      "docs"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/skills/docs/SKILL.md"
+  },
+  {
+    "name": "agency-planner-docs-21",
+    "source": "msitarzewski/agency-agents",
+    "description": "Agency planning sub-agent skills. (docs focus).",
+    "tags": [
+      "docs"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/skills/docs/SKILL.md"
+  },
+  {
+    "name": "agency-planner-frontend-02",
+    "source": "msitarzewski/agency-agents",
+    "description": "Agency planning sub-agent skills. (frontend focus).",
+    "tags": [
+      "frontend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/skills/frontend/SKILL.md"
+  },
+  {
+    "name": "agency-planner-frontend-14",
+    "source": "msitarzewski/agency-agents",
+    "description": "Agency planning sub-agent skills. (frontend focus).",
+    "tags": [
+      "frontend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/skills/frontend/SKILL.md"
+  },
+  {
+    "name": "agency-planner-frontend-26",
+    "source": "msitarzewski/agency-agents",
+    "description": "Agency planning sub-agent skills. (frontend focus).",
+    "tags": [
+      "frontend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/skills/frontend/SKILL.md"
+  },
+  {
+    "name": "agency-planner-mobile-08",
+    "source": "msitarzewski/agency-agents",
+    "description": "Agency planning sub-agent skills. (mobile focus).",
+    "tags": [
+      "mobile"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/skills/mobile/SKILL.md"
+  },
+  {
+    "name": "agency-planner-mobile-20",
+    "source": "msitarzewski/agency-agents",
+    "description": "Agency planning sub-agent skills. (mobile focus).",
+    "tags": [
+      "mobile"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/skills/mobile/SKILL.md"
+  },
+  {
+    "name": "agency-planner-mobile-32",
+    "source": "msitarzewski/agency-agents",
+    "description": "Agency planning sub-agent skills. (mobile focus).",
+    "tags": [
+      "mobile"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/skills/mobile/SKILL.md"
+  },
+  {
+    "name": "agency-planner-perf-13",
+    "source": "msitarzewski/agency-agents",
+    "description": "Agency planning sub-agent skills. (perf focus).",
+    "tags": [
+      "perf"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/skills/perf/SKILL.md"
+  },
+  {
+    "name": "agency-planner-perf-25",
+    "source": "msitarzewski/agency-agents",
+    "description": "Agency planning sub-agent skills. (perf focus).",
+    "tags": [
+      "perf"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/skills/perf/SKILL.md"
+  },
+  {
+    "name": "agency-planner-qa-06",
+    "source": "msitarzewski/agency-agents",
+    "description": "Agency planning sub-agent skills. (qa focus).",
+    "tags": [
+      "qa"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/skills/qa/SKILL.md"
+  },
+  {
+    "name": "agency-planner-qa-18",
+    "source": "msitarzewski/agency-agents",
+    "description": "Agency planning sub-agent skills. (qa focus).",
+    "tags": [
+      "qa"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/skills/qa/SKILL.md"
+  },
+  {
+    "name": "agency-planner-qa-30",
+    "source": "msitarzewski/agency-agents",
+    "description": "Agency planning sub-agent skills. (qa focus).",
+    "tags": [
+      "qa"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/skills/qa/SKILL.md"
+  },
+  {
+    "name": "agency-planner-refactor-11",
+    "source": "msitarzewski/agency-agents",
+    "description": "Agency planning sub-agent skills. (refactor focus).",
+    "tags": [
+      "refactor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/skills/refactor/SKILL.md"
+  },
+  {
+    "name": "agency-planner-refactor-23",
+    "source": "msitarzewski/agency-agents",
+    "description": "Agency planning sub-agent skills. (refactor focus).",
+    "tags": [
+      "refactor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/skills/refactor/SKILL.md"
+  },
+  {
+    "name": "agency-planner-review-12",
+    "source": "msitarzewski/agency-agents",
+    "description": "Agency planning sub-agent skills. (review focus).",
+    "tags": [
+      "review"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/skills/review/SKILL.md"
+  },
+  {
+    "name": "agency-planner-review-24",
+    "source": "msitarzewski/agency-agents",
+    "description": "Agency planning sub-agent skills. (review focus).",
+    "tags": [
+      "review"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/skills/review/SKILL.md"
+  },
+  {
+    "name": "agency-planner-security-04",
+    "source": "msitarzewski/agency-agents",
+    "description": "Agency planning sub-agent skills. (security focus).",
+    "tags": [
+      "security"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/skills/security/SKILL.md"
+  },
+  {
+    "name": "agency-planner-security-16",
+    "source": "msitarzewski/agency-agents",
+    "description": "Agency planning sub-agent skills. (security focus).",
+    "tags": [
+      "security"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/skills/security/SKILL.md"
+  },
+  {
+    "name": "agency-planner-security-28",
+    "source": "msitarzewski/agency-agents",
+    "description": "Agency planning sub-agent skills. (security focus).",
+    "tags": [
+      "security"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/skills/security/SKILL.md"
+  },
+  {
+    "name": "agency-planner-testing-10",
+    "source": "msitarzewski/agency-agents",
+    "description": "Agency planning sub-agent skills. (testing focus).",
+    "tags": [
+      "testing"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/skills/testing/SKILL.md"
+  },
+  {
+    "name": "agency-planner-testing-22",
+    "source": "msitarzewski/agency-agents",
+    "description": "Agency planning sub-agent skills. (testing focus).",
+    "tags": [
+      "testing"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/skills/testing/SKILL.md"
+  },
+  {
+    "name": "claude-workflows",
+    "source": "worldflowai/everything-claude-code",
+    "description": "Claude Code setup and workflow skills.",
+    "tags": [
+      "core"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/worldflowai/everything-claude-code/main/SKILL.md"
+  },
+  {
+    "name": "claude-workflows-backend-03",
+    "source": "worldflowai/everything-claude-code",
+    "description": "Claude Code setup and workflow skills. (backend focus).",
+    "tags": [
+      "backend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/worldflowai/everything-claude-code/main/skills/backend/SKILL.md"
+  },
+  {
+    "name": "claude-workflows-backend-15",
+    "source": "worldflowai/everything-claude-code",
+    "description": "Claude Code setup and workflow skills. (backend focus).",
+    "tags": [
+      "backend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/worldflowai/everything-claude-code/main/skills/backend/SKILL.md"
+  },
+  {
+    "name": "claude-workflows-backend-27",
+    "source": "worldflowai/everything-claude-code",
+    "description": "Claude Code setup and workflow skills. (backend focus).",
+    "tags": [
+      "backend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/worldflowai/everything-claude-code/main/skills/backend/SKILL.md"
+  },
+  {
+    "name": "claude-workflows-data-07",
+    "source": "worldflowai/everything-claude-code",
+    "description": "Claude Code setup and workflow skills. (data focus).",
+    "tags": [
+      "data"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/worldflowai/everything-claude-code/main/skills/data/SKILL.md"
+  },
+  {
+    "name": "claude-workflows-data-19",
+    "source": "worldflowai/everything-claude-code",
+    "description": "Claude Code setup and workflow skills. (data focus).",
+    "tags": [
+      "data"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/worldflowai/everything-claude-code/main/skills/data/SKILL.md"
+  },
+  {
+    "name": "claude-workflows-data-31",
+    "source": "worldflowai/everything-claude-code",
+    "description": "Claude Code setup and workflow skills. (data focus).",
+    "tags": [
+      "data"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/worldflowai/everything-claude-code/main/skills/data/SKILL.md"
+  },
+  {
+    "name": "claude-workflows-devops-05",
+    "source": "worldflowai/everything-claude-code",
+    "description": "Claude Code setup and workflow skills. (devops focus).",
+    "tags": [
+      "devops"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/worldflowai/everything-claude-code/main/skills/devops/SKILL.md"
+  },
+  {
+    "name": "claude-workflows-devops-17",
+    "source": "worldflowai/everything-claude-code",
+    "description": "Claude Code setup and workflow skills. (devops focus).",
+    "tags": [
+      "devops"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/worldflowai/everything-claude-code/main/skills/devops/SKILL.md"
+  },
+  {
+    "name": "claude-workflows-devops-29",
+    "source": "worldflowai/everything-claude-code",
+    "description": "Claude Code setup and workflow skills. (devops focus).",
+    "tags": [
+      "devops"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/worldflowai/everything-claude-code/main/skills/devops/SKILL.md"
+  },
+  {
+    "name": "claude-workflows-docs-09",
+    "source": "worldflowai/everything-claude-code",
+    "description": "Claude Code setup and workflow skills. (docs focus).",
+    "tags": [
+      "docs"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/worldflowai/everything-claude-code/main/skills/docs/SKILL.md"
+  },
+  {
+    "name": "claude-workflows-docs-21",
+    "source": "worldflowai/everything-claude-code",
+    "description": "Claude Code setup and workflow skills. (docs focus).",
+    "tags": [
+      "docs"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/worldflowai/everything-claude-code/main/skills/docs/SKILL.md"
+  },
+  {
+    "name": "claude-workflows-frontend-02",
+    "source": "worldflowai/everything-claude-code",
+    "description": "Claude Code setup and workflow skills. (frontend focus).",
+    "tags": [
+      "frontend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/worldflowai/everything-claude-code/main/skills/frontend/SKILL.md"
+  },
+  {
+    "name": "claude-workflows-frontend-14",
+    "source": "worldflowai/everything-claude-code",
+    "description": "Claude Code setup and workflow skills. (frontend focus).",
+    "tags": [
+      "frontend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/worldflowai/everything-claude-code/main/skills/frontend/SKILL.md"
+  },
+  {
+    "name": "claude-workflows-frontend-26",
+    "source": "worldflowai/everything-claude-code",
+    "description": "Claude Code setup and workflow skills. (frontend focus).",
+    "tags": [
+      "frontend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/worldflowai/everything-claude-code/main/skills/frontend/SKILL.md"
+  },
+  {
+    "name": "claude-workflows-mobile-08",
+    "source": "worldflowai/everything-claude-code",
+    "description": "Claude Code setup and workflow skills. (mobile focus).",
+    "tags": [
+      "mobile"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/worldflowai/everything-claude-code/main/skills/mobile/SKILL.md"
+  },
+  {
+    "name": "claude-workflows-mobile-20",
+    "source": "worldflowai/everything-claude-code",
+    "description": "Claude Code setup and workflow skills. (mobile focus).",
+    "tags": [
+      "mobile"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/worldflowai/everything-claude-code/main/skills/mobile/SKILL.md"
+  },
+  {
+    "name": "claude-workflows-mobile-32",
+    "source": "worldflowai/everything-claude-code",
+    "description": "Claude Code setup and workflow skills. (mobile focus).",
+    "tags": [
+      "mobile"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/worldflowai/everything-claude-code/main/skills/mobile/SKILL.md"
+  },
+  {
+    "name": "claude-workflows-perf-13",
+    "source": "worldflowai/everything-claude-code",
+    "description": "Claude Code setup and workflow skills. (perf focus).",
+    "tags": [
+      "perf"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/worldflowai/everything-claude-code/main/skills/perf/SKILL.md"
+  },
+  {
+    "name": "claude-workflows-perf-25",
+    "source": "worldflowai/everything-claude-code",
+    "description": "Claude Code setup and workflow skills. (perf focus).",
+    "tags": [
+      "perf"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/worldflowai/everything-claude-code/main/skills/perf/SKILL.md"
+  },
+  {
+    "name": "claude-workflows-qa-06",
+    "source": "worldflowai/everything-claude-code",
+    "description": "Claude Code setup and workflow skills. (qa focus).",
+    "tags": [
+      "qa"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/worldflowai/everything-claude-code/main/skills/qa/SKILL.md"
+  },
+  {
+    "name": "claude-workflows-qa-18",
+    "source": "worldflowai/everything-claude-code",
+    "description": "Claude Code setup and workflow skills. (qa focus).",
+    "tags": [
+      "qa"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/worldflowai/everything-claude-code/main/skills/qa/SKILL.md"
+  },
+  {
+    "name": "claude-workflows-qa-30",
+    "source": "worldflowai/everything-claude-code",
+    "description": "Claude Code setup and workflow skills. (qa focus).",
+    "tags": [
+      "qa"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/worldflowai/everything-claude-code/main/skills/qa/SKILL.md"
+  },
+  {
+    "name": "claude-workflows-refactor-11",
+    "source": "worldflowai/everything-claude-code",
+    "description": "Claude Code setup and workflow skills. (refactor focus).",
+    "tags": [
+      "refactor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/worldflowai/everything-claude-code/main/skills/refactor/SKILL.md"
+  },
+  {
+    "name": "claude-workflows-refactor-23",
+    "source": "worldflowai/everything-claude-code",
+    "description": "Claude Code setup and workflow skills. (refactor focus).",
+    "tags": [
+      "refactor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/worldflowai/everything-claude-code/main/skills/refactor/SKILL.md"
+  },
+  {
+    "name": "claude-workflows-review-12",
+    "source": "worldflowai/everything-claude-code",
+    "description": "Claude Code setup and workflow skills. (review focus).",
+    "tags": [
+      "review"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/worldflowai/everything-claude-code/main/skills/review/SKILL.md"
+  },
+  {
+    "name": "claude-workflows-review-24",
+    "source": "worldflowai/everything-claude-code",
+    "description": "Claude Code setup and workflow skills. (review focus).",
+    "tags": [
+      "review"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/worldflowai/everything-claude-code/main/skills/review/SKILL.md"
+  },
+  {
+    "name": "claude-workflows-security-04",
+    "source": "worldflowai/everything-claude-code",
+    "description": "Claude Code setup and workflow skills. (security focus).",
+    "tags": [
+      "security"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/worldflowai/everything-claude-code/main/skills/security/SKILL.md"
+  },
+  {
+    "name": "claude-workflows-security-16",
+    "source": "worldflowai/everything-claude-code",
+    "description": "Claude Code setup and workflow skills. (security focus).",
+    "tags": [
+      "security"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/worldflowai/everything-claude-code/main/skills/security/SKILL.md"
+  },
+  {
+    "name": "claude-workflows-security-28",
+    "source": "worldflowai/everything-claude-code",
+    "description": "Claude Code setup and workflow skills. (security focus).",
+    "tags": [
+      "security"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/worldflowai/everything-claude-code/main/skills/security/SKILL.md"
+  },
+  {
+    "name": "claude-workflows-testing-10",
+    "source": "worldflowai/everything-claude-code",
+    "description": "Claude Code setup and workflow skills. (testing focus).",
+    "tags": [
+      "testing"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/worldflowai/everything-claude-code/main/skills/testing/SKILL.md"
+  },
+  {
+    "name": "claude-workflows-testing-22",
+    "source": "worldflowai/everything-claude-code",
+    "description": "Claude Code setup and workflow skills. (testing focus).",
+    "tags": [
+      "testing"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/worldflowai/everything-claude-code/main/skills/testing/SKILL.md"
+  }
+]
