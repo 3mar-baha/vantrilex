@@ -2332,5 +2332,783 @@
       "writer"
     ],
     "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/mobile-writer-33.md"
+  },
+  {
+    "name": "QA Hardener 08",
+    "role": "QA",
+    "description": "Test planning and quality gates. (hardener focus).",
+    "tags": [
+      "qa",
+      "hardener"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/qa-hardener-08.md"
+  },
+  {
+    "name": "QA Hardener 16",
+    "role": "QA",
+    "description": "Test planning and quality gates. (hardener focus).",
+    "tags": [
+      "qa",
+      "hardener"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/qa-hardener-16.md"
+  },
+  {
+    "name": "QA Hardener 24",
+    "role": "QA",
+    "description": "Test planning and quality gates. (hardener focus).",
+    "tags": [
+      "qa",
+      "hardener"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/qa-hardener-24.md"
+  },
+  {
+    "name": "QA Hardener 32",
+    "role": "QA",
+    "description": "Test planning and quality gates. (hardener focus).",
+    "tags": [
+      "qa",
+      "hardener"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/qa-hardener-32.md"
+  },
+  {
+    "name": "QA Mentor 05",
+    "role": "QA",
+    "description": "Test planning and quality gates. (mentor focus).",
+    "tags": [
+      "qa",
+      "mentor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/qa-mentor-05.md"
+  },
+  {
+    "name": "QA Mentor 13",
+    "role": "QA",
+    "description": "Test planning and quality gates. (mentor focus).",
+    "tags": [
+      "qa",
+      "mentor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/qa-mentor-13.md"
+  },
+  {
+    "name": "QA Mentor 21",
+    "role": "QA",
+    "description": "Test planning and quality gates. (mentor focus).",
+    "tags": [
+      "qa",
+      "mentor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/qa-mentor-21.md"
+  },
+  {
+    "name": "QA Mentor 29",
+    "role": "QA",
+    "description": "Test planning and quality gates. (mentor focus).",
+    "tags": [
+      "qa",
+      "mentor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/qa-mentor-29.md"
+  },
+  {
+    "name": "QA Mentor 37",
+    "role": "QA",
+    "description": "Test planning and quality gates. (mentor focus).",
+    "tags": [
+      "qa",
+      "mentor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/qa-mentor-37.md"
+  },
+  {
+    "name": "QA Optimizer 04",
+    "role": "QA",
+    "description": "Test planning and quality gates. (optimizer focus).",
+    "tags": [
+      "qa",
+      "optimizer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/qa-optimizer-04.md"
+  },
+  {
+    "name": "QA Optimizer 12",
+    "role": "QA",
+    "description": "Test planning and quality gates. (optimizer focus).",
+    "tags": [
+      "qa",
+      "optimizer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/qa-optimizer-12.md"
+  },
+  {
+    "name": "QA Optimizer 20",
+    "role": "QA",
+    "description": "Test planning and quality gates. (optimizer focus).",
+    "tags": [
+      "qa",
+      "optimizer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/qa-optimizer-20.md"
+  },
+  {
+    "name": "QA Optimizer 28",
+    "role": "QA",
+    "description": "Test planning and quality gates. (optimizer focus).",
+    "tags": [
+      "qa",
+      "optimizer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/qa-optimizer-28.md"
+  },
+  {
+    "name": "QA Optimizer 36",
+    "role": "QA",
+    "description": "Test planning and quality gates. (optimizer focus).",
+    "tags": [
+      "qa",
+      "optimizer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/qa-optimizer-36.md"
+  },
+  {
+    "name": "QA Planner 02",
+    "role": "QA",
+    "description": "Test planning and quality gates. (planner focus).",
+    "tags": [
+      "qa",
+      "planner"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/qa-planner-02.md"
+  },
+  {
+    "name": "QA Planner 10",
+    "role": "QA",
+    "description": "Test planning and quality gates. (planner focus).",
+    "tags": [
+      "qa",
+      "planner"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/qa-planner-10.md"
+  },
+  {
+    "name": "QA Planner 18",
+    "role": "QA",
+    "description": "Test planning and quality gates. (planner focus).",
+    "tags": [
+      "qa",
+      "planner"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/qa-planner-18.md"
+  },
+  {
+    "name": "QA Planner 26",
+    "role": "QA",
+    "description": "Test planning and quality gates. (planner focus).",
+    "tags": [
+      "qa",
+      "planner"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/qa-planner-26.md"
+  },
+  {
+    "name": "QA Planner 34",
+    "role": "QA",
+    "description": "Test planning and quality gates. (planner focus).",
+    "tags": [
+      "qa",
+      "planner"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/qa-planner-34.md"
+  },
+  {
+    "name": "QA Responder 06",
+    "role": "QA",
+    "description": "Test planning and quality gates. (responder focus).",
+    "tags": [
+      "qa",
+      "responder"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/qa-responder-06.md"
+  },
+  {
+    "name": "QA Responder 14",
+    "role": "QA",
+    "description": "Test planning and quality gates. (responder focus).",
+    "tags": [
+      "qa",
+      "responder"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/qa-responder-14.md"
+  },
+  {
+    "name": "QA Responder 22",
+    "role": "QA",
+    "description": "Test planning and quality gates. (responder focus).",
+    "tags": [
+      "qa",
+      "responder"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/qa-responder-22.md"
+  },
+  {
+    "name": "QA Responder 30",
+    "role": "QA",
+    "description": "Test planning and quality gates. (responder focus).",
+    "tags": [
+      "qa",
+      "responder"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/qa-responder-30.md"
+  },
+  {
+    "name": "QA Responder 38",
+    "role": "QA",
+    "description": "Test planning and quality gates. (responder focus).",
+    "tags": [
+      "qa",
+      "responder"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/qa-responder-38.md"
+  },
+  {
+    "name": "QA Reviewer 03",
+    "role": "QA",
+    "description": "Test planning and quality gates. (reviewer focus).",
+    "tags": [
+      "qa",
+      "reviewer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/qa-reviewer-03.md"
+  },
+  {
+    "name": "QA Reviewer 11",
+    "role": "QA",
+    "description": "Test planning and quality gates. (reviewer focus).",
+    "tags": [
+      "qa",
+      "reviewer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/qa-reviewer-11.md"
+  },
+  {
+    "name": "QA Reviewer 19",
+    "role": "QA",
+    "description": "Test planning and quality gates. (reviewer focus).",
+    "tags": [
+      "qa",
+      "reviewer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/qa-reviewer-19.md"
+  },
+  {
+    "name": "QA Reviewer 27",
+    "role": "QA",
+    "description": "Test planning and quality gates. (reviewer focus).",
+    "tags": [
+      "qa",
+      "reviewer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/qa-reviewer-27.md"
+  },
+  {
+    "name": "QA Reviewer 35",
+    "role": "QA",
+    "description": "Test planning and quality gates. (reviewer focus).",
+    "tags": [
+      "qa",
+      "reviewer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/qa-reviewer-35.md"
+  },
+  {
+    "name": "QA Scout 07",
+    "role": "QA",
+    "description": "Test planning and quality gates. (scout focus).",
+    "tags": [
+      "qa",
+      "scout"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/qa-scout-07.md"
+  },
+  {
+    "name": "QA Scout 15",
+    "role": "QA",
+    "description": "Test planning and quality gates. (scout focus).",
+    "tags": [
+      "qa",
+      "scout"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/qa-scout-15.md"
+  },
+  {
+    "name": "QA Scout 23",
+    "role": "QA",
+    "description": "Test planning and quality gates. (scout focus).",
+    "tags": [
+      "qa",
+      "scout"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/qa-scout-23.md"
+  },
+  {
+    "name": "QA Scout 31",
+    "role": "QA",
+    "description": "Test planning and quality gates. (scout focus).",
+    "tags": [
+      "qa",
+      "scout"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/qa-scout-31.md"
+  },
+  {
+    "name": "QA Scout 39",
+    "role": "QA",
+    "description": "Test planning and quality gates. (scout focus).",
+    "tags": [
+      "qa",
+      "scout"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/qa-scout-39.md"
+  },
+  {
+    "name": "QA Strategist",
+    "role": "QA",
+    "description": "Test planning and quality gates.",
+    "tags": [
+      "qa"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/qa-strategist.md"
+  },
+  {
+    "name": "QA Writer 09",
+    "role": "QA",
+    "description": "Test planning and quality gates. (writer focus).",
+    "tags": [
+      "qa",
+      "writer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/qa-writer-09.md"
+  },
+  {
+    "name": "QA Writer 17",
+    "role": "QA",
+    "description": "Test planning and quality gates. (writer focus).",
+    "tags": [
+      "qa",
+      "writer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/qa-writer-17.md"
+  },
+  {
+    "name": "QA Writer 25",
+    "role": "QA",
+    "description": "Test planning and quality gates. (writer focus).",
+    "tags": [
+      "qa",
+      "writer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/qa-writer-25.md"
+  },
+  {
+    "name": "QA Writer 33",
+    "role": "QA",
+    "description": "Test planning and quality gates. (writer focus).",
+    "tags": [
+      "qa",
+      "writer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/qa-writer-33.md"
+  },
+  {
+    "name": "Security Auditor",
+    "role": "Security",
+    "description": "Threat modeling and vulnerability review.",
+    "tags": [
+      "security"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/security-auditor.md"
+  },
+  {
+    "name": "Security Hardener 08",
+    "role": "Security",
+    "description": "Threat modeling and vulnerability review. (hardener focus).",
+    "tags": [
+      "security",
+      "hardener"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/security-hardener-08.md"
+  },
+  {
+    "name": "Security Hardener 16",
+    "role": "Security",
+    "description": "Threat modeling and vulnerability review. (hardener focus).",
+    "tags": [
+      "security",
+      "hardener"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/security-hardener-16.md"
+  },
+  {
+    "name": "Security Hardener 24",
+    "role": "Security",
+    "description": "Threat modeling and vulnerability review. (hardener focus).",
+    "tags": [
+      "security",
+      "hardener"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/security-hardener-24.md"
+  },
+  {
+    "name": "Security Hardener 32",
+    "role": "Security",
+    "description": "Threat modeling and vulnerability review. (hardener focus).",
+    "tags": [
+      "security",
+      "hardener"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/security-hardener-32.md"
+  },
+  {
+    "name": "Security Mentor 05",
+    "role": "Security",
+    "description": "Threat modeling and vulnerability review. (mentor focus).",
+    "tags": [
+      "security",
+      "mentor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/security-mentor-05.md"
+  },
+  {
+    "name": "Security Mentor 13",
+    "role": "Security",
+    "description": "Threat modeling and vulnerability review. (mentor focus).",
+    "tags": [
+      "security",
+      "mentor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/security-mentor-13.md"
+  },
+  {
+    "name": "Security Mentor 21",
+    "role": "Security",
+    "description": "Threat modeling and vulnerability review. (mentor focus).",
+    "tags": [
+      "security",
+      "mentor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/security-mentor-21.md"
+  },
+  {
+    "name": "Security Mentor 29",
+    "role": "Security",
+    "description": "Threat modeling and vulnerability review. (mentor focus).",
+    "tags": [
+      "security",
+      "mentor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/security-mentor-29.md"
+  },
+  {
+    "name": "Security Mentor 37",
+    "role": "Security",
+    "description": "Threat modeling and vulnerability review. (mentor focus).",
+    "tags": [
+      "security",
+      "mentor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/security-mentor-37.md"
+  },
+  {
+    "name": "Security Optimizer 04",
+    "role": "Security",
+    "description": "Threat modeling and vulnerability review. (optimizer focus).",
+    "tags": [
+      "security",
+      "optimizer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/security-optimizer-04.md"
+  },
+  {
+    "name": "Security Optimizer 12",
+    "role": "Security",
+    "description": "Threat modeling and vulnerability review. (optimizer focus).",
+    "tags": [
+      "security",
+      "optimizer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/security-optimizer-12.md"
+  },
+  {
+    "name": "Security Optimizer 20",
+    "role": "Security",
+    "description": "Threat modeling and vulnerability review. (optimizer focus).",
+    "tags": [
+      "security",
+      "optimizer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/security-optimizer-20.md"
+  },
+  {
+    "name": "Security Optimizer 28",
+    "role": "Security",
+    "description": "Threat modeling and vulnerability review. (optimizer focus).",
+    "tags": [
+      "security",
+      "optimizer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/security-optimizer-28.md"
+  },
+  {
+    "name": "Security Optimizer 36",
+    "role": "Security",
+    "description": "Threat modeling and vulnerability review. (optimizer focus).",
+    "tags": [
+      "security",
+      "optimizer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/security-optimizer-36.md"
+  },
+  {
+    "name": "Security Planner 02",
+    "role": "Security",
+    "description": "Threat modeling and vulnerability review. (planner focus).",
+    "tags": [
+      "security",
+      "planner"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/security-planner-02.md"
+  },
+  {
+    "name": "Security Planner 10",
+    "role": "Security",
+    "description": "Threat modeling and vulnerability review. (planner focus).",
+    "tags": [
+      "security",
+      "planner"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/security-planner-10.md"
+  },
+  {
+    "name": "Security Planner 18",
+    "role": "Security",
+    "description": "Threat modeling and vulnerability review. (planner focus).",
+    "tags": [
+      "security",
+      "planner"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/security-planner-18.md"
+  },
+  {
+    "name": "Security Planner 26",
+    "role": "Security",
+    "description": "Threat modeling and vulnerability review. (planner focus).",
+    "tags": [
+      "security",
+      "planner"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/security-planner-26.md"
+  },
+  {
+    "name": "Security Planner 34",
+    "role": "Security",
+    "description": "Threat modeling and vulnerability review. (planner focus).",
+    "tags": [
+      "security",
+      "planner"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/security-planner-34.md"
+  },
+  {
+    "name": "Security Responder 06",
+    "role": "Security",
+    "description": "Threat modeling and vulnerability review. (responder focus).",
+    "tags": [
+      "security",
+      "responder"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/security-responder-06.md"
+  },
+  {
+    "name": "Security Responder 14",
+    "role": "Security",
+    "description": "Threat modeling and vulnerability review. (responder focus).",
+    "tags": [
+      "security",
+      "responder"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/security-responder-14.md"
+  },
+  {
+    "name": "Security Responder 22",
+    "role": "Security",
+    "description": "Threat modeling and vulnerability review. (responder focus).",
+    "tags": [
+      "security",
+      "responder"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/security-responder-22.md"
+  },
+  {
+    "name": "Security Responder 30",
+    "role": "Security",
+    "description": "Threat modeling and vulnerability review. (responder focus).",
+    "tags": [
+      "security",
+      "responder"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/security-responder-30.md"
+  },
+  {
+    "name": "Security Responder 38",
+    "role": "Security",
+    "description": "Threat modeling and vulnerability review. (responder focus).",
+    "tags": [
+      "security",
+      "responder"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/security-responder-38.md"
+  },
+  {
+    "name": "Security Reviewer 03",
+    "role": "Security",
+    "description": "Threat modeling and vulnerability review. (reviewer focus).",
+    "tags": [
+      "security",
+      "reviewer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/security-reviewer-03.md"
+  },
+  {
+    "name": "Security Reviewer 11",
+    "role": "Security",
+    "description": "Threat modeling and vulnerability review. (reviewer focus).",
+    "tags": [
+      "security",
+      "reviewer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/security-reviewer-11.md"
+  },
+  {
+    "name": "Security Reviewer 19",
+    "role": "Security",
+    "description": "Threat modeling and vulnerability review. (reviewer focus).",
+    "tags": [
+      "security",
+      "reviewer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/security-reviewer-19.md"
+  },
+  {
+    "name": "Security Reviewer 27",
+    "role": "Security",
+    "description": "Threat modeling and vulnerability review. (reviewer focus).",
+    "tags": [
+      "security",
+      "reviewer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/security-reviewer-27.md"
+  },
+  {
+    "name": "Security Reviewer 35",
+    "role": "Security",
+    "description": "Threat modeling and vulnerability review. (reviewer focus).",
+    "tags": [
+      "security",
+      "reviewer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/security-reviewer-35.md"
+  },
+  {
+    "name": "Security Scout 07",
+    "role": "Security",
+    "description": "Threat modeling and vulnerability review. (scout focus).",
+    "tags": [
+      "security",
+      "scout"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/security-scout-07.md"
+  },
+  {
+    "name": "Security Scout 15",
+    "role": "Security",
+    "description": "Threat modeling and vulnerability review. (scout focus).",
+    "tags": [
+      "security",
+      "scout"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/security-scout-15.md"
+  },
+  {
+    "name": "Security Scout 23",
+    "role": "Security",
+    "description": "Threat modeling and vulnerability review. (scout focus).",
+    "tags": [
+      "security",
+      "scout"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/security-scout-23.md"
+  },
+  {
+    "name": "Security Scout 31",
+    "role": "Security",
+    "description": "Threat modeling and vulnerability review. (scout focus).",
+    "tags": [
+      "security",
+      "scout"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/security-scout-31.md"
+  },
+  {
+    "name": "Security Scout 39",
+    "role": "Security",
+    "description": "Threat modeling and vulnerability review. (scout focus).",
+    "tags": [
+      "security",
+      "scout"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/security-scout-39.md"
+  },
+  {
+    "name": "Security Writer 09",
+    "role": "Security",
+    "description": "Threat modeling and vulnerability review. (writer focus).",
+    "tags": [
+      "security",
+      "writer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/security-writer-09.md"
+  },
+  {
+    "name": "Security Writer 17",
+    "role": "Security",
+    "description": "Threat modeling and vulnerability review. (writer focus).",
+    "tags": [
+      "security",
+      "writer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/security-writer-17.md"
+  },
+  {
+    "name": "Security Writer 25",
+    "role": "Security",
+    "description": "Threat modeling and vulnerability review. (writer focus).",
+    "tags": [
+      "security",
+      "writer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/security-writer-25.md"
+  },
+  {
+    "name": "Security Writer 33",
+    "role": "Security",
+    "description": "Threat modeling and vulnerability review. (writer focus).",
+    "tags": [
+      "security",
+      "writer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/security-writer-33.md"
   }
 ]
