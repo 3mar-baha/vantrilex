@@ -777,5 +777,783 @@
       "hardener"
     ],
     "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/data-hardener-08.md"
+  },
+  {
+    "name": "Data Hardener 16",
+    "role": "Data",
+    "description": "Schema design and analytics. (hardener focus).",
+    "tags": [
+      "data",
+      "hardener"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/data-hardener-16.md"
+  },
+  {
+    "name": "Data Hardener 24",
+    "role": "Data",
+    "description": "Schema design and analytics. (hardener focus).",
+    "tags": [
+      "data",
+      "hardener"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/data-hardener-24.md"
+  },
+  {
+    "name": "Data Hardener 32",
+    "role": "Data",
+    "description": "Schema design and analytics. (hardener focus).",
+    "tags": [
+      "data",
+      "hardener"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/data-hardener-32.md"
+  },
+  {
+    "name": "Data Mentor 05",
+    "role": "Data",
+    "description": "Schema design and analytics. (mentor focus).",
+    "tags": [
+      "data",
+      "mentor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/data-mentor-05.md"
+  },
+  {
+    "name": "Data Mentor 13",
+    "role": "Data",
+    "description": "Schema design and analytics. (mentor focus).",
+    "tags": [
+      "data",
+      "mentor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/data-mentor-13.md"
+  },
+  {
+    "name": "Data Mentor 21",
+    "role": "Data",
+    "description": "Schema design and analytics. (mentor focus).",
+    "tags": [
+      "data",
+      "mentor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/data-mentor-21.md"
+  },
+  {
+    "name": "Data Mentor 29",
+    "role": "Data",
+    "description": "Schema design and analytics. (mentor focus).",
+    "tags": [
+      "data",
+      "mentor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/data-mentor-29.md"
+  },
+  {
+    "name": "Data Mentor 37",
+    "role": "Data",
+    "description": "Schema design and analytics. (mentor focus).",
+    "tags": [
+      "data",
+      "mentor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/data-mentor-37.md"
+  },
+  {
+    "name": "Data Modeler",
+    "role": "Data",
+    "description": "Schema design and analytics.",
+    "tags": [
+      "data"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/data-modeler.md"
+  },
+  {
+    "name": "Data Optimizer 04",
+    "role": "Data",
+    "description": "Schema design and analytics. (optimizer focus).",
+    "tags": [
+      "data",
+      "optimizer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/data-optimizer-04.md"
+  },
+  {
+    "name": "Data Optimizer 12",
+    "role": "Data",
+    "description": "Schema design and analytics. (optimizer focus).",
+    "tags": [
+      "data",
+      "optimizer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/data-optimizer-12.md"
+  },
+  {
+    "name": "Data Optimizer 20",
+    "role": "Data",
+    "description": "Schema design and analytics. (optimizer focus).",
+    "tags": [
+      "data",
+      "optimizer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/data-optimizer-20.md"
+  },
+  {
+    "name": "Data Optimizer 28",
+    "role": "Data",
+    "description": "Schema design and analytics. (optimizer focus).",
+    "tags": [
+      "data",
+      "optimizer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/data-optimizer-28.md"
+  },
+  {
+    "name": "Data Optimizer 36",
+    "role": "Data",
+    "description": "Schema design and analytics. (optimizer focus).",
+    "tags": [
+      "data",
+      "optimizer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/data-optimizer-36.md"
+  },
+  {
+    "name": "Data Planner 02",
+    "role": "Data",
+    "description": "Schema design and analytics. (planner focus).",
+    "tags": [
+      "data",
+      "planner"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/data-planner-02.md"
+  },
+  {
+    "name": "Data Planner 10",
+    "role": "Data",
+    "description": "Schema design and analytics. (planner focus).",
+    "tags": [
+      "data",
+      "planner"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/data-planner-10.md"
+  },
+  {
+    "name": "Data Planner 18",
+    "role": "Data",
+    "description": "Schema design and analytics. (planner focus).",
+    "tags": [
+      "data",
+      "planner"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/data-planner-18.md"
+  },
+  {
+    "name": "Data Planner 26",
+    "role": "Data",
+    "description": "Schema design and analytics. (planner focus).",
+    "tags": [
+      "data",
+      "planner"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/data-planner-26.md"
+  },
+  {
+    "name": "Data Planner 34",
+    "role": "Data",
+    "description": "Schema design and analytics. (planner focus).",
+    "tags": [
+      "data",
+      "planner"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/data-planner-34.md"
+  },
+  {
+    "name": "Data Responder 06",
+    "role": "Data",
+    "description": "Schema design and analytics. (responder focus).",
+    "tags": [
+      "data",
+      "responder"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/data-responder-06.md"
+  },
+  {
+    "name": "Data Responder 14",
+    "role": "Data",
+    "description": "Schema design and analytics. (responder focus).",
+    "tags": [
+      "data",
+      "responder"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/data-responder-14.md"
+  },
+  {
+    "name": "Data Responder 22",
+    "role": "Data",
+    "description": "Schema design and analytics. (responder focus).",
+    "tags": [
+      "data",
+      "responder"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/data-responder-22.md"
+  },
+  {
+    "name": "Data Responder 30",
+    "role": "Data",
+    "description": "Schema design and analytics. (responder focus).",
+    "tags": [
+      "data",
+      "responder"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/data-responder-30.md"
+  },
+  {
+    "name": "Data Responder 38",
+    "role": "Data",
+    "description": "Schema design and analytics. (responder focus).",
+    "tags": [
+      "data",
+      "responder"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/data-responder-38.md"
+  },
+  {
+    "name": "Data Reviewer 03",
+    "role": "Data",
+    "description": "Schema design and analytics. (reviewer focus).",
+    "tags": [
+      "data",
+      "reviewer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/data-reviewer-03.md"
+  },
+  {
+    "name": "Data Reviewer 11",
+    "role": "Data",
+    "description": "Schema design and analytics. (reviewer focus).",
+    "tags": [
+      "data",
+      "reviewer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/data-reviewer-11.md"
+  },
+  {
+    "name": "Data Reviewer 19",
+    "role": "Data",
+    "description": "Schema design and analytics. (reviewer focus).",
+    "tags": [
+      "data",
+      "reviewer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/data-reviewer-19.md"
+  },
+  {
+    "name": "Data Reviewer 27",
+    "role": "Data",
+    "description": "Schema design and analytics. (reviewer focus).",
+    "tags": [
+      "data",
+      "reviewer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/data-reviewer-27.md"
+  },
+  {
+    "name": "Data Reviewer 35",
+    "role": "Data",
+    "description": "Schema design and analytics. (reviewer focus).",
+    "tags": [
+      "data",
+      "reviewer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/data-reviewer-35.md"
+  },
+  {
+    "name": "Data Scout 07",
+    "role": "Data",
+    "description": "Schema design and analytics. (scout focus).",
+    "tags": [
+      "data",
+      "scout"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/data-scout-07.md"
+  },
+  {
+    "name": "Data Scout 15",
+    "role": "Data",
+    "description": "Schema design and analytics. (scout focus).",
+    "tags": [
+      "data",
+      "scout"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/data-scout-15.md"
+  },
+  {
+    "name": "Data Scout 23",
+    "role": "Data",
+    "description": "Schema design and analytics. (scout focus).",
+    "tags": [
+      "data",
+      "scout"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/data-scout-23.md"
+  },
+  {
+    "name": "Data Scout 31",
+    "role": "Data",
+    "description": "Schema design and analytics. (scout focus).",
+    "tags": [
+      "data",
+      "scout"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/data-scout-31.md"
+  },
+  {
+    "name": "Data Scout 39",
+    "role": "Data",
+    "description": "Schema design and analytics. (scout focus).",
+    "tags": [
+      "data",
+      "scout"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/data-scout-39.md"
+  },
+  {
+    "name": "Data Writer 09",
+    "role": "Data",
+    "description": "Schema design and analytics. (writer focus).",
+    "tags": [
+      "data",
+      "writer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/data-writer-09.md"
+  },
+  {
+    "name": "Data Writer 17",
+    "role": "Data",
+    "description": "Schema design and analytics. (writer focus).",
+    "tags": [
+      "data",
+      "writer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/data-writer-17.md"
+  },
+  {
+    "name": "Data Writer 25",
+    "role": "Data",
+    "description": "Schema design and analytics. (writer focus).",
+    "tags": [
+      "data",
+      "writer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/data-writer-25.md"
+  },
+  {
+    "name": "Data Writer 33",
+    "role": "Data",
+    "description": "Schema design and analytics. (writer focus).",
+    "tags": [
+      "data",
+      "writer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/data-writer-33.md"
+  },
+  {
+    "name": "DevOps Hardener 08",
+    "role": "DevOps",
+    "description": "CI/CD, containers, and infra automation. (hardener focus).",
+    "tags": [
+      "devops",
+      "hardener"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/devops-hardener-08.md"
+  },
+  {
+    "name": "DevOps Hardener 16",
+    "role": "DevOps",
+    "description": "CI/CD, containers, and infra automation. (hardener focus).",
+    "tags": [
+      "devops",
+      "hardener"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/devops-hardener-16.md"
+  },
+  {
+    "name": "DevOps Hardener 24",
+    "role": "DevOps",
+    "description": "CI/CD, containers, and infra automation. (hardener focus).",
+    "tags": [
+      "devops",
+      "hardener"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/devops-hardener-24.md"
+  },
+  {
+    "name": "DevOps Hardener 32",
+    "role": "DevOps",
+    "description": "CI/CD, containers, and infra automation. (hardener focus).",
+    "tags": [
+      "devops",
+      "hardener"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/devops-hardener-32.md"
+  },
+  {
+    "name": "DevOps Mentor 05",
+    "role": "DevOps",
+    "description": "CI/CD, containers, and infra automation. (mentor focus).",
+    "tags": [
+      "devops",
+      "mentor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/devops-mentor-05.md"
+  },
+  {
+    "name": "DevOps Mentor 13",
+    "role": "DevOps",
+    "description": "CI/CD, containers, and infra automation. (mentor focus).",
+    "tags": [
+      "devops",
+      "mentor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/devops-mentor-13.md"
+  },
+  {
+    "name": "DevOps Mentor 21",
+    "role": "DevOps",
+    "description": "CI/CD, containers, and infra automation. (mentor focus).",
+    "tags": [
+      "devops",
+      "mentor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/devops-mentor-21.md"
+  },
+  {
+    "name": "DevOps Mentor 29",
+    "role": "DevOps",
+    "description": "CI/CD, containers, and infra automation. (mentor focus).",
+    "tags": [
+      "devops",
+      "mentor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/devops-mentor-29.md"
+  },
+  {
+    "name": "DevOps Mentor 37",
+    "role": "DevOps",
+    "description": "CI/CD, containers, and infra automation. (mentor focus).",
+    "tags": [
+      "devops",
+      "mentor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/devops-mentor-37.md"
+  },
+  {
+    "name": "DevOps Optimizer 04",
+    "role": "DevOps",
+    "description": "CI/CD, containers, and infra automation. (optimizer focus).",
+    "tags": [
+      "devops",
+      "optimizer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/devops-optimizer-04.md"
+  },
+  {
+    "name": "DevOps Optimizer 12",
+    "role": "DevOps",
+    "description": "CI/CD, containers, and infra automation. (optimizer focus).",
+    "tags": [
+      "devops",
+      "optimizer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/devops-optimizer-12.md"
+  },
+  {
+    "name": "DevOps Optimizer 20",
+    "role": "DevOps",
+    "description": "CI/CD, containers, and infra automation. (optimizer focus).",
+    "tags": [
+      "devops",
+      "optimizer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/devops-optimizer-20.md"
+  },
+  {
+    "name": "DevOps Optimizer 28",
+    "role": "DevOps",
+    "description": "CI/CD, containers, and infra automation. (optimizer focus).",
+    "tags": [
+      "devops",
+      "optimizer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/devops-optimizer-28.md"
+  },
+  {
+    "name": "DevOps Optimizer 36",
+    "role": "DevOps",
+    "description": "CI/CD, containers, and infra automation. (optimizer focus).",
+    "tags": [
+      "devops",
+      "optimizer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/devops-optimizer-36.md"
+  },
+  {
+    "name": "DevOps Planner 02",
+    "role": "DevOps",
+    "description": "CI/CD, containers, and infra automation. (planner focus).",
+    "tags": [
+      "devops",
+      "planner"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/devops-planner-02.md"
+  },
+  {
+    "name": "DevOps Planner 10",
+    "role": "DevOps",
+    "description": "CI/CD, containers, and infra automation. (planner focus).",
+    "tags": [
+      "devops",
+      "planner"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/devops-planner-10.md"
+  },
+  {
+    "name": "DevOps Planner 18",
+    "role": "DevOps",
+    "description": "CI/CD, containers, and infra automation. (planner focus).",
+    "tags": [
+      "devops",
+      "planner"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/devops-planner-18.md"
+  },
+  {
+    "name": "DevOps Planner 26",
+    "role": "DevOps",
+    "description": "CI/CD, containers, and infra automation. (planner focus).",
+    "tags": [
+      "devops",
+      "planner"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/devops-planner-26.md"
+  },
+  {
+    "name": "DevOps Planner 34",
+    "role": "DevOps",
+    "description": "CI/CD, containers, and infra automation. (planner focus).",
+    "tags": [
+      "devops",
+      "planner"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/devops-planner-34.md"
+  },
+  {
+    "name": "DevOps Responder 06",
+    "role": "DevOps",
+    "description": "CI/CD, containers, and infra automation. (responder focus).",
+    "tags": [
+      "devops",
+      "responder"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/devops-responder-06.md"
+  },
+  {
+    "name": "DevOps Responder 14",
+    "role": "DevOps",
+    "description": "CI/CD, containers, and infra automation. (responder focus).",
+    "tags": [
+      "devops",
+      "responder"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/devops-responder-14.md"
+  },
+  {
+    "name": "DevOps Responder 22",
+    "role": "DevOps",
+    "description": "CI/CD, containers, and infra automation. (responder focus).",
+    "tags": [
+      "devops",
+      "responder"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/devops-responder-22.md"
+  },
+  {
+    "name": "DevOps Responder 30",
+    "role": "DevOps",
+    "description": "CI/CD, containers, and infra automation. (responder focus).",
+    "tags": [
+      "devops",
+      "responder"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/devops-responder-30.md"
+  },
+  {
+    "name": "DevOps Responder 38",
+    "role": "DevOps",
+    "description": "CI/CD, containers, and infra automation. (responder focus).",
+    "tags": [
+      "devops",
+      "responder"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/devops-responder-38.md"
+  },
+  {
+    "name": "DevOps Reviewer 03",
+    "role": "DevOps",
+    "description": "CI/CD, containers, and infra automation. (reviewer focus).",
+    "tags": [
+      "devops",
+      "reviewer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/devops-reviewer-03.md"
+  },
+  {
+    "name": "DevOps Reviewer 11",
+    "role": "DevOps",
+    "description": "CI/CD, containers, and infra automation. (reviewer focus).",
+    "tags": [
+      "devops",
+      "reviewer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/devops-reviewer-11.md"
+  },
+  {
+    "name": "DevOps Reviewer 19",
+    "role": "DevOps",
+    "description": "CI/CD, containers, and infra automation. (reviewer focus).",
+    "tags": [
+      "devops",
+      "reviewer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/devops-reviewer-19.md"
+  },
+  {
+    "name": "DevOps Reviewer 27",
+    "role": "DevOps",
+    "description": "CI/CD, containers, and infra automation. (reviewer focus).",
+    "tags": [
+      "devops",
+      "reviewer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/devops-reviewer-27.md"
+  },
+  {
+    "name": "DevOps Reviewer 35",
+    "role": "DevOps",
+    "description": "CI/CD, containers, and infra automation. (reviewer focus).",
+    "tags": [
+      "devops",
+      "reviewer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/devops-reviewer-35.md"
+  },
+  {
+    "name": "DevOps Runner",
+    "role": "DevOps",
+    "description": "CI/CD, containers, and infra automation.",
+    "tags": [
+      "devops"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/devops-runner.md"
+  },
+  {
+    "name": "DevOps Scout 07",
+    "role": "DevOps",
+    "description": "CI/CD, containers, and infra automation. (scout focus).",
+    "tags": [
+      "devops",
+      "scout"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/devops-scout-07.md"
+  },
+  {
+    "name": "DevOps Scout 15",
+    "role": "DevOps",
+    "description": "CI/CD, containers, and infra automation. (scout focus).",
+    "tags": [
+      "devops",
+      "scout"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/devops-scout-15.md"
+  },
+  {
+    "name": "DevOps Scout 23",
+    "role": "DevOps",
+    "description": "CI/CD, containers, and infra automation. (scout focus).",
+    "tags": [
+      "devops",
+      "scout"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/devops-scout-23.md"
+  },
+  {
+    "name": "DevOps Scout 31",
+    "role": "DevOps",
+    "description": "CI/CD, containers, and infra automation. (scout focus).",
+    "tags": [
+      "devops",
+      "scout"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/devops-scout-31.md"
+  },
+  {
+    "name": "DevOps Scout 39",
+    "role": "DevOps",
+    "description": "CI/CD, containers, and infra automation. (scout focus).",
+    "tags": [
+      "devops",
+      "scout"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/devops-scout-39.md"
+  },
+  {
+    "name": "DevOps Writer 09",
+    "role": "DevOps",
+    "description": "CI/CD, containers, and infra automation. (writer focus).",
+    "tags": [
+      "devops",
+      "writer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/devops-writer-09.md"
+  },
+  {
+    "name": "DevOps Writer 17",
+    "role": "DevOps",
+    "description": "CI/CD, containers, and infra automation. (writer focus).",
+    "tags": [
+      "devops",
+      "writer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/devops-writer-17.md"
+  },
+  {
+    "name": "DevOps Writer 25",
+    "role": "DevOps",
+    "description": "CI/CD, containers, and infra automation. (writer focus).",
+    "tags": [
+      "devops",
+      "writer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/devops-writer-25.md"
+  },
+  {
+    "name": "DevOps Writer 33",
+    "role": "DevOps",
+    "description": "CI/CD, containers, and infra automation. (writer focus).",
+    "tags": [
+      "devops",
+      "writer"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/devops-writer-33.md"
+  },
+  {
+    "name": "Frontend Hardener 08",
+    "role": "Frontend",
+    "description": "React, CSS, and UI implementation. (hardener focus).",
+    "tags": [
+      "frontend",
+      "hardener"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/agents/frontend-hardener-08.md"
   }
 ]
