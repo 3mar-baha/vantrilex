@@ -1,0 +1,170 @@
+[
+  {
+    "name": "dangerous-command-guard",
+    "event": "PreToolUse",
+    "description": "Block destructive shell commands before execution.",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/dangerous-command-guard.json"
+  },
+  {
+    "name": "dangerous-command-guard-audit-06",
+    "event": "Stop",
+    "description": "Block destructive shell commands before execution. Variant (Stop).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/dangerous-command-guard-audit-06.json"
+  },
+  {
+    "name": "dangerous-command-guard-ci-05",
+    "event": "PostToolUse",
+    "description": "Block destructive shell commands before execution. Variant (PostToolUse).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/dangerous-command-guard-ci-05.json"
+  },
+  {
+    "name": "dangerous-command-guard-fast-07",
+    "event": "UserPromptSubmit",
+    "description": "Block destructive shell commands before execution. Variant (UserPromptSubmit).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/dangerous-command-guard-fast-07.json"
+  },
+  {
+    "name": "dangerous-command-guard-relaxed-03",
+    "event": "Stop",
+    "description": "Block destructive shell commands before execution. Variant (Stop).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/dangerous-command-guard-relaxed-03.json"
+  },
+  {
+    "name": "dangerous-command-guard-strict-02",
+    "event": "PostToolUse",
+    "description": "Block destructive shell commands before execution. Variant (PostToolUse).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/dangerous-command-guard-strict-02.json"
+  },
+  {
+    "name": "dangerous-command-guard-team-04",
+    "event": "UserPromptSubmit",
+    "description": "Block destructive shell commands before execution. Variant (UserPromptSubmit).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/dangerous-command-guard-team-04.json"
+  },
+  {
+    "name": "format-on-edit",
+    "event": "PostToolUse",
+    "description": "Auto-format edited files after tool use.",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/format-on-edit.json"
+  },
+  {
+    "name": "format-on-edit-audit-06",
+    "event": "SessionStart",
+    "description": "Auto-format edited files after tool use. Variant (SessionStart).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/format-on-edit-audit-06.json"
+  },
+  {
+    "name": "format-on-edit-ci-05",
+    "event": "PreCompact",
+    "description": "Auto-format edited files after tool use. Variant (PreCompact).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/format-on-edit-ci-05.json"
+  },
+  {
+    "name": "format-on-edit-fast-07",
+    "event": "PreToolUse",
+    "description": "Auto-format edited files after tool use. Variant (PreToolUse).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/format-on-edit-fast-07.json"
+  },
+  {
+    "name": "format-on-edit-relaxed-03",
+    "event": "SessionStart",
+    "description": "Auto-format edited files after tool use. Variant (SessionStart).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/format-on-edit-relaxed-03.json"
+  },
+  {
+    "name": "format-on-edit-strict-02",
+    "event": "PreCompact",
+    "description": "Auto-format edited files after tool use. Variant (PreCompact).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/format-on-edit-strict-02.json"
+  },
+  {
+    "name": "format-on-edit-team-04",
+    "event": "PreToolUse",
+    "description": "Auto-format edited files after tool use. Variant (PreToolUse).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/format-on-edit-team-04.json"
+  },
+  {
+    "name": "lint-on-save",
+    "event": "PostToolUse",
+    "description": "Run linter after file writes.",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/lint-on-save.json"
+  },
+  {
+    "name": "lint-on-save-audit-06",
+    "event": "UserPromptSubmit",
+    "description": "Run linter after file writes. Variant (UserPromptSubmit).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/lint-on-save-audit-06.json"
+  },
+  {
+    "name": "lint-on-save-ci-05",
+    "event": "Stop",
+    "description": "Run linter after file writes. Variant (Stop).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/lint-on-save-ci-05.json"
+  },
+  {
+    "name": "lint-on-save-fast-07",
+    "event": "PostToolUse",
+    "description": "Run linter after file writes. Variant (PostToolUse).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/lint-on-save-fast-07.json"
+  },
+  {
+    "name": "lint-on-save-relaxed-03",
+    "event": "UserPromptSubmit",
+    "description": "Run linter after file writes. Variant (UserPromptSubmit).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/lint-on-save-relaxed-03.json"
+  },
+  {
+    "name": "lint-on-save-strict-02",
+    "event": "Stop",
+    "description": "Run linter after file writes. Variant (Stop).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/lint-on-save-strict-02.json"
+  },
+  {
+    "name": "lint-on-save-team-04",
+    "event": "PostToolUse",
+    "description": "Run linter after file writes. Variant (PostToolUse).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/lint-on-save-team-04.json"
+  },
+  {
+    "name": "pre-compact-checkpoint",
+    "event": "PreCompact",
+    "description": "Snapshot session state before context compaction.",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/pre-compact-checkpoint.json"
+  },
+  {
+    "name": "pre-compact-checkpoint-audit-06",
+    "event": "PreCompact",
+    "description": "Snapshot session state before context compaction. Variant (PreCompact).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/pre-compact-checkpoint-audit-06.json"
+  },
+  {
+    "name": "pre-compact-checkpoint-ci-05",
+    "event": "PreToolUse",
+    "description": "Snapshot session state before context compaction. Variant (PreToolUse).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/pre-compact-checkpoint-ci-05.json"
+  },
+  {
+    "name": "pre-compact-checkpoint-fast-07",
+    "event": "SessionStart",
+    "description": "Snapshot session state before context compaction. Variant (SessionStart).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/pre-compact-checkpoint-fast-07.json"
+  },
+  {
+    "name": "pre-compact-checkpoint-relaxed-03",
+    "event": "PreCompact",
+    "description": "Snapshot session state before context compaction. Variant (PreCompact).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/pre-compact-checkpoint-relaxed-03.json"
+  },
+  {
+    "name": "pre-compact-checkpoint-strict-02",
+    "event": "PreToolUse",
+    "description": "Snapshot session state before context compaction. Variant (PreToolUse).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/pre-compact-checkpoint-strict-02.json"
+  },
+  {
+    "name": "pre-compact-checkpoint-team-04",
+    "event": "SessionStart",
+    "description": "Snapshot session state before context compaction. Variant (SessionStart).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/pre-compact-checkpoint-team-04.json"
+  }
+]
