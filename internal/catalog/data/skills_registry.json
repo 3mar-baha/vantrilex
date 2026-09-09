@@ -1726,5 +1726,581 @@
       "testing"
     ],
     "rawURL": "https://raw.githubusercontent.com/claude-code-hooks-mastery/main/skills/testing/SKILL.md"
+  },
+  {
+    "name": "mattpocock-typescript",
+    "source": "mattpocock/skills",
+    "description": "TypeScript and agent SDK skills.",
+    "tags": [
+      "core"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mattpocock/skills/main/SKILL.md"
+  },
+  {
+    "name": "mattpocock-typescript-backend-03",
+    "source": "mattpocock/skills",
+    "description": "TypeScript and agent SDK skills. (backend focus).",
+    "tags": [
+      "backend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mattpocock/skills/main/skills/backend/SKILL.md"
+  },
+  {
+    "name": "mattpocock-typescript-backend-15",
+    "source": "mattpocock/skills",
+    "description": "TypeScript and agent SDK skills. (backend focus).",
+    "tags": [
+      "backend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mattpocock/skills/main/skills/backend/SKILL.md"
+  },
+  {
+    "name": "mattpocock-typescript-backend-27",
+    "source": "mattpocock/skills",
+    "description": "TypeScript and agent SDK skills. (backend focus).",
+    "tags": [
+      "backend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mattpocock/skills/main/skills/backend/SKILL.md"
+  },
+  {
+    "name": "mattpocock-typescript-data-07",
+    "source": "mattpocock/skills",
+    "description": "TypeScript and agent SDK skills. (data focus).",
+    "tags": [
+      "data"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mattpocock/skills/main/skills/data/SKILL.md"
+  },
+  {
+    "name": "mattpocock-typescript-data-19",
+    "source": "mattpocock/skills",
+    "description": "TypeScript and agent SDK skills. (data focus).",
+    "tags": [
+      "data"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mattpocock/skills/main/skills/data/SKILL.md"
+  },
+  {
+    "name": "mattpocock-typescript-data-31",
+    "source": "mattpocock/skills",
+    "description": "TypeScript and agent SDK skills. (data focus).",
+    "tags": [
+      "data"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mattpocock/skills/main/skills/data/SKILL.md"
+  },
+  {
+    "name": "mattpocock-typescript-devops-05",
+    "source": "mattpocock/skills",
+    "description": "TypeScript and agent SDK skills. (devops focus).",
+    "tags": [
+      "devops"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mattpocock/skills/main/skills/devops/SKILL.md"
+  },
+  {
+    "name": "mattpocock-typescript-devops-17",
+    "source": "mattpocock/skills",
+    "description": "TypeScript and agent SDK skills. (devops focus).",
+    "tags": [
+      "devops"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mattpocock/skills/main/skills/devops/SKILL.md"
+  },
+  {
+    "name": "mattpocock-typescript-devops-29",
+    "source": "mattpocock/skills",
+    "description": "TypeScript and agent SDK skills. (devops focus).",
+    "tags": [
+      "devops"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mattpocock/skills/main/skills/devops/SKILL.md"
+  },
+  {
+    "name": "mattpocock-typescript-docs-09",
+    "source": "mattpocock/skills",
+    "description": "TypeScript and agent SDK skills. (docs focus).",
+    "tags": [
+      "docs"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mattpocock/skills/main/skills/docs/SKILL.md"
+  },
+  {
+    "name": "mattpocock-typescript-docs-21",
+    "source": "mattpocock/skills",
+    "description": "TypeScript and agent SDK skills. (docs focus).",
+    "tags": [
+      "docs"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mattpocock/skills/main/skills/docs/SKILL.md"
+  },
+  {
+    "name": "mattpocock-typescript-frontend-02",
+    "source": "mattpocock/skills",
+    "description": "TypeScript and agent SDK skills. (frontend focus).",
+    "tags": [
+      "frontend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mattpocock/skills/main/skills/frontend/SKILL.md"
+  },
+  {
+    "name": "mattpocock-typescript-frontend-14",
+    "source": "mattpocock/skills",
+    "description": "TypeScript and agent SDK skills. (frontend focus).",
+    "tags": [
+      "frontend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mattpocock/skills/main/skills/frontend/SKILL.md"
+  },
+  {
+    "name": "mattpocock-typescript-frontend-26",
+    "source": "mattpocock/skills",
+    "description": "TypeScript and agent SDK skills. (frontend focus).",
+    "tags": [
+      "frontend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mattpocock/skills/main/skills/frontend/SKILL.md"
+  },
+  {
+    "name": "mattpocock-typescript-mobile-08",
+    "source": "mattpocock/skills",
+    "description": "TypeScript and agent SDK skills. (mobile focus).",
+    "tags": [
+      "mobile"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mattpocock/skills/main/skills/mobile/SKILL.md"
+  },
+  {
+    "name": "mattpocock-typescript-mobile-20",
+    "source": "mattpocock/skills",
+    "description": "TypeScript and agent SDK skills. (mobile focus).",
+    "tags": [
+      "mobile"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mattpocock/skills/main/skills/mobile/SKILL.md"
+  },
+  {
+    "name": "mattpocock-typescript-mobile-32",
+    "source": "mattpocock/skills",
+    "description": "TypeScript and agent SDK skills. (mobile focus).",
+    "tags": [
+      "mobile"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mattpocock/skills/main/skills/mobile/SKILL.md"
+  },
+  {
+    "name": "mattpocock-typescript-perf-13",
+    "source": "mattpocock/skills",
+    "description": "TypeScript and agent SDK skills. (perf focus).",
+    "tags": [
+      "perf"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mattpocock/skills/main/skills/perf/SKILL.md"
+  },
+  {
+    "name": "mattpocock-typescript-perf-25",
+    "source": "mattpocock/skills",
+    "description": "TypeScript and agent SDK skills. (perf focus).",
+    "tags": [
+      "perf"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mattpocock/skills/main/skills/perf/SKILL.md"
+  },
+  {
+    "name": "mattpocock-typescript-qa-06",
+    "source": "mattpocock/skills",
+    "description": "TypeScript and agent SDK skills. (qa focus).",
+    "tags": [
+      "qa"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mattpocock/skills/main/skills/qa/SKILL.md"
+  },
+  {
+    "name": "mattpocock-typescript-qa-18",
+    "source": "mattpocock/skills",
+    "description": "TypeScript and agent SDK skills. (qa focus).",
+    "tags": [
+      "qa"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mattpocock/skills/main/skills/qa/SKILL.md"
+  },
+  {
+    "name": "mattpocock-typescript-qa-30",
+    "source": "mattpocock/skills",
+    "description": "TypeScript and agent SDK skills. (qa focus).",
+    "tags": [
+      "qa"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mattpocock/skills/main/skills/qa/SKILL.md"
+  },
+  {
+    "name": "mattpocock-typescript-refactor-11",
+    "source": "mattpocock/skills",
+    "description": "TypeScript and agent SDK skills. (refactor focus).",
+    "tags": [
+      "refactor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mattpocock/skills/main/skills/refactor/SKILL.md"
+  },
+  {
+    "name": "mattpocock-typescript-refactor-23",
+    "source": "mattpocock/skills",
+    "description": "TypeScript and agent SDK skills. (refactor focus).",
+    "tags": [
+      "refactor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mattpocock/skills/main/skills/refactor/SKILL.md"
+  },
+  {
+    "name": "mattpocock-typescript-review-12",
+    "source": "mattpocock/skills",
+    "description": "TypeScript and agent SDK skills. (review focus).",
+    "tags": [
+      "review"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mattpocock/skills/main/skills/review/SKILL.md"
+  },
+  {
+    "name": "mattpocock-typescript-review-24",
+    "source": "mattpocock/skills",
+    "description": "TypeScript and agent SDK skills. (review focus).",
+    "tags": [
+      "review"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mattpocock/skills/main/skills/review/SKILL.md"
+  },
+  {
+    "name": "mattpocock-typescript-security-04",
+    "source": "mattpocock/skills",
+    "description": "TypeScript and agent SDK skills. (security focus).",
+    "tags": [
+      "security"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mattpocock/skills/main/skills/security/SKILL.md"
+  },
+  {
+    "name": "mattpocock-typescript-security-16",
+    "source": "mattpocock/skills",
+    "description": "TypeScript and agent SDK skills. (security focus).",
+    "tags": [
+      "security"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mattpocock/skills/main/skills/security/SKILL.md"
+  },
+  {
+    "name": "mattpocock-typescript-security-28",
+    "source": "mattpocock/skills",
+    "description": "TypeScript and agent SDK skills. (security focus).",
+    "tags": [
+      "security"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mattpocock/skills/main/skills/security/SKILL.md"
+  },
+  {
+    "name": "mattpocock-typescript-testing-10",
+    "source": "mattpocock/skills",
+    "description": "TypeScript and agent SDK skills. (testing focus).",
+    "tags": [
+      "testing"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mattpocock/skills/main/skills/testing/SKILL.md"
+  },
+  {
+    "name": "mattpocock-typescript-testing-22",
+    "source": "mattpocock/skills",
+    "description": "TypeScript and agent SDK skills. (testing focus).",
+    "tags": [
+      "testing"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/mattpocock/skills/main/skills/testing/SKILL.md"
+  },
+  {
+    "name": "ponytail-core",
+    "source": "dietrichgebert/ponytail",
+    "description": "Multi-agent orchestration core skills.",
+    "tags": [
+      "core"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/dietrichgebert/ponytail/main/SKILL.md"
+  },
+  {
+    "name": "ponytail-core-backend-03",
+    "source": "dietrichgebert/ponytail",
+    "description": "Multi-agent orchestration core skills. (backend focus).",
+    "tags": [
+      "backend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/dietrichgebert/ponytail/main/skills/backend/SKILL.md"
+  },
+  {
+    "name": "ponytail-core-backend-15",
+    "source": "dietrichgebert/ponytail",
+    "description": "Multi-agent orchestration core skills. (backend focus).",
+    "tags": [
+      "backend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/dietrichgebert/ponytail/main/skills/backend/SKILL.md"
+  },
+  {
+    "name": "ponytail-core-backend-27",
+    "source": "dietrichgebert/ponytail",
+    "description": "Multi-agent orchestration core skills. (backend focus).",
+    "tags": [
+      "backend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/dietrichgebert/ponytail/main/skills/backend/SKILL.md"
+  },
+  {
+    "name": "ponytail-core-data-07",
+    "source": "dietrichgebert/ponytail",
+    "description": "Multi-agent orchestration core skills. (data focus).",
+    "tags": [
+      "data"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/dietrichgebert/ponytail/main/skills/data/SKILL.md"
+  },
+  {
+    "name": "ponytail-core-data-19",
+    "source": "dietrichgebert/ponytail",
+    "description": "Multi-agent orchestration core skills. (data focus).",
+    "tags": [
+      "data"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/dietrichgebert/ponytail/main/skills/data/SKILL.md"
+  },
+  {
+    "name": "ponytail-core-data-31",
+    "source": "dietrichgebert/ponytail",
+    "description": "Multi-agent orchestration core skills. (data focus).",
+    "tags": [
+      "data"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/dietrichgebert/ponytail/main/skills/data/SKILL.md"
+  },
+  {
+    "name": "ponytail-core-devops-05",
+    "source": "dietrichgebert/ponytail",
+    "description": "Multi-agent orchestration core skills. (devops focus).",
+    "tags": [
+      "devops"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/dietrichgebert/ponytail/main/skills/devops/SKILL.md"
+  },
+  {
+    "name": "ponytail-core-devops-17",
+    "source": "dietrichgebert/ponytail",
+    "description": "Multi-agent orchestration core skills. (devops focus).",
+    "tags": [
+      "devops"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/dietrichgebert/ponytail/main/skills/devops/SKILL.md"
+  },
+  {
+    "name": "ponytail-core-devops-29",
+    "source": "dietrichgebert/ponytail",
+    "description": "Multi-agent orchestration core skills. (devops focus).",
+    "tags": [
+      "devops"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/dietrichgebert/ponytail/main/skills/devops/SKILL.md"
+  },
+  {
+    "name": "ponytail-core-docs-09",
+    "source": "dietrichgebert/ponytail",
+    "description": "Multi-agent orchestration core skills. (docs focus).",
+    "tags": [
+      "docs"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/dietrichgebert/ponytail/main/skills/docs/SKILL.md"
+  },
+  {
+    "name": "ponytail-core-docs-21",
+    "source": "dietrichgebert/ponytail",
+    "description": "Multi-agent orchestration core skills. (docs focus).",
+    "tags": [
+      "docs"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/dietrichgebert/ponytail/main/skills/docs/SKILL.md"
+  },
+  {
+    "name": "ponytail-core-frontend-02",
+    "source": "dietrichgebert/ponytail",
+    "description": "Multi-agent orchestration core skills. (frontend focus).",
+    "tags": [
+      "frontend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/dietrichgebert/ponytail/main/skills/frontend/SKILL.md"
+  },
+  {
+    "name": "ponytail-core-frontend-14",
+    "source": "dietrichgebert/ponytail",
+    "description": "Multi-agent orchestration core skills. (frontend focus).",
+    "tags": [
+      "frontend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/dietrichgebert/ponytail/main/skills/frontend/SKILL.md"
+  },
+  {
+    "name": "ponytail-core-frontend-26",
+    "source": "dietrichgebert/ponytail",
+    "description": "Multi-agent orchestration core skills. (frontend focus).",
+    "tags": [
+      "frontend"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/dietrichgebert/ponytail/main/skills/frontend/SKILL.md"
+  },
+  {
+    "name": "ponytail-core-mobile-08",
+    "source": "dietrichgebert/ponytail",
+    "description": "Multi-agent orchestration core skills. (mobile focus).",
+    "tags": [
+      "mobile"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/dietrichgebert/ponytail/main/skills/mobile/SKILL.md"
+  },
+  {
+    "name": "ponytail-core-mobile-20",
+    "source": "dietrichgebert/ponytail",
+    "description": "Multi-agent orchestration core skills. (mobile focus).",
+    "tags": [
+      "mobile"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/dietrichgebert/ponytail/main/skills/mobile/SKILL.md"
+  },
+  {
+    "name": "ponytail-core-mobile-32",
+    "source": "dietrichgebert/ponytail",
+    "description": "Multi-agent orchestration core skills. (mobile focus).",
+    "tags": [
+      "mobile"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/dietrichgebert/ponytail/main/skills/mobile/SKILL.md"
+  },
+  {
+    "name": "ponytail-core-perf-13",
+    "source": "dietrichgebert/ponytail",
+    "description": "Multi-agent orchestration core skills. (perf focus).",
+    "tags": [
+      "perf"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/dietrichgebert/ponytail/main/skills/perf/SKILL.md"
+  },
+  {
+    "name": "ponytail-core-perf-25",
+    "source": "dietrichgebert/ponytail",
+    "description": "Multi-agent orchestration core skills. (perf focus).",
+    "tags": [
+      "perf"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/dietrichgebert/ponytail/main/skills/perf/SKILL.md"
+  },
+  {
+    "name": "ponytail-core-qa-06",
+    "source": "dietrichgebert/ponytail",
+    "description": "Multi-agent orchestration core skills. (qa focus).",
+    "tags": [
+      "qa"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/dietrichgebert/ponytail/main/skills/qa/SKILL.md"
+  },
+  {
+    "name": "ponytail-core-qa-18",
+    "source": "dietrichgebert/ponytail",
+    "description": "Multi-agent orchestration core skills. (qa focus).",
+    "tags": [
+      "qa"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/dietrichgebert/ponytail/main/skills/qa/SKILL.md"
+  },
+  {
+    "name": "ponytail-core-qa-30",
+    "source": "dietrichgebert/ponytail",
+    "description": "Multi-agent orchestration core skills. (qa focus).",
+    "tags": [
+      "qa"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/dietrichgebert/ponytail/main/skills/qa/SKILL.md"
+  },
+  {
+    "name": "ponytail-core-refactor-11",
+    "source": "dietrichgebert/ponytail",
+    "description": "Multi-agent orchestration core skills. (refactor focus).",
+    "tags": [
+      "refactor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/dietrichgebert/ponytail/main/skills/refactor/SKILL.md"
+  },
+  {
+    "name": "ponytail-core-refactor-23",
+    "source": "dietrichgebert/ponytail",
+    "description": "Multi-agent orchestration core skills. (refactor focus).",
+    "tags": [
+      "refactor"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/dietrichgebert/ponytail/main/skills/refactor/SKILL.md"
+  },
+  {
+    "name": "ponytail-core-review-12",
+    "source": "dietrichgebert/ponytail",
+    "description": "Multi-agent orchestration core skills. (review focus).",
+    "tags": [
+      "review"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/dietrichgebert/ponytail/main/skills/review/SKILL.md"
+  },
+  {
+    "name": "ponytail-core-review-24",
+    "source": "dietrichgebert/ponytail",
+    "description": "Multi-agent orchestration core skills. (review focus).",
+    "tags": [
+      "review"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/dietrichgebert/ponytail/main/skills/review/SKILL.md"
+  },
+  {
+    "name": "ponytail-core-security-04",
+    "source": "dietrichgebert/ponytail",
+    "description": "Multi-agent orchestration core skills. (security focus).",
+    "tags": [
+      "security"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/dietrichgebert/ponytail/main/skills/security/SKILL.md"
+  },
+  {
+    "name": "ponytail-core-security-16",
+    "source": "dietrichgebert/ponytail",
+    "description": "Multi-agent orchestration core skills. (security focus).",
+    "tags": [
+      "security"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/dietrichgebert/ponytail/main/skills/security/SKILL.md"
+  },
+  {
+    "name": "ponytail-core-security-28",
+    "source": "dietrichgebert/ponytail",
+    "description": "Multi-agent orchestration core skills. (security focus).",
+    "tags": [
+      "security"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/dietrichgebert/ponytail/main/skills/security/SKILL.md"
+  },
+  {
+    "name": "ponytail-core-testing-10",
+    "source": "dietrichgebert/ponytail",
+    "description": "Multi-agent orchestration core skills. (testing focus).",
+    "tags": [
+      "testing"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/dietrichgebert/ponytail/main/skills/testing/SKILL.md"
+  },
+  {
+    "name": "ponytail-core-testing-22",
+    "source": "dietrichgebert/ponytail",
+    "description": "Multi-agent orchestration core skills. (testing focus).",
+    "tags": [
+      "testing"
+    ],
+    "rawURL": "https://raw.githubusercontent.com/dietrichgebert/ponytail/main/skills/testing/SKILL.md"
   }
 ]
