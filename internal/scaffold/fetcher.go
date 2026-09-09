@@ -184,3 +184,65 @@ func ApplySelections(ctx context.Context, workspace string, agents, skills, plug
 		}
 		if changed {
 			cur["hooks"] = hmap
+			b, _ := json.MarshalIndent(cur, "", "  ")
+			if err := os.MkdirAll(filepath.Dir(abs), 0o755); err != nil {
+				return created, err
+			}
+			if _, err := os.Stat(abs); err != nil {
+				if err := os.WriteFile(abs, append(b, '\n'), 0o644); err != nil {
+					return created, err
+				}
+				created = append(created, rel)
+			}
+		}
+	}
+	// MCP servers: inject into opencode.json + .mcp.json.
+	if len(mcps) > 0 {
+		if err := injectMCP(workspace, mcps, &created); err != nil {
+			return created, err
+		}
+	}
+	// Manifest into CLAUDE.md (append active component list).
+	if err := appendManifest(workspace, agents, skills, plugins, hooks, mcps, runnerID, modelID, effort, &created); err != nil {
+		return created, err
+	}
+	return created, nil
+}
+
+func injectMCP(workspace string, mcps []catalog.RegistryItem, created *[]string) error {
+	// opencode.json
+	ojPath := filepath.Join(workspace, "opencode.json")
+	var oj map[string]any
+	if data, err := os.ReadFile(ojPath); err == nil {
+		_ = json.Unmarshal(data, &oj)
+	}
+	if oj == nil {
+		oj = map[string]any{}
+	}
+	mcpMap, _ := oj["mcp"].(map[string]any)
+	if mcpMap == nil {
+		mcpMap = map[string]any{}
+	}
+	for _, m := range mcps {
+		key := sanitize(m.Name)
+		if _, ok := mcpMap[key]; !ok {
+			parts := strings.Fields(m.Install)
+			cmd := "npx"
+			args := []string{}
+			if len(parts) > 0 {
+				cmd = parts[0]
+				args = parts[1:]
+			}
+			mcpMap[key] = map[string]any{"command": cmd, "args": args, "type": "local", "enabled": true}
+		}
+	}
+	oj["mcp"] = mcpMap
+	b, _ := json.MarshalIndent(oj, "", "  ")
+	if err := os.WriteFile(ojPath, append(b, '\n'), 0o644); err != nil {
+		return err
+	}
+	// .mcp.json
+	mjPath := filepath.Join(workspace, ".mcp.json")
+	var mj map[string]any
+	if data, err := os.ReadFile(mjPath); err == nil {
+		_ = json.Unmarshal(data, &mj)
