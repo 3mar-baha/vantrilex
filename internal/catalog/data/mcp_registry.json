@@ -1,0 +1,2474 @@
+[
+  {
+    "name": "aws-kb-retrieval",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-aws-kb-retrieval"
+    ],
+    "tags": [
+      "cloud",
+      "aws",
+      "rag"
+    ],
+    "description": "AWS knowledge base retrieval.",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "aws-kb-retrieval-ai-006",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-aws-kb-retrieval",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "cloud",
+      "aws",
+      "rag",
+      "ai"
+    ],
+    "description": "AWS knowledge base retrieval. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "aws-kb-retrieval-ai-016",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-aws-kb-retrieval",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "cloud",
+      "aws",
+      "rag",
+      "ai"
+    ],
+    "description": "AWS knowledge base retrieval. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "aws-kb-retrieval-ai-026",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-aws-kb-retrieval",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "cloud",
+      "aws",
+      "rag",
+      "ai"
+    ],
+    "description": "AWS knowledge base retrieval. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "aws-kb-retrieval-cloud-003",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-aws-kb-retrieval",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "cloud",
+      "aws",
+      "rag",
+      "cloud"
+    ],
+    "description": "AWS knowledge base retrieval. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "aws-kb-retrieval-cloud-013",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-aws-kb-retrieval",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "cloud",
+      "aws",
+      "rag",
+      "cloud"
+    ],
+    "description": "AWS knowledge base retrieval. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "aws-kb-retrieval-cloud-023",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-aws-kb-retrieval",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "cloud",
+      "aws",
+      "rag",
+      "cloud"
+    ],
+    "description": "AWS knowledge base retrieval. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "aws-kb-retrieval-database-004",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-aws-kb-retrieval",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "cloud",
+      "aws",
+      "rag",
+      "database"
+    ],
+    "description": "AWS knowledge base retrieval. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "aws-kb-retrieval-database-014",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-aws-kb-retrieval",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "cloud",
+      "aws",
+      "rag",
+      "database"
+    ],
+    "description": "AWS knowledge base retrieval. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "aws-kb-retrieval-database-024",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-aws-kb-retrieval",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "cloud",
+      "aws",
+      "rag",
+      "database"
+    ],
+    "description": "AWS knowledge base retrieval. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "aws-kb-retrieval-devtools-002",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-aws-kb-retrieval",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "cloud",
+      "aws",
+      "rag",
+      "devtools"
+    ],
+    "description": "AWS knowledge base retrieval. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "aws-kb-retrieval-devtools-012",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-aws-kb-retrieval",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "cloud",
+      "aws",
+      "rag",
+      "devtools"
+    ],
+    "description": "AWS knowledge base retrieval. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "aws-kb-retrieval-devtools-022",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-aws-kb-retrieval",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "cloud",
+      "aws",
+      "rag",
+      "devtools"
+    ],
+    "description": "AWS knowledge base retrieval. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "aws-kb-retrieval-finance-009",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-aws-kb-retrieval",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "cloud",
+      "aws",
+      "rag",
+      "finance"
+    ],
+    "description": "AWS knowledge base retrieval. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "aws-kb-retrieval-finance-019",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-aws-kb-retrieval",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "cloud",
+      "aws",
+      "rag",
+      "finance"
+    ],
+    "description": "AWS knowledge base retrieval. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "aws-kb-retrieval-finance-029",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-aws-kb-retrieval",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "cloud",
+      "aws",
+      "rag",
+      "finance"
+    ],
+    "description": "AWS knowledge base retrieval. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "aws-kb-retrieval-iot-008",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-aws-kb-retrieval",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "cloud",
+      "aws",
+      "rag",
+      "iot"
+    ],
+    "description": "AWS knowledge base retrieval. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "aws-kb-retrieval-iot-018",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-aws-kb-retrieval",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "cloud",
+      "aws",
+      "rag",
+      "iot"
+    ],
+    "description": "AWS knowledge base retrieval. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "aws-kb-retrieval-iot-028",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-aws-kb-retrieval",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "cloud",
+      "aws",
+      "rag",
+      "iot"
+    ],
+    "description": "AWS knowledge base retrieval. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "aws-kb-retrieval-media-010",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-aws-kb-retrieval",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "cloud",
+      "aws",
+      "rag",
+      "media"
+    ],
+    "description": "AWS knowledge base retrieval. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "aws-kb-retrieval-media-020",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-aws-kb-retrieval",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "cloud",
+      "aws",
+      "rag",
+      "media"
+    ],
+    "description": "AWS knowledge base retrieval. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "aws-kb-retrieval-media-030",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-aws-kb-retrieval",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "cloud",
+      "aws",
+      "rag",
+      "media"
+    ],
+    "description": "AWS knowledge base retrieval. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "aws-kb-retrieval-productivity-011",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-aws-kb-retrieval",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "cloud",
+      "aws",
+      "rag",
+      "productivity"
+    ],
+    "description": "AWS knowledge base retrieval. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "aws-kb-retrieval-productivity-021",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-aws-kb-retrieval",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "cloud",
+      "aws",
+      "rag",
+      "productivity"
+    ],
+    "description": "AWS knowledge base retrieval. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "aws-kb-retrieval-security-007",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-aws-kb-retrieval",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "cloud",
+      "aws",
+      "rag",
+      "security"
+    ],
+    "description": "AWS knowledge base retrieval. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "aws-kb-retrieval-security-017",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-aws-kb-retrieval",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "cloud",
+      "aws",
+      "rag",
+      "security"
+    ],
+    "description": "AWS knowledge base retrieval. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "aws-kb-retrieval-security-027",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-aws-kb-retrieval",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "cloud",
+      "aws",
+      "rag",
+      "security"
+    ],
+    "description": "AWS knowledge base retrieval. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "aws-kb-retrieval-web-005",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-aws-kb-retrieval",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "cloud",
+      "aws",
+      "rag",
+      "web"
+    ],
+    "description": "AWS knowledge base retrieval. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "aws-kb-retrieval-web-015",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-aws-kb-retrieval",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "cloud",
+      "aws",
+      "rag",
+      "web"
+    ],
+    "description": "AWS knowledge base retrieval. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "aws-kb-retrieval-web-025",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-aws-kb-retrieval",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "cloud",
+      "aws",
+      "rag",
+      "web"
+    ],
+    "description": "AWS knowledge base retrieval. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "bigquery",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-bigquery"
+    ],
+    "tags": [
+      "database",
+      "sql",
+      "gcp"
+    ],
+    "description": "BigQuery analytics.",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "bigquery-ai-006",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-bigquery",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "gcp",
+      "ai"
+    ],
+    "description": "BigQuery analytics. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "bigquery-ai-016",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-bigquery",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "gcp",
+      "ai"
+    ],
+    "description": "BigQuery analytics. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "bigquery-ai-026",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-bigquery",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "gcp",
+      "ai"
+    ],
+    "description": "BigQuery analytics. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "bigquery-cloud-003",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-bigquery",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "gcp",
+      "cloud"
+    ],
+    "description": "BigQuery analytics. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "bigquery-cloud-013",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-bigquery",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "gcp",
+      "cloud"
+    ],
+    "description": "BigQuery analytics. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "bigquery-cloud-023",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-bigquery",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "gcp",
+      "cloud"
+    ],
+    "description": "BigQuery analytics. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "bigquery-database-004",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-bigquery",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "gcp",
+      "database"
+    ],
+    "description": "BigQuery analytics. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "bigquery-database-014",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-bigquery",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "gcp",
+      "database"
+    ],
+    "description": "BigQuery analytics. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "bigquery-database-024",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-bigquery",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "gcp",
+      "database"
+    ],
+    "description": "BigQuery analytics. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "bigquery-devtools-002",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-bigquery",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "gcp",
+      "devtools"
+    ],
+    "description": "BigQuery analytics. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "bigquery-devtools-012",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-bigquery",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "gcp",
+      "devtools"
+    ],
+    "description": "BigQuery analytics. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "bigquery-devtools-022",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-bigquery",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "gcp",
+      "devtools"
+    ],
+    "description": "BigQuery analytics. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "bigquery-finance-009",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-bigquery",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "gcp",
+      "finance"
+    ],
+    "description": "BigQuery analytics. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "bigquery-finance-019",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-bigquery",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "gcp",
+      "finance"
+    ],
+    "description": "BigQuery analytics. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "bigquery-finance-029",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-bigquery",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "gcp",
+      "finance"
+    ],
+    "description": "BigQuery analytics. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "bigquery-iot-008",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-bigquery",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "gcp",
+      "iot"
+    ],
+    "description": "BigQuery analytics. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "bigquery-iot-018",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-bigquery",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "gcp",
+      "iot"
+    ],
+    "description": "BigQuery analytics. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "bigquery-iot-028",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-bigquery",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "gcp",
+      "iot"
+    ],
+    "description": "BigQuery analytics. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "bigquery-media-010",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-bigquery",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "gcp",
+      "media"
+    ],
+    "description": "BigQuery analytics. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "bigquery-media-020",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-bigquery",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "gcp",
+      "media"
+    ],
+    "description": "BigQuery analytics. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "bigquery-media-030",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-bigquery",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "gcp",
+      "media"
+    ],
+    "description": "BigQuery analytics. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "bigquery-productivity-011",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-bigquery",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "gcp",
+      "productivity"
+    ],
+    "description": "BigQuery analytics. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "bigquery-productivity-021",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-bigquery",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "gcp",
+      "productivity"
+    ],
+    "description": "BigQuery analytics. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "bigquery-security-007",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-bigquery",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "gcp",
+      "security"
+    ],
+    "description": "BigQuery analytics. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "bigquery-security-017",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-bigquery",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "gcp",
+      "security"
+    ],
+    "description": "BigQuery analytics. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "bigquery-security-027",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-bigquery",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "gcp",
+      "security"
+    ],
+    "description": "BigQuery analytics. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "bigquery-web-005",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-bigquery",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "gcp",
+      "web"
+    ],
+    "description": "BigQuery analytics. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "bigquery-web-015",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-bigquery",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "gcp",
+      "web"
+    ],
+    "description": "BigQuery analytics. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "bigquery-web-025",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-bigquery",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "database",
+      "sql",
+      "gcp",
+      "web"
+    ],
+    "description": "BigQuery analytics. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "brave-search",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-brave-search"
+    ],
+    "tags": [
+      "web",
+      "search"
+    ],
+    "description": "Brave web and local search.",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "brave-search-ai-006",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-brave-search",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "search",
+      "ai"
+    ],
+    "description": "Brave web and local search. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "brave-search-ai-016",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-brave-search",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "search",
+      "ai"
+    ],
+    "description": "Brave web and local search. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "brave-search-ai-026",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-brave-search",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "search",
+      "ai"
+    ],
+    "description": "Brave web and local search. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "brave-search-cloud-003",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-brave-search",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "search",
+      "cloud"
+    ],
+    "description": "Brave web and local search. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "brave-search-cloud-013",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-brave-search",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "search",
+      "cloud"
+    ],
+    "description": "Brave web and local search. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "brave-search-cloud-023",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-brave-search",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "search",
+      "cloud"
+    ],
+    "description": "Brave web and local search. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "brave-search-database-004",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-brave-search",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "search",
+      "database"
+    ],
+    "description": "Brave web and local search. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "brave-search-database-014",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-brave-search",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "search",
+      "database"
+    ],
+    "description": "Brave web and local search. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "brave-search-database-024",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-brave-search",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "search",
+      "database"
+    ],
+    "description": "Brave web and local search. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "brave-search-devtools-002",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-brave-search",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "search",
+      "devtools"
+    ],
+    "description": "Brave web and local search. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "brave-search-devtools-012",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-brave-search",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "search",
+      "devtools"
+    ],
+    "description": "Brave web and local search. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "brave-search-devtools-022",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-brave-search",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "search",
+      "devtools"
+    ],
+    "description": "Brave web and local search. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "brave-search-finance-009",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-brave-search",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "search",
+      "finance"
+    ],
+    "description": "Brave web and local search. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "brave-search-finance-019",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-brave-search",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "search",
+      "finance"
+    ],
+    "description": "Brave web and local search. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "brave-search-finance-029",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-brave-search",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "search",
+      "finance"
+    ],
+    "description": "Brave web and local search. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "brave-search-iot-008",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-brave-search",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "search",
+      "iot"
+    ],
+    "description": "Brave web and local search. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "brave-search-iot-018",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-brave-search",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "search",
+      "iot"
+    ],
+    "description": "Brave web and local search. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "brave-search-iot-028",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-brave-search",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "search",
+      "iot"
+    ],
+    "description": "Brave web and local search. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "brave-search-media-010",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-brave-search",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "search",
+      "media"
+    ],
+    "description": "Brave web and local search. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "brave-search-media-020",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-brave-search",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "search",
+      "media"
+    ],
+    "description": "Brave web and local search. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "brave-search-media-030",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-brave-search",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "search",
+      "media"
+    ],
+    "description": "Brave web and local search. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "brave-search-productivity-011",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-brave-search",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "search",
+      "productivity"
+    ],
+    "description": "Brave web and local search. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "brave-search-productivity-021",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-brave-search",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "search",
+      "productivity"
+    ],
+    "description": "Brave web and local search. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "brave-search-security-007",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-brave-search",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "search",
+      "security"
+    ],
+    "description": "Brave web and local search. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "brave-search-security-017",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-brave-search",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "search",
+      "security"
+    ],
+    "description": "Brave web and local search. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "brave-search-security-027",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-brave-search",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "search",
+      "security"
+    ],
+    "description": "Brave web and local search. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "brave-search-web-005",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-brave-search",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "search",
+      "web"
+    ],
+    "description": "Brave web and local search. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "brave-search-web-015",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-brave-search",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "search",
+      "web"
+    ],
+    "description": "Brave web and local search. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "brave-search-web-025",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-brave-search",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "web",
+      "search",
+      "web"
+    ],
+    "description": "Brave web and local search. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "confluence",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-confluence"
+    ],
+    "tags": [
+      "docs",
+      "wiki"
+    ],
+    "description": "Confluence docs search.",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "confluence-ai-006",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-confluence",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "wiki",
+      "ai"
+    ],
+    "description": "Confluence docs search. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "confluence-ai-016",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-confluence",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "wiki",
+      "ai"
+    ],
+    "description": "Confluence docs search. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "confluence-ai-026",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-confluence",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "wiki",
+      "ai"
+    ],
+    "description": "Confluence docs search. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "confluence-cloud-003",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-confluence",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "wiki",
+      "cloud"
+    ],
+    "description": "Confluence docs search. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "confluence-cloud-013",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-confluence",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "wiki",
+      "cloud"
+    ],
+    "description": "Confluence docs search. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "confluence-cloud-023",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-confluence",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "wiki",
+      "cloud"
+    ],
+    "description": "Confluence docs search. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "confluence-database-004",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-confluence",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "wiki",
+      "database"
+    ],
+    "description": "Confluence docs search. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "confluence-database-014",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-confluence",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "wiki",
+      "database"
+    ],
+    "description": "Confluence docs search. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "confluence-database-024",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-confluence",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "wiki",
+      "database"
+    ],
+    "description": "Confluence docs search. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "confluence-devtools-002",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-confluence",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "wiki",
+      "devtools"
+    ],
+    "description": "Confluence docs search. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "confluence-devtools-012",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-confluence",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "wiki",
+      "devtools"
+    ],
+    "description": "Confluence docs search. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "confluence-devtools-022",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-confluence",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "wiki",
+      "devtools"
+    ],
+    "description": "Confluence docs search. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "confluence-finance-009",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-confluence",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "wiki",
+      "finance"
+    ],
+    "description": "Confluence docs search. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "confluence-finance-019",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-confluence",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "wiki",
+      "finance"
+    ],
+    "description": "Confluence docs search. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "confluence-finance-029",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-confluence",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "wiki",
+      "finance"
+    ],
+    "description": "Confluence docs search. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "confluence-iot-008",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-confluence",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "wiki",
+      "iot"
+    ],
+    "description": "Confluence docs search. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "confluence-iot-018",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-confluence",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "wiki",
+      "iot"
+    ],
+    "description": "Confluence docs search. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "confluence-iot-028",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-confluence",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "wiki",
+      "iot"
+    ],
+    "description": "Confluence docs search. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "confluence-media-010",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-confluence",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "wiki",
+      "media"
+    ],
+    "description": "Confluence docs search. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "confluence-media-020",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-confluence",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "wiki",
+      "media"
+    ],
+    "description": "Confluence docs search. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "confluence-media-030",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-confluence",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "wiki",
+      "media"
+    ],
+    "description": "Confluence docs search. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "confluence-productivity-011",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-confluence",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "wiki",
+      "productivity"
+    ],
+    "description": "Confluence docs search. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "confluence-productivity-021",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-confluence",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "wiki",
+      "productivity"
+    ],
+    "description": "Confluence docs search. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "confluence-security-007",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-confluence",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "wiki",
+      "security"
+    ],
+    "description": "Confluence docs search. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "confluence-security-017",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-confluence",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "wiki",
+      "security"
+    ],
+    "description": "Confluence docs search. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "confluence-security-027",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-confluence",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "wiki",
+      "security"
+    ],
+    "description": "Confluence docs search. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "confluence-web-005",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-confluence",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "wiki",
+      "web"
+    ],
+    "description": "Confluence docs search. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "confluence-web-015",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-confluence",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "wiki",
+      "web"
+    ],
+    "description": "Confluence docs search. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "confluence-web-025",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-confluence",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "docs",
+      "wiki",
+      "web"
+    ],
+    "description": "Confluence docs search. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "docker",
+    "command": "docker",
+    "args": [
+      "run",
+      "mcp/docker"
+    ],
+    "tags": [
+      "devops",
+      "containers"
+    ],
+    "description": "Docker container management.",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "docker-ai-006",
+    "command": "docker",
+    "args": [
+      "run",
+      "mcp/docker",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "containers",
+      "ai"
+    ],
+    "description": "Docker container management. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "docker-ai-016",
+    "command": "docker",
+    "args": [
+      "run",
+      "mcp/docker",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "containers",
+      "ai"
+    ],
+    "description": "Docker container management. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "docker-ai-026",
+    "command": "docker",
+    "args": [
+      "run",
+      "mcp/docker",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "containers",
+      "ai"
+    ],
+    "description": "Docker container management. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "docker-cloud-003",
+    "command": "docker",
+    "args": [
+      "run",
+      "mcp/docker",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "containers",
+      "cloud"
+    ],
+    "description": "Docker container management. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "docker-cloud-013",
+    "command": "docker",
+    "args": [
+      "run",
+      "mcp/docker",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "containers",
+      "cloud"
+    ],
+    "description": "Docker container management. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "docker-cloud-023",
+    "command": "docker",
+    "args": [
+      "run",
+      "mcp/docker",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "containers",
+      "cloud"
+    ],
+    "description": "Docker container management. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "docker-database-004",
+    "command": "docker",
+    "args": [
+      "run",
+      "mcp/docker",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "containers",
+      "database"
+    ],
+    "description": "Docker container management. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  }
+]
