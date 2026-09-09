@@ -246,3 +246,64 @@ func injectMCP(workspace string, mcps []catalog.RegistryItem, created *[]string)
 	var mj map[string]any
 	if data, err := os.ReadFile(mjPath); err == nil {
 		_ = json.Unmarshal(data, &mj)
+	}
+	if mj == nil {
+		mj = map[string]any{}
+	}
+	servers, _ := mj["mcpServers"].(map[string]any)
+	if servers == nil {
+		servers = map[string]any{}
+	}
+	for _, m := range mcps {
+		key := sanitize(m.Name)
+		if _, ok := servers[key]; !ok {
+			parts := strings.Fields(m.Install)
+			cmd := "npx"
+			args := []string{}
+			if len(parts) > 0 {
+				cmd = parts[0]
+				args = parts[1:]
+			}
+			servers[key] = map[string]any{"command": cmd, "args": args}
+		}
+	}
+	mj["mcpServers"] = servers
+	b2, _ := json.MarshalIndent(mj, "", "  ")
+	if err := os.WriteFile(mjPath, append(b2, '\n'), 0o644); err != nil {
+		return err
+	}
+	*created = append(*created, "opencode.json", ".mcp.json")
+	return nil
+}
+
+func appendManifest(workspace string, agents, skills, plugins, hooks, mcps []catalog.RegistryItem, runnerID, modelID, effort string, created *[]string) error {
+	var b strings.Builder
+	b.WriteString(fmt.Sprintf("\n## Active Components (runner=%s model=%s effort=%s)\n\n", runnerID, modelID, effort))
+	dump := func(title string, items []catalog.RegistryItem) {
+		b.WriteString("### " + title + " (" + fmt.Sprint(len(items)) + ")\n")
+		for _, it := range items {
+			fmt.Fprintf(&b, "- %s — %s\n", it.Name, it.Desc)
+		}
+		b.WriteString("\n")
+	}
+	dump("Agents", agents)
+	dump("Skills", skills)
+	dump("Plugins", plugins)
+	dump("Hooks", hooks)
+	dump("MCP Servers", mcps)
+	abs := filepath.Join(workspace, "CLAUDE.md")
+	if _, err := os.Stat(abs); err != nil {
+		hdr := fmt.Sprintf("<!-- Vantrilex: runner=%s model=%s effort=%s -->\n", runnerID, modelID, effort)
+		if err := writeOnceFile(abs, hdr+claudeMdTemplate+b.String(), created, "CLAUDE.md"); err != nil {
+			return err
+		}
+		return nil
+	}
+	f, err := os.OpenFile(abs, os.O_APPEND|os.O_WRONLY, 0o644)
+	if err != nil {
+		return err
+	}
+	defer f.Close()
+	_, err = f.WriteString(b.String())
+	return err
+}
