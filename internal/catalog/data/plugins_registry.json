@@ -194,5 +194,201 @@
     "description": "Conventional commit helpers and git workflow commands. Variant.",
     "installRef": "claude-plugins-official/commit-commands-edge-10",
     "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "commit-commands-extended-05",
+    "marketplace": "community",
+    "description": "Conventional commit helpers and git workflow commands. Variant.",
+    "installRef": "community/commit-commands-extended-05",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "commit-commands-kit-11",
+    "marketplace": "community",
+    "description": "Conventional commit helpers and git workflow commands. Variant.",
+    "installRef": "community/commit-commands-kit-11",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "commit-commands-lite-03",
+    "marketplace": "community",
+    "description": "Conventional commit helpers and git workflow commands. Variant.",
+    "installRef": "community/commit-commands-lite-03",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "commit-commands-plus-04",
+    "marketplace": "claude-plugins-official",
+    "description": "Conventional commit helpers and git workflow commands. Variant.",
+    "installRef": "claude-plugins-official/commit-commands-plus-04",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "commit-commands-pro-02",
+    "marketplace": "claude-plugins-official",
+    "description": "Conventional commit helpers and git workflow commands. Variant.",
+    "installRef": "claude-plugins-official/commit-commands-pro-02",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "commit-commands-pro-12",
+    "marketplace": "claude-plugins-official",
+    "description": "Conventional commit helpers and git workflow commands. Variant.",
+    "installRef": "claude-plugins-official/commit-commands-pro-12",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "commit-commands-team-06",
+    "marketplace": "claude-plugins-official",
+    "description": "Conventional commit helpers and git workflow commands. Variant.",
+    "installRef": "claude-plugins-official/commit-commands-team-06",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "context-primer",
+    "marketplace": "community",
+    "description": "Project context priming and bootstrap prompts.",
+    "installRef": "community/context-primer",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "context-primer-ci-07",
+    "marketplace": "claude-plugins-official",
+    "description": "Project context priming and bootstrap prompts. Variant.",
+    "installRef": "claude-plugins-official/context-primer-ci-07",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "context-primer-core-09",
+    "marketplace": "claude-plugins-official",
+    "description": "Project context priming and bootstrap prompts. Variant.",
+    "installRef": "claude-plugins-official/context-primer-core-09",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "context-primer-dx-08",
+    "marketplace": "community",
+    "description": "Project context priming and bootstrap prompts. Variant.",
+    "installRef": "community/context-primer-dx-08",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "context-primer-edge-10",
+    "marketplace": "community",
+    "description": "Project context priming and bootstrap prompts. Variant.",
+    "installRef": "community/context-primer-edge-10",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "context-primer-extended-05",
+    "marketplace": "claude-plugins-official",
+    "description": "Project context priming and bootstrap prompts. Variant.",
+    "installRef": "claude-plugins-official/context-primer-extended-05",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "context-primer-kit-11",
+    "marketplace": "claude-plugins-official",
+    "description": "Project context priming and bootstrap prompts. Variant.",
+    "installRef": "claude-plugins-official/context-primer-kit-11",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "context-primer-lite-03",
+    "marketplace": "claude-plugins-official",
+    "description": "Project context priming and bootstrap prompts. Variant.",
+    "installRef": "claude-plugins-official/context-primer-lite-03",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "context-primer-plus-04",
+    "marketplace": "community",
+    "description": "Project context priming and bootstrap prompts. Variant.",
+    "installRef": "community/context-primer-plus-04",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "context-primer-pro-02",
+    "marketplace": "community",
+    "description": "Project context priming and bootstrap prompts. Variant.",
+    "installRef": "community/context-primer-pro-02",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "context-primer-team-06",
+    "marketplace": "community",
+    "description": "Project context priming and bootstrap prompts. Variant.",
+    "installRef": "community/context-primer-team-06",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "doc-generator",
+    "marketplace": "claude-plugins-community",
+    "description": "API docs and README generation.",
+    "installRef": "claude-plugins-community/doc-generator",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "doc-generator-ci-07",
+    "marketplace": "community",
+    "description": "API docs and README generation. Variant.",
+    "installRef": "community/doc-generator-ci-07",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "doc-generator-core-09",
+    "marketplace": "community",
+    "description": "API docs and README generation. Variant.",
+    "installRef": "community/doc-generator-core-09",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "doc-generator-dx-08",
+    "marketplace": "claude-plugins-official",
+    "description": "API docs and README generation. Variant.",
+    "installRef": "claude-plugins-official/doc-generator-dx-08",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "doc-generator-edge-10",
+    "marketplace": "claude-plugins-official",
+    "description": "API docs and README generation. Variant.",
+    "installRef": "claude-plugins-official/doc-generator-edge-10",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "doc-generator-extended-05",
+    "marketplace": "community",
+    "description": "API docs and README generation. Variant.",
+    "installRef": "community/doc-generator-extended-05",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "doc-generator-kit-11",
+    "marketplace": "community",
+    "description": "API docs and README generation. Variant.",
+    "installRef": "community/doc-generator-kit-11",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "doc-generator-lite-03",
+    "marketplace": "community",
+    "description": "API docs and README generation. Variant.",
+    "installRef": "community/doc-generator-lite-03",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "doc-generator-plus-04",
+    "marketplace": "claude-plugins-official",
+    "description": "API docs and README generation. Variant.",
+    "installRef": "claude-plugins-official/doc-generator-plus-04",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
+  },
+  {
+    "name": "doc-generator-pro-02",
+    "marketplace": "claude-plugins-official",
+    "description": "API docs and README generation. Variant.",
+    "installRef": "claude-plugins-official/doc-generator-pro-02",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md"
   }
 ]
