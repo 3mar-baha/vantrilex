@@ -76,3 +76,29 @@ type agentEntry struct {
 	Tags        []string `json:"tags"`
 	RawURL      string   `json:"rawURL"`
 }
+
+var (
+	loadOnce sync.Once
+	mcps     []RegistryItem
+	plugins  []RegistryItem
+	skills   []RegistryItem
+	hooks    []RegistryItem
+	agents   []RegistryItem
+)
+
+var defaultSelected = map[string]bool{
+	// Agents
+	"Lead System Architect": true,
+	// Skills
+	"find-skills": true, "skill-creator": true, "ponytail-core": true, "mattpocock-typescript": true,
+	// Plugins
+	"commit-commands": true, "circuit-breaker-guard": true, "context-primer": true,
+	// Hooks
+	"pre-compact-checkpoint": true, "dangerous-command-guard": true, "format-on-edit": true,
+	// MCP
+	"sequential-thinking": true, "filesystem": true, "fetch": true, "memory": true,
+}
+
+func loadAll() {
+	loadOnce.Do(func() {
+		var me []mcpEntry
