@@ -166,5 +166,173 @@
     "event": "SessionStart",
     "description": "Snapshot session state before context compaction. Variant (SessionStart).",
     "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/pre-compact-checkpoint-team-04.json"
+  },
+  {
+    "name": "prompt-guard",
+    "event": "UserPromptSubmit",
+    "description": "Validate user prompts before dispatch.",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/prompt-guard.json"
+  },
+  {
+    "name": "prompt-guard-audit-06",
+    "event": "Stop",
+    "description": "Validate user prompts before dispatch. Variant (Stop).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/prompt-guard-audit-06.json"
+  },
+  {
+    "name": "prompt-guard-ci-05",
+    "event": "PostToolUse",
+    "description": "Validate user prompts before dispatch. Variant (PostToolUse).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/prompt-guard-ci-05.json"
+  },
+  {
+    "name": "prompt-guard-fast-07",
+    "event": "UserPromptSubmit",
+    "description": "Validate user prompts before dispatch. Variant (UserPromptSubmit).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/prompt-guard-fast-07.json"
+  },
+  {
+    "name": "prompt-guard-relaxed-03",
+    "event": "Stop",
+    "description": "Validate user prompts before dispatch. Variant (Stop).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/prompt-guard-relaxed-03.json"
+  },
+  {
+    "name": "prompt-guard-strict-02",
+    "event": "PostToolUse",
+    "description": "Validate user prompts before dispatch. Variant (PostToolUse).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/prompt-guard-strict-02.json"
+  },
+  {
+    "name": "prompt-guard-team-04",
+    "event": "UserPromptSubmit",
+    "description": "Validate user prompts before dispatch. Variant (UserPromptSubmit).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/prompt-guard-team-04.json"
+  },
+  {
+    "name": "secret-scanner",
+    "event": "PreToolUse",
+    "description": "Reject prompts containing leaked secrets.",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/secret-scanner.json"
+  },
+  {
+    "name": "secret-scanner-audit-06",
+    "event": "PreToolUse",
+    "description": "Reject prompts containing leaked secrets. Variant (PreToolUse).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/secret-scanner-audit-06.json"
+  },
+  {
+    "name": "secret-scanner-ci-05",
+    "event": "SessionStart",
+    "description": "Reject prompts containing leaked secrets. Variant (SessionStart).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/secret-scanner-ci-05.json"
+  },
+  {
+    "name": "secret-scanner-fast-07",
+    "event": "PreCompact",
+    "description": "Reject prompts containing leaked secrets. Variant (PreCompact).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/secret-scanner-fast-07.json"
+  },
+  {
+    "name": "secret-scanner-relaxed-03",
+    "event": "PreToolUse",
+    "description": "Reject prompts containing leaked secrets. Variant (PreToolUse).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/secret-scanner-relaxed-03.json"
+  },
+  {
+    "name": "secret-scanner-strict-02",
+    "event": "SessionStart",
+    "description": "Reject prompts containing leaked secrets. Variant (SessionStart).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/secret-scanner-strict-02.json"
+  },
+  {
+    "name": "secret-scanner-team-04",
+    "event": "PreCompact",
+    "description": "Reject prompts containing leaked secrets. Variant (PreCompact).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/secret-scanner-team-04.json"
+  },
+  {
+    "name": "session-logger",
+    "event": "SessionStart",
+    "description": "Log session start metadata.",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/session-logger.json"
+  },
+  {
+    "name": "session-logger-audit-06",
+    "event": "PreCompact",
+    "description": "Log session start metadata. Variant (PreCompact).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/session-logger-audit-06.json"
+  },
+  {
+    "name": "session-logger-ci-05",
+    "event": "PreToolUse",
+    "description": "Log session start metadata. Variant (PreToolUse).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/session-logger-ci-05.json"
+  },
+  {
+    "name": "session-logger-fast-07",
+    "event": "SessionStart",
+    "description": "Log session start metadata. Variant (SessionStart).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/session-logger-fast-07.json"
+  },
+  {
+    "name": "session-logger-relaxed-03",
+    "event": "PreCompact",
+    "description": "Log session start metadata. Variant (PreCompact).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/session-logger-relaxed-03.json"
+  },
+  {
+    "name": "session-logger-strict-02",
+    "event": "PreToolUse",
+    "description": "Log session start metadata. Variant (PreToolUse).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/session-logger-strict-02.json"
+  },
+  {
+    "name": "session-logger-team-04",
+    "event": "SessionStart",
+    "description": "Log session start metadata. Variant (SessionStart).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/session-logger-team-04.json"
+  },
+  {
+    "name": "stop-summarizer",
+    "event": "Stop",
+    "description": "Summarize session on stop event.",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/stop-summarizer.json"
+  },
+  {
+    "name": "stop-summarizer-audit-06",
+    "event": "PostToolUse",
+    "description": "Summarize session on stop event. Variant (PostToolUse).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/stop-summarizer-audit-06.json"
+  },
+  {
+    "name": "stop-summarizer-ci-05",
+    "event": "UserPromptSubmit",
+    "description": "Summarize session on stop event. Variant (UserPromptSubmit).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/stop-summarizer-ci-05.json"
+  },
+  {
+    "name": "stop-summarizer-fast-07",
+    "event": "Stop",
+    "description": "Summarize session on stop event. Variant (Stop).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/stop-summarizer-fast-07.json"
+  },
+  {
+    "name": "stop-summarizer-relaxed-03",
+    "event": "PostToolUse",
+    "description": "Summarize session on stop event. Variant (PostToolUse).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/stop-summarizer-relaxed-03.json"
+  },
+  {
+    "name": "stop-summarizer-strict-02",
+    "event": "UserPromptSubmit",
+    "description": "Summarize session on stop event. Variant (UserPromptSubmit).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/stop-summarizer-strict-02.json"
+  },
+  {
+    "name": "stop-summarizer-team-04",
+    "event": "Stop",
+    "description": "Summarize session on stop event. Variant (Stop).",
+    "rawURL": "https://raw.githubusercontent.com/anthropics/skills/main/hooks/stop-summarizer-team-04.json"
   }
 ]
