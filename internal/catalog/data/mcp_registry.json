@@ -7302,5 +7302,2421 @@
     "description": "Google Drive file access. Community variant (media).",
     "sourceURL": "https://github.com/modelcontextprotocol/servers",
     "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-drive-productivity-011",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gdrive",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "cloud",
+      "productivity"
+    ],
+    "description": "Google Drive file access. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-drive-productivity-021",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gdrive",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "cloud",
+      "productivity"
+    ],
+    "description": "Google Drive file access. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-drive-security-007",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gdrive",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "cloud",
+      "security"
+    ],
+    "description": "Google Drive file access. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-drive-security-017",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gdrive",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "cloud",
+      "security"
+    ],
+    "description": "Google Drive file access. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-drive-security-027",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gdrive",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "cloud",
+      "security"
+    ],
+    "description": "Google Drive file access. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-drive-web-005",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gdrive",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "cloud",
+      "web"
+    ],
+    "description": "Google Drive file access. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-drive-web-015",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gdrive",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "cloud",
+      "web"
+    ],
+    "description": "Google Drive file access. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-drive-web-025",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gdrive",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "files",
+      "cloud",
+      "web"
+    ],
+    "description": "Google Drive file access. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-maps",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-google-maps"
+    ],
+    "tags": [
+      "geo",
+      "maps"
+    ],
+    "description": "Maps geocoding and places.",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-maps-ai-006",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-google-maps",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "geo",
+      "maps",
+      "ai"
+    ],
+    "description": "Maps geocoding and places. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-maps-ai-016",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-google-maps",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "geo",
+      "maps",
+      "ai"
+    ],
+    "description": "Maps geocoding and places. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-maps-ai-026",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-google-maps",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "geo",
+      "maps",
+      "ai"
+    ],
+    "description": "Maps geocoding and places. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-maps-cloud-003",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-google-maps",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "geo",
+      "maps",
+      "cloud"
+    ],
+    "description": "Maps geocoding and places. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-maps-cloud-013",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-google-maps",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "geo",
+      "maps",
+      "cloud"
+    ],
+    "description": "Maps geocoding and places. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-maps-cloud-023",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-google-maps",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "geo",
+      "maps",
+      "cloud"
+    ],
+    "description": "Maps geocoding and places. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-maps-database-004",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-google-maps",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "geo",
+      "maps",
+      "database"
+    ],
+    "description": "Maps geocoding and places. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-maps-database-014",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-google-maps",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "geo",
+      "maps",
+      "database"
+    ],
+    "description": "Maps geocoding and places. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-maps-database-024",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-google-maps",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "geo",
+      "maps",
+      "database"
+    ],
+    "description": "Maps geocoding and places. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-maps-devtools-002",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-google-maps",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "geo",
+      "maps",
+      "devtools"
+    ],
+    "description": "Maps geocoding and places. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-maps-devtools-012",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-google-maps",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "geo",
+      "maps",
+      "devtools"
+    ],
+    "description": "Maps geocoding and places. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-maps-devtools-022",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-google-maps",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "geo",
+      "maps",
+      "devtools"
+    ],
+    "description": "Maps geocoding and places. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-maps-finance-009",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-google-maps",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "geo",
+      "maps",
+      "finance"
+    ],
+    "description": "Maps geocoding and places. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-maps-finance-019",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-google-maps",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "geo",
+      "maps",
+      "finance"
+    ],
+    "description": "Maps geocoding and places. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-maps-finance-029",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-google-maps",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "geo",
+      "maps",
+      "finance"
+    ],
+    "description": "Maps geocoding and places. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-maps-iot-008",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-google-maps",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "geo",
+      "maps",
+      "iot"
+    ],
+    "description": "Maps geocoding and places. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-maps-iot-018",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-google-maps",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "geo",
+      "maps",
+      "iot"
+    ],
+    "description": "Maps geocoding and places. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-maps-iot-028",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-google-maps",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "geo",
+      "maps",
+      "iot"
+    ],
+    "description": "Maps geocoding and places. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-maps-media-010",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-google-maps",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "geo",
+      "maps",
+      "media"
+    ],
+    "description": "Maps geocoding and places. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-maps-media-020",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-google-maps",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "geo",
+      "maps",
+      "media"
+    ],
+    "description": "Maps geocoding and places. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-maps-media-030",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-google-maps",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "geo",
+      "maps",
+      "media"
+    ],
+    "description": "Maps geocoding and places. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-maps-productivity-011",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-google-maps",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "geo",
+      "maps",
+      "productivity"
+    ],
+    "description": "Maps geocoding and places. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-maps-productivity-021",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-google-maps",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "geo",
+      "maps",
+      "productivity"
+    ],
+    "description": "Maps geocoding and places. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-maps-security-007",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-google-maps",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "geo",
+      "maps",
+      "security"
+    ],
+    "description": "Maps geocoding and places. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-maps-security-017",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-google-maps",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "geo",
+      "maps",
+      "security"
+    ],
+    "description": "Maps geocoding and places. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-maps-security-027",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-google-maps",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "geo",
+      "maps",
+      "security"
+    ],
+    "description": "Maps geocoding and places. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-maps-web-005",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-google-maps",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "geo",
+      "maps",
+      "web"
+    ],
+    "description": "Maps geocoding and places. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-maps-web-015",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-google-maps",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "geo",
+      "maps",
+      "web"
+    ],
+    "description": "Maps geocoding and places. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "google-maps-web-025",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-google-maps",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "geo",
+      "maps",
+      "web"
+    ],
+    "description": "Maps geocoding and places. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "jira",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-jira"
+    ],
+    "tags": [
+      "pm",
+      "tasks"
+    ],
+    "description": "Jira issues and boards.",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "jira-ai-006",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-jira",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "ai"
+    ],
+    "description": "Jira issues and boards. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "jira-ai-016",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-jira",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "ai"
+    ],
+    "description": "Jira issues and boards. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "jira-ai-026",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-jira",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "ai"
+    ],
+    "description": "Jira issues and boards. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "jira-cloud-003",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-jira",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "cloud"
+    ],
+    "description": "Jira issues and boards. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "jira-cloud-013",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-jira",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "cloud"
+    ],
+    "description": "Jira issues and boards. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "jira-cloud-023",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-jira",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "cloud"
+    ],
+    "description": "Jira issues and boards. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "jira-database-004",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-jira",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "database"
+    ],
+    "description": "Jira issues and boards. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "jira-database-014",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-jira",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "database"
+    ],
+    "description": "Jira issues and boards. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "jira-database-024",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-jira",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "database"
+    ],
+    "description": "Jira issues and boards. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "jira-devtools-002",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-jira",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "devtools"
+    ],
+    "description": "Jira issues and boards. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "jira-devtools-012",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-jira",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "devtools"
+    ],
+    "description": "Jira issues and boards. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "jira-devtools-022",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-jira",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "devtools"
+    ],
+    "description": "Jira issues and boards. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "jira-finance-009",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-jira",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "finance"
+    ],
+    "description": "Jira issues and boards. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "jira-finance-019",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-jira",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "finance"
+    ],
+    "description": "Jira issues and boards. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "jira-finance-029",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-jira",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "finance"
+    ],
+    "description": "Jira issues and boards. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "jira-iot-008",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-jira",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "iot"
+    ],
+    "description": "Jira issues and boards. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "jira-iot-018",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-jira",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "iot"
+    ],
+    "description": "Jira issues and boards. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "jira-iot-028",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-jira",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "iot"
+    ],
+    "description": "Jira issues and boards. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "jira-media-010",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-jira",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "media"
+    ],
+    "description": "Jira issues and boards. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "jira-media-020",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-jira",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "media"
+    ],
+    "description": "Jira issues and boards. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "jira-media-030",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-jira",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "media"
+    ],
+    "description": "Jira issues and boards. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "jira-productivity-011",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-jira",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "productivity"
+    ],
+    "description": "Jira issues and boards. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "jira-productivity-021",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-jira",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "productivity"
+    ],
+    "description": "Jira issues and boards. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "jira-security-007",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-jira",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "security"
+    ],
+    "description": "Jira issues and boards. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "jira-security-017",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-jira",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "security"
+    ],
+    "description": "Jira issues and boards. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "jira-security-027",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-jira",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "security"
+    ],
+    "description": "Jira issues and boards. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "jira-web-005",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-jira",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "web"
+    ],
+    "description": "Jira issues and boards. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "jira-web-015",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-jira",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "web"
+    ],
+    "description": "Jira issues and boards. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "jira-web-025",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-jira",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "web"
+    ],
+    "description": "Jira issues and boards. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "kubernetes",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-kubernetes"
+    ],
+    "tags": [
+      "devops",
+      "k8s"
+    ],
+    "description": "Kubernetes cluster ops.",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "kubernetes-ai-006",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-kubernetes",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "k8s",
+      "ai"
+    ],
+    "description": "Kubernetes cluster ops. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "kubernetes-ai-016",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-kubernetes",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "k8s",
+      "ai"
+    ],
+    "description": "Kubernetes cluster ops. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "kubernetes-ai-026",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-kubernetes",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "k8s",
+      "ai"
+    ],
+    "description": "Kubernetes cluster ops. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "kubernetes-cloud-003",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-kubernetes",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "k8s",
+      "cloud"
+    ],
+    "description": "Kubernetes cluster ops. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "kubernetes-cloud-013",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-kubernetes",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "k8s",
+      "cloud"
+    ],
+    "description": "Kubernetes cluster ops. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "kubernetes-cloud-023",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-kubernetes",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "k8s",
+      "cloud"
+    ],
+    "description": "Kubernetes cluster ops. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "kubernetes-database-004",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-kubernetes",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "k8s",
+      "database"
+    ],
+    "description": "Kubernetes cluster ops. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "kubernetes-database-014",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-kubernetes",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "k8s",
+      "database"
+    ],
+    "description": "Kubernetes cluster ops. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "kubernetes-database-024",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-kubernetes",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "k8s",
+      "database"
+    ],
+    "description": "Kubernetes cluster ops. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "kubernetes-devtools-002",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-kubernetes",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "k8s",
+      "devtools"
+    ],
+    "description": "Kubernetes cluster ops. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "kubernetes-devtools-012",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-kubernetes",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "k8s",
+      "devtools"
+    ],
+    "description": "Kubernetes cluster ops. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "kubernetes-devtools-022",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-kubernetes",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "k8s",
+      "devtools"
+    ],
+    "description": "Kubernetes cluster ops. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "kubernetes-finance-009",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-kubernetes",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "k8s",
+      "finance"
+    ],
+    "description": "Kubernetes cluster ops. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "kubernetes-finance-019",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-kubernetes",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "k8s",
+      "finance"
+    ],
+    "description": "Kubernetes cluster ops. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "kubernetes-finance-029",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-kubernetes",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "k8s",
+      "finance"
+    ],
+    "description": "Kubernetes cluster ops. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "kubernetes-iot-008",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-kubernetes",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "k8s",
+      "iot"
+    ],
+    "description": "Kubernetes cluster ops. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "kubernetes-iot-018",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-kubernetes",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "k8s",
+      "iot"
+    ],
+    "description": "Kubernetes cluster ops. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "kubernetes-iot-028",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-kubernetes",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "k8s",
+      "iot"
+    ],
+    "description": "Kubernetes cluster ops. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "kubernetes-media-010",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-kubernetes",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "k8s",
+      "media"
+    ],
+    "description": "Kubernetes cluster ops. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "kubernetes-media-020",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-kubernetes",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "k8s",
+      "media"
+    ],
+    "description": "Kubernetes cluster ops. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "kubernetes-media-030",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-kubernetes",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "k8s",
+      "media"
+    ],
+    "description": "Kubernetes cluster ops. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "kubernetes-productivity-011",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-kubernetes",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "k8s",
+      "productivity"
+    ],
+    "description": "Kubernetes cluster ops. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "kubernetes-productivity-021",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-kubernetes",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "k8s",
+      "productivity"
+    ],
+    "description": "Kubernetes cluster ops. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "kubernetes-security-007",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-kubernetes",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "k8s",
+      "security"
+    ],
+    "description": "Kubernetes cluster ops. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "kubernetes-security-017",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-kubernetes",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "k8s",
+      "security"
+    ],
+    "description": "Kubernetes cluster ops. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "kubernetes-security-027",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-kubernetes",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "k8s",
+      "security"
+    ],
+    "description": "Kubernetes cluster ops. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "kubernetes-web-005",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-kubernetes",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "k8s",
+      "web"
+    ],
+    "description": "Kubernetes cluster ops. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "kubernetes-web-015",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-kubernetes",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "k8s",
+      "web"
+    ],
+    "description": "Kubernetes cluster ops. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "kubernetes-web-025",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-kubernetes",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "devops",
+      "k8s",
+      "web"
+    ],
+    "description": "Kubernetes cluster ops. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "linear",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-linear"
+    ],
+    "tags": [
+      "pm",
+      "tasks"
+    ],
+    "description": "Linear issues and projects.",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "linear-ai-006",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-linear",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "ai"
+    ],
+    "description": "Linear issues and projects. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "linear-ai-016",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-linear",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "ai"
+    ],
+    "description": "Linear issues and projects. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "linear-ai-026",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-linear",
+      "--variant",
+      "ai"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "ai"
+    ],
+    "description": "Linear issues and projects. Community variant (ai).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "linear-cloud-003",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-linear",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "cloud"
+    ],
+    "description": "Linear issues and projects. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "linear-cloud-013",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-linear",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "cloud"
+    ],
+    "description": "Linear issues and projects. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "linear-cloud-023",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-linear",
+      "--variant",
+      "cloud"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "cloud"
+    ],
+    "description": "Linear issues and projects. Community variant (cloud).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "linear-database-004",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-linear",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "database"
+    ],
+    "description": "Linear issues and projects. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "linear-database-014",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-linear",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "database"
+    ],
+    "description": "Linear issues and projects. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "linear-database-024",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-linear",
+      "--variant",
+      "database"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "database"
+    ],
+    "description": "Linear issues and projects. Community variant (database).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "linear-devtools-002",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-linear",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "devtools"
+    ],
+    "description": "Linear issues and projects. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "linear-devtools-012",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-linear",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "devtools"
+    ],
+    "description": "Linear issues and projects. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "linear-devtools-022",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-linear",
+      "--variant",
+      "devtools"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "devtools"
+    ],
+    "description": "Linear issues and projects. Community variant (devtools).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "linear-finance-009",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-linear",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "finance"
+    ],
+    "description": "Linear issues and projects. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "linear-finance-019",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-linear",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "finance"
+    ],
+    "description": "Linear issues and projects. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "linear-finance-029",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-linear",
+      "--variant",
+      "finance"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "finance"
+    ],
+    "description": "Linear issues and projects. Community variant (finance).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "linear-iot-008",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-linear",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "iot"
+    ],
+    "description": "Linear issues and projects. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "linear-iot-018",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-linear",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "iot"
+    ],
+    "description": "Linear issues and projects. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "linear-iot-028",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-linear",
+      "--variant",
+      "iot"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "iot"
+    ],
+    "description": "Linear issues and projects. Community variant (iot).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "linear-media-010",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-linear",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "media"
+    ],
+    "description": "Linear issues and projects. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "linear-media-020",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-linear",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "media"
+    ],
+    "description": "Linear issues and projects. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "linear-media-030",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-linear",
+      "--variant",
+      "media"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "media"
+    ],
+    "description": "Linear issues and projects. Community variant (media).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "linear-productivity-011",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-linear",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "productivity"
+    ],
+    "description": "Linear issues and projects. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "linear-productivity-021",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-linear",
+      "--variant",
+      "productivity"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "productivity"
+    ],
+    "description": "Linear issues and projects. Community variant (productivity).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "linear-security-007",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-linear",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "security"
+    ],
+    "description": "Linear issues and projects. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "linear-security-017",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-linear",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "security"
+    ],
+    "description": "Linear issues and projects. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "linear-security-027",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-linear",
+      "--variant",
+      "security"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "security"
+    ],
+    "description": "Linear issues and projects. Community variant (security).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "linear-web-005",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-linear",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "web"
+    ],
+    "description": "Linear issues and projects. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "linear-web-015",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-linear",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "web"
+    ],
+    "description": "Linear issues and projects. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
+  },
+  {
+    "name": "linear-web-025",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-linear",
+      "--variant",
+      "web"
+    ],
+    "tags": [
+      "community",
+      "pm",
+      "tasks",
+      "web"
+    ],
+    "description": "Linear issues and projects. Community variant (web).",
+    "sourceURL": "https://github.com/modelcontextprotocol/servers",
+    "rawURL": "https://raw.githubusercontent.com/modelcontextprotocol/servers/main/README.md"
   }
 ]
