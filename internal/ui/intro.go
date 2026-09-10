@@ -475,3 +475,161 @@ func (m *Model) overlayOrbits(grid [][]introCell, w, h int, elapsed float64, col
 		{0.55, 1, 0.0},
 		{0.80, -1, 2.1},
 		{1.05, 1, 4.2},
+	}
+	glyphs := []string{"◈", "✦", "∘", "✧"}
+	st := ringColor(frac)
+	for _, r := range rings {
+		rad := base * r.mult * shrink
+		th := orbitAngle(r.base, r.dir, 1.2, 1.1, tau)
+		for i := 0; i < 26; i++ {
+			a := th + float64(i)/26*2*math.Pi
+			x := int(math.Round(cx + math.Cos(a)*rad))
+			y := int(math.Round(cy + math.Sin(a)*rad/2))
+			if x < 0 || x >= w || y < 0 || y >= h {
+				continue
+			}
+			if !grid[y][x].set {
+				grid[y][x] = introCell{text: st.Render(glyphs[i%len(glyphs)]), set: true}
+			}
+		}
+	}
+	if collapse && shrink <= 0.05 {
+		// Singularity point: hot white core flashing at the center.
+		if int(elapsed*12)%2 == 0 {
+			plotAt(grid, w, h, int(cx), int(cy), flashWhite.Render("✦"))
+		}
+	}
+}
+
+func plotAt(grid [][]introCell, w, h, x, y int, text string) {
+	if x < 0 || x >= w || y < 0 || y >= h {
+		return
+	}
+	if grid[y][x].skip || grid[y][x].chunk {
+		return
+	}
+	grid[y][x] = introCell{text: text, set: true}
+}
+
+// crestPoint is one blueprint vertex in normalized crest space (y down).
+type crestPoint struct{ x, y float64 }
+
+// crestBlueprint sketches the holographic wireframe: twin horns curving up,
+// stepped side wings, central diamond spire, base chevron.
+var crestBlueprint = [][]crestPoint{
+	{{-0.10, -0.95}, {-0.32, -0.68}, {-0.48, -0.32}, {-0.40, 0.05}},
+	{{0.10, -0.95}, {0.32, -0.68}, {0.48, -0.32}, {0.40, 0.05}},
+	{{0, -0.62}, {0.09, -0.18}, {0, 0.08}, {-0.09, -0.18}, {0, -0.62}},
+	{{-0.40, 0.05}, {-0.72, 0.22}, {-0.60, 0.55}, {-0.34, 0.92}},
+	{{0.40, 0.05}, {0.72, 0.22}, {0.60, 0.55}, {0.34, 0.92}},
+	{{-0.34, 0.92}, {0, 1.0}, {0.34, 0.92}},
+}
+
+// overlayBlueprint laser-traces the crest wireframe with electrostatic
+// micro-sparks at the sketch tip.
+func (m *Model) overlayBlueprint(grid [][]introCell, w, h int, elapsed float64) {
+	p := (elapsed - act3At) / (act4At - act3At)
+	if p < 0 {
+		return
+	}
+	if p > 1 {
+		p = 1
+	}
+	reveal := p * p // accelerating trace
+	base := math.Min(float64(w)*0.30, float64(h)*0.60)
+	if base < 6 {
+		base = 6
+	}
+	cx, cy := float64(w)/2, float64(h)/2-1
+	type pt struct{ x, y int }
+	var trace []pt
+	for _, line := range crestBlueprint {
+		for i := 0; i+1 < len(line); i++ {
+			a, b := line[i], line[i+1]
+			steps := 16
+			for s := 0; s < steps; s++ {
+				f := float64(s) / float64(steps)
+				x := int(math.Round(cx + (a.x+(b.x-a.x)*f)*base*1.15))
+				y := int(math.Round(cy + (a.y+(b.y-a.y)*f)*base*0.55))
+				trace = append(trace, pt{x, y})
+			}
+		}
+	}
+	drawn := int(reveal * float64(len(trace)))
+	for i := 0; i < drawn && i < len(trace); i++ {
+		glyph := "·"
+		st := actIce
+		if i%7 == 0 {
+			glyph = "✦"
+			st = actLaser
+		}
+		plotAt(grid, w, h, trace[i].x, trace[i].y, st.Render(glyph))
+	}
+	// Micro-sparks crackling at the sketch tip.
+	if drawn > 0 && drawn < len(trace) && m.warpRng != nil {
+		tip := trace[drawn-1]
+		sparks := []struct {
+			dx, dy int
+			g      string
+			st     lipgloss.Style
+		}{
+			{0, 0, "⚡", warpViolet},
+			{1, -1, "✦", flashWhite},
+			{-1, 1, "✦", warpCyan},
+			{2, 0, "·", actLaser},
+		}
+		j := m.warpRng.Intn(2)
+		for i := j; i < len(sparks); i++ {
+			s := sparks[(i+m.warpRng.Intn(len(sparks)))%len(sparks)]
+			plotAt(grid, w, h, tip.x+s.dx, tip.y+s.dy, s.st.Render(s.g))
+		}
+	}
+}
+
+// overlayProgress draws the timeline bar + skip hint on the bottom rows.
+func (m *Model) overlayProgress(grid [][]introCell, w, h int, elapsed float64, ph int) {
+	frac := elapsed / introDuration
+	if frac > 1 {
+		frac = 1
+	}
+	barW := min(44, w-10)
+	if barW < 10 {
+		barW = 10
+	}
+	filled := int(math.Round(frac * float64(barW)))
+	bar := strings.Repeat("█", filled) + strings.Repeat("░", barW-filled)
+	putCentered(grid, w, h-3, warpViolet.Render(introPhaseName(ph)))
+	putCentered(grid, w, h-2, warpCyan.Render("["+bar+"]"))
+	putCentered(grid, w, h-1, introHint.Render("press SPACE / ENTER / ESC to skip"))
+}
+
+// putCentered writes a pre-styled chunk centered on a row.
+func putCentered(grid [][]introCell, w, y int, styled string) {
+	if y < 0 || y >= len(grid) {
+		return
+	}
+	visW := lipgloss.Width(styled)
+	x := (w - visW) / 2
+	if x < 0 || x+visW > w {
+		return
+	}
+	placeChunk(grid, w, x, y, styled+"\x1b[0m", visW)
+}
+
+// placeChunk stores a multi-cell chunk and marks covered cells as skipped.
+// At most one chunk owns a row: any previous chunk (and its skip marks) is
+// removed first so overlapping chunks can never double-emit.
+func placeChunk(grid [][]introCell, w, x, y int, text string, visW int) {
+	if y < 0 || y >= len(grid) || x < 0 || x >= w {
+		return
+	}
+	for k := 0; k < w; k++ {
+		if grid[y][k].chunk || grid[y][k].skip {
+			grid[y][k] = introCell{}
+		}
+	}
+	grid[y][x] = introCell{text: text, set: true, chunk: true}
+	for k := x + 1; k < x+visW && k < w; k++ {
+		grid[y][k] = introCell{skip: true}
+	}
+}
