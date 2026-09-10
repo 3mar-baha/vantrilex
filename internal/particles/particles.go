@@ -25,6 +25,7 @@ type Particle struct {
 	Glyph    rune
 	Size     float64
 	Burst    bool // true for supernova burst particles
+	Overlay  bool // true for fullscreen FX composited over UI (trail/click/perimeter)
 	BornAt   time.Time
 	HuePhase float64
 }
@@ -38,6 +39,7 @@ type Engine struct {
 	lastAmbient   time.Time
 	Flash         float64 // 0..1 screen flash right after a burst
 	frame         uint64
+	edge          bool // edge-only ambient field for menu stages
 }
 
 // New creates an engine with a default field size.
@@ -65,6 +67,45 @@ func (e *Engine) SetSize(w, h int) {
 	}
 }
 
+// SetEdgeOnly confines ambient stars to the outer frame margins (outer
+// top/bottom rows, far left/right columns) so they never cut across the
+// center content. Transient overlay FX (trail, clicks, perimeter waves)
+// always render at their exact coordinates regardless of this flag.
+func (e *Engine) SetEdgeOnly(b bool) { e.edge = b }
+
+// EdgeOnly reports whether the ambient field is margin-confined.
+func (e *Engine) EdgeOnly() bool { return e.edge }
+
+// ambientPos picks a spawn point: uniform by default, margin-biased when
+// edge-only mode is on (and the field is large enough to have margins).
+func (e *Engine) ambientPos() (float64, float64) {
+	w, h := float64(e.Width), float64(e.Height)
+	if !e.edge || e.Width < 16 || e.Height < 4 {
+		return e.rng.Float64() * w, e.rng.Float64() * h
+	}
+	switch e.rng.Intn(4) {
+	case 0: // outer top rows
+		return e.rng.Float64() * w, float64(e.rng.Intn(2))
+	case 1: // outer bottom rows
+		return e.rng.Float64() * w, h - 1 - float64(e.rng.Intn(2))
+	case 2: // far left columns
+		return float64(e.rng.Intn(8)), e.rng.Float64() * h
+	default: // far right columns
+		return w - 1 - float64(e.rng.Intn(8)), e.rng.Float64() * h
+	}
+}
+
+// inCenterFrame reports whether a field point falls inside the protected
+// central viewport (kept clear of ambient stars in edge-only mode).
+func (e *Engine) inCenterFrame(x, y float64, w, h int) bool {
+	if w <= 0 || h <= 0 {
+		return false
+	}
+	fx := x / float64(w)
+	fy := y / float64(h)
+	return fx > 0.2 && fx < 0.8 && fy > 0.25 && fy < 0.75
+}
+
 // Count returns live particle count.
 func (e *Engine) Count() int { return len(e.parts) }
 
@@ -89,6 +130,7 @@ func (e *Engine) EmitTrail(x, y int) {
 			MaxLife:  1.0,
 			Glyph:    trailGlyphs[e.rng.Intn(len(trailGlyphs))],
 			Burst:    true,
+			Overlay:  true,
 			BornAt:   time.Now(),
 			HuePhase: e.rng.Float64(),
 		})
@@ -114,6 +156,7 @@ func (e *Engine) ClickBurst(x, y int) {
 			MaxLife:  life,
 			Glyph:    burstGlyphs[e.rng.Intn(len(burstGlyphs))],
 			Burst:    true,
+			Overlay:  true,
 			BornAt:   time.Now(),
 			HuePhase: e.rng.Float64(),
 		})
@@ -159,6 +202,7 @@ func (e *Engine) PerimeterSupernova() {
 			MaxLife:  life,
 			Glyph:    glyphs[e.rng.Intn(len(glyphs))],
 			Burst:    true,
+			Overlay:  true,
 			BornAt:   time.Now(),
 			HuePhase: e.rng.Float64(),
 		})
@@ -226,9 +270,10 @@ func (e *Engine) Tick(dt float64) {
 			}
 			if alive < want {
 				for k := 0; k < 3; k++ {
+					px, py := e.ambientPos()
 					e.parts = append(e.parts, &Particle{
-						X:        e.rng.Float64() * float64(e.Width),
-						Y:        e.rng.Float64() * float64(e.Height),
+						X:        px,
+						Y:        py,
 						VX:       0.6 + e.rng.Float64()*1.8,
 						VY:       -0.25 - e.rng.Float64()*0.5,
 						Life:     3 + e.rng.Float64()*4,
@@ -291,37 +336,60 @@ func (e *Engine) Tick(dt float64) {
 }
 
 // Snapshot is a render-ready copy of one live particle for external
-// compositors (e.g. the fullscreen cinematic intro renderer).
+// compositors (e.g. the fullscreen cinematic intro renderer and the
+// menu-screen FX overlay).
 type Snapshot struct {
-	X, Y  int
-	Glyph rune
-	Age   float64 // 0 young -> 1 old
-	Burst bool
-	Phase float64
+	X, Y    int
+	Glyph   rune
+	Age     float64 // 0 young -> 1 old
+	Burst   bool
+	Overlay bool // true when meant for fullscreen overlay compositing
+	Phase   float64
+}
+
+// snapOne projects a particle to integer screen coordinates.
+func snapOne(p *Particle) Snapshot {
+	age := 0.0
+	if p.MaxLife > 0 {
+		age = 1 - p.Life/p.MaxLife
+		if age < 0 {
+			age = 0
+		}
+		if age > 1 {
+			age = 1
+		}
+	}
+	return Snapshot{
+		X:       int(math.Round(p.X)),
+		Y:       int(math.Round(p.Y)),
+		Glyph:   p.Glyph,
+		Age:     age,
+		Burst:   p.Burst,
+		Overlay: p.Overlay,
+		Phase:   p.HuePhase,
+	}
 }
 
 // Snap returns snapshots of all live particles with integer coordinates.
 func (e *Engine) Snap() []Snapshot {
 	out := make([]Snapshot, 0, len(e.parts))
 	for _, p := range e.parts {
-		age := 0.0
-		if p.MaxLife > 0 {
-			age = 1 - p.Life/p.MaxLife
-			if age < 0 {
-				age = 0
-			}
-			if age > 1 {
-				age = 1
-			}
+		out = append(out, snapOne(p))
+	}
+	return out
+}
+
+// OverlaySnaps returns newest-first snapshots flagged for fullscreen
+// overlay compositing (mouse trail, click bursts, perimeter waves),
+// capped to bound per-frame compositor work.
+func (e *Engine) OverlaySnaps() []Snapshot {
+	const cap = 80
+	out := make([]Snapshot, 0, cap)
+	for i := len(e.parts) - 1; i >= 0 && len(out) < cap; i-- {
+		p := e.parts[i]
+		if p.Overlay && p.Life > 0 {
+			out = append(out, snapOne(p))
 		}
-		out = append(out, Snapshot{
-			X:     int(math.Round(p.X)),
-			Y:     int(math.Round(p.Y)),
-			Glyph: p.Glyph,
-			Age:   age,
-			Burst: p.Burst,
-			Phase: p.HuePhase,
-		})
 	}
 	return out
 }
@@ -378,6 +446,11 @@ func (e *Engine) RenderField() string {
 		xi := int(math.Round(p.X))
 		yi := int(math.Round(p.Y))
 		if xi < 0 || xi >= w || yi < 0 || yi >= h {
+			continue
+		}
+		// Edge-only mode: ambient stars never render inside the protected
+		// central viewport. Overlay FX always draw at exact coordinates.
+		if e.edge && !p.Burst && !p.Overlay && e.inCenterFrame(p.X, p.Y, w, h) {
 			continue
 		}
 		// Burst particles overwrite ambient.

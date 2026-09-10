@@ -318,6 +318,7 @@ func (m *Model) enterIntro() {
 	m.stage = StageIntro
 	m.introStart = time.Now()
 	m.introBurst = false
+	m.engine.SetEdgeOnly(false) // intro owns the full-field starfield
 	if m.warpRng == nil {
 		m.warpRng = rand.New(rand.NewSource(time.Now().UnixNano()))
 	}
@@ -367,6 +368,9 @@ func (m *Model) onEnterStage() {
 	if m.stage != StageIntro {
 		m.engine.PerimeterSupernova()
 	}
+	// Menu stages confine ambient stars to the outer frame margins so the
+	// center options box stays clean; the cinematic intro keeps full-field.
+	m.engine.SetEdgeOnly(m.stage != StageIntro)
 	switch m.stage {
 	case StageIntro:
 		m.enterIntro()
