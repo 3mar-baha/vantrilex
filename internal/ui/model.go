@@ -746,3 +746,253 @@ func (m Model) installAllCmd(missing []doctor.Status) tea.Cmd {
 	return func() tea.Msg {
 		// Install sequentially, then report last; UI rescans after each via chaining.
 		// Run first missing item here; the rest continue through repeated rescan? For
+		// simplicity install all in one background task and emit one message per item
+		// via toolkitLog-style lines is complex — do sequential and return combined.
+		for _, s := range missing {
+			err := doctor.InstallOne(s.Dep, func(string) {})
+			_ = err
+		}
+		return doctorResultMsg{statuses: doctor.CheckAll()}
+	}
+}
+
+func (m Model) syncToolkitCmd() tea.Cmd {
+	m.toolkitBusy = true
+	return func() tea.Msg {
+		err := doctor.SyncToolkit(func(string) {})
+		return toolkitDoneMsg{err: err}
+	}
+}
+
+func (m Model) updateHistory(key string, msg tea.KeyMsg) (tea.Model, tea.Cmd) {
+	n := min(len(m.sessions), 5)
+	lk := strings.ToLower(key)
+	switch lk {
+	case "n":
+		m.burst()
+		m.stage = StageRunner
+		m.onEnterStage()
+		return m, nil
+	case "d", "delete", "backspace":
+		if n > 0 {
+			_ = runner.DeleteSession(m.histCursor)
+			m.sessions = runner.LoadSessions()
+			if m.histCursor >= len(m.sessions) && m.histCursor > 0 {
+				m.histCursor--
+			}
+		}
+		return m, nil
+	case "up", "k":
+		if n > 0 {
+			m.histCursor = (m.histCursor - 1 + n) % n
+		}
+		return m, nil
+	case "down", "j":
+		if n > 0 {
+			m.histCursor = (m.histCursor + 1) % n
+		}
+		return m, nil
+	case "enter":
+		if n > 0 {
+			m.resumeSession(m.sessions[m.histCursor])
+			m.burst()
+			return m, nil
+		}
+		// No history: start new.
+		m.stage = StageRunner
+		m.onEnterStage()
+		return m, nil
+	}
+	// Number resume 1-5.
+	if len(key) == 1 && key[0] >= '1' && key[0] <= '5' {
+		idx := int(key[0] - '1')
+		if idx < n {
+			m.resumeSession(m.sessions[idx])
+			m.burst()
+			return m, nil
+		}
+	}
+	_ = msg
+	return m, nil
+}
+
+func (m *Model) resumeSession(s runner.Session) {
+	if r, ok := catalog.RunnerByID(catalog.RunnerID(s.Runner)); ok {
+		m.curRunner = r
+		m.hasRunner = true
+	}
+	for _, mod := range catalog.Models() {
+		if mod.ID == s.Model {
+			m.curModel = mod
+			m.hasModel = true
+			break
+		}
+	}
+	for i, e := range m.efforts {
+		if e.ID == s.Effort {
+			m.effortCursor = i
+			break
+		}
+	}
+	m.workspace = s.Workspace
+	m.stage = StageLaunch
+	m.onEnterStage()
+}
+
+func (m Model) updateRunner(key string) (tea.Model, tea.Cmd) {
+	switch key {
+	case "1", "2", "3":
+		idx := int(key[0] - '0')
+		if r, ok := catalog.RunnerByIndex(idx); ok {
+			m.curRunner = r
+			m.hasRunner = true
+			m.burst()
+			m.stage = StageModel
+			m.onEnterStage()
+			return m, nil
+		}
+	case "up", "k":
+		m.runnerCursor = (m.runnerCursor + 2) % 3
+		return m, nil
+	case "down", "j":
+		m.runnerCursor = (m.runnerCursor + 1) % 3
+		return m, nil
+	case "enter", " ":
+		idx := m.runnerCursor + 1
+		if r, ok := catalog.RunnerByIndex(idx); ok {
+			m.curRunner = r
+			m.hasRunner = true
+			m.burst()
+			m.stage = StageModel
+			m.onEnterStage()
+			return m, nil
+		}
+	case "b", "esc":
+		m.stage = StageHistory
+		m.onEnterStage()
+		return m, nil
+	}
+	return m, nil
+}
+
+func (m Model) updateModel(key string, msg tea.KeyMsg) (tea.Model, tea.Cmd) {
+	tabs := catalog.Categories()
+	switch key {
+	case "esc":
+		if m.search != "" {
+			m.search = ""
+			m.refreshModels()
+			return m, nil
+		}
+		m.goBack()
+		return m, nil
+	case "b":
+		if m.search != "" {
+			m.search = ""
+			m.refreshModels()
+			return m, nil
+		}
+		m.goBack()
+		return m, nil
+	case "[":
+		m.tabCursor = (m.tabCursor - 1 + len(tabs)) % len(tabs)
+		m.modelCursor = 0
+		m.refreshModels()
+		return m, nil
+	case "]", "tab":
+		m.tabCursor = (m.tabCursor + 1) % len(tabs)
+		m.modelCursor = 0
+		m.refreshModels()
+		return m, nil
+	case "up", "k":
+		if len(m.filtered) > 0 {
+			m.modelCursor = (m.modelCursor - 1 + len(m.filtered)) % len(m.filtered)
+		}
+		return m, nil
+	case "down", "j":
+		if len(m.filtered) > 0 {
+			m.modelCursor = (m.modelCursor + 1) % len(m.filtered)
+		}
+		return m, nil
+	case "backspace":
+		if len(m.search) > 0 {
+			m.search = m.search[:len(m.search)-1]
+			m.modelCursor = 0
+			m.refreshModels()
+		}
+		return m, nil
+	case "enter", " ":
+		if len(m.filtered) > 0 {
+			m.curModel = m.filtered[m.modelCursor]
+			m.hasModel = true
+			m.burst()
+			m.stage = StageEffort
+			m.onEnterStage()
+			// Default effort to highest compatible.
+			m.effortCursor = 1
+			return m, nil
+		}
+		return m, nil
+	}
+	// Category hotkeys 1..5.
+	if len(key) == 1 && key[0] >= '1' && key[0] <= '5' && m.search == "" {
+		idx := int(key[0] - '1')
+		if idx < len(tabs) {
+			m.tabCursor = idx
+			m.modelCursor = 0
+			m.refreshModels()
+			return m, nil
+		}
+	}
+	// Typing appends to fuzzy search (printable single rune, no modifiers).
+	if msg.Type == tea.KeyRunes && len(msg.Runes) == 1 {
+		r := msg.Runes[0]
+		if r >= 32 && r != 127 {
+			if key != " " || m.search != "" {
+				m.search += string(r)
+				m.modelCursor = 0
+				m.refreshModels()
+				return m, nil
+			}
+		}
+	}
+	if key == "/" && m.search == "" {
+		m.search = ""
+		return m, nil
+	}
+	return m, nil
+}
+
+func (m Model) updateEffort(key string) (tea.Model, tea.Cmd) {
+	switch key {
+	case "left", "h":
+		if m.effortCursor > 0 {
+			m.effortCursor--
+		}
+		return m, nil
+	case "right", "l":
+		if m.effortCursor+1 < len(m.efforts) {
+			m.effortCursor++
+		}
+		return m, nil
+	case "enter", " ":
+		e := m.efforts[m.effortCursor]
+		if m.hasModel && !catalog.EffortCompatible(m.curModel, e) {
+			m.err = "Locked: " + m.curModel.Short + " does not support extended reasoning. Choose low/medium."
+			return m, nil
+		}
+		m.burst()
+		m.stage = StageWorkspace
+		m.onEnterStage()
+		return m, nil
+	case "b", "esc":
+		m.goBack()
+		return m, nil
+	}
+	if len(key) == 1 && key[0] >= '1' && key[0] <= '5' {
+		idx := int(key[0] - '1')
+		if idx < len(m.efforts) {
+			m.effortCursor = idx
+			return m, nil
+		}
+	}
