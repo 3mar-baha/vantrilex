@@ -427,3 +427,145 @@ func tagPill(t string) string {
 func (m Model) viewEffort() string {
 	var b strings.Builder
 	b.WriteString(titleStyle.Render("STAGE 4 — COGNITIVE EFFORT GATING"))
+	b.WriteString("\n")
+	if m.hasModel {
+		b.WriteString(mutedStyle.Render(fmt.Sprintf("Model: %s  (reasoning=%v)", m.curModel.Short, m.curModel.Reasoning)))
+	} else {
+		b.WriteString(mutedStyle.Render("Model: (none)"))
+	}
+	b.WriteString("\n\n")
+	// Slider.
+	var segs []string
+	for i, e := range m.efforts {
+		compat := true
+		if m.hasModel {
+			compat = catalog.EffortCompatible(m.curModel, e)
+		}
+		lbl := e.Label
+		var cell string
+		switch {
+		case i == m.effortCursor && compat:
+			cell = selStyle.Render(lbl)
+		case i == m.effortCursor && !compat:
+			cell = missPill.Render(lbl + " LOCKED")
+		case !compat:
+			cell = mutedStyle.Render(lbl + " ✕")
+		default:
+			cell = whiteStyle.Render(lbl)
+		}
+		segs = append(segs, cell)
+	}
+	b.WriteString(strings.Join(segs, mutedStyle.Render(" ── ")) + "\n\n")
+	e := m.efforts[m.effortCursor]
+	b.WriteString(whiteStyle.Render("Selected: "+e.Label) + "  " + mutedStyle.Render(e.Desc) + "\n")
+	if m.hasModel && !catalog.EffortCompatible(m.curModel, e) {
+		b.WriteString(missPill.Render("LOCKED") + "  " + lipgloss.NewStyle().Foreground(Red).Render(m.curModel.Short+" lacks extended reasoning tokens. Pick low/medium."))
+	}
+	return b.String()
+}
+
+func (m Model) viewWorkspace() string {
+	var b strings.Builder
+	b.WriteString(titleStyle.Render("STAGE 5 — WORKSPACE TARGET DIRECTORY"))
+	b.WriteString("\n")
+	b.WriteString(mutedStyle.Render("Enter the project folder. It will be created on confirm if missing."))
+	b.WriteString("\n\n")
+	b.WriteString(m.wsInput.View() + "\n\n")
+	if m.wsAsk {
+		b.WriteString(lipgloss.NewStyle().Foreground(Amber).Bold(true).Render("Create folder? [Y/N]") + "\n")
+		b.WriteString(mutedStyle.Render(m.info) + "\n")
+	}
+	if m.wsErr != "" {
+		b.WriteString(lipgloss.NewStyle().Foreground(Red).Render(m.wsErr) + "\n")
+	}
+	if m.workspace != "" {
+		b.WriteString(mutedStyle.Render("Current: "+m.workspace) + "\n")
+	}
+	return b.String()
+}
+
+// viewVList renders a virtualized multi-select stage (~12 visible rows).
+func (m Model) viewVList(title, hint string, v *VList) string {
+	var b strings.Builder
+	b.WriteString(titleStyle.Render("STAGE — " + title))
+	b.WriteString("\n")
+	b.WriteString(mutedStyle.Render(hint + "  [/] search · [Space] toggle · [A] all · [C] confirm."))
+	b.WriteString("\n")
+	b.WriteString(subStyle.Render(fmt.Sprintf("Search: %s▌   Selected: [%d/%d]", v.Search, v.SelectedCount(), len(v.Items))) + "\n\n")
+	if len(v.Filtered) == 0 {
+		b.WriteString(mutedStyle.Render("No matches. Clear search with Esc."))
+		return b.String()
+	}
+	for row, idx := range v.Visible() {
+		it := v.Items[idx]
+		box := "[ ]"
+		if v.Selected[it.Name] {
+			box = "[X]"
+		}
+		line := fmt.Sprintf("%s  %s  %s", box, whiteStyle.Render(truncV(it.Name, 34)), mutedStyle.Render(truncV(it.Desc, 52)))
+		prefix := "  "
+		if v.Offset+row == v.Cursor {
+			prefix = keyStyle.Render("▸ ")
+			line = selStyle.Render(box+" "+truncV(it.Name, 34)) + "  " + mutedStyle.Render(truncV(it.Desc, 52))
+		}
+		b.WriteString(prefix + line + "\n")
+	}
+	return strings.TrimRight(b.String(), "\n")
+}
+
+func truncV(s string, n int) string {
+	if len(s) <= n {
+		return s
+	}
+	return s[:n-1] + "…"
+}
+
+func (m Model) viewSkills() string {
+	var b strings.Builder
+	b.WriteString(titleStyle.Render("STAGE 6 — WORKFLOW & SKILLS PROVISIONING GATE"))
+	b.WriteString("\n")
+	b.WriteString(mutedStyle.Render("Workspace: " + m.workspace))
+	b.WriteString("\n\n")
+	items := m.skillItems
+	if items == nil && m.workspace != "" {
+		items = scaffold.Check(m.workspace)
+	}
+	for _, it := range items {
+		mark := okPill.Render("FOUND")
+		if !it.Present {
+			mark = missPill.Render("MISSING")
+		}
+		b.WriteString(fmt.Sprintf("%s  %s  %s\n", mark, whiteStyle.Render(it.Path), mutedStyle.Render(it.Note)))
+	}
+	b.WriteString("\n" + mutedStyle.Render("External: vercel-labs/skills@find-skills · Anthropic skill-creator") + "\n")
+	b.WriteString(mutedStyle.Render(fmt.Sprintf("Toolkit: $HOME/.vantrilex/toolkit (%d repos, shallow clones)", len(doctor.ToolkitRepos))) + "\n")
+	if m.skillDone {
+		b.WriteString("\n" + okPill.Render("GATE READY") + "  " + whiteStyle.Render("Press S or Enter to continue."))
+	} else {
+		b.WriteString("\n" + whiteStyle.Render("Press Enter to scaffold missing files (never overwrites)."))
+	}
+	return b.String()
+}
+
+func (m Model) viewLaunch() string {
+	var b strings.Builder
+	b.WriteString(titleStyle.Render("STAGE 7 — SUBPROCESS LAUNCH"))
+	b.WriteString("\n")
+	b.WriteString(mutedStyle.Render("Confirm and hand over the terminal to the runner."))
+	b.WriteString("\n\n")
+	name, args := runner.BuildCommand(m.curRunner, m.curModel.ID, m.efforts[m.effortCursor].ID, m.workspace)
+	rows := []string{
+		kv("Runner", string(m.curRunner.ID)+" — "+m.curRunner.Name),
+		kv("Model", m.curModel.ID),
+		kv("Effort", m.efforts[m.effortCursor].ID),
+		kv("Workspace", m.workspace),
+		kv("Command", name+" "+strings.Join(args, " ")),
+	}
+	b.WriteString(strings.Join(rows, "\n") + "\n\n")
+	b.WriteString(lipgloss.NewStyle().Foreground(Cyan).Bold(true).Render("Press ENTER to launch — the runner takes over this terminal."))
+	return b.String()
+}
+
+func kv(k, v string) string {
+	return subStyle.Render(k+": ") + whiteStyle.Render(v)
+}
