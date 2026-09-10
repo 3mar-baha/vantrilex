@@ -284,3 +284,146 @@ func (m Model) viewHistory() string {
 	}
 	for i := 0; i < n; i++ {
 		s := m.sessions[i]
+		cursor := "  "
+		row := fmt.Sprintf("[%d] %s  %s  %s  %s", i+1,
+			runnerBadge(s.Runner), modelTag(s.Model),
+			runner.TruncPath(s.Workspace, 34),
+			mutedStyle.Render(s.At.Format("2006-01-02 15:04")))
+		if i == m.histCursor {
+			cursor = keyStyle.Render("▸ ")
+			row = selStyle.Render(fmt.Sprintf("[%d] %s %s %s", i+1, s.Runner, shortModel(s.Model), runner.TruncPath(s.Workspace, 30)))
+		}
+		b.WriteString(cursor + row + "\n")
+	}
+	b.WriteString("\n" + mutedStyle.Render("[N] New Project"))
+	return b.String()
+}
+
+func runnerBadge(r string) string {
+	return lipgloss.NewStyle().Foreground(Navy).Background(Sky).Bold(true).Padding(0, 1).Render(strings.ToUpper(r))
+}
+
+func modelTag(id string) string {
+	return lipgloss.NewStyle().Foreground(Cyan).Render(shortModel(id))
+}
+
+func shortModel(id string) string {
+	if i := strings.LastIndex(id, "/"); i >= 0 {
+		return id[i+1:]
+	}
+	return id
+}
+
+func (m Model) viewRunner() string {
+	var b strings.Builder
+	b.WriteString(titleStyle.Render("STAGE 2 — AGENT RUNNER SELECTION"))
+	b.WriteString("\n")
+	b.WriteString(mutedStyle.Render("Choose the harness that will own the terminal session."))
+	b.WriteString("\n\n")
+	for i, r := range catalog.Runners() {
+		marker := "⟦ " + itoa(r.Index) + " ⟧"
+		line := fmt.Sprintf("%s  %s  %s\n      %s", marker, whiteStyle.Render(r.Name), runnerBadge(r.Tag), mutedStyle.Render(r.Desc))
+		if m.runnerCursor == i {
+			line = selStyle.Render(fmt.Sprintf("%s  %s", marker, r.Name)) + "  " + mutedStyle.Render(r.Desc)
+		}
+		b.WriteString(line + "\n\n")
+	}
+	return strings.TrimRight(b.String(), "\n")
+}
+
+func (m Model) viewModel() string {
+	var b strings.Builder
+	b.WriteString(titleStyle.Render("STAGE 3 — MODEL MATRIX"))
+	if m.hasRunner && m.curRunner.ID == catalog.RunnerOpenCode {
+		b.WriteString("  " + lipgloss.NewStyle().Foreground(Navy).Background(Cyan).Bold(true).Padding(0, 1).Render("ZEN CATALOG INCLUDED"))
+	}
+	b.WriteString("\n")
+	b.WriteString(mutedStyle.Render("Fuzzy search: just type, or press [/]. Tabs [1-5] or [ [ ] ]. Pricing per 1M in/out · context · latency."))
+	b.WriteString("\n")
+	// Tabs.
+	tabs := catalog.Categories()
+	var tabRow []string
+	for i, t := range tabs {
+		lbl := fmt.Sprintf("%d %s", i+1, string(t))
+		if i == m.tabCursor {
+			tabRow = append(tabRow, selStyle.Render(lbl))
+		} else {
+			tabRow = append(tabRow, mutedStyle.Render(lbl))
+		}
+	}
+	b.WriteString(strings.Join(tabRow, "  ") + "\n")
+	b.WriteString(subStyle.Render("Search: "+m.search+"▌") + "\n\n")
+	if len(m.filtered) == 0 {
+		b.WriteString(mutedStyle.Render("No models match. Clear search with Esc."))
+		return b.String()
+	}
+	if m.liveLoaded && len(m.liveMods) > 0 {
+		b.WriteString(subStyle.Render(fmt.Sprintf("Live OpenRouter catalog: %d models merged.", len(m.liveMods))) + "\n")
+	}
+	shown := min(len(m.filtered), 10)
+	start := 0
+	if m.modelCursor >= shown {
+		start = m.modelCursor - shown + 1
+	}
+	for i := start; i < start+shown && i < len(m.filtered); i++ {
+		md := m.filtered[i]
+		lat := latencyBadge(md.Latency)
+		zen := ""
+		if md.Zen {
+			zen = " " + lipgloss.NewStyle().Foreground(Navy).Background(Cyan).Padding(0, 1).Render("ZEN")
+		}
+		tags := ""
+		for _, tg := range catalog.ModelTags(md) {
+			tags += " " + tagPill(tg)
+		}
+		reason := ""
+		if !md.Reasoning {
+			reason = " " + mutedStyle.Render("(no-reasoning)")
+		}
+		line := fmt.Sprintf("%s  $%s/$%s  ctx %s  %s%s%s%s\n    %s",
+			whiteStyle.Render(md.Short),
+			md.InputPerM, md.OutputPerM, md.Context, lat, zen, tags, reason,
+			mutedStyle.Render(md.Blurb+" · "+md.ID))
+		prefix := "  "
+		if i == m.modelCursor {
+			prefix = keyStyle.Render("▸ ")
+			line = selStyle.Render(md.Short) + mutedStyle.Render(fmt.Sprintf("  $%s/$%s ctx %s", md.InputPerM, md.OutputPerM, md.Context)) + " " + lat + zen + tags
+		}
+		b.WriteString(prefix + line + "\n")
+	}
+	b.WriteString(mutedStyle.Render(fmt.Sprintf("\n%d model(s) · showing %d", len(m.filtered), shown)))
+	return b.String()
+}
+
+func latencyBadge(l string) string {
+	switch l {
+	case "LOW":
+		return okPill.Render("LOW")
+	case "MED":
+		return optPill.Render("MED")
+	default:
+		return missPill.Render(l)
+	}
+}
+
+// tagPill renders automated capability badges in English.
+func tagPill(t string) string {
+	switch t {
+	case "[REASONING]":
+		return lipgloss.NewStyle().Foreground(Navy).Background(Cyan).Bold(true).Padding(0, 1).Render("REASONING")
+	case "[VISION]":
+		return lipgloss.NewStyle().Foreground(White).Background(Violet).Bold(true).Padding(0, 1).Render("VISION")
+	case "[CODING]":
+		return lipgloss.NewStyle().Foreground(Navy).Background(Sky).Bold(true).Padding(0, 1).Render("CODING")
+	case "[FREE TIER]":
+		return okPill.Render("FREE TIER")
+	case "[ULTRA FAST]":
+		return optPill.Render("ULTRA FAST")
+	default:
+		return mutedStyle.Render(t)
+	}
+}
+
+func (m Model) viewEffort() string {
+	var b strings.Builder
+	b.WriteString(titleStyle.Render("STAGE 4 — COGNITIVE EFFORT GATING"))
