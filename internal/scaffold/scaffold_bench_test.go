@@ -16,3 +16,10 @@ func BenchmarkBridgeRelPath(b *testing.B) {
 		_ = BridgeRelPath(t)
 	}
 }
+
+func BenchmarkSanitize(b *testing.B) {
+	b.ResetTimer()
+	for i := 0; i < b.N; i++ {
+		_ = sanitize("Lead System Architect")
+	}
+}
