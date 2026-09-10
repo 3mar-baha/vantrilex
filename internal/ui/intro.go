@@ -316,3 +316,162 @@ func (m *Model) overlayCrest(grid [][]introCell, w, h int, art string, breathe b
 		visW := lipgloss.Width(ln)
 		x := (w - visW) / 2
 		if x < 0 || x+visW > w {
+			continue // never corrupt ANSI or overflow the row
+		}
+		placeChunk(grid, w, x, y, ln+"\x1b[0m", visW)
+	}
+	if breathe {
+		// Breathing aura: a soft divider glowing under the crest.
+		ay := startY + len(lines) + 1
+		if ay > 0 && ay < h-2 {
+			pulse := 0.5 + 0.5*math.Sin(time.Since(m.introStart).Seconds()*3.2)
+			glyph := "─"
+			if pulse > 0.66 {
+				glyph = "═"
+			}
+			aura := strings.Repeat(glyph, min(46, w-8))
+			st := warpCyan
+			if pulse < 0.4 {
+				st = warpDim
+			}
+			putCentered(grid, w, ay, st.Render(aura))
+			return ay // title must go below the aura, never on it
+		}
+	}
+	return startY + len(lines) - 1
+}
+
+// overlayCrestTop docks the compact header crest at the top during the
+// hyperspace-leap tail (same 28x14 art as menu headers).
+func (m *Model) overlayCrestTop(grid [][]introCell, w, h int) {
+	art := m.logo
+	if art == "" {
+		art = fallbackLogo()
+	}
+	lines := strings.Split(fitLines(art, 14), "\n")
+	y := 1 // 1-line top safety margin
+	for _, ln := range lines {
+		if y >= h-3 {
+			break
+		}
+		visW := lipgloss.Width(ln)
+		x := (w - visW) / 2
+		if x < 0 || x+visW > w {
+			y++
+			continue
+		}
+		placeChunk(grid, w, x, y, ln+"\x1b[0m", visW)
+		y++
+	}
+}
+
+// overlayTitle draws the Vantrilex wordmark at row y with the Workflow
+// Launcher subtitle: together they read "Vantrilex Workflow Launcher".
+func (m *Model) overlayTitle(grid [][]introCell, w, y int, strength float64) {
+	title := "V  A  N  T  R  I  L  E  X"
+	sub := "WORKFLOW LAUNCHER"
+	st := introTitle
+	if strength < 1 {
+		st = introSub
+	}
+	putCentered(grid, w, y, st.Render(title))
+	putCentered(grid, w, y+1, introHint.Render(sub))
+}
+
+// overlayFadingCard teases the incoming Doctor card.
+func (m *Model) overlayFadingCard(grid [][]introCell, w, h int, label string) {
+	putCentered(grid, w, h-5, warpCyan.Render("◆ "+label+" ◆"))
+}
+
+// overlayTelemetry draws Act 1 deep-void telemetry in the top-left corner:
+// sector tag, radar pulse and the green signal-lock indicator.
+func (m *Model) overlayTelemetry(grid [][]introCell, w int, elapsed float64) {
+	tag := introHint.Render("[DEEP VOID: SECTOR 0x7F]")
+	placeChunk(grid, w, 2, 1, tag, lipgloss.Width(tag))
+	radar := []string{"◉", "◎", "○", "◌"}
+	pulse := radar[int(elapsed*4)%len(radar)]
+	lock := "SCANNING··"
+	st := scanAmber
+	if elapsed > 1.2 {
+		lock = "SIGNAL ACQUIRED // INITIATING QUANTUM CORE"
+		st = lockGreen
+	} else if int(elapsed*2)%2 == 0 {
+		lock = "SCANNING..."
+	}
+	line := st.Render(pulse + " " + lock)
+	placeChunk(grid, w, 2, 2, line, lipgloss.Width(line))
+}
+
+// orbitAngle integrates exponential angular acceleration in closed form:
+// theta(tau) = base + dir*w0*(e^(lambda*tau)-1)/lambda. Stateless, so the
+// 60 FPS render stays perfectly smooth with zero stored animation state.
+func orbitAngle(base, dir, w0, lambda, tau float64) float64 {
+	if tau < 0 {
+		tau = 0
+	}
+	return base + dir*w0*(math.Exp(lambda*tau)-1)/lambda
+}
+
+// ringColor shifts cobalt -> ice blue -> electric violet across Act 2.
+func ringColor(frac float64) lipgloss.Style {
+	if frac < 0 {
+		frac = 0
+	}
+	if frac > 1 {
+		frac = 1
+	}
+	lerp := func(a, b int, f float64) int { return int(float64(a) + float64(b-a)*f) }
+	var r, g, bl int
+	switch {
+	case frac < 0.5:
+		f := frac / 0.5
+		r, g, bl = lerp(0x1E, 0x38, f), lerp(0x1B, 0xBD, f), lerp(0x4B, 0xF8, f)
+	default:
+		f := (frac - 0.5) / 0.5
+		r, g, bl = lerp(0x38, 0x63, f), lerp(0xBD, 0x66, f), lerp(0xF8, 0xF1, f)
+	}
+	return lipgloss.NewStyle().Foreground(lipgloss.Color(
+		"#" + hex2(r) + hex2(g) + hex2(bl)))
+}
+
+func hex2(v int) string {
+	const digits = "0123456789ABCDEF"
+	if v < 0 {
+		v = 0
+	}
+	if v > 255 {
+		v = 255
+	}
+	return string([]byte{digits[v>>4], digits[v&0xF]})
+}
+
+// overlayOrbits draws Act 2's three counter-rotating stardust rings. When
+// collapse is true (Act 3) the rings shrink toward the singularity.
+func (m *Model) overlayOrbits(grid [][]introCell, w, h int, elapsed float64, collapse bool) {
+	tau := elapsed - act2At
+	frac := tau / (act3At - act2At)
+	if collapse {
+		frac = 1
+	}
+	base := math.Min(float64(w)*0.30, float64(h)*0.60)
+	if base < 6 {
+		base = 6
+	}
+	shrink := 1.0
+	if collapse {
+		p := (elapsed - act3At) / (act4At - act3At)
+		shrink = 1 - p
+		if shrink < 0.04 {
+			shrink = 0.04
+		}
+		tau = (act3At - act2At) + p*1.2 // rings spin up as they fall in
+	}
+	cx, cy := float64(w)/2, float64(h)/2-1
+	rings := []struct {
+		mult float64
+		dir  float64
+		base float64
+	}{
+		{0.55, 1, 0.0},
+		{0.80, -1, 2.1},
+		{1.05, 1, 4.2},
