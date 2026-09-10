@@ -18,3 +18,18 @@ func BenchmarkRegistryLoad(b *testing.B) {
 		}
 	}
 }
+
+func BenchmarkFilterModels(b *testing.B) {
+	b.ResetTimer()
+	for i := 0; i < b.N; i++ {
+		_ = FilterModels(RunnerOpenCode, CatAll, "zen")
+	}
+}
+
+func BenchmarkModelTags(b *testing.B) {
+	m := Model{ID: "test/coder-flash", Short: "Coder Flash", Blurb: "fast vision coder", InputPerM: "$0.50", OutputPerM: "$1.50", Latency: "LOW", Reasoning: true}
+	b.ResetTimer()
+	for i := 0; i < b.N; i++ {
+		_ = ModelTags(m)
+	}
+}
