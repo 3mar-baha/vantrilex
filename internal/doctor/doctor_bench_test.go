@@ -9,3 +9,10 @@ func BenchmarkPill(b *testing.B) {
 		_ = s.Pill()
 	}
 }
+
+func BenchmarkRunnerUpdates(b *testing.B) {
+	b.ResetTimer()
+	for i := 0; i < b.N; i++ {
+		_ = RunnerUpdates()
+	}
+}
