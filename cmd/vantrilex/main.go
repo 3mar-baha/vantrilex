@@ -12,6 +12,10 @@ import (
 	"vantrilex/internal/ui"
 )
 
+// version is the binary release stamp, injected at build time via
+// -ldflags "-X main.version=v1.0.0". Defaults to dev for local builds.
+var version = "dev"
+
 func main() {
 	m := ui.NewModel()
 	p := tea.NewProgram(m, tea.WithAltScreen(), tea.WithMouseCellMotion())
