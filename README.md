@@ -160,3 +160,10 @@ MIT — see `LICENSE` (to be added with the next release train).
 - `docs/development.md` — build, test, and dataset commands.
 - `docs/roadmap.md` — v1.1 milestones and release train.
 - `docs/faq.md` — troubleshooting answers.
+
+## Status
+
+![ci](https://github.com/3mar-baha/vantrilex/actions/workflows/ci.yml/badge.svg)
+![release](https://img.shields.io/github/v/release/3mar-baha/vantrilex)
+![go](https://img.shields.io/badge/go-1.24-00ADD8)
+![license](https://img.shields.io/badge/license-MIT-green)
