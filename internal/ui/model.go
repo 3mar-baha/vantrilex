@@ -247,3 +247,253 @@ func (m Model) updateRunnersCmd() tea.Cmd {
 
 // fetchLiveModelsCmd ingests the live OpenRouter catalog once per session.
 func (m Model) fetchLiveModelsCmd() tea.Cmd {
+	return func() tea.Msg {
+		models := catalog.FetchOpenRouterModels(context.Background())
+		return liveModelsMsg{models: models}
+	}
+}
+
+// introArtCmd renders the hero splash emblem at the strict 2:1 size 36x18.
+func introArtCmd() tea.Cmd {
+	return func() tea.Msg {
+		return introArtMsg{art: loadLogoSized(36, 18)}
+	}
+}
+
+func (m *Model) refreshModels() {
+	tabs := catalog.Categories()
+	if m.tabCursor < 0 {
+		m.tabCursor = 0
+	}
+	if m.tabCursor >= len(tabs) {
+		m.tabCursor = len(tabs) - 1
+	}
+	rid := m.curRunner.ID
+	if !m.hasRunner {
+		rid = catalog.RunnerOpenCode // default broadest catalog for preview
+	}
+	base := catalog.FilterModels(rid, tabs[m.tabCursor], m.search)
+	if m.liveLoaded && len(m.liveMods) > 0 {
+		// Overlay live pricing/context onto the filtered static matrix.
+		byLive := map[string]catalog.Model{}
+		for _, l := range m.liveMods {
+			byLive[l.ID] = l
+		}
+		for i, item := range base {
+			if l, ok := byLive[item.ID]; ok {
+				if l.InputPerM != "" && l.InputPerM != "varies" {
+					base[i].InputPerM = l.InputPerM
+				}
+				if l.OutputPerM != "" && l.OutputPerM != "varies" {
+					base[i].OutputPerM = l.OutputPerM
+				}
+				if l.Context != "" && l.Context != "n/a" {
+					base[i].Context = l.Context
+				}
+			}
+		}
+		// Append live-only models matching the current filter is handled by
+		// MergeModels at the catalog layer; order/filter stays stable here.
+	}
+	m.filtered = base
+	if m.modelCursor >= len(m.filtered) {
+		m.modelCursor = 0
+	}
+	if len(m.filtered) == 0 {
+		m.modelCursor = 0
+	}
+}
+
+func (m *Model) burst() {
+	m.engine.Supernova(90)
+}
+
+// enterIntro resets the cinematic sequence.
+func (m *Model) enterIntro() {
+	m.stage = StageIntro
+	m.introStart = time.Now()
+	m.introBurst = false
+	if m.warpRng == nil {
+		m.warpRng = rand.New(rand.NewSource(time.Now().UnixNano()))
+	}
+	m.warp = newWarpField(90, m.warpRng)
+	m.engine.SetSize(m.width, m.height)
+}
+
+// skipIntro jumps straight to the Preflight Doctor.
+func (m *Model) skipIntro() {
+	m.stage = StageDoctor
+	m.onEnterStage()
+}
+
+func (m *Model) advance() {
+	if m.stage == StageIntro {
+		m.skipIntro()
+		return
+	}
+	order := stageOrder()
+	for i, s := range order {
+		if s == m.stage && i+1 < len(order) {
+			m.stage = order[i+1]
+			m.onEnterStage()
+			return
+		}
+	}
+}
+
+func (m *Model) goBack() {
+	order := stageOrder()
+	for i, s := range order {
+		if s == m.stage && i-1 >= 0 {
+			m.stage = order[i-1]
+			m.onEnterStage()
+			return
+		}
+	}
+}
+
+func (m *Model) onEnterStage() {
+	m.err = ""
+	m.info = ""
+	m.ensureLists()
+	// Stage-transition perimeter supernova: shockwave erupts along the full
+	// terminal perimeter and travels inwards (skipped for the cinematic
+	// intro, which owns its own ignition sequence).
+	if m.stage != StageIntro {
+		m.engine.PerimeterSupernova()
+	}
+	switch m.stage {
+	case StageIntro:
+		m.enterIntro()
+	case StageDoctor:
+		// Compact menu particle field; header layout owns the height budget.
+		m.engine.SetSize(m.width-4, 3)
+	case StageHistory:
+		m.sessions = runner.LoadSessions()
+		if m.histCursor >= len(m.sessions) {
+			m.histCursor = 0
+		}
+	case StageModel:
+		m.refreshModels()
+	case StageWorkspace:
+		m.wsInput.Focus()
+		if m.workspace != "" {
+			m.wsInput.SetValue(m.workspace)
+		}
+		m.wsAsk = false
+		m.wsErr = ""
+	case StageSkills:
+		if m.workspace == "" {
+			m.skillItems = nil
+		} else {
+			m.skillItems = scaffold.Check(m.workspace)
+		}
+		m.skillDone = scaffold.AllPresent(m.workspace) && m.workspace != ""
+	}
+}
+
+// ensureLists lazily builds the five virtualized registry lists once.
+func (m *Model) ensureLists() {
+	if m.listsInit {
+		return
+	}
+	m.agentsList = NewVList(catalog.Agents())
+	m.skillsList = NewVList(catalog.SkillsRegistry())
+	m.pluginsList = NewVList(catalog.Plugins())
+	m.hooksList = NewVList(catalog.Hooks())
+	m.mcpList = NewVList(catalog.MCPs())
+	m.listsInit = true
+}
+
+func (m *Model) activeList() *VList {
+	switch m.stage {
+	case StageAgents:
+		return &m.agentsList
+	case StageSkillsPick:
+		return &m.skillsList
+	case StagePlugins:
+		return &m.pluginsList
+	case StageHooks:
+		return &m.hooksList
+	case StageMCP:
+		return &m.mcpList
+	}
+	return nil
+}
+
+// doctorMissingAny counts absent deps (incl. optional).
+func (m Model) doctorMissingAny() []doctor.Status {
+	var out []doctor.Status
+	for _, s := range m.statuses {
+		if !s.Found {
+			out = append(out, s)
+		}
+	}
+	return out
+}
+
+func (m Model) doctorMissingRequired() []doctor.Status {
+	var out []doctor.Status
+	for _, s := range m.statuses {
+		if !s.Found && !s.Dep.Optional {
+			out = append(out, s)
+		}
+	}
+	return out
+}
+
+// Update handles all messages.
+func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
+	switch msg := msg.(type) {
+	case tea.WindowSizeMsg:
+		m.width = msg.Width
+		m.height = msg.Height
+		m.wsInput.Width = min(msg.Width-24, 70)
+		if m.stage == StageIntro {
+			m.engine.SetSize(msg.Width, msg.Height)
+			return m, introArtCmd()
+		}
+		m.engine.SetSize(msg.Width-4, 3)
+		return m, nil
+
+	case tickMsg:
+		m.engine.Tick(1.0 / 60.0)
+		if m.stage == StageIntro {
+			elapsed := time.Since(m.introStart).Seconds()
+			// Gentle drift in acts 1-3, hyperspace streaks in act 4.
+			accel := 0.5
+			if elapsed >= act4At {
+				accel = 8.0
+			}
+			if m.warpRng == nil {
+				m.warpRng = rand.New(rand.NewSource(time.Now().UnixNano()))
+			}
+			advanceWarp(m.warp, 1.0/60.0, accel, m.warpRng)
+			if !m.introBurst && elapsed >= act4At {
+				m.introBurst = true
+				m.engine.Supernova(130)
+			}
+			if elapsed >= introDuration {
+				m.skipIntro()
+			}
+		}
+		return m, tickCmd()
+
+	case logoMsg:
+		m.logo = msg.art
+		return m, nil
+
+	case introArtMsg:
+		m.introArt = msg.art
+		return m, nil
+
+	case doctorResultMsg:
+		m.statuses = msg.statuses
+		m.doctorCheck = true
+		m.doctorBusy = false
+		return m, nil
+
+	case installDoneMsg:
+		m.doctorLog = append(m.doctorLog, fmt.Sprintf("%s: %s", msg.key, doneText(msg.err)))
+		// rescan after each install
+		return m, func() tea.Msg {
