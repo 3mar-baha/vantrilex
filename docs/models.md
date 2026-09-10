@@ -22,3 +22,15 @@ are pinned to the OpenCode runner and are never dropped by live merges.
 - `[CODING]` — code-tuned variants (Coder, Codex, Flash, Kimi, Qwen)
 - `[FREE TIER]` — zero pricing on input and output
 - `[ULTRA FAST]` — low-latency or high-throughput models
+
+## Effort gating matrix
+
+| Effort | Requires reasoning | Notes |
+|--------|--------------------|-------|
+| low    | No  | Quick answers, minimal tokens |
+| medium | No  | Balanced depth and speed |
+| high   | Yes | Extended reasoning traces |
+| xhigh  | Yes | Deep multi-step planning |
+| max    | Yes | Maximum thinking budget |
+
+Non-reasoning models lock high/xhigh/max in the UI with an explanatory note.
