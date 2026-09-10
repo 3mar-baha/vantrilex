@@ -2,6 +2,13 @@
 
 All notable changes to this project use Semantic Versioning.
 
+## Unreleased
+
+- Benchmark suites for particles, catalog, UI, scaffold, doctor, and runner.
+- Documentation hub under `docs/` with architecture and provider guides.
+- Community files: contributing guide, security policy, issue templates.
+- Release automation with artifact upload and registry refresh schedule.
+
 ## v1.0.0 — 2026-09-10
 
 Initial production release of the Vantrilex Workflow Launcher:
