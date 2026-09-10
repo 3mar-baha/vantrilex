@@ -135,52 +135,19 @@ func (m Model) renderFooter() string {
 }
 
 func (m Model) footerKeys() string {
-	k := func(keys string) string { return keyStyle.Render(keys) }
-	// Narrow terminals get compact single-line hints (width-budgeted).
-	if m.width < 100 {
-		switch m.stage {
-		case StageDoctor:
-			return fmt.Sprintf("%s fix  %s go  %s scan  %s sync", k("[A]"), k("[C]"), k("[R]"), k("[S]"))
-		case StageHistory:
-			return fmt.Sprintf("%s resume  %s new  %s del", k("[1-5]"), k("[N]"), k("[D]"))
-		case StageRunner:
-			return fmt.Sprintf("%s select  %s back", k("[1-3]"), k("[B]"))
-		case StageModel:
-			return fmt.Sprintf("%s select  %s tabs  %s back", k("[Enter]"), k("[[]]"), k("[B]"))
-		case StageEffort:
-			return fmt.Sprintf("%s move  %s ok  %s back", k("[←→]"), k("[Enter]"), k("[B]"))
-		case StageWorkspace:
-			return fmt.Sprintf("%s ok  %s back", k("[Enter]"), k("[Esc]"))
-		case StageAgents, StageSkillsPick, StagePlugins, StageHooks, StageMCP:
-			return fmt.Sprintf("%s toggle  %s all  %s confirm  %s search", k("[Space]"), k("[A]"), k("[C]"), k("[/]"))
-		case StageSkills:
-			return fmt.Sprintf("%s provision  %s skip", k("[Enter]"), k("[S]"))
-		case StageLaunch:
-			return fmt.Sprintf("%s launch  %s back", k("[Enter]"), k("[B]"))
+	// Rendered from footerSegs so the visible buttons always match the
+	// mouse hit-tester geometry. A recently clicked button renders in
+	// pressed state for 350ms (the 60 FPS tick loop fades it out).
+	segs := m.footerSegs()
+	parts := make([]string, 0, len(segs))
+	for _, s := range segs {
+		if s.key != "" && m.pressBtn(s.key) {
+			parts = append(parts, pressStyle.Render(s.plain()))
+			continue
 		}
-		return ""
+		parts = append(parts, keyStyle.Render(s.head)+s.tail)
 	}
-	switch m.stage {
-	case StageDoctor:
-		return fmt.Sprintf("%s approve + auto-install   %s continue   %s rescan   %s sync toolkit   %s quit", k("[A]"), k("[C]"), k("[R]"), k("[S]"), k("[Ctrl+C]"))
-	case StageHistory:
-		return fmt.Sprintf("%s resume   %s new project   %s delete   %s navigate   %s quit", k("[1-5]/Enter"), k("[N]"), k("[D]"), k("[↑↓]"), k("[Ctrl+C]"))
-	case StageRunner:
-		return fmt.Sprintf("%s select   %s navigate   %s back", k("[1-3]/Enter"), k("[↑↓]"), k("[B]"))
-	case StageModel:
-		return fmt.Sprintf("%s select   %s tabs   %s search   %s back", k("[Enter]"), k("[ [ ] ]"), k("type or [/]"), k("[B/Esc]"))
-	case StageEffort:
-		return fmt.Sprintf("%s move slider   %s confirm   %s back", k("[←→]"), k("[Enter]"), k("[B]"))
-	case StageWorkspace:
-		return fmt.Sprintf("%s confirm   %s back", k("[Enter]"), k("[Esc]"))
-	case StageAgents, StageSkillsPick, StagePlugins, StageHooks, StageMCP:
-		return fmt.Sprintf("%s toggle   %s toggle-all-filtered   %s confirm   %s search   %s back", k("[Space]"), k("[A]"), k("[C]"), k("[/]"), k("[B/Esc]"))
-	case StageSkills:
-		return fmt.Sprintf("%s provision + continue   %s skip if ready   %s back", k("[Enter]"), k("[S]"), k("[B]"))
-	case StageLaunch:
-		return fmt.Sprintf("%s launch now   %s open folder   %s back", k("[Enter]"), k("[O]"), k("[B]"))
-	}
-	return ""
+	return strings.Join(parts, m.footerSep())
 }
 
 // ---- Stage views ----
@@ -292,6 +259,9 @@ func (m Model) viewHistory() string {
 		if i == m.histCursor {
 			cursor = keyStyle.Render("▸ ")
 			row = selStyle.Render(fmt.Sprintf("[%d] %s %s %s", i+1, s.Runner, shortModel(s.Model), runner.TruncPath(s.Workspace, 30)))
+			if m.pressRowAt(i) {
+				row = pressStyle.Render(fmt.Sprintf("[%d] %s %s %s", i+1, s.Runner, shortModel(s.Model), runner.TruncPath(s.Workspace, 30)))
+			}
 		}
 		b.WriteString(cursor + row + "\n")
 	}
@@ -325,6 +295,9 @@ func (m Model) viewRunner() string {
 		line := fmt.Sprintf("%s  %s  %s\n      %s", marker, whiteStyle.Render(r.Name), runnerBadge(r.Tag), mutedStyle.Render(r.Desc))
 		if m.runnerCursor == i {
 			line = selStyle.Render(fmt.Sprintf("%s  %s", marker, r.Name)) + "  " + mutedStyle.Render(r.Desc)
+			if m.pressRowAt(i) {
+				line = pressStyle.Render(fmt.Sprintf("%s  %s", marker, r.Name)) + "  " + mutedStyle.Render(r.Desc)
+			}
 		}
 		b.WriteString(line + "\n\n")
 	}
@@ -388,6 +361,9 @@ func (m Model) viewModel() string {
 		if i == m.modelCursor {
 			prefix = keyStyle.Render("▸ ")
 			line = selStyle.Render(md.Short) + mutedStyle.Render(fmt.Sprintf("  $%s/$%s ctx %s", md.InputPerM, md.OutputPerM, md.Context)) + " " + lat + zen + tags
+			if m.pressRowAt(i) {
+				line = pressStyle.Render(md.Short) + mutedStyle.Render(fmt.Sprintf("  $%s/$%s ctx %s", md.InputPerM, md.OutputPerM, md.Context)) + " " + lat + zen + tags
+			}
 		}
 		b.WriteString(prefix + line + "\n")
 	}
@@ -507,6 +483,9 @@ func (m Model) viewVList(title, hint string, v *VList) string {
 		if v.Offset+row == v.Cursor {
 			prefix = keyStyle.Render("▸ ")
 			line = selStyle.Render(box+" "+truncV(it.Name, 34)) + "  " + mutedStyle.Render(truncV(it.Desc, 52))
+			if m.pressRowAt(v.Cursor) {
+				line = pressStyle.Render(box+" "+truncV(it.Name, 34)) + "  " + mutedStyle.Render(truncV(it.Desc, 52))
+			}
 		}
 		b.WriteString(prefix + line + "\n")
 	}

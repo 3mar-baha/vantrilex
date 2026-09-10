@@ -175,6 +175,11 @@ type Model struct {
 	liveMods   []catalog.Model
 	liveLoaded bool
 
+	// click feedback (hover/pressed highlight, auto-expires)
+	pressID  string // "btn:<key>" | "row" | "stage"
+	pressRow int
+	pressAt  time.Time
+
 	info string
 	err  string
 
@@ -570,13 +575,14 @@ func min(a, b int) int {
 	return b
 }
 
-// handleMouse routes full mouse interaction: hover trails, click starbursts
-// with instant selection/toggling, wheel pagination, search focus.
-// Keyboard remains fully functional; mouse is additive.
+// handleMouse routes full mouse interaction: hover trails on every screen,
+// wheel pagination, and coordinate hit-testing for footer buttons, pipeline
+// steps, and content rows. Keyboard remains fully functional.
 func (m Model) handleMouse(msg tea.MouseMsg) (tea.Model, tea.Cmd) {
 	m.mouseX, m.mouseY = msg.X, msg.Y
 	switch msg.Action {
 	case tea.MouseActionMotion:
+		// Persistent trail engine: active on all stages, idle or navigating.
 		m.engine.EmitTrail(msg.X, msg.Y)
 		return m, nil
 	case tea.MouseActionPress:
@@ -599,7 +605,7 @@ func (m Model) handleMouse(msg tea.MouseMsg) (tea.Model, tea.Cmd) {
 			return m, nil
 		default: // left click
 			m.engine.ClickBurst(msg.X, msg.Y)
-			return m.clickSelect(), nil
+			return m.clickAt(msg.X, msg.Y)
 		}
 	case tea.MouseActionRelease:
 		return m, nil
@@ -627,49 +633,6 @@ func (m *Model) scrollBy(delta int) {
 			m.histCursor = (m.histCursor + delta + n) % n
 		}
 	}
-}
-
-// clickSelect performs instant left-click selection per stage.
-func (m Model) clickSelect() tea.Model {
-	switch m.stage {
-	case StageIntro:
-		m.skipIntro()
-	case StageRunner:
-		idx := m.runnerCursor + 1
-		if r, ok := catalog.RunnerByIndex(idx); ok {
-			m.curRunner = r
-			m.hasRunner = true
-			m.burst()
-			m.stage = StageModel
-			m.onEnterStage()
-		}
-	case StageModel:
-		if len(m.filtered) > 0 {
-			m.curModel = m.filtered[m.modelCursor]
-			m.hasModel = true
-			m.burst()
-			m.stage = StageEffort
-			m.onEnterStage()
-			m.effortCursor = 1
-		}
-	case StageAgents, StageSkillsPick, StagePlugins, StageHooks, StageMCP:
-		m.ensureLists()
-		if v := m.activeList(); v != nil {
-			v.Toggle()
-		}
-	case StageWorkspace:
-		m.wsInput.Focus()
-	case StageLaunch:
-		if !m.launched {
-			m.burst()
-			m.pendingLaunch = true
-			m.launched = true
-			m.info = "Handing over terminal to runner..."
-			// NOTE: cannot return tea.Quit from here without Cmd plumbing;
-			// the launch happens on the next Enter or via pendingLaunch.
-		}
-	}
-	return m
 }
 
 func (m Model) handleKey(msg tea.KeyMsg) (tea.Model, tea.Cmd) {
@@ -1206,7 +1169,8 @@ func expandPath(p string) string {
 
 // View renders the whole screen. Menu screens honor a strict vertical
 // budget: 1 top margin + header + 1 stage bar + card + footer == H-1,
-// so the crest is never clipped and nothing ever scrolls.
+// so the crest is never clipped and nothing ever scrolls. Geometry comes
+// from layout() so rendering and mouse hit-testing share one truth.
 func (m Model) View() string {
 	if m.stage == StageIntro {
 		return m.viewIntro()
@@ -1215,24 +1179,11 @@ func (m Model) View() string {
 	if w <= 0 || h <= 0 {
 		return "Loading Vantrilex..."
 	}
+	lo := m.layout()
 	footer := fitWidthLines(m.renderFooter(), w)
-	fh := countLines(footer)
-	// Shrink the header logo/field on short terminals, always leaving
-	// room for at least a 3-line card plus footer.
-	logoH, fieldH := 14, 3
-	for logoH > 4 && 1+logoH+fieldH+1+1+3+fh > h-1 {
-		logoH--
-	}
-	for fieldH > 1 && 1+logoH+fieldH+1+1+3+fh > h-1 {
-		fieldH--
-	}
-	header := m.renderHeader(logoH, fieldH)
+	header := m.renderHeader(lo.logoH, lo.fieldH)
 	bar := fitLines(m.renderStageBar(), 1)
-	cardH := h - 1 - (1 + countLines(header) + 1 + fh)
-	if cardH < 3 {
-		cardH = 3
-	}
-	card := m.renderCard(cardH)
+	card := m.renderCard(lo.cardH)
 	center := func(s string, height int) string {
 		return lipgloss.Place(w, height, lipgloss.Center, lipgloss.Top, fitWidthLines(s, w))
 	}
@@ -1240,8 +1191,8 @@ func (m Model) View() string {
 		"", // 1-line top safety margin
 		center(header, countLines(header)),
 		center(bar, 1),
-		center(card, cardH),
-		center(footer, fh),
+		center(card, lo.cardH),
+		center(footer, lo.fh),
 	}
 	return strings.Join(parts, "\n")
 }

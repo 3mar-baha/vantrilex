@@ -59,6 +59,13 @@ var (
 			Bold(true).
 			Padding(0, 1)
 
+	// pressStyle marks a just-clicked button or row. No padding: the
+	// highlight swaps colors only, so hit-tested widths never shift.
+	pressStyle = lipgloss.NewStyle().
+			Foreground(Navy).
+			Background(White).
+			Bold(true)
+
 	rowStyle = lipgloss.NewStyle().
 			Foreground(White)
 
