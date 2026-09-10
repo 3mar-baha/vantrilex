@@ -9,3 +9,11 @@ stages — nothing is cloned in bulk beforehand:
 - `.claude/hooks/` plus the event map in `.claude/settings.json`
 - `opencode.json` (`"mcp"`) and `.mcp.json` (`"mcpServers"`)
 - `CLAUDE.md` — appended active-component manifest
+
+## Offline fallback behavior
+
+Each fetch tries HTTPS twice (20s timeout, 2MB cap) and falls back to an
+embedded starter template carrying the item name, source, and description.
+Provisioning therefore succeeds fully offline; a network connection only
+upgrades bodies to their upstream definitions. Existing files are never
+overwritten.
