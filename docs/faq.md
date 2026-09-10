@@ -19,3 +19,15 @@ matrix (including the full Zen set) is used automatically.
 
 The HTTPS fetch failed or was offline. Re-run provisioning with network
 access after deleting the starter files you want upgraded.
+
+## Windows terminal setup
+
+- Prefer Windows Terminal with a Nerd Font for box glyphs (`▸ ⟦⟧ ✦`).
+- Enable mouse input in the terminal profile for click and wheel support.
+- If colors look flat, set the profile to 24-bit ("true color") mode.
+
+## PowerShell tips
+
+- Launch with `.antrilex.exe` from the project root.
+- Quote workspace paths containing spaces.
+- `Ctrl+C` always exits the wizard safely without side effects.
