@@ -12,3 +12,12 @@ wizard remains fully operable without a mouse.
 | Click search | Focus the workspace input |
 
 Bubble Tea runs with `tea.WithMouseCellMotion()` for per-cell tracking.
+
+## Particle budgets and reduced motion
+
+- Hover emits 2 short-lived motes per motion event.
+- Clicks detonate one radial burst; stage entries fire one perimeter wave.
+- The engine hard-caps live particles (~420, ambient dropped first).
+- Physics integrates on fixed 16ms ticks, independent of frame rate.
+- `VANTRILEX_NO_FX=1` disables trail, burst, and perimeter effects and
+  renders a static frame instead.
