@@ -497,3 +497,252 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		m.doctorLog = append(m.doctorLog, fmt.Sprintf("%s: %s", msg.key, doneText(msg.err)))
 		// rescan after each install
 		return m, func() tea.Msg {
+			return doctorResultMsg{statuses: doctor.CheckAll()}
+		}
+
+	case toolkitLineMsg:
+		m.toolkitLog = append(m.toolkitLog, msg.line)
+		if len(m.toolkitLog) > 8 {
+			m.toolkitLog = m.toolkitLog[len(m.toolkitLog)-8:]
+		}
+		return m, nil
+
+	case toolkitDoneMsg:
+		m.toolkitBusy = false
+		m.toolkitDone = msg.err == nil
+		if msg.err != nil {
+			m.toolkitLog = append(m.toolkitLog, "toolkit error: "+msg.err.Error())
+		} else {
+			m.toolkitLog = append(m.toolkitLog, "toolkit sync complete")
+		}
+		return m, nil
+
+	case runnerUpdateMsg:
+		m.doctorLog = append(m.doctorLog, fmt.Sprintf("%s: %s", msg.key, doneText(msg.err)))
+		return m, nil
+
+	case runnersDoneMsg:
+		m.runnerUpd = doctor.RunnerUpdateStatus{Updating: false, Done: true, Errors: msg.errs}
+		if len(msg.errs) > 0 {
+			m.doctorLog = append(m.doctorLog, "runner auto-update partial (see pill)")
+		} else {
+			m.doctorLog = append(m.doctorLog, "runners up-to-date")
+		}
+		return m, nil
+
+	case liveModelsMsg:
+		if len(msg.models) > 0 {
+			m.liveMods = msg.models
+			m.liveLoaded = true
+			if m.stage == StageModel {
+				m.refreshModels()
+			}
+		}
+		return m, nil
+
+	case tea.MouseMsg:
+		return m.handleMouse(msg)
+
+	case tea.KeyMsg:
+		return m.handleKey(msg)
+	}
+
+	// Text input routing for workspace stage.
+	if m.stage == StageWorkspace && !m.wsAsk {
+		var cmd tea.Cmd
+		m.wsInput, cmd = m.wsInput.Update(msg)
+		return m, cmd
+	}
+	return m, nil
+}
+
+func doneText(err error) string {
+	if err == nil {
+		return "installed"
+	}
+	return "FAILED: " + err.Error()
+}
+
+func min(a, b int) int {
+	if a < b {
+		return a
+	}
+	return b
+}
+
+// handleMouse routes full mouse interaction: hover trails, click starbursts
+// with instant selection/toggling, wheel pagination, search focus.
+// Keyboard remains fully functional; mouse is additive.
+func (m Model) handleMouse(msg tea.MouseMsg) (tea.Model, tea.Cmd) {
+	m.mouseX, m.mouseY = msg.X, msg.Y
+	switch msg.Action {
+	case tea.MouseActionMotion:
+		m.engine.EmitTrail(msg.X, msg.Y)
+		return m, nil
+	case tea.MouseActionPress:
+		switch msg.Button {
+		case tea.MouseButtonWheelUp:
+			m.scrollBy(-1)
+			return m, nil
+		case tea.MouseButtonWheelDown:
+			m.scrollBy(1)
+			return m, nil
+		case tea.MouseButtonRight, tea.MouseButtonMiddle:
+			// Right/middle click cycles model tabs on the matrix stage.
+			if m.stage == StageModel {
+				tabs := catalog.Categories()
+				m.tabCursor = (m.tabCursor + 1) % len(tabs)
+				m.modelCursor = 0
+				m.refreshModels()
+			}
+			m.engine.ClickBurst(msg.X, msg.Y)
+			return m, nil
+		default: // left click
+			m.engine.ClickBurst(msg.X, msg.Y)
+			return m.clickSelect(), nil
+		}
+	case tea.MouseActionRelease:
+		return m, nil
+	}
+	return m, nil
+}
+
+// scrollBy paginates the active list (wheel support).
+func (m *Model) scrollBy(delta int) {
+	switch m.stage {
+	case StageAgents, StageSkillsPick, StagePlugins, StageHooks, StageMCP:
+		m.ensureLists()
+		if v := m.activeList(); v != nil {
+			v.Move(delta)
+		}
+	case StageModel:
+		if len(m.filtered) > 0 {
+			m.modelCursor = (m.modelCursor + delta + len(m.filtered)) % len(m.filtered)
+		}
+	case StageRunner:
+		m.runnerCursor = (m.runnerCursor + delta + 3) % 3
+	case StageHistory:
+		n := min(len(m.sessions), 5)
+		if n > 0 {
+			m.histCursor = (m.histCursor + delta + n) % n
+		}
+	}
+}
+
+// clickSelect performs instant left-click selection per stage.
+func (m Model) clickSelect() tea.Model {
+	switch m.stage {
+	case StageIntro:
+		m.skipIntro()
+	case StageRunner:
+		idx := m.runnerCursor + 1
+		if r, ok := catalog.RunnerByIndex(idx); ok {
+			m.curRunner = r
+			m.hasRunner = true
+			m.burst()
+			m.stage = StageModel
+			m.onEnterStage()
+		}
+	case StageModel:
+		if len(m.filtered) > 0 {
+			m.curModel = m.filtered[m.modelCursor]
+			m.hasModel = true
+			m.burst()
+			m.stage = StageEffort
+			m.onEnterStage()
+			m.effortCursor = 1
+		}
+	case StageAgents, StageSkillsPick, StagePlugins, StageHooks, StageMCP:
+		m.ensureLists()
+		if v := m.activeList(); v != nil {
+			v.Toggle()
+		}
+	case StageWorkspace:
+		m.wsInput.Focus()
+	case StageLaunch:
+		if !m.launched {
+			m.burst()
+			m.pendingLaunch = true
+			m.launched = true
+			m.info = "Handing over terminal to runner..."
+			// NOTE: cannot return tea.Quit from here without Cmd plumbing;
+			// the launch happens on the next Enter or via pendingLaunch.
+		}
+	}
+	return m
+}
+
+func (m Model) handleKey(msg tea.KeyMsg) (tea.Model, tea.Cmd) {
+	key := msg.String()
+	// Global quit.
+	if key == "ctrl+c" {
+		return m, tea.Quit
+	}
+	// Intro skip: any keypress (Space, Enter, Esc, ...) jumps to the Doctor.
+	if m.stage == StageIntro {
+		m.skipIntro()
+		return m, nil
+	}
+	switch m.stage {
+	case StageDoctor:
+		return m.updateDoctor(key)
+	case StageHistory:
+		return m.updateHistory(key, msg)
+	case StageRunner:
+		return m.updateRunner(key)
+	case StageModel:
+		return m.updateModel(key, msg)
+	case StageEffort:
+		return m.updateEffort(key)
+	case StageWorkspace:
+		return m.updateWorkspace(key, msg)
+	case StageAgents, StageSkillsPick, StagePlugins, StageHooks, StageMCP:
+		return m.updateVList(key, msg)
+	case StageSkills:
+		return m.updateSkills(key)
+	case StageLaunch:
+		return m.updateLaunch(key)
+	}
+	return m, nil
+}
+
+// ---- Stage updates ----
+
+func (m Model) updateDoctor(key string) (tea.Model, tea.Cmd) {
+	switch strings.ToLower(key) {
+	case "a":
+		if m.doctorBusy || m.toolkitBusy {
+			return m, nil
+		}
+		missing := m.doctorMissingAny()
+		if len(missing) == 0 {
+			m.info = "All dependencies present. Syncing toolkit..."
+			return m, m.syncToolkitCmd()
+		}
+		m.doctorBusy = true
+		m.doctorLog = append(m.doctorLog, "Auto-fix approved: installing missing tools...")
+		return m, m.installAllCmd(missing)
+	case "c":
+		m.burst()
+		m.stage = StageHistory
+		m.onEnterStage()
+		return m, nil
+	case "r":
+		m.doctorBusy = true
+		m.info = "Rescanning..."
+		return m, func() tea.Msg {
+			return doctorResultMsg{statuses: doctor.CheckAll()}
+		}
+	case "s":
+		if m.toolkitBusy {
+			return m, nil
+		}
+		return m, m.syncToolkitCmd()
+	}
+	return m, nil
+}
+
+func (m Model) installAllCmd(missing []doctor.Status) tea.Cmd {
+	return func() tea.Msg {
+		// Install sequentially, then report last; UI rescans after each via chaining.
+		// Run first missing item here; the rest continue through repeated rescan? For
