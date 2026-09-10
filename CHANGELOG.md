@@ -22,3 +22,10 @@ Initial production release of the Vantrilex Workflow Launcher:
 - Virtualized 12-row selection stages with instant fuzzy search.
 - Full mouse support: trails, click starbursts, wheel pagination,
   and perimeter supernova stage transitions.
+
+## v1.1.0 (planned)
+
+- Configurable particle density and theme presets.
+- Registry delta updates without full snapshot regeneration.
+- Workspace templates for common project stacks.
+- Signed release artifacts with checksums.
