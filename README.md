@@ -73,3 +73,77 @@ takes over the terminal inside your provisioned project.
 | `Ctrl+C` | Quit |
 
 ## Mouse cheat-sheet
+
+| Gesture | Action |
+|---------|--------|
+| Hover | Delicate cyan/indigo stardust trail |
+| Left click | Starburst plus instant select / toggle |
+| Wheel up/down | Paginate virtualized lists |
+| Right click | Cycle model category tabs |
+| Click search bar | Focus workspace input |
+
+Set `VANTRILEX_NO_FX=1` to disable particle effects (static frame).
+
+## Model providers and tagging
+
+- **OpenRouter** — the complete live catalog at
+  `https://openrouter.ai/api/v1/models`, cached per session with the
+  verified static matrix as an offline fallback.
+- **OpenCode Zen** — the native Zen set (`opencode/zen`, `kimi-k2.6`,
+  `qwen3.6-plus`, `minimax-m3`, `deepseek-v4-pro`, `glm-5.1`).
+- Badges evaluate model id, description, context length, and pricing, and
+  every row shows live pricing per 1M input/output tokens plus context.
+
+## Embedded catalogs
+
+Pre-indexed offline JSON datasets under `internal/catalog/data/`:
+
+| Dataset | Count | Sources |
+|---------|-------|---------|
+| MCP servers | 1024 | Official registry, awesome lists, community |
+| Plugins | 112 | Official and community marketplaces |
+| Skills | 320 | ECC, mattpocock, ponytail, guard-skills, vercel |
+| Hooks | 56 | `PreToolUse`, `PostToolUse`, `PreCompact`, `Stop` |
+| Agents | 312 | Architecture, Security, Frontend, Backend, DevOps, QA |
+
+Regenerate with `go run ./tools/generate_registries.go` (live-scrapes once,
+then embeds the snapshot).
+
+## Workspace outputs
+
+Provisioning writes only the assets you checked:
+
+- `.claude/skills/<name>/SKILL.md`
+- `.claude/agents/<name>.md`
+- `.claude/plugins/manifest.json`
+- `.claude/hooks/` plus event map in `.claude/settings.json`
+- `opencode.json` (`"mcp"`) and `.mcp.json` (`"mcpServers"`)
+- `CLAUDE.md` with the exhaustive active-component manifest
+
+## Development
+
+```sh
+go vet ./...
+go test ./...
+go build -o vantrilex ./cmd/vantrilex/
+```
+
+The particle engine ticks at a fixed 16ms step, lists render a 12-row
+virtual window, and all UI copy is strictly English.
+
+## Project structure
+
+```
+cmd/vantrilex/        entrypoint with mouse cell-motion
+internal/catalog/     runners, live models, tags, embedded registries
+internal/doctor/      preflight checks plus runner self-updater
+internal/particles/   60 FPS stardust, bursts, perimeter shockwaves
+internal/runner/      session history and subprocess handover
+internal/scaffold/    on-demand HTTPS fetcher and workspace writer
+internal/ui/          Bubble Tea wizard, virtual lists, mouse system
+tools/                registry dataset generator
+```
+
+## License
+
+MIT — see `LICENSE` (to be added with the next release train).
