@@ -147,3 +147,16 @@ tools/                registry dataset generator
 ## License
 
 MIT — see `LICENSE` (to be added with the next release train).
+
+## Documentation index
+
+- `docs/architecture.md` — system overview and wizard flow.
+- `docs/models.md` — providers, Zen catalog, badges, effort gating.
+- `docs/registries.md` — embedded catalog curation and defaults.
+- `docs/scaffolding.md` — workspace provisioning and offline fallback.
+- `docs/mouse-fx.md` — mouse model and particle budgets.
+- `docs/performance.md` — render budgets and profiling notes.
+- `docs/windows.md` — terminal setup on Windows.
+- `docs/development.md` — build, test, and dataset commands.
+- `docs/roadmap.md` — v1.1 milestones and release train.
+- `docs/faq.md` — troubleshooting answers.
