@@ -1175,6 +1175,8 @@ func expandPath(p string) string {
 // budget: 1 top margin + header + 1 stage bar + card + footer == H-1,
 // so the crest is never clipped and nothing ever scrolls. Geometry comes
 // from layout() so rendering and mouse hit-testing share one truth.
+// Transient mouse FX (trail, click bursts, perimeter waves) composite over
+// the finished frame on every menu screen.
 func (m Model) View() string {
 	if m.stage == StageIntro {
 		return m.viewIntro()
@@ -1198,5 +1200,6 @@ func (m Model) View() string {
 		center(card, lo.cardH),
 		center(footer, lo.fh),
 	}
-	return strings.Join(parts, "\n")
+	out := strings.Join(parts, "\n")
+	return overlayFX(out, m.engine.OverlaySnaps(), w, h)
 }
