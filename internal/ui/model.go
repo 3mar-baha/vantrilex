@@ -996,3 +996,252 @@ func (m Model) updateEffort(key string) (tea.Model, tea.Cmd) {
 			return m, nil
 		}
 	}
+	return m, nil
+}
+
+func (m Model) updateWorkspace(key string, msg tea.KeyMsg) (tea.Model, tea.Cmd) {
+	if m.wsAsk {
+		switch strings.ToLower(key) {
+		case "y", "enter":
+			p := expandPath(m.wsInput.Value())
+			if err := os.MkdirAll(p, 0o755); err != nil {
+				m.wsErr = "Cannot create folder: " + err.Error()
+				m.wsAsk = false
+				return m, nil
+			}
+			m.workspace = p
+			m.burst()
+			m.stage = StageAgents
+			m.onEnterStage()
+			return m, nil
+		case "n", "esc", "b":
+			m.wsAsk = false
+			m.wsErr = "Creation cancelled. Edit the path or press Esc to go back."
+			return m, nil
+		}
+		return m, nil
+	}
+	switch key {
+	case "enter":
+		raw := strings.TrimSpace(m.wsInput.Value())
+		if raw == "" {
+			m.wsErr = "Enter a workspace directory path."
+			return m, nil
+		}
+		p := expandPath(raw)
+		fi, err := os.Stat(p)
+		if err != nil || !fi.IsDir() {
+			m.wsAsk = true
+			m.wsErr = ""
+			m.info = "Folder does not exist: " + p
+			return m, nil
+		}
+		m.workspace = p
+		m.burst()
+		m.stage = StageAgents
+		m.onEnterStage()
+		return m, nil
+	case "esc":
+		m.goBack()
+		return m, nil
+	}
+	var cmd tea.Cmd
+	m.wsInput, cmd = m.wsInput.Update(msg)
+	return m, cmd
+}
+
+// updateVList drives all five registry stages: Up/Down traverse, Space
+// toggle, A toggle-all-filtered, C confirm, / + typing fuzzy-filters.
+// Disambiguation: single-letter commands fire only when search is empty;
+// once searching, letters append (Esc clears search first, then goes back).
+func (m Model) updateVList(key string, msg tea.KeyMsg) (tea.Model, tea.Cmd) {
+	m.ensureLists()
+	v := m.activeList()
+	if v == nil {
+		return m, nil
+	}
+	switch key {
+	case "up", "k":
+		v.Move(-1)
+		return m, nil
+	case "down", "j":
+		v.Move(1)
+		return m, nil
+	case " ", "enter":
+		v.Toggle()
+		return m, nil
+	case "esc":
+		if v.Search != "" {
+			v.SetSearch("")
+			return m, nil
+		}
+		m.goBack()
+		return m, nil
+	case "backspace":
+		if len(v.Search) > 0 {
+			v.SetSearch(v.Search[:len(v.Search)-1])
+			return m, nil
+		}
+		m.goBack()
+		return m, nil
+	case "/":
+		return m, nil
+	}
+	lk := strings.ToLower(key)
+	if v.Search == "" && (lk == "a" || key == "A") {
+		v.ToggleAllFiltered()
+		return m, nil
+	}
+	if v.Search == "" && (lk == "c" || key == "C") {
+		m.burst()
+		m.advance()
+		return m, nil
+	}
+	if v.Search == "" && lk == "b" {
+		m.goBack()
+		return m, nil
+	}
+	// Typing appends to fuzzy search (including a/c/b once searching).
+	if msg.Type == tea.KeyRunes && len(msg.Runes) == 1 {
+		r := msg.Runes[0]
+		if r >= 32 && r != 127 {
+			v.SetSearch(v.Search + string(r))
+			return m, nil
+		}
+	}
+	return m, nil
+}
+
+func (m Model) updateSkills(key string) (tea.Model, tea.Cmd) {
+	switch strings.ToLower(key) {
+	case "enter", "y":
+		if m.workspace == "" {
+			m.err = "No workspace selected."
+			return m, nil
+		}
+		created, err := scaffold.Apply(m.workspace, string(m.curRunner.ID), m.curModel.ID, m.efforts[m.effortCursor].ID)
+		if err != nil {
+			m.err = "Scaffold failed: " + err.Error()
+			return m, nil
+		}
+		m.ensureLists()
+		sel, err := scaffold.ApplySelections(ctxBackground(), m.workspace,
+			m.agentsList.SelectedItems(), m.skillsList.SelectedItems(),
+			m.pluginsList.SelectedItems(), m.hooksList.SelectedItems(),
+			m.mcpList.SelectedItems(),
+			string(m.curRunner.ID), m.curModel.ID, m.efforts[m.effortCursor].ID)
+		if err != nil {
+			m.err = "Asset provisioning failed: " + err.Error()
+			return m, nil
+		}
+		created = append(created, sel...)
+		m.skillItems = scaffold.Check(m.workspace)
+		m.skillDone = true
+		if len(created) == 0 {
+			m.info = "All files already present. Ready to launch."
+		} else {
+			m.info = fmt.Sprintf("Scaffolded %d item(s): %s", len(created), strings.Join(created, ", "))
+		}
+		m.burst()
+		m.stage = StageLaunch
+		m.onEnterStage()
+		return m, nil
+	case "s":
+		if m.skillDone {
+			m.burst()
+			m.stage = StageLaunch
+			m.onEnterStage()
+		} else {
+			m.err = "Provision skills first (press Enter)."
+		}
+		return m, nil
+	case "b", "esc":
+		m.goBack()
+		return m, nil
+	}
+	return m, nil
+}
+
+func (m Model) updateLaunch(key string) (tea.Model, tea.Cmd) {
+	switch strings.ToLower(key) {
+	case "enter":
+		if m.launched {
+			return m, nil
+		}
+		m.burst()
+		m.pendingLaunch = true
+		m.launched = true
+		m.info = "Handing over terminal to runner..."
+		return m, tea.Quit
+	case "b", "esc":
+		m.goBack()
+		return m, nil
+	case "o":
+		runner.ShellOpen(m.workspace)
+		m.info = "Opened workspace in file manager."
+		return m, nil
+	}
+	return m, nil
+}
+
+func ctxBackground() context.Context {
+	return context.Background()
+}
+
+func expandPath(p string) string {
+	p = strings.TrimSpace(p)
+	if strings.HasPrefix(p, "~") {
+		if home, err := os.UserHomeDir(); err == nil {
+			p = filepath.Join(home, strings.TrimPrefix(p, "~"))
+		}
+	}
+	p = os.ExpandEnv(p)
+	if !filepath.IsAbs(p) {
+		if cwd, err := os.Getwd(); err == nil {
+			p = filepath.Join(cwd, p)
+		}
+	}
+	return filepath.Clean(p)
+}
+
+// View renders the whole screen. Menu screens honor a strict vertical
+// budget: 1 top margin + header + 1 stage bar + card + footer == H-1,
+// so the crest is never clipped and nothing ever scrolls.
+func (m Model) View() string {
+	if m.stage == StageIntro {
+		return m.viewIntro()
+	}
+	w, h := m.width, m.height
+	if w <= 0 || h <= 0 {
+		return "Loading Vantrilex..."
+	}
+	footer := fitWidthLines(m.renderFooter(), w)
+	fh := countLines(footer)
+	// Shrink the header logo/field on short terminals, always leaving
+	// room for at least a 3-line card plus footer.
+	logoH, fieldH := 14, 3
+	for logoH > 4 && 1+logoH+fieldH+1+1+3+fh > h-1 {
+		logoH--
+	}
+	for fieldH > 1 && 1+logoH+fieldH+1+1+3+fh > h-1 {
+		fieldH--
+	}
+	header := m.renderHeader(logoH, fieldH)
+	bar := fitLines(m.renderStageBar(), 1)
+	cardH := h - 1 - (1 + countLines(header) + 1 + fh)
+	if cardH < 3 {
+		cardH = 3
+	}
+	card := m.renderCard(cardH)
+	center := func(s string, height int) string {
+		return lipgloss.Place(w, height, lipgloss.Center, lipgloss.Top, fitWidthLines(s, w))
+	}
+	parts := []string{
+		"", // 1-line top safety margin
+		center(header, countLines(header)),
+		center(bar, 1),
+		center(card, cardH),
+		center(footer, fh),
+	}
+	return strings.Join(parts, "\n")
+}
